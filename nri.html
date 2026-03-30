@@ -1,0 +1,1015 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NRI</title>
+    <link rel="stylesheet" href="/nri.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- ================= DESKTOP NAV ================= -->
+    <nav class="desktop-nav">
+      <div class="desktop-nav-left">
+        <a href="/index.html">
+          <img
+            src="/images/SAI FAKIRA LOGO WHITE .png"
+            class="desk-logo"
+            alt="Logo"
+          />
+        </a>
+      </div>
+
+      <ul class="desktop-nav-links">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/refer.html">Refer & Earn</a></li>
+        <li><a href="/nri.html">NRI</a></li>
+        <li><a href="/SAI FAKIRA-PARKER’S.pdf">Profile</a></li>
+        <li><a href="/aboutUs.html">About Us</a></li>
+      </ul>
+
+      <!-- DESKTOP ICON (unchanged) -->
+      <button class="menu-toggle">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+
+    <!-- ================= MOBILE MENU ICON (FIXED) ================= -->
+    <div class="menu-toggle" id="mobileMenuToggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- ================= OVERLAY ================= -->
+    <div id="overlay"></div>
+
+    <!-- ================= SIDE MENU ================= -->
+    <div class="side-menu" id="mobileMenu">
+      <div class="menu-header">
+        <img src="/images/ESEFF REAL ESTATE LOGO (3).png" alt="logo" />
+        <button id="closeMenu">×</button>
+      </div>
+
+      <ul class="menu-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="refer.html">Refer & Earn</a></li>
+        <li><a href="nri.html">NRI</a></li>
+        <li><a href="/SAI FAKIRA-PARKER’S.pdf">Profile</a></li>
+        <li><a href="/aboutUs.html">About Us</a></li>
+      </ul>
+    </div>
+
+    <section class="nri-hero">
+      <div class="nri-hero-content">
+        <h1>
+          SAI FAKIRA NRI <br />
+          (REAL-FIN) SERVICES<br />
+        </h1>
+        <!-- <div class="nri-section-container">
+          <div class="box-wrapper">
+            <div class="nri-label">What We Handle For NRIs</div>
+
+            <div class="nri-box">
+              <p class="services-list">
+                Property <span class="bullet">•</span> Loans
+                <span class="bullet">•</span> Legal
+                <span class="bullet">•</span>
+                Documentation
+              </p>
+<div class="stats-container">
+  <div class="stat-box">
+    <h2>100+</h2>
+    <p>Branches<br><span>Pan India</span></p>
+  </div>
+
+  <div class="stat-box">
+    <h2>45+</h2>
+    <p>Cities<br><span>18+ States</span></p>
+  </div>
+
+  <div class="stat-box">
+    <h2>140+</h2>
+    <p>Banks &<br><span>NBFCs</span></p>
+  </div>
+
+  <div class="stat-box">
+    <h2>20K+</h2>
+    <p>Happy<br><span>Clients</span></p>
+  </div>
+</div>
+
+            </div>
+          </div>
+        </div> -->
+        <section class="nri-wrapper">
+          <div class="nri-title">WHAT WE HANDLE FOR NRIS</div>
+
+          <h2 class="nri-heading">
+            Property &nbsp;•&nbsp;Home Loans &nbsp;•&nbsp;Due Diligence
+          </h2>
+
+          <div class="stats-container">
+            <div class="stat-box">
+              <h3>100+</h3>
+              <p>Branches<br /><span>Pan India</span></p>
+            </div>
+
+            <div class="stat-box">
+              <h3>100+</h3>
+              <p>A-Category<br /><span>Developers</span></p>
+            </div>
+
+            <div class="stat-box">
+              <h3>140+</h3>
+              <p>
+                Banks &<br /><span>Housing Finance & <br /></span>
+                <span>MNC </span>
+              </p>
+            </div>
+
+            <div class="stat-box">
+              <h3>20K+</h3>
+              <p>Happy<br /><span>Clients</span></p>
+            </div>
+          </div>
+        </section>
+
+        <h3 class="heading-2">
+          End to End Property & Financial Solutions For NRIs
+        </h3>
+        <p class="tagline">
+          A comprehensive service designed exclusively for NRIs, delivering
+          verified properties, transparent pricing, expert guidance for home
+          loan and documentation support.
+        </p>
+
+        <div class="hero-cta">
+          <a
+            href="https://wa.me/919033784030"
+            class="btn-primary"
+            target="_blank"
+            rel="noopener"
+          >
+            <i class="fa-brands fa-whatsapp"></i> Chat With Us
+          </a>
+
+          <!-- MEETING BUTTON -->
+          <button class="btn-secondary" id="openMeeting">
+            <i class="fa-solid fa-calendar-check"></i> Schedule Virtual Meeting
+          </button>
+        </div>
+      </div>
+
+      <div class="nri-hero-image">
+        <div class="hero-overlay"></div>
+      </div>
+    </section>
+    <!-- MEETING MODAL -->
+    <div class="meeting-modal" id="meetingModal">
+      <div class="meeting-box">
+        <button class="close-modal" id="closeMeeting">×</button>
+
+        <!-- STEP 1 : TOPICS (Read-only) -->
+        <div class="meeting-topics" id="meetingTopics">
+          <h3>Schedule a Meeting</h3>
+          <p>Read what you’d like to discuss</p>
+
+          <ul class="topic-list">
+            <li>🏠 Buy a Property Residential / Commercial</li>
+            <li>💼 Looking For Investment in Ahmedabad & Gift City</li>
+            <li>📑 Loan Support</li>
+            <!-- <li>🤝 Developer / Builder Coordination</li>
+        <li>📊 ROI & Market Insights</li> -->
+          </ul>
+
+          <button class="btn-primary full-btn" id="startMeeting">
+            Continue to Schedule
+          </button>
+        </div>
+
+        <!-- STEP 2 : FORM (Meeting Modal) -->
+        <div class="meeting-form" id="meetingForm">
+          <h3>Share Your Availability</h3>
+          <p>We’ll connect with you at your preferred time</p>
+
+          <form
+            id="meetingRequestForm"
+            method="POST"
+            action="https://script.google.com/macros/s/AKfycbzCh_M_ETEOCcr_W9Dc5SqmFxS3JtOwCVhGtTp_R3HgZ4TGWrIs4iPx-redKEO8JUu0/exec"
+          >
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="text" name="country" placeholder="Country" required />
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Phone Number"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email Address"
+              required
+            />
+
+            <div class="date-time">
+              <input type="date" name="date" required />
+              <input type="time" name="time" required />
+            </div>
+
+            <button type="submit" class="btn-primary full-btn">
+              Request Meeting
+            </button>
+            <div
+              id="meetingMessage"
+              style="margin-top: 10px; font-weight: 600"
+            ></div>
+          </form>
+        </div>
+
+        <audio
+          id="meetingSuccessSound"
+          src="/ttsmaker-file-2025-10-11-14-38-7.mp3"
+          preload="auto"
+        ></audio>
+
+        <script>
+          document.addEventListener("DOMContentLoaded", () => {
+            const form = document.getElementById("meetingRequestForm");
+            const message = document.getElementById("meetingMessage");
+            const audio = document.getElementById("meetingSuccessSound");
+
+            form.addEventListener("submit", async (e) => {
+              e.preventDefault();
+
+              const submitBtn = form.querySelector("button[type='submit']");
+              submitBtn.disabled = true;
+              message.textContent =
+                "⏳ Please wait, your meeting request is being submitted...";
+              message.className = "";
+
+              try {
+                const formData = new FormData(form);
+                const res = await fetch(form.action, {
+                  method: "POST",
+                  body: formData,
+                });
+
+                if (res.ok) {
+                  // Play success sound
+                  audio.currentTime = 0;
+                  audio.play();
+
+                  message.textContent =
+                    "✅ Thank you! Your meeting request has been submitted successfully.";
+                  message.className = "success";
+                  form.reset();
+
+                  // Auto-close modal after 2s
+                  setTimeout(() => {
+                    document
+                      .getElementById("meetingModal")
+                      .classList.remove("active");
+                    message.textContent = "";
+                  }, 2000);
+                } else {
+                  message.textContent =
+                    "❌ Something went wrong. Please try again.";
+                  message.className = "error";
+                }
+              } catch (err) {
+                console.error(err);
+                message.textContent = "❌ Error submitting form.";
+                message.className = "error";
+              } finally {
+                submitBtn.disabled = false;
+              }
+            });
+          });
+        </script>
+      </div>
+    </div>
+
+    <section class="journey-section">
+      <div class="container">
+        <h2 class="section-title">How the Journey Works</h2>
+        <p style="margin-bottom: 60px; color: grey">
+          Select the Journey that are relevant to your needs
+        </p>
+
+        <div class="journey-track animate-track">
+          <div class="journey-card animate-step open-meeting">
+            <div
+              class="step-circle"
+              style="animation: pulseGlow 5s infinite; cursor: pointer"
+            >
+              <i class="fa-solid fa-video"></i>
+            </div>
+            <div class="step-content">
+              <h4>Schedule Virtual Meeting / Call</h4>
+              <p>Intro call or private consultation</p>
+            </div>
+          </div>
+
+          <div class="journey-card animate-step">
+            <div class="step-circle" style="animation: pulseGlow 5s infinite">
+              <!-- <i class="fa-solid fa-map-location-dot"></i> -->
+              <i class="fa-solid fa-magnifying-glass-location"></i>
+            </div>
+            <div class="step-content">
+              <h4>Property Identification</h4>
+              <p>From the Sai Fakira</p>
+            </div>
+          </div>
+
+          <div
+            class="journey-card animate-step"
+            data-loan-popup
+            style="cursor: pointer"
+          >
+            <div class="step-circle" style="animation: pulseGlow 5s infinite">
+              <i class="fa-solid fa-building-columns"></i>
+            </div>
+            <div class="step-content">
+              <h4>Loan & Documentation</h4>
+              <p>NRI eligibility & coordination</p>
+            </div>
+          </div>
+
+          <div class="journey-card animate-step">
+            <div
+              class="step-circle finish-icon"
+              style="animation: pulseGlow 5s infinite; cursor: pointer"
+            >
+              <i class="fa-solid fa-house-circle-check"></i>
+            </div>
+            <div class="step-content">
+              <h4>Successfully Done</h4>
+              <!-- <p>Rental & advisory (optional)</p> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="journey-note">Simple. Structured. Guided.</div>
+      </div>
+    </section>
+
+    <section class="ba-section" id="beforeAfterSection">
+      <h2 class="section-title">Understanding the NRI Reality</h2>
+
+      <div class="ba-stage">
+        <!-- BEFORE -->
+        <div class="ba-grid before active" id="beforeGrid">
+          <div class="ba-card">
+            <img src="/images/Verified-Developers.jpg" />
+            <p>Not sure which developers are reliable</p>
+          </div>
+
+          <div class="ba-card">
+            <img src="/images/Confusing-Pricing.png" />
+            <p>Confusing pricing & mixed information</p>
+          </div>
+
+          <div class="ba-card">
+            <img
+              src="https://images.unsplash.com/photo-1551836022-d5d88e9218df"
+            />
+            <p>Too little time for paperwork & bank process</p>
+          </div>
+
+          <div class="ba-card">
+            <img
+              src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
+            />
+            <p>Difficult to judge quality remotely</p>
+          </div>
+        </div>
+
+        <!-- CANCEL LINE -->
+        <div class="cancel-line" id="cancelLine"></div>
+
+        <!-- AFTER -->
+        <div class="ba-grid after" id="afterGrid">
+          <div class="ba-card">
+            <img src="/images/Gemini_Generated_Image_4002by4002by4002.png" />
+            <p>Verified & Bank-approved projects</p>
+          </div>
+
+          <div class="ba-card">
+            <img src="/images/Clear.jpeg" />
+            <p>Clear pricing & structured options in Property</p>
+          </div>
+
+          <div class="ba-card">
+            <img src="/images/Loan.jpeg" />
+            <p>End-to-end Home loan & documentation support</p>
+          </div>
+
+          <div class="ba-card">
+            <img src="/images/RM.jpg" />
+            <p>One dedicated relationship manager</p>
+          </div>
+        </div>
+
+        <div class="ba-label" id="baLabel"></div>
+      </div>
+    </section>
+
+    <!-- What We Do -->
+    <!-- <section class="nri-what-we-do-v2">
+    <div class="container">
+      <h2 class="section-title">What We Do</h2>
+      <p class="section-subtitle">
+        We Provide Services to NRIs discover, evaluate and purchase property
+        in Ahmedabad with confidence — no matter the purpose:
+      </p>
+
+      <div class="services-grid">
+        <div class="service-row">
+          <div class="icon-box">
+            <i class="fa-solid fa-key"></i>
+          </div>
+          <div class="text-box">
+            <h4>Self-use in the Future</h4>
+          </div>
+        </div>
+
+        <div class="service-row">
+          <div class="icon-box">
+            <i class="fa-solid fa-people-roof"></i>
+          </div>
+          <div class="text-box">
+            <h4>Immediate Family Use</h4>
+          </div>
+        </div>
+
+        <div class="service-row">
+          <div class="icon-box">
+            <i class="fa-solid fa-building"></i>
+          </div>
+          <div class="text-box">
+            <h4>Rental Income / Long-term Investment</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="role-banner">
+        <p>
+          <strong>Our role is simple:</strong> Make the entire journey faster,
+          organised, verified and stress-free.
+        </p>
+      </div>
+    </div>
+  </section> -->
+
+    <section class="nri-services-v3">
+      <div class="container">
+        <h2 class="section-title">What We Do</h2>
+        <p class="section-subtitle">
+          End-to-end property assistance for NRIs — transparent, verified and
+          stress-free.
+        </p>
+
+        <div class="service-cards">
+          <!-- PROPERTY -->
+          <div class="service-card">
+            <div class="service-img">
+              <img src="/images/AATMANTAN-01.jpg" alt="Property Services" />
+            </div>
+            <div class="service-content">
+              <h3>Property</h3>
+              <ul>
+                <li>Exclusive deals & Projects</li>
+                <li>Prime Locations</li>
+                <li>High Appreciation Zone</li>
+                <li>Tie up with 100+ a category developer</li>
+              </ul>
+              <!-- <a href="#" class="btn-outline">Explore</a> -->
+            </div>
+          </div>
+
+          <!-- FINANCE -->
+          <div class="service-card">
+            <div class="service-img">
+              <img src="/images/Finance.jpg" alt="Finance Services" />
+            </div>
+            <div class="service-content">
+              <h3>Finance</h3>
+              <ul>
+                <li>20+ years Finance Expertise</li>
+                <li>Associated with 140+banks & MNC & Housing Finance</li>
+                <li>End to end loan support</li>
+                <li>Faster Phygital Process</li>
+              </ul>
+              <!-- <a href="#" class="btn-outline">Explore</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="why-ahmedabad blog-drawer">
+      <div class="container">
+        <h2 class="section-title">Why Ahmedabad Makes Sense</h2>
+
+        <div class="wa-grid">
+          <!-- BLOG 1 -->
+          <div
+            class="wa-card"
+            data-title="Fast-Growing Economic Centre"
+            data-image="/images/AATMANTAN-01.jpg"
+            data-content="Ahmedabad has evolved into one of India’s most balanced and resilient economic centres. The city has a strong presence across pharmaceuticals, textiles, chemicals, engineering, IT services, education and financial services. This diversified economic base reduces dependency on a single industry, supports consistent job creation and drives sustained housing demand. For real estate investors, this translates into long-term stability, lower risk and steady capital appreciation."
+          >
+            <img src="/images/AATMANTAN-01.jpg" alt="Ahmedabad Economy" />
+            <h4>Fast-Growing Economic Centre</h4>
+            <span class="read-btn">Read More</span>
+          </div>
+
+          <!-- BLOG 2 -->
+          <div
+            class="wa-card"
+            data-title="Major Development & Global Attention"
+            data-image="/images/Gift City.jpg"
+            data-content="Ahmedabad is witnessing rapid infrastructure-led transformation. Developments such as GIFT City, metro rail expansion, riverfront projects, modern expressways and airport upgrades are reshaping the city’s urban landscape. These projects are improving connectivity, attracting global businesses and enhancing overall livability. As infrastructure improves, surrounding micro-markets are experiencing higher demand and long-term appreciation, making Ahmedabad increasingly attractive to both domestic and overseas investors."
+          >
+            <img src="/images/Gift City.jpg" alt="Ahmedabad Development" />
+            <h4>Major Development & Global Attention</h4>
+            <span class="read-btn">Read More</span>
+          </div>
+
+          <!-- BLOG 3 -->
+          <div
+            class="wa-card"
+            data-title="2030 Commonwealth Games Host City"
+            data-image="/images/Common Wealth.jpg"
+            data-content="Ahmedabad’s selection as the host city for the 2030 Commonwealth Games marks a major milestone in its global journey. Such international events typically lead to accelerated infrastructure development, upgraded transport networks, improved public facilities and increased global visibility. Historically, host cities witness a positive impact on real estate demand, rental activity and long-term property values, especially in well-connected zones."
+          >
+            <img src="/images/Common Wealth.jpg" alt="Commonwealth Games" />
+            <h4>2030 Commonwealth Games Host City</h4>
+            <span class="read-btn">Read More</span>
+          </div>
+
+          <!-- BLOG :4  -->
+          <div
+            class="wa-card"
+            data-title="GIFT City – India’s Global Financial Hub"
+            data-image="/images/Gift-city.jpg"
+            data-content="GIFT City is India’s first global financial and IT services hub, offering world-class infrastructure, tax benefits and strong government backing. Its rapid development is creating high-potential opportunities for investors and long-term real estate growth."
+          >
+            <img src="/images/Gift-city.jpg" alt="GIFT City" />
+            <h4>GIFT City – India’s Global Financial Hub</h4>
+            <span class="read-btn">Read More</span>
+          </div>
+
+          <!-- BLOG 5 -->
+          <div
+            class="wa-card"
+            data-title="Safe, Clean & Well-Planned Living"
+            data-image="/images/Parental influence on kids.jpg"
+            data-content="Ahmedabad is widely regarded as a safe, clean and well-planned city. Organised residential layouts, wide roads, reliable civic services and well-developed social infrastructure contribute to a high quality of life. The city’s strong community culture and family-friendly environment make it suitable for end-use living as well as long-term residential investments."
+          >
+            <img
+              src="/images/Parental influence on kids.jpg"
+              alt="Quality of Life"
+            />
+            <h4>Safe, Clean & Well-Planned Living</h4>
+            <span class="read-btn">Read More</span>
+          </div>
+
+          <!-- BLOG 6 -->
+          <div
+            class="wa-card"
+            data-title="NRI-Friendly Ecosystem"
+            data-image="/images/eco-system.jpeg"
+            data-content="Ahmedabad offers a highly NRI-friendly ecosystem supported by a strong global Gujarati diaspora. The city has good international connectivity, familiar cultural ties and growing professional support services for overseas property owners. From banking and legal processes to property management and rentals, Ahmedabad enables NRIs to invest and manage real estate with confidence and convenience."
+          >
+            <img src="/images/eco-system.jpeg" alt="NRI Friendly City" />
+            <h4>NRI-Friendly Ecosystem</h4>
+            <span class="read-btn">Read More</span>
+          </div>
+
+          <!-- BLOG 7 -->
+          <div
+            class="wa-card"
+            data-title="Bullet Train Connectivity"
+            data-image="/images/Bullet-train.jpg"
+            data-content="The Mumbai–Ahmedabad High-Speed Rail (Bullet Train) project is set to significantly enhance regional connectivity. Once operational, it will reduce travel time, improve business mobility and strengthen Ahmedabad’s position as a major commercial hub. Infrastructure projects of this scale typically create long-term positive impact on real estate demand, especially in growth corridors and transit-oriented development zones."
+          >
+            <img src="/images/Bullet-train.jpg" alt="Bullet Train" />
+            <h4>Bullet Train Connectivity</h4>
+            <span class="read-btn">Read More</span>
+          </div>
+          <!-- BLOG 8 -->
+          <div
+            class="wa-card"
+            data-title="Predictable, Steady Appreciation"
+            data-image="images/Growth.jpg"
+            data-content="Unlike highly volatile metro markets, Ahmedabad is known for its predictable and steady real estate appreciation. Property prices grow gradually without extreme fluctuations, offering capital protection and consistent returns. This stability is especially valued by long-term investors and NRIs who prefer sustainable growth, reliable rental income and lower market risk over speculative price spikes."
+          >
+            <img src="/images/Growth.jpg" alt="Property Appreciation" />
+            <h4>Predictable, Steady Appreciation</h4>
+            <span class="read-btn">Read More</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SIDE DRAWER -->
+    <div class="blog-drawer-overlay" id="drawerOverlay"></div>
+
+    <div class="blog-drawer-box" id="blogDrawer">
+      <button class="drawer-close">×</button>
+      <img id="drawerImage" />
+      <h3 id="drawerTitle"></h3>
+      <p id="drawerContent"></p>
+    </div>
+
+    <!-- why Choose -->
+    <!-- <section class="nri-why-live">
+    <h2 class="section-title">Why NRIs Choose Us</h2>
+
+    <div class="live-timeline">
+      <div class="live-item">
+        <span class="live-icon"><i class="fa-solid fa-briefcase"></i></span>
+        <div class="live-content">
+          <h4>20+ Years of Experience</h4>
+          <p>
+            Deep expertise across financial services and real estate advisory.
+          </p>
+        </div>
+      </div>
+
+      <div class="live-item">
+        <span class="live-icon"><i class="fa-solid fa-location-dot"></i></span>
+        <div class="live-content">
+          <h4>On-Ground Ahmedabad Team</h4>
+          <p>Local execution with a global NRI client handling mindset.</p>
+        </div>
+      </div>
+
+      <div class="live-item">
+        <span class="live-icon"><i class="fa-solid fa-building-shield"></i></span>
+        <div class="live-content">
+          <h4>Verified & Approved Network</h4>
+          <p>Bank-approved and developer-verified partnerships only.</p>
+        </div>
+      </div>
+
+      <div class="live-item">
+        <span class="live-icon"><i class="fa-solid fa-comments"></i></span>
+        <div class="live-content">
+          <h4>Transparent Communication</h4>
+          <p>Structured updates, clear documentation, zero guesswork.</p>
+        </div>
+      </div>
+
+      <div class="live-item">
+        <span class="live-icon"><i class="fa-solid fa-user-tie"></i></span>
+        <div class="live-content">
+          <h4>One individual RM Support</h4>
+          <p>A single relationship manager from start to possession.</p>
+        </div>
+      </div>
+    </div>
+
+    <p class="live-footer">
+      We are your <strong>advisors</strong> and
+      <strong>execution partners</strong>.
+    </p>
+  </section> -->
+    <!-- Proof And Trust -->
+    <section class="proof-trust">
+      <div class="container">
+        <h2 class="section-title">Proof & Trust</h2>
+
+        <div class="stats-block">
+          <div class="stat-item">
+            <i class="fa-solid fa-user-shield"></i>
+            <h3><span class="counter" data-target="20000">0</span>+</h3>
+            <p>Clients supported across finance & real estate</p>
+          </div>
+
+          <div class="stat-item">
+            <i class="fa-solid fa-globe"></i>
+            <h3><span class="counter" data-target="6">0</span> Countries</h3>
+            <p>NRIs across US, Canada, UAE, UK, Australia, Singapore</p>
+          </div>
+
+          <div class="stat-item">
+            <i class="fa-solid fa-handshake"></i>
+            <h3><span class="counter" data-target="50">0</span>+</h3>
+            <p>Strong partnerships with banks & developers</p>
+          </div>
+        </div>
+
+        <!-- Testimonials -->
+        <!-- <div class="testimonials">
+
+      <div class="testimonial-card">
+        <p>“Professional, transparent, and extremely organized.
+        I didn’t feel rushed — every step was explained clearly.”</p>
+        <h4>— R. Shah, California</h4>
+      </div>
+
+      <div class="testimonial-card">
+        <p>“They handled everything remotely including loan & documentation.
+        It was absolutely seamless.”</p>
+        <h4>— Priya & Amit, Dubai</h4>
+      </div>
+
+    </div> -->
+      </div>
+    </section>
+
+    <section class="faq-section">
+      <div class="faq-container">
+        <h2 class="section-title">FAQ Highlights</h2>
+        <p class="section-subtitle">
+          Common questions NRI's ask before buying property in India.
+        </p>
+
+        <div class="faq-list">
+          <!-- FAQ 1 (AUTO OPEN) -->
+          <div class="faq-item active">
+            <button class="faq-question">
+              What is the definition of an NRI?
+              <!-- Can I buy without traveling to India? -->
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <!-- Yes. With Power of Attorney and verified documentation, the entire
+            purchase process can be completed remotely. -->
+              NRI definition under FEMA: NRI (Non-Resident Indian) is the term
+              used for a person residing outside of India, while possessing an
+              Indian passport, for the purpose of employment or carrying on
+              business or vocation or any other circumstances which indicate
+              his/her intention to stay outside India for an uncertain period of
+              time. An OCI (Overseas Citizen of India) is also treated as an
+              NRI.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <!-- Do banks provide NRI loans easily? -->
+              How can a customer repay the loan?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <!-- Yes. As long as eligibility criteria and documentation are met. We
+              coordinate the complete process. -->
+              Bank offers various modes for repayment of the loan.
+              Customers may either issue post-dated cheques or standing
+              instructions to his/her banker to pay the instalment through ECS
+              (Electronic Clearing System) / NACH (National Automated Clearing
+              House) from their Non-Resident (External) Account / Non-Resident
+              (Ordinary) Account in India. Cash payments are not accepted.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <!-- Do you help with legal verification? -->
+              How is my loan reassessed if there is a change in status from
+              Non-Resident Indian to Resident Indian?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <!-- Yes. Every property is legally verified and goes through due
+              diligence before being recommended. -->
+              In the event of a customer relocating back to India, Banks
+              reassesses the repayment capacity of the applicant(s) based on the
+              resident status, and a revised repayment schedule is worked out.
+              The new rate of interest may be as per the prevailing applicable
+              rate of Resident Indian loans (for that specific loan product).
+              This revised rate of interest would be applicable to the
+              outstanding balance being converted. A letter is given to the
+              customer confirming the change of status.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <!-- Can you help after possession? -->
+              Is the customer required to be physically present in India at the
+              time of availing the loan?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <!-- Yes. We offer rental assistance and post-purchase support for
+              NRIs. -->
+              The customer need not be present in India to avail a Home Loan. In
+              case the customer is posted abroad at the time of submission of
+              the loan application and the disbursement of the loan, he/she can
+              avail the loan by appointing a Power of Attorney as per Bank format. The Power of Attorney holder can apply and carry
+              out the formalities on his/her behalf.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <!-- Can you help after possession? -->
+              What is a Power of Attorney?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <!-- Yes. We offer rental assistance and post-purchase support for
+              NRIs. -->
+              A Power of Attorney is a resident Indian appointed to act on
+              behalf of all the applicants through an execution of the Specific
+              Power of Attorney (SPOA) deed. It is mandatory for both the
+              applicant and the co-applicant to execute the SPOA in favour of
+              the person concerned. If the co-applicant is a resident Indian,
+              he/she can also be the SPOA through the execution of the SPOA by
+              the applicant.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <p>
+        If you're exploring real estate in Ahmedabad — whether now or later — a
+        guided conversation is a good place to start.
+      </p>
+
+      <div class="cta-lines">
+        <span>No urgency.</span>
+        <span>No pressure.</span>
+        <span>Just clarity.</span>
+      </div>
+
+      <a
+        href="https://wa.me/919033784030"
+        class="cta-btn"
+        target="_blank"
+        rel="noopener"
+      >
+        Start a Conversation
+      </a>
+    </section>
+    <!-- 🔘 DEMO BUTTON -->
+
+    <!-- ================= POPUP HTML ================= -->
+    <div class="loan-doc-overlay" id="loanDocOverlay"></div>
+
+    <div class="loan-doc-popup" id="loanDocPopup">
+      <button class="loan-doc-close">×</button>
+
+      <h3>LOAN DOCUMENTATION</h3>
+      <p class="loan-sub">Mandatory Documents</p>
+
+      <div class="loan-doc-scroll">
+        <ul class="loan-doc-list">
+          <li>
+            Pan Card, Aadhar Card, Passport with visa stamp (Whole book copy
+            Must inclusive Blank Pages)
+          </li>
+          <li>
+            Residence proof ( For India (Aadhar Card , Passport) and Abroad
+            (Rent Agreement / Employer Confirmation) ).
+          </li>
+          <li>Salary certificate / Slip – last of latest 6 months</li>
+          <li>
+            Bank statement latest 6 months (NRE/NRO account, Salary A/C, Saving
+            A/C in India)
+          </li>
+          <li>Work Permit</li>
+          <li>Appointment Letter of current company</li>
+          <li>
+            Employer detail (Company profile if available, Company website )
+          </li>
+          <li>Photograph of applicant & co-applicants.</li>
+          <li>
+            Name and e-mail ID , Confirmation of HR Person / Department /
+            Supervisor.
+          </li>
+          <li>Degree certificate</li>
+          <li>Latest CV / Biodata</li>
+          <li>
+            Monthly Expense Detail with bifurcation <br />
+            <span style="color: gray">
+              Format: (Monthly Expense in your Country Currency) <br />
+              Apartment rent:______ <br />
+              Ulitilities:______ <br />
+              Groceries:______ <br />
+              Mobile bill:______ <br />
+              Miscellaneous:______ <br />
+            </span>
+          </li>
+          <li>Credit Bureau Report from your Country.</li>
+          <li>Power of attorney (in bank format & general POA)</li>
+        </ul>
+        <p
+          style="
+            color: brown;
+            font-weight: 700;
+            display: flex;
+            text-align: center;
+            margin-top: 10px;
+          "
+        >
+          All Documents should be duly attested and ignore the documents not
+          applicable.
+        </p>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <svg class="progress-ring" width="56" height="56">
+        <circle class="progress-ring-bg" cx="28" cy="28" r="24" />
+        <circle class="progress-ring-fill" cx="28" cy="28" r="24" />
+      </svg>
+
+      <div class="scroll-arrows">
+        <i class="fa-solid fa-chevron-up" id="scrollUp"></i>
+        <i class="fa-solid fa-chevron-down" id="scrollDown"></i>
+      </div>
+    </div>
+    <!-- FEEDBACK POPUP OVERLAY -->
+    <div class="feedback-overlay" id="feedbackOverlay"></div>
+
+    <!-- FEEDBACK POPUP -->
+    <section class="feedback-popup" id="feedbackPopup">
+      <button class="feedback-close" id="closeFeedback">×</button>
+
+      <h2>We Value Your Feedback</h2>
+      <p>Your feedback helps us improve our services.</p>
+
+      <form
+        id="feedbackForm"
+        method="POST"
+        action="https://script.google.com/macros/s/AKfycbw8JBT80m7tvoKWrUGfe8KlGAwXk2PPjpdFNvf9dM9KPvP4hxcdjACCu29qOBuyj4Qulw/exec"
+        target="hiddenFrame"
+      >
+        <div class="form-group">
+          <label>Your Name</label>
+          <input type="text" name="name" required />
+        </div>
+
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" name="email" required />
+        </div>
+
+        <div class="form-group">
+          <label>Rate Your Experience</label>
+          <div class="rating-stars">
+            <i class="star" data-value="1">★</i>
+            <i class="star" data-value="2">★</i>
+            <i class="star" data-value="3">★</i>
+            <i class="star" data-value="4">★</i>
+            <i class="star" data-value="5">★</i>
+          </div>
+          <input type="hidden" name="rating" id="ratingValue" required />
+        </div>
+
+        <div class="form-group">
+          <label>Your Feedback</label>
+          <textarea name="message" rows="4" required></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit">Submit Feedback</button>
+        <div class="form-message" id="formMessage"></div>
+      </form>
+    </section>
+
+    <!-- HIDDEN IFRAME (VERY IMPORTANT) -->
+    <!-- <iframe name="hiddenFrame" style="display:none;"></iframe> -->
+
+    <!-- ================= MOBILE MENU SCRIPT (FIXED) ================= -->
+    <script>
+      const menuToggle = document.getElementById("mobileMenuToggle");
+      const mobileMenu = document.getElementById("mobileMenu");
+      const closeMenu = document.getElementById("closeMenu");
+      const overlay = document.getElementById("overlay");
+
+      // OPEN
+      menuToggle.addEventListener("click", () => {
+        mobileMenu.classList.add("active");
+        overlay.classList.add("show");
+      });
+
+      // CLOSE
+      function closeNow() {
+        mobileMenu.classList.remove("active");
+        overlay.classList.remove("show");
+      }
+
+      closeMenu.addEventListener("click", closeNow);
+      overlay.addEventListener("click", closeNow);
+    </script>
+    <script src="nri.js"></script>
+  </body>
+</html>
