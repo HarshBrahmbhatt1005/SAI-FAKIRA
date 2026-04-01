@@ -472,7 +472,7 @@ select {
   position: relative;
 
   /* Put a luxury real-estate image here */
-  background: url('/images/image.jpg.jpeg')
+  background: url('images/image.jpg.jpeg')
     center/cover no-repeat;
 
   box-shadow: 0 20px 50px rgba(140, 23, 52, 0.25); /* GLASS SHADOW with theme color */
