@@ -116,7 +116,6 @@ function createPropertyCard(data) {
   function formatPriceText(priceText) {
     if (!priceText) return "";
     
-    // Patterns to identify supplementary text that should be smaller
     const supplementaryPatterns = [
       /(\s+onwards\*?)/gi,
       /(\s+onward\*?)/gi,
@@ -124,12 +123,10 @@ function createPropertyCard(data) {
       /(\(inc\.all\*?\))/gi,
       /(\(including.*?\))/gi,
       /(\s+per sq\.ft)/gi,
-      /(\s+\*$)/g  // trailing asterisk
+      /(\s+\*$)/g 
     ];
     
     let formattedPrice = priceText;
-    
-    // Wrap supplementary text in a span with smaller class
     supplementaryPatterns.forEach(pattern => {
       formattedPrice = formattedPrice.replace(pattern, '<span class="price-supplement">$1</span>');
     });
@@ -141,23 +138,57 @@ function createPropertyCard(data) {
   function formatSqftText(sqft, sqftType) {
     if (!sqft) return "";
     
-    // Extract numbers and text parts
     let formattedSqft = sqft;
-    
-    // Make unit text smaller (Sq.ft, sq.ft, sq.yd, sq, etc.)
     formattedSqft = formattedSqft.replace(/(sq\.?ft\.?|sq\.?yd\.?|sq)/gi, '<span class="sqft-unit">$1</span>');
     
-    // Add sqftType as a badge if it exists
     const typeHTML = sqftType 
       ? `<span class="sqft-type-badge">${sqftType}</span>` 
       : "";
     
     return `
-      <span style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
-        <i class="fa-solid fa-vector-square"></i> 
-        <span>${formattedSqft}</span>
+      <div class="sqft-wrapper">
+        <i class="fa-solid fa-vector-square" style="color: #8c1843; font-size: 18px;"></i> 
+        <span class="sqft-main-text">${formattedSqft}</span>
         ${typeHTML}
-      </span>
+      </div>
+    `;
+  }
+
+  let categoriesHTML = "";
+  let initialCategoryDetails = "";
+  
+  if (data.categories && data.categories.length > 0) {
+    if (data.categories.length > 1) {
+      const toggles = data.categories.map((cat, idx) => {
+        // Only show purely string part without repetition if possible, but keep simple for now
+        let btnText = cat.bhk;
+        return `<button class="bhk-toggle-btn ${idx === 0 ? 'active' : ''}" data-index="${idx}">${btnText}</button>`;
+      }).join("");
+      categoriesHTML = `<div class="bhk-toggles">${toggles}</div>`;
+    } else {
+      categoriesHTML = `<div class="bhk-toggles"><button class="bhk-toggle-btn single-btn active">${data.categories[0].bhk}</button></div>`;
+    }
+
+    const cat = data.categories[0];
+    initialCategoryDetails = `
+      <div class="dynamic-category-details">
+        <div class="price-wrapper">
+          <i class="fa-solid fa-indian-rupee-sign" style="font-size:16px;"></i> 
+          <span class="price-text">${formatPriceText(cat.price)}</span>
+        </div>
+        ${formatSqftText(cat.sqft, cat.sqftType)}
+      </div>
+    `;
+  } else {
+    categoriesHTML = `<div class="bhk-toggles"><button class="bhk-toggle-btn single-btn active">${data.title || 'Details'}</button></div>`;
+    initialCategoryDetails = `
+      <div class="dynamic-category-details">
+        <div class="price-wrapper">
+          <i class="fa-solid fa-indian-rupee-sign" style="font-size:16px;"></i> 
+          <span class="price-text">${formatPriceText(data.priceText || '')}</span>
+        </div>
+        ${formatSqftText(data.sqft || '', data.sqftType || '')}
+      </div>
     `;
   }
 
@@ -169,17 +200,13 @@ function createPropertyCard(data) {
     ${locationHTML}
     <div class="Property-details">
       ${data.schemeName ? `<div class="scheme-name">${data.schemeName}</div>` : ""}
-      <h2>
-        ${data.title}
-        <br>
-        <span class="h2-span">
-          <span style="display:flex;align-items:center;gap:6px;">
-            <i class="fa-solid fa-indian-rupee-sign"></i> ${formatPriceText(data.priceText)}
-          </span>
-          ${formatSqftText(data.sqft, data.sqftType)}
-        </span>
-      </h2>
-      <ul class="star-list">
+      
+      <div class="category-section">
+        ${categoriesHTML}
+        ${initialCategoryDetails}
+      </div>
+
+      <ul class="star-list" style="margin-top: 10px;">
         ${featuresHTML}
       </ul>
     </div>
@@ -187,6 +214,32 @@ function createPropertyCard(data) {
       <i class="wp-icon fa-brands fa-whatsapp"></i>
     </a>
   `;
+
+  if (data.categories && data.categories.length > 1) {
+    const toggleBtns = card.querySelectorAll('.bhk-toggle-btn');
+    const detailsContainer = card.querySelector('.dynamic-category-details');
+    
+    toggleBtns.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        
+        toggleBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        
+        const idx = btn.getAttribute('data-index');
+        const cat = data.categories[idx];
+        
+        detailsContainer.innerHTML = `
+          <div class="price-wrapper">
+            <i class="fa-solid fa-indian-rupee-sign" style="font-size:16px;"></i> 
+            <span class="price-text">${formatPriceText(cat.price)}</span>
+          </div>
+          ${formatSqftText(cat.sqft, cat.sqftType)}
+        `;
+      });
+    });
+  }
 
   return card;
 }

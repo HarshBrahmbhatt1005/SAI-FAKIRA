@@ -7,7 +7,7 @@ const propertyCardsData = [
     price: 247,
     soldOut: false,
 
-    images: ["/images/Embrosia-01.jpeg", "/images/Embrosia-02.jpeg"],
+    images: ["images/Embrosia-01.jpeg", "images/Embrosia-02.jpeg"],
     locationTag: "",
     propertyLocation: "Adani-Shantigram",
     propertyLocationImage: "Brochure Image*",
@@ -19,7 +19,7 @@ const propertyCardsData = [
     sqftType: "SuperBuilt-up",
     features: [
       "Water Cascade And Aromatic Garden In The Project",
-      "30+ Amenities",
+      "30+ Amminities",
       "Premium Location + Locality",
       "2-3 Alloted car Parking",
     ],
@@ -32,7 +32,7 @@ const propertyCardsData = [
     price: 108,
     soldOut: false,
 
-    images: ["/images/solaris.jpg", "/images/solaris-01.jpg"],
+    images: ["images/solaris.jpg", "images/solaris-01.jpg"],
     locationTag: "",
     propertyLocation: "Bhuyangdev",
     propertyLocationImage: "Brochure Image*",
@@ -58,9 +58,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Solaris-Residency-01.jpg",
-      "/images/Solaris-Residency-02.jpg",
-      "/images/Solaris-Residency-03.jpg",
+      "images/Solaris-Residency-01.jpg",
+      "images/Solaris-Residency-02.jpg",
+      "images/Solaris-Residency-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Bhuyangdev",
@@ -82,9 +82,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Sun-orbit-3.jpg",
-      "/images/Sun-orbit-1.jpg",
-      "/images/Sun-orbit-2.jpg",
+      "images/Sun-orbit-3.jpg",
+      "images/Sun-orbit-1.jpg",
+      "images/Sun-orbit-2.jpg",
     ],
     locationTag: "",
     propertyLocation: "Rajpath-Road",
@@ -110,9 +110,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/WestBank-1.jpg",
-      "/images/WestBank-2.jpg",
-      "/images/WestBank.jpg",
+      "images/WestBank-1.jpg",
+      "images/WestBank-2.jpg",
+      "images/WestBank.jpg",
     ],
     locationTag: "",
     propertyLocation: "Ashram-Road",
@@ -138,9 +138,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Taurus-01.jpg",
-      "/images/Taurus-02.jpg",
-      "/images/Taurus-03.jpg",
+      "images/Taurus-01.jpg",
+      "images/Taurus-02.jpg",
+      "images/Taurus-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "VAISHNODEVI",
@@ -152,7 +152,7 @@ const propertyCardsData = [
     sqft: "3420sq.ft to 4068sq",
     sqftType: "SuperBuilt-up",
     features: [
-      "25+ Amenities",
+      "25+ Amminities",
       "4 Side Open Flats",
       "Connectivity to SG Highway & SP Ring Road",
       "Seperate Lift",
@@ -168,10 +168,10 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Shalin-square.jpeg",
-      "/images/Shalin-square-1.jpeg",
-      "/images/Shalin-square-2.jpeg",
-      "/images/Shalin-square-3.jpeg",
+      "images/Shalin-square.jpeg",
+      "images/Shalin-square-1.jpeg",
+      "images/Shalin-square-2.jpeg",
+      "images/Shalin-square-3.jpeg",
     ],
     locationTag: "",
     propertyLocation: "HATHIJAN",
@@ -198,10 +198,10 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Shalin-square.jpeg",
-      "/images/Shalin-square-1.jpeg",
-      "/images/Shalin-square-2.jpeg",
-      "/images/Shalin-square-3.jpeg",
+      "images/Shalin-square.jpeg",
+      "images/Shalin-square-1.jpeg",
+      "images/Shalin-square-2.jpeg",
+      "images/Shalin-square-3.jpeg",
     ],
     locationTag: "",
     propertyLocation: "HATHIJAN",
@@ -228,10 +228,10 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Shalin-square.jpeg",
-      "/images/Shalin-square-1.jpeg",
-      "/images/Shalin-square-2.jpeg",
-      "/images/Shalin-square-3.jpeg",
+      "images/Shalin-square.jpeg",
+      "images/Shalin-square-1.jpeg",
+      "images/Shalin-square-2.jpeg",
+      "images/Shalin-square-3.jpeg",
     ],
     locationTag: "",
     propertyLocation: "HATHIJAN",
@@ -258,10 +258,10 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Shalin-square.jpeg",
-      "/images/Shalin-square-1.jpeg",
-      "/images/Shalin-square-2.jpeg",
-      "/images/Shalin-square-3.jpeg",
+      "images/Shalin-square.jpeg",
+      "images/Shalin-square-1.jpeg",
+      "images/Shalin-square-2.jpeg",
+      "images/Shalin-square-3.jpeg",
     ],
     locationTag: "",
     propertyLocation: "HATHIJAN",
@@ -341,9 +341,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Wynn-01.jpg",
-      "/images/Wynn-02.jpg",
-      "/images/Wynn-03.jpg",
+      "images/Wynn-01.jpg",
+      "images/Wynn-02.jpg",
+      "images/Wynn-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Sindhu Bhavan Road",
@@ -364,7 +364,7 @@ const propertyCardsData = [
     price: 124,
     soldOut: false,
 
-    images: ["/images/solaris.jpg", "/images/solaris-01.jpg"],
+    images: ["images/solaris.jpg", "images/solaris-01.jpg"],
     locationTag: "",
     propertyLocation: "Bhuyangdev",
     propertyLocationImage: "Brochure Image*",
@@ -389,7 +389,7 @@ const propertyCardsData = [
     price: 92,
     soldOut: false,
 
-    images: ["/images/Sheladia-Sarva-1.jpg", "/images/Bopal-01.jpg"],
+    images: ["images/Sheladia-Sarva-1.jpg", "images/Bopal-01.jpg"],
     locationTag: "",
     propertyLocation: "BOPAL",
     propertyLocationImage: "Brochure Image*",
@@ -434,9 +434,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Anmol-Ambience.jpg",
-      "/images/Anmol-Ambiance-1.jpg",
-      "/images/Anmol-Ambiance-2.jpg",
+      "images/Anmol-Ambience.jpg",
+      "images/Anmol-Ambiance-1.jpg",
+      "images/Anmol-Ambiance-2.jpg",
     ],
     locationTag: "",
     propertyLocation: "SHAHIBAUG",
@@ -462,10 +462,10 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Anmol-Ambience.jpg",
-      "/images/Anmol-Ambiance-1.jpg",
-      "/images/Anmol-Ambiance-PentHouse.jpg",
-      "/images/Anmol-Ambiance-2.jpg",
+      "images/Anmol-Ambience.jpg",
+      "images/Anmol-Ambiance-1.jpg",
+      "images/Anmol-Ambiance-PentHouse.jpg",
+      "images/Anmol-Ambiance-2.jpg",
     ],
     locationTag: "",
     propertyLocation: "SHAHIBAUG",
@@ -491,9 +491,9 @@ const propertyCardsData = [
   //   soldOut: false,
 
   //   images: [
-  //     "/images/Emberlynn-2.jpg",
-  //     "/images/DAY-Emberlyn2.jpg",
-  //     "/images/DV-Eberlyn2.jpg",
+  //     "images/Emberlynn-2.jpg",
+  //     "images/DAY-Emberlyn2.jpg",
+  //     "images/DV-Eberlyn2.jpg",
   //   ],
   //   locationTag: "",
   //   propertyLocation: "Satellite",
@@ -519,10 +519,10 @@ const propertyCardsData = [
   //   soldOut: false,
 
   //   images: [
-  //     "/images/Emberlynn-3-1.jpg",
-  //     "/images/Emberlynn-3-2.jpg",
-  //     "/images/Emberlynn-3-3.jpg",
-  //     "/images/Emberlynn-3-4.jpg",
+  //     "images/Emberlynn-3-1.jpg",
+  //     "images/Emberlynn-3-2.jpg",
+  //     "images/Emberlynn-3-3.jpg",
+  //     "images/Emberlynn-3-4.jpg",
   //   ],
   //   locationTag: "",
   //   propertyLocation: "Satellite",
@@ -549,10 +549,10 @@ const propertyCardsData = [
   //   soldOut: false,
 
   //   images: [
-  //     "/images/Emberlynn-3-1.jpg",
-  //     "/images/Emberlynn-3-2.jpg",
-  //     "/images/Emberlynn-3-3.jpg",
-  //     "/images/Emberlynn-3-4.jpg",
+  //     "images/Emberlynn-3-1.jpg",
+  //     "images/Emberlynn-3-2.jpg",
+  //     "images/Emberlynn-3-3.jpg",
+  //     "images/Emberlynn-3-4.jpg",
   //   ],
   //   locationTag: "",
   //   propertyLocation: "Satellite",
@@ -579,9 +579,9 @@ const propertyCardsData = [
   //   soldOut: false,
 
   //   images: [
-  //     "/images/Emberlynn-4-1.jpg",
-  //     "/images/Emberlynn-4-2.jpg",
-  //     "/images/Emberlynn-4-3.jpg",
+  //     "images/Emberlynn-4-1.jpg",
+  //     "images/Emberlynn-4-2.jpg",
+  //     "images/Emberlynn-4-3.jpg",
   //   ],
   //   locationTag: "",
   //   propertyLocation: "Raysan,Gandhinagar",
@@ -595,7 +595,7 @@ const propertyCardsData = [
   //   features: [
   //     "Podium Apartment",
   //     "2-3 Alloted Car Parking",
-  //     "25+ Amenities",
+  //     "25+ Amminities",
   //     "Nr.PDPU Road & Metro Station*",
   //   ],
   // },
@@ -608,9 +608,9 @@ const propertyCardsData = [
   //   soldOut: false,
 
   //   images: [
-  //     "/images/Emberlynn-4-1.jpg",
-  //     "/images/Emberlynn-4-2.jpg",
-  //     "/images/Emberlynn-4-3.jpg",
+  //     "images/Emberlynn-4-1.jpg",
+  //     "images/Emberlynn-4-2.jpg",
+  //     "images/Emberlynn-4-3.jpg",
   //   ],
   //   locationTag: "",
   //   propertyLocation: "Raysan,Gandhinagar",
@@ -623,7 +623,7 @@ const propertyCardsData = [
   //   sqftType: "Terrace",
   //   features: [
   //     "2-3 Alloted Car Parking",
-  //     "25+ Amenities",
+  //     "25+ Amminities",
   //     "Nr.PDPU Road & Metro Station*",
   //   ],
   // },
@@ -685,9 +685,9 @@ const propertyCardsData = [
   //   soldOut: false,
 
   //   images: [
-  //     "/images/Emberlynn-1-1.jpg",
-  //     "/images/Emberlynn-1-2.jpg",
-  //     "/images/Emberlynn-1-3.jpg",
+  //     "images/Emberlynn-1-1.jpg",
+  //     "images/Emberlynn-1-2.jpg",
+  //     "images/Emberlynn-1-3.jpg",
   //   ],
   //   locationTag: "",
   //   propertyLocation: "BOPAL-AMBLI ROAD",
@@ -712,7 +712,7 @@ const propertyCardsData = [
     price: 0,
     soldOut: false,
 
-    images: ["/images/Arham-Luxuria-1.jpg"],
+    images: ["images/Arham-Luxuria-1.jpg"],
     locationTag: "",
     propertyLocation: "PALDI",
     propertyLocationImage: "Brochure Image*",
@@ -737,12 +737,12 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Aryan-elegance-1.jpeg",
-      "/images/Aryan-elegance-2.jpeg",
-      "/images/Aryan-elegance-3.jpeg",
-      "/images/Aryan-elegance-4.jpeg",
-      "/images/Aryan-elegance-5.jpeg",
-      "/images/Aryan-elegance-6.jpeg",
+      "images/Aryan-elegance-1.jpeg",
+      "images/Aryan-elegance-2.jpeg",
+      "images/Aryan-elegance-3.jpeg",
+      "images/Aryan-elegance-4.jpeg",
+      "images/Aryan-elegance-5.jpeg",
+      "images/Aryan-elegance-6.jpeg",
     ],
     locationTag: "",
     propertyLocation: "PALDI",
@@ -758,7 +758,7 @@ const propertyCardsData = [
       "0km to Derasar & Mandir",
       "3side Road Corner Project",
       "Nr.Riverfront Biodiversity Park",
-      "50+ Amenities",
+      "50+ Amminities",
       "With Cantilever Balcony",
     ],
   },
@@ -771,10 +771,10 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Siddharth-Vrundavan-2.jpeg",
-      "/images/Siddharth-Vrundavan-1.jpeg",
-      "/images/Siddharth-Vrundavan-3.jpeg",
-      "/images/Siddharth-Vrundavan-4.jpeg",
+      "images/Siddharth-Vrundavan-2.jpeg",
+      "images/Siddharth-Vrundavan-1.jpeg",
+      "images/Siddharth-Vrundavan-3.jpeg",
+      "images/Siddharth-Vrundavan-4.jpeg",
     ],
     locationTag: "",
     propertyLocation: "JAGATPUR",
@@ -788,7 +788,7 @@ const propertyCardsData = [
     features: [
       "2 Alloted Car Parking",
       "Personal EV Charging Point",
-      "20+ Amenities",
+      "20+ Amminities",
       "No vehicle at Ground Floor Zone",
     ],
   },
@@ -801,9 +801,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Siddharth-Gardenia-1.jpeg",
-      "/images/Siddharth-Gardenia-2.jpeg",
-      "/images/Siddharth-Gardenia-3.jpeg",
+      "images/Siddharth-Gardenia-1.jpeg",
+      "images/Siddharth-Gardenia-2.jpeg",
+      "images/Siddharth-Gardenia-3.jpeg",
     ],
     locationTag: "",
     propertyLocation: "TRAGAD",
@@ -818,7 +818,7 @@ const propertyCardsData = [
       "An Oxygen Park is situated right behind the project",
       "1 Alloted Car Parking",
       "Nr.Apollo international Schl",
-      "20+ Amenities",
+      "20+ Amminities",
     ],
   },
   {
@@ -854,9 +854,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Eternity-01.jpeg",
-      "/images/Eternity-02.jpeg",
-      "/images/Eternity-03.jpeg",
+      "images/Eternity-01.jpeg",
+      "images/Eternity-02.jpeg",
+      "images/Eternity-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "NARANPURA",
@@ -872,7 +872,7 @@ const propertyCardsData = [
       "2 Alloted Car Parking",
       "Derasar included within the project",
       "Nr.International Sports Complex",
-      "20+ Amenities",
+      "20+ Amminities",
     ],
   },
   {
@@ -883,7 +883,7 @@ const propertyCardsData = [
     price: 180,
     soldOut: false,
 
-    images: ["/images/Aavyan-01.jpg", "/images/Aavyan-02.jpg"],
+    images: ["images/Aavyan-01.jpg", "images/Aavyan-02.jpg"],
     locationTag: "",
     propertyLocation: "NARANPURA",
     propertyLocationImage: "Brochure Image*",
@@ -897,7 +897,7 @@ const propertyCardsData = [
       "Personal Foyer With Personal Lift",
       "1 Alloted Car Parking",
       "Nr.Tapovan School & Vijay nagar Metro Station",
-      "25+ Amenities",
+      "25+ Amminities",
     ],
   },
   {
@@ -909,9 +909,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/kadamb-01.png",
-      "/images/kadamb-02.png",
-      "/images/kadamb-03.png",
+      "images/kadamb-01.png",
+      "images/kadamb-02.png",
+      "images/kadamb-03.png",
     ],
     locationTag: "",
     propertyLocation: "Gurukul",
@@ -938,7 +938,7 @@ const propertyCardsData = [
     price: 97,
     soldOut: false,
 
-    images: ["/images/Sunflower-01.png", "/images/Sunflower-03.jpg"],
+    images: ["images/Sunflower-01.png", "images/Sunflower-03.jpg"],
     locationTag: "",
     propertyLocation: "SHILAJ",
     propertyLocationImage: "Brochure Image*",
@@ -951,7 +951,7 @@ const propertyCardsData = [
     features: [
       "Ready to Move",
       "Just 500 Mtr From Taj Skyline",
-      "All Amenities On Terrace",
+      "All Amminities On Terrace",
       "1 Alloted Car Parking",
     ],
   },
@@ -964,9 +964,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Eternity-01.jpeg",
-      "/images/Eternity-02.jpeg",
-      "/images/Eternity-03.jpeg",
+      "images/Eternity-01.jpeg",
+      "images/Eternity-02.jpeg",
+      "images/Eternity-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "NARANPURA",
@@ -987,7 +987,7 @@ const propertyCardsData = [
     price: 113,
     soldOut: false,
 
-    images: ["/images/Aavyan-01.jpg"],
+    images: ["images/Aavyan-01.jpg"],
     locationTag: "",
     propertyLocation: "NARANPURA",
     propertyLocationImage: "Brochure Image*",
@@ -1011,9 +1011,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Malabar-Retreat-1.png",
-      "/images/Malabar-Retreat-2.png",
-      "/images/Malabar-Retreat-3.png",
+      "images/Malabar-Retreat-1.png",
+      "images/Malabar-Retreat-2.png",
+      "images/Malabar-Retreat-3.png",
     ],
     locationTag: "",
     propertyLocation: "VAISHNODEVI",
@@ -1026,7 +1026,7 @@ const propertyCardsData = [
     sqftType: "carpet",
     features: [
       "Nr.Nirma University",
-      "Podium Level Amenities",
+      "Podium Level Amminities",
       "3 Alloted Car Parking",
     ],
   },
@@ -1039,9 +1039,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/imperial-heights-01.jpeg",
-      "/images/imperial-heights-02.jpeg",
-      "/images/imperial-heights-03.jpeg",
+      "images/imperial-heights-01.jpeg",
+      "images/imperial-heights-02.jpeg",
+      "images/imperial-heights-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "SARGASAN,GANDHINAGAR",
@@ -1067,9 +1067,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/imperial-heights-01.jpeg",
-      "/images/imperial-heights-02.jpeg",
-      "/images/imperial-heights-03.jpeg",
+      "images/imperial-heights-01.jpeg",
+      "images/imperial-heights-02.jpeg",
+      "images/imperial-heights-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "SARGASAN,GANDHINAGAR",
@@ -1095,9 +1095,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Satyam-01.png",
-      "/images/Satyam-02.png",
-      "/images/Satyam-03.png",
+      "images/Satyam-01.png",
+      "images/Satyam-02.png",
+      "images/Satyam-03.png",
     ],
     locationTag: "",
     propertyLocation: "NARANPURA",
@@ -1123,7 +1123,7 @@ const propertyCardsData = [
     price: 198,
     soldOut: false,
 
-    images: ["/images/Obisidian-1.png", "/images/Obisidian-2.png"],
+    images: ["images/Obisidian-1.png", "images/Obisidian-2.png"],
     locationTag: "",
     propertyLocation: "JAGATPUR",
     propertyLocationImage: "Brochure Image*",
@@ -1149,9 +1149,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Parkview-one-01.jpeg",
-      "/images/Parkview-one-02.jpeg",
-      "/images/Parkview-one-03.jpeg",
+      "images/Parkview-one-01.jpeg",
+      "images/Parkview-one-02.jpeg",
+      "images/Parkview-one-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "NARANPURA",
@@ -1164,7 +1164,7 @@ const propertyCardsData = [
     sqftType: "SuperBuilt-up",
     features: [
       "Nr. Jain Derasar",
-      "15+ Amenities",
+      "15+ Amminities",
       "1 Alloted Car Parking",
       "Opposite AMC Garden",
     ],
@@ -1177,7 +1177,7 @@ const propertyCardsData = [
     price: 77,
     soldOut: false,
 
-    images: ["/images/Aster-Neo-1.jpg", "/images/Aster-Neo-2.png"],
+    images: ["images/Aster-Neo-1.jpg", "images/Aster-Neo-2.png"],
     locationTag: "",
     propertyLocation: "Adani-Shantigram",
     propertyLocationImage: "Brochure Image*",
@@ -1189,7 +1189,7 @@ const propertyCardsData = [
     sqftType: "SuperBuilt-up",
     features: [
       "Ready To Move",
-      "20+ Amenities",
+      "20+ Amminities",
       "Premium Location + Locality",
       "1 Alloted car Parking",
     ],
@@ -1203,9 +1203,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Embrace-01.png",
-      "/images/Embrace-02.png",
-      "/images/Embrace-03.jpeg",
+      "images/Embrace-01.png",
+      "images/Embrace-02.png",
+      "images/Embrace-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "Adani-Shantigram",
@@ -1217,7 +1217,7 @@ const propertyCardsData = [
     sqft: "2164 sq.ft",
     sqftType: "SuperBuilt-up",
     features: [
-      "20+ Amenities",
+      "20+ Amminities",
       "Premium Location + Locality",
       "2 Alloted car Parking",
     ],
@@ -1231,9 +1231,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/ELYSIUM-01.png",
-      "/images/ELYSIUM-02.png",
-      "/images/ELYSIUM-03.png",
+      "images/ELYSIUM-01.png",
+      "images/ELYSIUM-02.png",
+      "images/ELYSIUM-03.png",
     ],
     locationTag: "",
     propertyLocation: "Adani-Shantigram",
@@ -1246,7 +1246,7 @@ const propertyCardsData = [
     sqftType: "SuperBuilt-up",
     features: [
       "Planned With Breathing Engineering",
-      "20+ Amenities",
+      "20+ Amminities",
       "Premium Location + Locality",
       "1 Alloted car Parking",
     ],
@@ -1260,9 +1260,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Greenfield-01.jpeg",
-      "/images/Greenfield-02.jpeg",
-      "/images/Greenfield-03.jpeg",
+      "images/Greenfield-01.jpeg",
+      "images/Greenfield-02.jpeg",
+      "images/Greenfield-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "Adani-Shantigram",
@@ -1275,7 +1275,7 @@ const propertyCardsData = [
     sqftType: "SuperBuilt-up",
     features: [
       "Eco-friendly green building",
-      "20+ Amenities",
+      "20+ Amminities",
       "Premium Location + Locality",
       "2 Alloted car Parking",
     ],
@@ -1289,9 +1289,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Greenfield-01.jpeg",
-      "/images/Greenfield-02.jpeg",
-      "/images/Greenfield-03.jpeg",
+      "images/Greenfield-01.jpeg",
+      "images/Greenfield-02.jpeg",
+      "images/Greenfield-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "Adani-Shantigram",
@@ -1304,7 +1304,7 @@ const propertyCardsData = [
     sqftType: "SuperBuilt-up",
     features: [
       "Eco-friendly green building",
-      "20+ Amenities",
+      "20+ Amminities",
       "Premium Location + Locality",
       "3 Alloted car Parking",
     ],
@@ -1317,7 +1317,7 @@ const propertyCardsData = [
     price: 234,
     soldOut: false,
 
-    images: ["/images/Paarijat-01.jpeg", "/images/Paarijat-02.jpeg"],
+    images: ["images/Paarijat-01.jpeg", "images/Paarijat-02.jpeg"],
     locationTag: "",
     propertyLocation: "Adani-Shantigram",
     propertyLocationImage: "Brochure Image*",
@@ -1329,7 +1329,7 @@ const propertyCardsData = [
     sqftType: "SuperBuilt-up",
     features: [
       "Ready to Move",
-      "20+ Amenities",
+      "20+ Amminities",
       "Premium Location + Locality",
       "3 Alloted car Parking",
     ],
@@ -1368,7 +1368,7 @@ const propertyCardsData = [
     price: 210,
     soldOut: false,
 
-    images: ["/images/Skyline-01.jpeg", "/images/Skyline-02.jpeg"],
+    images: ["images/Skyline-01.jpeg", "images/Skyline-02.jpeg"],
     locationTag: "",
     propertyLocation: "Adani-Shantigram",
     propertyLocationImage: "Brochure Image*",
@@ -1381,7 +1381,7 @@ const propertyCardsData = [
     features: [
       "opp.Belvedere Golf club",
       "4 Side Open project",
-      "20+ Podium Amenities",
+      "20+ Podium Amminities",
       "Premium Location + Locality",
       "2 Alloted car Parking",
     ],
@@ -1395,9 +1395,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/The-Westpark-01.jpeg",
-      "/images/The-Westpark-02.jpeg",
-      "/images/The-Westpark-03.jpeg",
+      "images/The-Westpark-01.jpeg",
+      "images/The-Westpark-02.jpeg",
+      "images/The-Westpark-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "Adani-Shantigram",
@@ -1419,10 +1419,10 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/The-North-Park-01.jpg",
-      "/images/The-North-Park-02.jpg",
-      "/images/The-North-Park-03.jpg",
-      "/images/The-North-Park-04.jpg",
+      "images/The-North-Park-01.jpg",
+      "images/The-North-Park-02.jpg",
+      "images/The-North-Park-03.jpg",
+      "images/The-North-Park-04.jpg",
     ],
     locationTag: "",
     propertyLocation: "Adani-Shantigram",
@@ -1433,7 +1433,7 @@ const propertyCardsData = [
 
     sqft: "550 sq.yd Land + 550 sq",
     sqftType: "SuperBuilt-up",
-    features: ["20+ Podium Amenities", "Premium Location + Locality"],
+    features: ["20+ Podium Amminities", "Premium Location + Locality"],
   },
   {
     id: 54,
@@ -1444,9 +1444,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Belrosa-01.jpeg",
-      "/images/Belrosa-02.jpeg",
-      "/images/Belrosa-03.jpeg",
+      "images/Belrosa-01.jpeg",
+      "images/Belrosa-02.jpeg",
+      "images/Belrosa-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "Adani-Shantigram",
@@ -1459,7 +1459,7 @@ const propertyCardsData = [
     sqftType: "SuperBuilt-up",
     features: [
       "32 Story Project",
-      "40+ Amenities",
+      "40+ Amminities",
       "Premium Location + Locality",
       "4-5 Alloted Car Parking",
     ],
@@ -1482,7 +1482,7 @@ const propertyCardsData = [
 
     sqft: "2000 to 2020 sq.ft",
     sqftType: "SuperBuilt-up",
-    features: ["40+ Amenities", "Premium Location + Locality"],
+    features: ["40+ Amminities", "Premium Location + Locality"],
   },
   {
     id: 56,
@@ -1493,9 +1493,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Shilp-Residency-01.jpeg",
-      "/images/Shilp-Residency-02.jpeg",
-      "/images/Shilp-Residency-03.jpeg",
+      "images/Shilp-Residency-01.jpeg",
+      "images/Shilp-Residency-02.jpeg",
+      "images/Shilp-Residency-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "Gota",
@@ -1507,7 +1507,7 @@ const propertyCardsData = [
     sqft: "2050 - 2360 sq.ft",
     sqftType: "SuperBuilt-up",
     features: [
-      "40+ Amenities",
+      "40+ Amminities",
       "1-2 Alloted Car Parking",
       "2 Side Road Corner Project",
       "Nr. S.G Highway",
@@ -1522,9 +1522,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Shilp-Business-Gateway-01.jpeg",
-      "/images/Shilp-Business-Gateway-02.jpg",
-      "/images/Shilp-Business-Gateway-03.jpg",
+      "images/Shilp-Business-Gateway-01.jpeg",
+      "images/Shilp-Business-Gateway-02.jpg",
+      "images/Shilp-Business-Gateway-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "JAGATPUR",
@@ -1546,9 +1546,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Celestial-01.jpeg",
-      "/images/Celestial-02.jpeg",
-      "/images/Celestial-03.jpeg",
+      "images/Celestial-01.jpeg",
+      "images/Celestial-02.jpeg",
+      "images/Celestial-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "VAISHNODEVI",
@@ -1560,7 +1560,7 @@ const propertyCardsData = [
     sqft: "1194sq.ft to 1568sq",
     sqftType: "Carpet",
     features: [
-      "15 Podium Amenities",
+      "15 Podium Amminities",
       "2 Alloted Car Parking",
       "2 Side Road Corner Project",
       "At S.G Highway",
@@ -1575,9 +1575,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Sandlewood-01.jpg",
-      "/images/Sandlewood-02.jpg",
-      "/images/Sandlewood-03.jpg",
+      "images/Sandlewood-01.jpg",
+      "images/Sandlewood-02.jpg",
+      "images/Sandlewood-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "RANDESAN,GANDHINAGAR",
@@ -1589,7 +1589,7 @@ const propertyCardsData = [
     sqft: "2862sq.ft to 4042sq",
     sqftType: "SuperBuilt-up",
     features: [
-      "90+ Amenities",
+      "90+ Amminities",
       "2 Alloted Car Parking",
       "Nr. Dholeshwar Mahadev Temple",
       "4 Side open Project",
@@ -1605,9 +1605,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/IRIS-01.jpg",
-      "/images/IRIS-02.jpg",
-      "/images/IRIS-03.jpg",
+      "images/IRIS-01.jpg",
+      "images/IRIS-02.jpg",
+      "images/IRIS-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "KUDASAN,GANDHINAGAR",
@@ -1622,7 +1622,7 @@ const propertyCardsData = [
       "1 Alloted Car Parking",
       "Connectivity to Adalaj and S.G Highway",
       "2 Side Road Corner Project",
-      "All Amenities on Terrace",
+      "All Amminities on Terrace",
     ],
   },
   {
@@ -1634,9 +1634,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Azalea-01.jpg",
-      "/images/Azalea-02.jpg",
-      "/images/Azalea-03.jpg",
+      "images/Azalea-01.jpg",
+      "images/Azalea-02.jpg",
+      "images/Azalea-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "SARGASAN,GANDHINAGAR",
@@ -1651,7 +1651,7 @@ const propertyCardsData = [
       "2 Alloted Car Parking",
       "at KH Road",
       "2 Side Road Corner Project",
-      "35+ Amenities",
+      "35+ Amminities",
     ],
   },
   {
@@ -1663,8 +1663,8 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Siddharth-Heaven-01.jpg",
-      "/images/Siddharth-Heaven-02.jpg",
+      "images/Siddharth-Heaven-01.jpg",
+      "images/Siddharth-Heaven-02.jpg",
     ],
     locationTag: "",
     propertyLocation: "VAVOL,GANDHINAGAR",
@@ -1679,7 +1679,7 @@ const propertyCardsData = [
       "2 Alloted Car Parking",
       "3 minutes from Mahatma Mandir & Railway station",
       "2 Side Road Corner Project",
-      "15+ Amenities",
+      "15+ Amminities",
     ],
   },
   {
@@ -1691,9 +1691,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/De-casa-01.jpg",
-      "/images/De-casa-02.jpg",
-      "/images/De-casa-03.jpg",
+      "images/De-casa-01.jpg",
+      "images/De-casa-02.jpg",
+      "images/De-casa-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Bhuyangdev",
@@ -1707,7 +1707,7 @@ const propertyCardsData = [
     features: [
       "1-2 Alloted Car Parking",
       "Nr. Jain Derasar & Swarnim Baug",
-      "15+ Amenities",
+      "15+ Amminities",
     ],
   },
   {
@@ -1719,9 +1719,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Solaris-Residency-01.jpg",
-      "/images/Solaris-Residency-02.jpg",
-      "/images/Solaris-Residency-03.jpg",
+      "images/Solaris-Residency-01.jpg",
+      "images/Solaris-Residency-02.jpg",
+      "images/Solaris-Residency-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Bhuyangdev",
@@ -1736,7 +1736,7 @@ const propertyCardsData = [
       "Biggest balcony in near by vicinity",
       "1 Alloted Car Parking",
       "Three Road Corner plot",
-      "25+ Amenities",
+      "25+ Amminities",
     ],
   },
   {
@@ -1773,9 +1773,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Azalea-01.jpg",
-      "/images/Azalea-02.jpg",
-      "/images/Azalea-03.jpg",
+      "images/Azalea-01.jpg",
+      "images/Azalea-02.jpg",
+      "images/Azalea-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "SARGASAN,GANDHINAGAR",
@@ -1790,7 +1790,7 @@ const propertyCardsData = [
       "2 Alloted Car Parking",
       "at KH Road",
       "2 Side Road Corner Project",
-      "35+ Amenities",
+      "35+ Amminities",
     ],
   },
   {
@@ -1802,9 +1802,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Ramershwarcity-01.jpeg",
-      "/images/Ramershwarcity-02.jpeg",
-      "/images/Ramershwarcity-03.jpeg",
+      "images/Ramershwarcity-01.jpeg",
+      "images/Ramershwarcity-02.jpeg",
+      "images/Ramershwarcity-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "NARANPURA",
@@ -1819,7 +1819,7 @@ const propertyCardsData = [
       "1 Alloted Car Parking",
       "3 Side Road Corner Project",
       "Close to Essentials Jain Derasar, schools, hospitals, malls",
-      "52+ Amenities",
+      "52+ Amminities",
     ],
   },
   {
@@ -1831,9 +1831,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Ganesh-Luxuria-01.jpeg",
-      "/images/Ganesh-Luxuria-02.jpeg",
-      "/images/Ganesh-Luxuria-03.jpeg",
+      "images/Ganesh-Luxuria-01.jpeg",
+      "images/Ganesh-Luxuria-02.jpeg",
+      "images/Ganesh-Luxuria-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "NARANPURA",
@@ -1846,7 +1846,7 @@ const propertyCardsData = [
     sqftType: "SuperBuilt-up",
     features: [
       "Only Residential Project",
-      "25+ Amenities",
+      "25+ Amminities",
       "2 Alloted Car Parking",
     ],
   },
@@ -1868,7 +1868,7 @@ const propertyCardsData = [
 
     sqft: "1233 - 2133 sq.ft",
     sqftType: "SuperBuilt-up",
-    features: ["25+ Amenities", "1 Alloted Car Parking"],
+    features: ["25+ Amminities", "1 Alloted Car Parking"],
   },
   {
     id: 70,
@@ -1879,9 +1879,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Empiirean-01.jpeg",
-      "/images/Empiirean-02.jpeg",
-      "/images/Empiirean-03.jpeg",
+      "images/Empiirean-01.jpeg",
+      "images/Empiirean-02.jpeg",
+      "images/Empiirean-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "Chharodi",
@@ -1894,7 +1894,7 @@ const propertyCardsData = [
     sqftType: "SuperBuilt-up",
     features: [
       "Seperate lift",
-      "30+ Amenities",
+      "30+ Amminities",
       "2 Alloted Car Parking",
       "Vehicle-Free Ground Floor",
     ],
@@ -1908,9 +1908,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Skyzenia-01.jpeg",
-      "/images/Skyzenia-02.jpeg",
-      "/images/Skyzenia-03.jpeg",
+      "images/Skyzenia-01.jpeg",
+      "images/Skyzenia-02.jpeg",
+      "images/Skyzenia-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "Science-Park",
@@ -1923,7 +1923,7 @@ const propertyCardsData = [
     sqftType: "SuperBuilt-up",
     features: [
       "41 Storeys Project",
-      "25+ Club Level Amenities",
+      "25+ Club Level Amminities",
       "3 to 4 Alloted Car Parking",
     ],
   },
@@ -1936,9 +1936,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Skyzenia-01.jpeg",
-      "/images/Skyzenia-02.jpeg",
-      "/images/Skyzenia-03.jpeg",
+      "images/Skyzenia-01.jpeg",
+      "images/Skyzenia-02.jpeg",
+      "images/Skyzenia-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "Science-Park",
@@ -1951,7 +1951,7 @@ const propertyCardsData = [
     sqftType: "SuperBuilt-up",
     features: [
       "41 Storeys Project",
-      "25+ Club Level Amenities",
+      "25+ Club Level Amminities",
       "3 to 4 Alloted Car Parking",
     ],
   },
@@ -1964,9 +1964,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Brillia-01.jpg",
-      "/images/Brillia-02.jpg",
-      "/images/Brillia-03.jpg",
+      "images/Brillia-01.jpg",
+      "images/Brillia-02.jpg",
+      "images/Brillia-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Chharodi",
@@ -1991,7 +1991,7 @@ const propertyCardsData = [
     price: 52,
     soldOut: false,
 
-    images: ["/images/Prism-02.jpeg", "/images/Prism-03.jpeg"],
+    images: ["images/Prism-02.jpeg", "images/Prism-03.jpeg"],
     locationTag: "",
     propertyLocation: "VAISHNODEVI",
     propertyLocationImage: "Brochure Image*",
@@ -2011,7 +2011,7 @@ const propertyCardsData = [
     price: 69,
     soldOut: false,
 
-    images: ["/images/Vivaan-Ixora-01.jpeg", "/images/Vivaan-Ixora-02.jpeg"],
+    images: ["images/Vivaan-Ixora-01.jpeg", "images/Vivaan-Ixora-02.jpeg"],
     locationTag: "",
     propertyLocation: "Zundal",
     propertyLocationImage: "Brochure Image*",
@@ -2022,7 +2022,7 @@ const propertyCardsData = [
     sqft: "1836 sq.ft",
     sqftType: "SuperBuilt-up",
     features: [
-      "15+ Amenities",
+      "15+ Amminities",
       "2 side Road Corner Project",
       "No Vehicle Zone At Ground Floor",
       "Nr.Hillock Hotel",
@@ -2037,9 +2037,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Vivaan-Essence-01.jpeg",
-      "/images/Vivaan-Essence-02.jpeg",
-      "/images/Vivaan-Essence-03.jpeg",
+      "images/Vivaan-Essence-01.jpeg",
+      "images/Vivaan-Essence-02.jpeg",
+      "images/Vivaan-Essence-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "Zundal",
@@ -2051,7 +2051,7 @@ const propertyCardsData = [
     sqft: "1404 sq.ft",
     sqftType: "SuperBuilt-up",
     features: [
-      "15+ Amenities",
+      "15+ Amminities",
       "1 Alloted Car Parking",
       "No Vehicle Zone At Ground Floor",
       "Nr.Hillock Hotel",
@@ -2066,9 +2066,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Vivaan-Solitaire-01.jpeg",
-      "/images/Vivaan-Solitaire-02.jpeg",
-      "/images/Vivaan-Solitaire-03.jpeg",
+      "images/Vivaan-Solitaire-01.jpeg",
+      "images/Vivaan-Solitaire-02.jpeg",
+      "images/Vivaan-Solitaire-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "Zundal",
@@ -2080,7 +2080,7 @@ const propertyCardsData = [
     sqft: "1827 sq.ft",
     sqftType: "SuperBuilt-up",
     features: [
-      "15+ Amenities",
+      "15+ Amminities",
       "Stand Alone Single Tower",
       "No Vehicle Zone",
       "Nr.Hillock Hotel",
@@ -2095,9 +2095,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Vivaan-Aura-01.jpeg",
-      "/images/Vivaan-Aura-02.jpeg",
-      "/images/Vivaan-Aura-03.jpeg",
+      "images/Vivaan-Aura-01.jpeg",
+      "images/Vivaan-Aura-02.jpeg",
+      "images/Vivaan-Aura-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "Zundal",
@@ -2109,7 +2109,7 @@ const propertyCardsData = [
     sqft: "1422 - 1836 sq",
     sqftType: "SuperBuilt-up",
     features: [
-      "15+ Amenities",
+      "15+ Amminities",
       "1 Alloted Car Parking",
       "No Vehicle Zone",
       "Nr.Hillock Hotel",
@@ -2124,9 +2124,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Vivaan-Aura-01.jpeg",
-      "/images/Vivaan-Aura-02.jpeg",
-      "/images/Vivaan-Aura-03.jpeg",
+      "images/Vivaan-Aura-01.jpeg",
+      "images/Vivaan-Aura-02.jpeg",
+      "images/Vivaan-Aura-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "Zundal",
@@ -2148,9 +2148,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Vivaan-Oliver-01.jpeg",
-      "/images/Vivaan-Oliver-02.jpeg",
-      "/images/Vivaan-Oliver-03.jpeg",
+      "images/Vivaan-Oliver-01.jpeg",
+      "images/Vivaan-Oliver-02.jpeg",
+      "images/Vivaan-Oliver-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "Zundal",
@@ -2162,7 +2162,7 @@ const propertyCardsData = [
     sqft: "1836 sq.ft",
     sqftType: "SuperBuilt-up",
     features: [
-      "20+ Amenities",
+      "20+ Amminities",
       "2 side Road corner Project",
       "Near Hillock Hotel",
       "No Vehicle Zone",
@@ -2177,9 +2177,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Vivaan-Orbit-01.jpeg",
-      "/images/Vivaan-Orbit-02.jpeg",
-      "/images/Vivaan-Orbit-03.jpeg",
+      "images/Vivaan-Orbit-01.jpeg",
+      "images/Vivaan-Orbit-02.jpeg",
+      "images/Vivaan-Orbit-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "Zundal",
@@ -2192,7 +2192,7 @@ const propertyCardsData = [
     sqftType: "SuperBuilt-up",
     features: [
       "Butterfly Concept",
-      "20+ Amenities",
+      "20+ Amminities",
       "2 side Road corner Project",
       "Near Hillock Hotel",
     ],
@@ -2205,7 +2205,7 @@ const propertyCardsData = [
     price: 224,
     soldOut: false,
 
-    images: ["/images/Orion-01.jpeg", "/images/Orion-02.jpg"],
+    images: ["images/Orion-01.jpeg", "images/Orion-02.jpg"],
     locationTag: "",
     propertyLocation: "Chharodi",
     propertyLocationImage: "Brochure Image*",
@@ -2225,7 +2225,7 @@ const propertyCardsData = [
     price: 113,
     soldOut: false,
 
-    images: ["/images/Aryajeet-surya-01.jpeg"],
+    images: ["images/Aryajeet-surya-01.jpeg"],
     locationTag: "",
     propertyLocation: "Naranpura",
     propertyLocationImage: "Brochure Image*",
@@ -2236,7 +2236,7 @@ const propertyCardsData = [
     sqft: "2300 sq.ft ",
     sqftType: "SuperBuilt-up",
     features: [
-      "25+ Amenities",
+      "25+ Amminities",
       "1 Alloted Car Parking",
       "4 Side Road Corner Project",
     ],
@@ -2250,9 +2250,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Arya-edge-01.jpg",
-      "/images/Arya-edge-02.jpg",
-      "/images/Arya-edge-03.jpg",
+      "images/Arya-edge-01.jpg",
+      "images/Arya-edge-02.jpg",
+      "images/Arya-edge-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "BOPAL",
@@ -2273,7 +2273,7 @@ const propertyCardsData = [
     price: 240,
     soldOut: false,
 
-    images: ["/images/Nandita-01.jpeg", "/images/Nandita-02.jpeg"],
+    images: ["images/Nandita-01.jpeg", "images/Nandita-02.jpeg"],
     locationTag: "",
     propertyLocation: "Naranpura",
     propertyLocationImage: "Brochure Image*",
@@ -2283,7 +2283,7 @@ const propertyCardsData = [
 
     sqft: "3015 sq.ft",
     sqftType: "SuperBuilt-up",
-    features: ["Nr. D.k Patel hall", "10+ Amenities"],
+    features: ["Nr. D.k Patel hall", "10+ Amminities"],
   },
   {
     id: 86,
@@ -2294,9 +2294,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/La-Gracia-01.jpeg",
-      "/images/La-Gracia-02.jpeg",
-      "/images/La-Gracia-03.jpeg",
+      "images/La-Gracia-01.jpeg",
+      "images/La-Gracia-02.jpeg",
+      "images/La-Gracia-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "Memnager",
@@ -2322,9 +2322,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Olive-Greens-01.jpeg",
-      "/images/Olive-Greens-02.jpeg",
-      "/images/Olive-Greens-03.jpeg",
+      "images/Olive-Greens-01.jpeg",
+      "images/Olive-Greens-02.jpeg",
+      "images/Olive-Greens-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "Gota",
@@ -2337,7 +2337,7 @@ const propertyCardsData = [
     sqftType: "SuperBuilt-up",
     features: [
       "Ready To move Property",
-      "28+ Amenities",
+      "28+ Amminities",
       "At S.G Highway",
       "2 Alloted Car Parking",
     ],
@@ -2351,9 +2351,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Arya-Epoch-01.jpeg",
-      "/images/Arya-Epoch-02.jpeg",
-      "/images/Arya-Epoch-03.jpeg",
+      "images/Arya-Epoch-01.jpeg",
+      "images/Arya-Epoch-02.jpeg",
+      "images/Arya-Epoch-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "Navrangpura",
@@ -2374,7 +2374,7 @@ const propertyCardsData = [
     price: 110,
     soldOut: false,
 
-    images: ["/images/REGALIA-01.jpg", "/images/Regalia-02.jpg"],
+    images: ["images/REGALIA-01.jpg", "images/Regalia-02.jpg"],
     locationTag: "",
     propertyLocation: "Jagatpur",
     propertyLocationImage: "Brochure Image*",
@@ -2385,7 +2385,7 @@ const propertyCardsData = [
     sqft: "2313 - 3240 sq.ft",
     sqftType: "SuperBuilt-up",
     features: [
-      "15+ Amenities",
+      "15+ Amminities",
       "Easy Connectivity TO S.G Highway",
       "1 to 2 Alloted car parking",
       "2 Side Road Corner Project",
@@ -2399,7 +2399,7 @@ const propertyCardsData = [
     price: 105,
     soldOut: false,
 
-    images: ["/images/REGALIA-01.jpg", "/images/Regalia-02.jpg"],
+    images: ["images/REGALIA-01.jpg", "images/Regalia-02.jpg"],
     locationTag: "",
     propertyLocation: "Jagatpur",
     propertyLocationImage: "Brochure Image*",
@@ -2422,7 +2422,7 @@ const propertyCardsData = [
     price: 70,
     soldOut: false,
 
-    images: ["/images/Bluebell-01.jpg", "/images/Bluebell-02.jpg"],
+    images: ["images/Bluebell-01.jpg", "images/Bluebell-02.jpg"],
     locationTag: "",
     propertyLocation: "Jagatpur",
     propertyLocationImage: "Brochure Image*",
@@ -2433,7 +2433,7 @@ const propertyCardsData = [
     sqft: "1413 - 2142 sq.ft",
     sqftType: "SuperBuilt-up",
     features: [
-      "25+ Amenities",
+      "25+ Amminities",
       "1-2 Alloted car parking",
       "100 Ft main road Project",
     ],
@@ -2447,9 +2447,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Archway-01.jpg",
-      "/images/Archway-02.jpg",
-      "/images/Archway-03.jpg",
+      "images/Archway-01.jpg",
+      "images/Archway-02.jpg",
+      "images/Archway-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Jagatpur",
@@ -2461,7 +2461,7 @@ const propertyCardsData = [
     sqft: "1936 - 2512 sq.ft",
     sqftType: "SuperBuilt-up",
     features: [
-      "25+ Amenities",
+      "25+ Amminities",
       "1 to 2 Alloted car parking",
       "Reflexology park",
     ],
@@ -2475,9 +2475,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Agusta-01.jpg",
-      "/images/Agusta-02.jpg",
-      "/images/Agusta-03.jpg",
+      "images/Agusta-01.jpg",
+      "images/Agusta-02.jpg",
+      "images/Agusta-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Jagatpur",
@@ -2489,7 +2489,7 @@ const propertyCardsData = [
     sqft: "2046 sq.ft",
     sqftType: "SuperBuilt-up",
     features: [
-      "25+ Amenities",
+      "25+ Amminities",
       "2 Alloted car parking",
       "At Malabar County Road.",
     ],
@@ -2502,7 +2502,7 @@ const propertyCardsData = [
     price: 69,
     soldOut: false,
 
-    images: ["/images/Artius-01.jpg"],
+    images: ["images/Artius-01.jpg"],
     locationTag: "",
     propertyLocation: "Jagatpur",
     propertyLocationImage: "Brochure Image*",
@@ -2512,7 +2512,7 @@ const propertyCardsData = [
 
     sqft: "1280 - 1680 sq.ft",
     sqftType: "SuperBuilt-up",
-    features: ["25+ Amenities", "1 Alloted car parking"],
+    features: ["25+ Amminities", "1 Alloted car parking"],
   },
   {
     id: 95,
@@ -2523,9 +2523,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/AATMANTAN-01.jpg",
-      "/images/AATMANTAN-02.jpg",
-      "/images/AATMANTAN-04.png",
+      "images/AATMANTAN-01.jpg",
+      "images/AATMANTAN-02.jpg",
+      "images/AATMANTAN-04.png",
     ],
     locationTag: "",
     propertyLocation: "Gota",
@@ -2537,7 +2537,7 @@ const propertyCardsData = [
     sqft: "3300 sq.ft",
     sqftType: "SuperBuilt-up",
     features: [
-      "30+ Amenities",
+      "30+ Amminities",
       "1 Alloted car parking",
       "Double-Height Living Rooms",
       "The project includes a temple and a Derasar.",
@@ -2551,7 +2551,7 @@ const propertyCardsData = [
     price: 231,
     soldOut: false,
 
-    images: ["/images/Elysia-02.jpg", "/images/Elysia-03.jpg"],
+    images: ["images/Elysia-02.jpg", "images/Elysia-03.jpg"],
     locationTag: "",
     propertyLocation: "Gift City",
     propertyLocationImage: "Brochure Image*",
@@ -2562,7 +2562,7 @@ const propertyCardsData = [
     sqft: "1817 - 2665 sq.ft",
     sqftType: "SuperBuilt-up",
     features: [
-      "30+ Amenities",
+      "30+ Amminities",
       "1 Alloted car parking",
       "Double-Height Living Rooms",
     ],
@@ -2602,9 +2602,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Taurus-01.jpg",
-      "/images/Taurus-02.jpg",
-      "/images/Taurus-03.jpg",
+      "images/Taurus-01.jpg",
+      "images/Taurus-02.jpg",
+      "images/Taurus-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "VAISHNODEVI",
@@ -2616,7 +2616,7 @@ const propertyCardsData = [
     sqft: "4347 + 1993 Sq",
     sqftType: "SuperBuilt-up",
     features: [
-      "25+ Amenities",
+      "25+ Amminities",
       "4 Side Open Flats",
       "Connectivity to SG Highway & SP Ring Road",
       "Seperate Lift",
@@ -2631,7 +2631,7 @@ const propertyCardsData = [
     price: 80,
     soldOut: false,
 
-    images: ["/images/AATMANTAN-01.jpg", "/images/AATMANTAN-02.jpg"],
+    images: ["images/AATMANTAN-01.jpg", "images/AATMANTAN-02.jpg"],
     locationTag: "",
     propertyLocation: "Gota",
     propertyLocationImage: "Brochure Image*",
@@ -2652,9 +2652,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Meghalaya-01.jpg",
-      "/images/Meghalaya-02.jpg",
-      "/images/Meghalaya-03.jpg",
+      "images/Meghalaya-01.jpg",
+      "images/Meghalaya-02.jpg",
+      "images/Meghalaya-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Navrangpura",
@@ -2680,7 +2680,7 @@ const propertyCardsData = [
     price: 151,
     soldOut: false,
 
-    images: ["/images/DIVYA-Hights-02.jpg", "/images/DIVYA-Hights-03.jpg"],
+    images: ["images/DIVYA-Hights-02.jpg", "images/DIVYA-Hights-03.jpg"],
     locationTag: "",
     propertyLocation: "VAISHNODEVI",
     propertyLocationImage: "Brochure Image*",
@@ -2691,7 +2691,7 @@ const propertyCardsData = [
     sqft: "2727 sq.ft",
     sqftType: "SuperBuilt-up",
     features: [
-      "30+ Amenities",
+      "30+ Amminities",
       "Personal Foyer,Separate Servant Entry",
       "2 Alloted Car Parking",
     ],
@@ -2705,9 +2705,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/dharohar-01.jpg",
-      "/images/dharohar-02.jpg",
-      "/images/dharohar-03.jpg",
+      "images/dharohar-01.jpg",
+      "images/dharohar-02.jpg",
+      "images/dharohar-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "VAISHNODEVI",
@@ -2720,7 +2720,7 @@ const propertyCardsData = [
     sqftType: "SuperBuilt-up",
     features: [
       "22 Storeys Project",
-      "30+ Amenities",
+      "30+ Amminities",
       "Pure Residential Project",
       "Nr.Zydus Corporate house",
     ],
@@ -2734,9 +2734,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/The-Nest-01.jpg",
-      "/images/The-Nest-02.jpg",
-      "/images/The-Nest-03.jpg",
+      "images/The-Nest-01.jpg",
+      "images/The-Nest-02.jpg",
+      "images/The-Nest-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "VAISHNODEVI",
@@ -2749,7 +2749,7 @@ const propertyCardsData = [
     sqftType: "SuperBuilt-up",
     features: [
       "22 Storeys Project",
-      "30+ Amenities",
+      "30+ Amminities",
       "Pure Residential Project",
       "Nr.Zydus Corporate house",
     ],
@@ -2763,9 +2763,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Artham-97.jpeg",
-      "/images/Artham-97-02.jpg",
-      "/images/Artham-97-03.jpeg",
+      "images/Artham-97.jpeg",
+      "images/Artham-97-02.jpg",
+      "images/Artham-97-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "VAISHNODEVI",
@@ -2777,7 +2777,7 @@ const propertyCardsData = [
     sqft: "2286 - 2502sq",
     sqftType: "SuperBuilt-up",
     features: [
-      "25+ Amenities",
+      "25+ Amminities",
       "Pure Residential Project",
       "2 Allotted Parking With One EV Charging",
     ],
@@ -2791,8 +2791,8 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Sakar-Sky-01.jpg",
-      "/images/Sakar-Sky-02.jpg", "/images/Sakar-Sky-03.jpg",
+      "images/Sakar-Sky-01.jpg",
+      "images/Sakar-Sky-02.jpg", "images/Sakar-Sky-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "VAISHNODEVI",
@@ -2804,7 +2804,7 @@ const propertyCardsData = [
     sqft: "2565 - 2700 sq.ft",
     sqftType: "SuperBuilt-up",
     features: [
-      "20+ Amenities",
+      "20+ Amminities",
       "Pure Residential Project",
       "1 Allotted car Parking",
     ],
@@ -2818,9 +2818,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Super-Shaligram-01.jpg",
-      "/images/Super-Shaligram-02.jpg",
-      "/images/Super-Shaligram-03.jpg",
+      "images/Super-Shaligram-01.jpg",
+      "images/Super-Shaligram-02.jpg",
+      "images/Super-Shaligram-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Gota",
@@ -2833,7 +2833,7 @@ const propertyCardsData = [
     sqftType: "SuperBuilt-up",
     features: [
       "21 Storeys Project",
-      "20+ Amenities",
+      "20+ Amminities",
       "Prime Location of S.G Highway",
     ],
   },
@@ -2846,10 +2846,10 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Evana-01.jpg",
-      "/images/Evana-02.jpg",
-      "/images/Evana-03.jpg",
-      "/images/Evana-04.jpg",
+      "images/Evana-01.jpg",
+      "images/Evana-02.jpg",
+      "images/Evana-03.jpg",
+      "images/Evana-04.jpg",
     ],
     locationTag: "",
     propertyLocation: "Vaishnodevi",
@@ -2875,10 +2875,10 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Evana-01.jpg",
-      "/images/Evana-02.jpg",
-      "/images/Evana-03.jpg",
-      "/images/Evana-04.jpg",
+      "images/Evana-01.jpg",
+      "images/Evana-02.jpg",
+      "images/Evana-03.jpg",
+      "images/Evana-04.jpg",
     ],
     locationTag: "",
     propertyLocation: "Vaishnodevi",
@@ -2904,9 +2904,9 @@ const propertyCardsData = [
   //   soldOut: false,
 
   //   images: [
-  //     "/images/Shivanjali-01.jpg",
-  //     "/images/Shivanjali-02.jpg",
-  //     "/images/Shivanjali-03.jpg",
+  //     "images/Shivanjali-01.jpg",
+  //     "images/Shivanjali-02.jpg",
+  //     "images/Shivanjali-03.jpg",
   //   ],
   //   locationTag: "",
   //   propertyLocation: "Kudasan,Gandhinagar",
@@ -2928,10 +2928,10 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Embrace-the-wind-01.jpg",
-      "/images/Embrace-the-wind-02.jpg",
-      "/images/Embrace-the-wind-03.jpg",
-      "/images/Embrace-the-wind-04.jpg",
+      "images/Embrace-the-wind-01.jpg",
+      "images/Embrace-the-wind-02.jpg",
+      "images/Embrace-the-wind-03.jpg",
+      "images/Embrace-the-wind-04.jpg",
     ],
     locationTag: "",
     propertyLocation: "Sargasan,Gandhinagar",
@@ -2956,7 +2956,7 @@ const propertyCardsData = [
     price: 124,
     soldOut: false,
 
-    images: ["/images/The-gate-1-01.jpg"],
+    images: ["images/The-gate-1-01.jpg"],
     locationTag: "",
     propertyLocation: "PDPU Road,Gandhinagar",
     propertyLocationImage: "Brochure Image*",
@@ -2982,9 +2982,9 @@ const propertyCardsData = [
   //   soldOut: false,
 
   //   images: [
-  //     "/images/The-gate-x-01.png",
-  //     "/images/The-gate-x-02.png",
-  //     "/images/The-gate-x-03.png",
+  //     "images/The-gate-x-01.png",
+  //     "images/The-gate-x-02.png",
+  //     "images/The-gate-x-03.png",
   //   ],
   //   locationTag: "",
   //   propertyLocation: "PDPU Road,Gandhinagar",
@@ -3011,9 +3011,9 @@ const propertyCardsData = [
   //   soldOut: false,
 
   //   images: [
-  //     "/images/The-gate-2-01.jpg",
-  //     "/images/The-gate-2-02.jpg",
-  //     "/images/The-gate-2-03.jpg",
+  //     "images/The-gate-2-01.jpg",
+  //     "images/The-gate-2-02.jpg",
+  //     "images/The-gate-2-03.jpg",
   //   ],
   //   locationTag: "",
   //   propertyLocation: "PDPU Road,Gandhinagar",
@@ -3035,9 +3035,9 @@ const propertyCardsData = [
   //   soldOut: false,
 
   //   images: [
-  //     "/images/Amaryllis-01.jpg",
-  //     "/images/Amaryllis-02.jpg",
-  //     "/images/Amaryllis-03.jpg",
+  //     "images/Amaryllis-01.jpg",
+  //     "images/Amaryllis-02.jpg",
+  //     "images/Amaryllis-03.jpg",
   //   ],
   //   locationTag: "",
   //   propertyLocation: "Science-Park",
@@ -3063,9 +3063,9 @@ const propertyCardsData = [
   //   soldOut: false,
 
   //   images: [
-  //     "/images/Altitude-01.jpg",
-  //     "/images/Altitude-02.jpg",
-  //     "/images/Altitude-03.jpg",
+  //     "images/Altitude-01.jpg",
+  //     "images/Altitude-02.jpg",
+  //     "images/Altitude-03.jpg",
   //   ],
   //   locationTag: "",
   //   propertyLocation: "Science-Park",
@@ -3091,9 +3091,9 @@ const propertyCardsData = [
   //   soldOut: false,
 
   //   images: [
-  //     "/images/August-01.jpg",
-  //     "/images/August-02.png",
-  //     "/images/August-03.png",
+  //     "images/August-01.jpg",
+  //     "images/August-02.png",
+  //     "images/August-03.png",
   //   ],
   //   locationTag: "",
   //   propertyLocation: "Science-Park",
@@ -3120,9 +3120,9 @@ const propertyCardsData = [
   //   soldOut: false,
 
   //   images: [
-  //     "/images/Anammya-01.png",
-  //     "/images/Anammya-02.png",
-  //     "/images/Anammya-03.png",
+  //     "images/Anammya-01.png",
+  //     "images/Anammya-02.png",
+  //     "images/Anammya-03.png",
   //   ],
   //   locationTag: "",
   //   propertyLocation: "Science-Park",
@@ -3150,8 +3150,8 @@ const propertyCardsData = [
 
     images: [
       "images/abode-01.jpg",
-      "/images/abode-02.jpg",
-      "/images/abode-03.jpg",
+      "images/abode-02.jpg",
+      "images/abode-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Science Park",
@@ -3177,9 +3177,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/abode-01.jpg",
-      "/images/abode-02.jpg",
-      "/images/abode-03.jpg",
+      "images/abode-01.jpg",
+      "images/abode-02.jpg",
+      "images/abode-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Science Park",
@@ -3202,8 +3202,8 @@ const propertyCardsData = [
 
     images: [
       "images/Imperial-01.jpg",
-      "/images/Imperial-02.jpg",
-      "/images/Imperial-03.png",
+      "images/Imperial-02.jpg",
+      "images/Imperial-03.png",
     ],
     locationTag: "",
     propertyLocation: "Science Park",
@@ -3230,8 +3230,8 @@ const propertyCardsData = [
 
     images: [
       "images/indus-01.jpg",
-      "/images/indus-02.jpeg",
-      "/images/indus-03.jpeg",
+      "images/indus-02.jpeg",
+      "images/indus-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "Bodakdev",
@@ -3253,9 +3253,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Gharana-01.jpg",
-      "/images/Gharana-02.avif",
-      "/images/Gharana-03.png",
+      "images/Gharana-01.jpg",
+      "images/Gharana-02.avif",
+      "images/Gharana-03.png",
     ],
     locationTag: "",
     propertyLocation: "Iscon-Ambli Road",
@@ -3278,8 +3278,8 @@ const propertyCardsData = [
 
     images: [
       "images/centroid-01.jpg",
-      "/images/centroid-02.jpg",
-      "/images/centroid-03.jpg",
+      "images/centroid-02.jpg",
+      "images/centroid-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Iscon-Ambli Road",
@@ -3305,9 +3305,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/manor-01.jpg",
-      "/images/manor-02.jpg",
-      "/images/manor-03.jpg",
+      "images/manor-01.jpg",
+      "images/manor-02.jpg",
+      "images/manor-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Iscon",
@@ -3335,8 +3335,8 @@ const propertyCardsData = [
 
     images: [
       "images/swati18-01.jpg",
-      "/images/swati18-02.jpg",
-      "/images/swati18-03.jpg",
+      "images/swati18-02.jpg",
+      "images/swati18-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Linkin-Road",
@@ -3358,9 +3358,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/tridentExperia-01.jpg",
-      "/images/tridentExperia-02.jpg",
-      "/images/tridentExperia-03.jpg",
+      "images/tridentExperia-01.jpg",
+      "images/tridentExperia-02.jpg",
+      "images/tridentExperia-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Vaishnodevi",
@@ -3382,9 +3382,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Rosedel-01.jpg",
-      "/images/Rosedel-02.jpg",
-      "/images/Rosedel-03.jpg",
+      "images/Rosedel-01.jpg",
+      "images/Rosedel-02.jpg",
+      "images/Rosedel-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Shela",
@@ -3411,8 +3411,8 @@ const propertyCardsData = [
 
     images: [
       "images/Turquoise-Agasiya-01.jpg",
-      "/images/Turquoise-Agasiya-02.jpg",
-      "/images/Turquoise-Agasiya-03.jpg",
+      "images/Turquoise-Agasiya-02.jpg",
+      "images/Turquoise-Agasiya-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Wapa",
@@ -3439,9 +3439,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Turquoise-Glamouere-01.jpg",
-      "/images/Turquoise-Glamouere-02.jpg",
-      "/images/Turquoise-Glamouere-03.jpg",
+      "images/Turquoise-Glamouere-01.jpg",
+      "images/Turquoise-Glamouere-02.jpg",
+      "images/Turquoise-Glamouere-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Wapa",
@@ -3468,9 +3468,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/suryam-01.jpg",
-      "/images/suryam-02.jpg",
-      "/images/suryam-03.jpg",
+      "images/suryam-01.jpg",
+      "images/suryam-02.jpg",
+      "images/suryam-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Paldi",
@@ -3512,9 +3512,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/swati18-01.jpg",
-      "/images/swati18-02.jpg",
-      "/images/swati18-03.jpg",
+      "images/swati18-01.jpg",
+      "images/swati18-02.jpg",
+      "images/swati18-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Thaltej",
@@ -3540,9 +3540,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/swatiPremier-01.jpg",
-      "/images/swatiPremier-02.jpg",
-      "/images/swatiPremier-03.jpg",
+      "images/swatiPremier-01.jpg",
+      "images/swatiPremier-02.jpg",
+      "images/swatiPremier-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Link-in Road",
@@ -3568,9 +3568,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/swatiSigniya-01.jpg",
-      "/images/swatiSigniya-02.jpg",
-      "/images/swatiSigniya-03.jpg",
+      "images/swatiSigniya-01.jpg",
+      "images/swatiSigniya-02.jpg",
+      "images/swatiSigniya-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Prahladnagar",
@@ -3597,9 +3597,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/TheCanvas-01.png",
-      "/images/TheCanvas-02.png",
-      "/images/TheCanvas-03.png",
+      "images/TheCanvas-01.png",
+      "images/TheCanvas-02.png",
+      "images/TheCanvas-03.png",
     ],
     locationTag: "",
     propertyLocation: "Wapa",
@@ -3664,7 +3664,7 @@ const propertyCardsData = [
     price: 600,
     soldOut: false,
 
-    images: ["/images/Vaikunth-01.jpg", "/images/Vaikunth-02.jpg"],
+    images: ["images/Vaikunth-01.jpg", "images/Vaikunth-02.jpg"],
     locationTag: "",
     propertyLocation: "Shilaj",
     propertyLocationImage: "Brochure Image*",
@@ -3689,9 +3689,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/kaveri-01.jpeg",
-      "/images/kaveri-02.jpeg",
-      "/images/kaveri-03.jpeg",
+      "images/kaveri-01.jpeg",
+      "images/kaveri-02.jpeg",
+      "images/kaveri-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "Shilaj",
@@ -3713,9 +3713,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Alora-01.jpg",
-      "/images/Alora-02.jpg",
-      "/images/Alora-03.jpg",
+      "images/Alora-01.jpg",
+      "images/Alora-02.jpg",
+      "images/Alora-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Science Park",
@@ -3742,9 +3742,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Alora-01.jpg",
-      "/images/Alora-02.jpg",
-      "/images/Alora-03.jpg",
+      "images/Alora-01.jpg",
+      "images/Alora-02.jpg",
+      "images/Alora-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Science Park",
@@ -3795,7 +3795,7 @@ const propertyCardsData = [
     price: 384,
     soldOut: false,
 
-    images: ["/images/Athens-01.jpg", "/images/Athens-02.jpg"],
+    images: ["images/Athens-01.jpg", "images/Athens-02.jpg"],
     locationTag: "",
     propertyLocation: "Shivranjani",
     propertyLocationImage: "Brochure Image*",
@@ -3816,9 +3816,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Absolute-01.jpg",
-      "/images/Absolute-02.jpg",
-      "/images/Absolute-03.jpg",
+      "images/Absolute-01.jpg",
+      "images/Absolute-02.jpg",
+      "images/Absolute-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Sindhu Bhavan Road",
@@ -3959,7 +3959,7 @@ const propertyCardsData = [
     price: 115,
     soldOut: false,
 
-    images: ["/images/Silver-Harmony-01.png", "/images/Silver-Harmony-02.png"],
+    images: ["images/Silver-Harmony-01.png", "images/Silver-Harmony-02.png"],
     locationTag: "",
     propertyLocation: "Gota",
     propertyLocationImage: "Brochure Image*",
@@ -3980,9 +3980,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Centre-Court-01.jpeg",
-      "/images/Centre-Court-02.jpeg",
-      "/images/Centre-Court-02.jpeg",
+      "images/Centre-Court-01.jpeg",
+      "images/Centre-Court-02.jpeg",
+      "images/Centre-Court-02.jpeg",
     ],
     locationTag: "",
     propertyLocation: "Vaishnodevi",
@@ -4008,9 +4008,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Trogon-Twin-01.jpg",
-      "/images/Trogon-Twin-02.jpg",
-      "/images/Trogon-Twin-03.jpg",
+      "images/Trogon-Twin-01.jpg",
+      "images/Trogon-Twin-02.jpg",
+      "images/Trogon-Twin-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Vaishnodevi",
@@ -4036,9 +4036,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Swarnim-sun-01.jpeg",
-      "/images/Swarnim-sun-02.jpeg",
-      "/images/Swarnim-sun-03.jpeg",
+      "images/Swarnim-sun-01.jpeg",
+      "images/Swarnim-sun-02.jpeg",
+      "images/Swarnim-sun-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "Bopal-Ghuma",
@@ -4065,9 +4065,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Swarnim-Sentosaa-01.jpeg",
-      "/images/Swarnim-Sentosaa-02.jpeg",
-      "/images/Swarnim-Sentosaa-03.jpeg",
+      "images/Swarnim-Sentosaa-01.jpeg",
+      "images/Swarnim-Sentosaa-02.jpeg",
+      "images/Swarnim-Sentosaa-03.jpeg",
     ],
     locationTag: "",
     propertyLocation: "Chharodi",
@@ -4094,9 +4094,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Swarnim-18-01.jpg",
-      "/images/Swarnim-18-02.jpg",
-      "/images/Swarnim-18-03.jpg",
+      "images/Swarnim-18-01.jpg",
+      "images/Swarnim-18-02.jpg",
+      "images/Swarnim-18-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Bapunagar",
@@ -4122,9 +4122,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Swarnim-Buis-01.jpg",
-      "/images/Swarnim-Buis-02.png",
-      "/images/Swarnim-Buis-03.jpg",
+      "images/Swarnim-Buis-01.jpg",
+      "images/Swarnim-Buis-02.png",
+      "images/Swarnim-Buis-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Vaishnodevi",
@@ -4146,18 +4146,18 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Siban-01.jpg",
-      "/images/Siban-02.jpg",
-      "/images/Siban-03.jpg",
+      "images/Siban-01.jpg",
+      "images/Siban-02.jpg",
+      "images/Siban-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Gift City",
     propertyLocationImage: "Brochure Image*",
-    title: "Studio Apartments to 2.5 BHK ",
-    schemeName: "Siban",
+    title: "Luxurious Flats",
+    schemeName: "Siban 65 ",
     priceText: "65 Lacs Onwards*",
 
-    sqft: "630 - 1400 sq.ft",
+    sqft: "1400 sq.ft",
     sqftType: "SuperBuilt-up",
     features: [
       "60+ Amenities",
@@ -4175,18 +4175,18 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Siban-01.jpg",
-      "/images/Siban-02.jpg",
-      "/images/Siban-03.jpg",
+      "images/Siban-01.jpg",
+      "images/Siban-02.jpg",
+      "images/Siban-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Gift City",
     propertyLocationImage: "Brochure Image*",
-    title: "1 BHK - 4 BHK Penthouses",
+    title: "Luxurious Penthouses",
     schemeName: "Siban ",
     priceText: "1.45 Cr Onwards*",
 
-    sqft: "1290 - 2915 sq.ft",
+    sqft: "2915 sq.ft",
     sqftType: "SuperBuilt-up",
     features: [
       "60+ Amenities",
@@ -4205,8 +4205,8 @@ const propertyCardsData = [
 
     images: [
       "images/Granduere-01.jpg",
-      "/images/Granduere-02.jpg",
-      "/images/Granduere-03.jpg",
+      "images/Granduere-02.jpg",
+      "images/Granduere-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Wapa",
@@ -4234,8 +4234,8 @@ const propertyCardsData = [
 
     images: [
       "images/Citadel-01.jpg",
-      "/images/Citadel-02.jpg",
-      "/images/Citadel-03.jpg",
+      "images/Citadel-02.jpg",
+      "images/Citadel-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Ambli-Bopal Road",
@@ -4262,9 +4262,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Rewa-01.jpg",
-      "/images/Rewa-02.jpg",
-      "/images/Rewa-03.jpg",
+      "images/Rewa-01.jpg",
+      "images/Rewa-02.jpg",
+      "images/Rewa-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Bodakdev",
@@ -4291,9 +4291,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Reva-01.jpg",
-      "/images/Reva-02.jpg",
-      "/images/Reva-03.jpg",
+      "images/Reva-01.jpg",
+      "images/Reva-02.jpg",
+      "images/Reva-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Gift City",
@@ -4318,9 +4318,9 @@ const propertyCardsData = [
     price: 200,
     soldOut: false,
     images: [
-      "/images/Reva-01.jpg",
-      "/images/Reva-02.jpg",
-      "/images/Reva-03.jpg",
+      "images/Reva-01.jpg",
+      "images/Reva-02.jpg",
+      "images/Reva-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Gift City",
@@ -4344,9 +4344,9 @@ const propertyCardsData = [
     price: 200,
     soldOut: false,
     images: [
-      "/images/Narmada-01.jpg",
-      "/images/Narmada-02.jpg",
-      "/images/Narmada-03.jpg",
+      "images/Narmada-01.jpg",
+      "images/Narmada-02.jpg",
+      "images/Narmada-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Gift City",
@@ -4356,7 +4356,7 @@ const propertyCardsData = [
     priceText: "Price on Call",
     sqft: "3641 sq.ft",
     sqftType: "SuperBuilt-up",
-    features: ["2 Road Corner Project ", "29 Storey Project", "Prime Location"],
+    features: ["2 Road Corner Project Project", "29 Storey Project", "Prime Location"],
   },
   {
     id: 166,
@@ -4366,10 +4366,10 @@ const propertyCardsData = [
     price: 200,
     soldOut: false,
     images: [
-      "/images/Ganga-01.jpg",
-      "/images/Ganga-02.jpg",
-      "/images/Ganga-03.jpg",
-      "/images/Ganga-04.jpg",
+      "images/Ganga-01.jpg",
+      "images/Ganga-02.jpg",
+      "images/Ganga-03.jpg",
+      "images/Ganga-04.jpg",
     ],
     locationTag: "",
     propertyLocation: "Gift City",
@@ -4389,10 +4389,10 @@ const propertyCardsData = [
     price: 200,
     soldOut: false,
     images: [
-      "/images/Keshvam-Skyview-01.png",
-      "/images/Keshvam-Skyview-02.png",
-      "/images/Keshvam-Skyview-03.png",
-      "/images/Keshvam-Skyview-04.png",
+      "images/Keshvam-Skyview-01.png",
+      "images/Keshvam-Skyview-02.png",
+      "images/Keshvam-Skyview-03.png",
+      "images/Keshvam-Skyview-04.png",
     ],
     locationTag: "",
     propertyLocation: "Gandhinagar",
@@ -4417,9 +4417,9 @@ const propertyCardsData = [
     price: 375,
     soldOut: false,
     images: [
-      "/images/Satyamev-Luxor-01.jpg",
-      "/images/Satyamev-Luxor-02.jpg",
-      "/images/Satyamev-Luxor-03.jpg",
+      "images/Satyamev-Luxor-01.jpg",
+      "images/Satyamev-Luxor-02.jpg",
+      "images/Satyamev-Luxor-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Ambli",
@@ -4445,9 +4445,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Satyamev-Luxor-01.jpg",
-      "/images/Satyamev-Luxor-02.jpg",
-      "/images/Satyamev-Luxor-03.jpg",
+      "images/Satyamev-Luxor-01.jpg",
+      "images/Satyamev-Luxor-02.jpg",
+      "images/Satyamev-Luxor-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Ambli",
@@ -4474,9 +4474,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Celestial-GardenLiving-01.png",
-      "/images/Celestial-GardenLiving-02.png",
-      "/images/Celestial-GardenLiving-03.png",
+      "images/Celestial-GardenLiving-01.png",
+      "images/Celestial-GardenLiving-02.png",
+      "images/Celestial-GardenLiving-03.png",
     ],
     locationTag: "",
     propertyLocation: "Shilaj",
@@ -4498,9 +4498,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Celestial-GardenLiving-01.png",
-      "/images/Celestial-GardenLiving-02.png",
-      "/images/Celestial-GardenLiving-03.png",
+      "images/Celestial-GardenLiving-01.png",
+      "images/Celestial-GardenLiving-02.png",
+      "images/Celestial-GardenLiving-03.png",
     ],
     locationTag: "",
     propertyLocation: "Shilaj",
@@ -4522,9 +4522,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Giriraj-Avinya-01.png",
-      "/images/Giriraj-Avinya-02.png",
-      "/images/Giriraj-Avinya-03.png",
+      "images/Giriraj-Avinya-01.png",
+      "images/Giriraj-Avinya-02.png",
+      "images/Giriraj-Avinya-03.png",
     ],
     locationTag: "",
     propertyLocation: "Ambawadi",
@@ -4550,7 +4550,7 @@ const propertyCardsData = [
     price: 171,
     soldOut: false,
 
-    images: ["/images/Ananta-Elite-01.jpeg"],
+    images: ["images/Ananta-Elite-01.jpeg"],
     locationTag: "",
     propertyLocation: "Ambawadi",
     propertyLocationImage: "Brochure Image*",
@@ -4575,7 +4575,7 @@ const propertyCardsData = [
     price: 188,
     soldOut: false,
 
-    images: ["/images/Rajul-Greens-01.png", "/images/Rajul-Greens-02.png"],
+    images: ["images/Rajul-Greens-01.png", "images/Rajul-Greens-02.png"],
     locationTag: "",
     propertyLocation: "Paldi",
     propertyLocationImage: "Brochure Image*",
@@ -4596,7 +4596,7 @@ const propertyCardsData = [
     price: 141,
     soldOut: false,
 
-    images: ["/images/The-First-01.png"],
+    images: ["images/The-First-01.png"],
     locationTag: "",
     propertyLocation: "Ambawadi",
     propertyLocationImage: "Brochure Image*",
@@ -4618,8 +4618,8 @@ const propertyCardsData = [
   //   soldOut: false,
 
   //   images: [
-  //                "/images/Shiv-Vivanta-01.jpeg",
-  //                "/images/Shiv-Vivanta-02.jpeg",
+  //                "images/Shiv-Vivanta-01.jpeg",
+  //                "images/Shiv-Vivanta-02.jpeg",
   // ],
   //   locationTag: "",
   //   propertyLocation: "Chandkheda",
@@ -4642,9 +4642,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Z-Luxuria-01.jpg",
-      "/images/Z-Luxuria-02.jpg",
-      "/images/Z-Luxuria-03.jpg",
+      "images/Z-Luxuria-01.jpg",
+      "images/Z-Luxuria-02.jpg",
+      "images/Z-Luxuria-03.jpg",
     ],
     locationTag: "",
     propertyLocation: "Thaltej",
@@ -4672,8 +4672,8 @@ const propertyCardsData = [
   //   soldOut: false,
 
   //   images: [
-  //     "/images/Zade2-01.jpeg",
-  //     "/images/Zade2-02.jpeg",
+  //     "images/Zade2-01.jpeg",
+  //     "images/Zade2-02.jpeg",
   //   
   //   ],
   //   locationTag: "",
@@ -4697,10 +4697,10 @@ const propertyCardsData = [
   //   soldOut: false,
 
   //   images: [
-  //     "/images/Ganga-01.jpg",
-  //     "/images/Ganga-02.jpg",
-  //     "/images/Ganga-03.jpg",
-  //     "/images/Ganga-04.jpg",
+  //     "images/Ganga-01.jpg",
+  //     "images/Ganga-02.jpg",
+  //     "images/Ganga-03.jpg",
+  //     "images/Ganga-04.jpg",
   //   ],
   //   locationTag: "",
   //   propertyLocation: "Thaltej",
@@ -4723,10 +4723,10 @@ const propertyCardsData = [
   //   soldOut: false,
 
   //   images: [
-  //     "/images/Ganga-01.jpg",
-  //     "/images/Ganga-02.jpg",
-  //     "/images/Ganga-03.jpg",
-  //     "/images/Ganga-04.jpg",
+  //     "images/Ganga-01.jpg",
+  //     "images/Ganga-02.jpg",
+  //     "images/Ganga-03.jpg",
+  //     "images/Ganga-04.jpg",
   //   ],
   //   locationTag: "",
   //   propertyLocation: "Thaltej",
@@ -4748,9 +4748,9 @@ const propertyCardsData = [
     soldOut: false,
 
     images: [
-      "/images/Kautilya-two20-01.jpeg",
-      "/images/Kautilya-two20-02.jpeg",
-      "/images/Kautilya-two20-03.jpeg"
+      "images/Kautilya-two20-01.jpeg",
+      "images/Kautilya-two20-02.jpeg",
+      "images/Kautilya-two20-03.jpeg"
     ],
     locationTag: "",
     propertyLocation: "Shilaj",
@@ -8704,3243 +8704,7 @@ const propertyCardsData = [
     features: [
       "At Zundal-Adalaj Highway",
     ],
-  },{
-    id: 329,
-    type: "Residential",
-    latest: "Shela",
-    location: "Shela-11",
-    price: 97,
-    soldOut: false,
-
-    images: [
-      "images/shaligram-pride-01.jpg",
-      "images/shaligram-pride-02.jpg",
-      "images/shaligram-pride-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Shela",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Shaligram Pride",
-    title: "3 BHK Flats",
-    priceText: "97 Lacs. (Box Price*)",
-
-    sqft: "1761 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Nr. Jain Derasar",
-      "Premium Location",
-      "15+ Modern Amenities",
-    ],
   },
-  {
-    id: 330,
-    type: "Commercial",
-    latest: "Shela",
-    location: "Shela-12",
-    price: 122,
-    soldOut: false,
-
-    images: [
-      "images/shaligram-pride-01.jpg",
-      "images/shaligram-pride-02.jpg",
-      "images/shaligram-pride-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Shela",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Shaligram Pride",
-    title: "Showrooms",
-    priceText: "1.22 Cr. (Box Price*)",
-
-    sqft: "790 - 1017 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Nr. Jain Derasar",
-      "Premium Location",
-      "Nr. Club O7"
-    ],
-  },
-   {
-    id: 331,
-    type: "Residential",
-    latest: "Shela",
-    location: "Shela-13",
-    price: 104,
-    soldOut: false,
-
-    images: [
-      "images/shaligram-prestige-01.jpg",
-      "images/shaligram-prestige-02.jpg",
-      "images/shaligram-prestige-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Shela",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Shaligram Prestige",
-    title: "3 BHK Flats",
-    priceText: "1.04 Cr. (Box Price*)",
-
-    sqft: "1930 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Nr. Jain Derasar",
-      "30+ Amenities",
-      "2 Road Corner Project",
-      "Extra Personal Foyer",
-    ],
-  },
-  {
-    id: 332,
-    type: "Commercial",
-    latest: "Shela",
-    location: "Shela-14",
-    price: 215,
-    soldOut: false,
-
-    images: [
-      "images/shaligram-prestige-01.jpg",
-      "images/shaligram-prestige-02.jpg",
-      "images/shaligram-prestige-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Shela",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Shaligram Prestige",
-    title: "Showrooms",
-    priceText: "2.15 Cr. (Box Price*)",
-
-    sqft: "1250 - 1488 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Nr. Jain Derasar",
-      "2 Road Corner Project",
-      "Prime Location",
-    ],
-  },
-  {
-    id: 333,
-    type: "Residential",
-    latest: "Satellite",
-    location: "Satellite-16",
-    price: 170,
-    soldOut: false,
-
-    images: [
-      "images/sujal-apt-01.jpg",
-      "images/sujal-apt-02.jpg",
-      "images/sujal-apt-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Satellite",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Sujal Apartment",
-    title: "3 & 4 BHK Apartments",
-    priceText: "1.7 Cr. Onwards* (Box Price*)",
-
-    sqft: "1696 - 3430 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Nr. Jain Derasar",
-      "All Basic Amenities",
-      "Prime Location",
-    ],
-  },
-  {
-    id: 334,
-    type: "Commercial",
-    latest: "Satellite",
-    location: "Satellite-17",
-    price: 126,
-    soldOut: false,
-
-    images: [
-      "images/sujal-apt-01.jpg",
-      "images/sujal-apt-02.jpg",
-      "images/sujal-apt-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Satellite",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Sujal Apartment",
-    title: "Showrooms",
-    priceText: "1.26 Cr. Onwards* (Box Price*)",
-
-    sqft: "710 - 1900 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Nr. Jain Derasar",
-      "Prime Location",
-    ],
-  },
-  // {
-  //   id: 335,
-  //   type: "Commercial",
-  //   latest: "Shilaj",
-  //   location: "Shilaj-11",
-  //   price: 220,
-  //   soldOut: false,
-
-  //   images: [
-  //     "images/saadhya-81-01.jpg",
-  //     "images/saadhya-81-02.jpg",
-  //     "images/saadhya-81-03.jpg",
-  //   ],
-  //   locationTag: "",
-  //   propertyLocation: "Shilaj",
-  //   propertyLocationImage: "Brochure Image*",
-  //   schemeName: "Saadhya 81",
-  //   title: "Showrooms",
-  //   priceText: "2.20 Cr. Onwards* (Box Price*)",
-
-  //   sqft: "570 - 1115 Sq.ft",
-  //   sqftType: "Super Built-up",
-  //   features: [
-  //     "2 Road Corner Project",
-  //     "Prime Location",
-  //     "Nearby Urban Conveniences",
-  //   ],
-  // },
-  //  {
-  //   id: 336,
-  //   type: "Residential",
-  //   latest: "Shilaj",
-  //   location: "Shilaj-12",
-  //   price: 110,
-  //   soldOut: false,
-
-  //   images: [
-  //     "images/saadhya81-01.jpg",
-  //     "images/saadhya81-02.jpg",
-  //     "images/saadhya81-03.jpg",
-  //   ],
-  //   locationTag: "",
-  //   propertyLocation: "Shilaj",
-  //   propertyLocationImage: "Brochure Image*",
-  //   schemeName: "Saadhya 81",
-  //   title: "3 BHK Flats",
-  //   priceText: "1.10 Cr. Onwards* (Box Price*)",
-
-  //   sqft: "1900 Sq.ft",
-  //   sqftType: "Super Built-up",
-  //   features: [
-  //     "2 Road Corner Project",
-  //     "Prime Location",
-  //     "All Basic Amenities",
-  //   ],
-  // },
-    {
-    id: 337,
-    type: "Residential",
-    latest: "Shilaj",
-    location: "Shilaj-13",
-    price: 550,
-    soldOut: false,
-
-    images: [
-      "images/shyaswa-sarovar-01.jpg",
-      "images/shyaswa-sarovar-02.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Shilaj",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Shyaswa Sarovar",
-    title: "4 BHK Flats",
-    priceText: "5.50 Cr. (Box Price*)",
-
-    sqft: "6315 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "3 Road Corner Project",
-      "DGU Sound Proof & Italian Marble",
-      "Nr. Jain Derasar",
-      "21+ Modern Amenities",
-    ],
-  },
-  {
-    id: 338,
-    type: "Duplex Penthouse",
-    latest: "Shilaj",
-    location: "Shilaj-14",
-    price: 1100,
-    soldOut: false,
-
-    images: [
-      "images/shyaswa-sarovar-01.jpg",
-      "images/shyaswa-sarovar-02.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Shilaj",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Shyaswa Sarovar",
-    title: "5 BHK Duplex Penthouse",
-    priceText: "11 Cr. (Box Price*)",
-
-    sqft: "11775 + 795 (Terrace) Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "3 Road Corner Project",
-      "DGU Sound Proof & Italian Marble",
-      "Nr. Jain Derasar",
-      "21+ Modern Amenities",
-    ],
-  },
-  {
-    id: 339,
-    type: "Residential",
-    latest: "South-Bopal",
-    location: "South-Bopal-03",
-    price: 116,
-    soldOut: false,
-
-    images: [
-      "images/shristi-01.jpg",
-      "images/shristi-02.jpg",
-      "images/shristi-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Shristi",
-    title: "3 BHK Flats",
-    priceText: "1.16 Cr. (Box Price*)",
-
-    sqft: "1895 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "2 Road Corner Project",
-      "Miven Technology",
-      "25+ Modern Amenities",
-    ],
-  },
-  {
-    id: 340,
-    type: "Residential",
-    latest: "Kasindra",
-    location: "Kasindra-01",
-    price: 250,
-    soldOut: false,
-
-    images: [
-      "images/luxuriom-elite-01.jpg",
-      "images/luxuriom-elite-02.jpg",
-      "images/luxuriom-elite-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Kasindra",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Luxuriom Elite",
-    title: "Luxurious 5 BHK Weekend Villa",
-    priceText: "2.50 - 3.5 Cr. (Box Price*)",
-
-    sqft: "3915 - 8100 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "360 Open View",
-      "Molding Design",
-      "30+ Modern Amenities",
-    ],
-  },
-  {
-    id: 341,
-    type: "Residential",
-    latest: "Kasindra",
-    location: "Kasindra-02",
-    price: 402,
-    soldOut: false,
-
-    images: [
-      "images/luxuriom-bellevue-01.jpg",
-      "images/luxuriom-bellevue-02.jpg",
-      "images/luxuriom-bellevue-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Kasindra",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Luxuriom Bellevue",
-    title: "Premium 5 BHK Bungalow",
-    priceText: "4.02 - 6.81 Cr. (Box Price*)",
-
-    sqft: "6624 - 15300 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "360 Open View",
-      "Roman Themed Villa",
-      "20+ Modern Amenities",
-      "Water Bodies",
-    ],
-  },
-  {
-    id: 342,
-    type: "Residential",
-    latest: "Kasindra",
-    location: "Kasindra-03",
-    price: 77,
-    soldOut: false,
-
-    images: [
-      "images/rameshwar-dream-01.jpg",
-      "images/rameshwar-dream-02.jpg",
-      "images/rameshwar-dream-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Kasindra",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Rameshwar Dream",
-    title: "3 BHK Bungalow",
-    priceText: "77 Lacs (Box Price*)",
-
-    sqft: "1080 - 2115 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "All Basic Amenities",
-      "1 Allotted Car Parking",
-      "Nr. Jain Derasar",
-    ],
-  },
-  {
-    id: 343,
-    type: "Residential",
-    latest: "Satellite",
-    location: "Satellite-18",
-    price: 290,
-    soldOut: false,
-
-    images: [
-      "images/aurania-01.jpg",
-      "images/aurania-02.jpg",
-      "images/aurania-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Satellite",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Aurania",
-    title: "3 & 4 BHK Apartments",
-    priceText: "2.90 - 4.17 Cr. (Box Price*)",
-
-    sqft: "3000 - 4300 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "3 Road Corner Project",
-      "VRV System",
-      "Nr. Jain Derasar",
-    ],
-  },
-  {
-    id: 344,
-    type: "Commercial",
-    latest: "Satellite",
-    location: "Satellite-19",
-    price: 85,
-    soldOut: false,
-
-    images: [
-      "images/aurania-01.jpg",
-      "images/aurania-02.jpg",
-      "images/aurania-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Satellite",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Aurania",
-    title: "Showrooms",
-    priceText: "85 Lacs - 2 Cr. (Box Price*)",
-
-    sqft: "540 - 980 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "3 Road Corner Project",
-      "Posh Area",
-      "Nr. Jain Derasar",
-    ],
-  },
-  {
-    id: 345,
-    type: "Residential",
-    latest: "Satellite",
-    location: "Satellite-20",
-    price: 250,
-    soldOut: false,
-
-    images: [
-      "images/ora-01.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Satellite",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Ora",
-    title: "Premium 3 & 4 BHK Flats",
-    priceText: "2.50 - 3.76 Cr. (Box Price*)",
-
-    sqft: "3100 - 4700 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "2 Road Corner Project",
-      "Italian Marble",
-      "Nr. Jain Derasar",
-      "2 Allotted Car Parking",
-    ],
-  },
-  {
-    id: 346,
-    type: "Penthouse",
-    latest: "Satellite",
-    location: "Satellite-21",
-    price: 450,
-    soldOut: false,
-
-    images: [
-      "images/ora-01.jpg",
-      "images/ora-02.jpg",
-      "images/ora-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Satellite",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Ora",
-    title: "4 & 5 BHK Penthouse",
-    priceText: "4.5 - 5.6 Cr. (Box Price*)",
-
-    sqft: "5000 - 7000 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "2 Road Corner Project",
-      "Italian Marble",
-      "Nr. Jain Derasar",
-      "2 Allotted Car Parking",
-      "20+ Modern Amenities",
-    ],
-  },
-  {
-    id: 347,
-    type: "Commercial",
-    latest: "Satellite",
-    location: "Satellite-22",
-    price: 190,
-    soldOut: false,
-
-    images: [
-      "images/ora-01.jpg",
-      "images/ora-02.jpg",
-      "images/ora-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Satellite",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Ora",
-    title: "Showrooms",
-    priceText: "1.9 - 3.04 Cr. (Box Price*)",
-
-    sqft: "1000 - 1600 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "2 Road Corner Project",
-      "Prime Location",
-      "Nr. Jain Derasar",
-    ],
-  },
-  {
-    id: 348,
-    type: "Residential",
-    latest: "Bopal",
-    location: "Bopal-08",
-    price: 171,
-    soldOut: false,
-
-    images: [
-      "images/rajyash-regius-01.jpg",
-      "images/rajyash-regius-02.jpg",
-      "images/rajyash-regius-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Rajyash Regius",
-    title: "3, 4 & 5 BHK Apartments",
-    priceText: "1.71 - 3.17 Cr. (Box Price*)",
-
-    sqft: "2485 - 4610 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "2 Road Corner Project",
-      "Podium Living",
-      "Nr. Jain Derasar",
-      "50+ Modern Amenities",
-    ],
-  },
-   {
-    id: 349,
-    type: "Commercial",
-    latest: "Bopal",
-    location: "Bopal-09",
-    price: 171,
-    soldOut: false,
-
-    images: [
-      "images/rajyash-regius-01.jpg",
-      "images/rajyash-regius-02.jpg",
-      "images/rajyash-regius-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Rajyash Regius",
-    title: "3, 4 & 5 BHK Apartments",
-    priceText: "1.71 - 3.17 Cr. (Box Price*)",
-
-    sqft: "2485 - 4610 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "2 Road Corner Project",
-      "Prime Location",
-      "Nr. Jain Derasar",
-    ],
-  },
-   {
-    id: 350,
-    type: "Residential",
-    latest: "South-Bopal",
-    location: "South-Bopal-04",
-    price: 65,
-    soldOut: false,
-
-    images: [
-      "images/solace-01.jpg",
-      "images/solace-02.jpg",
-      "images/solace-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Solace",
-    title: "2 & 3 BHK Apartments",
-    priceText: "65 - 81 Lacs. (Box Price*)",
-
-    sqft: "1230 - 1530 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Both Side Garden Facing",
-      "1 Allotted Car Parking",
-      "All Basic Amenities",
-    ],
-  },
-  {
-    id: 351,
-    type: "Commercial",
-    latest: "South-Bopal",
-    location: "South-Bopal-05",
-    price: 146,
-    soldOut: false,
-
-    images: [
-      "images/solace-01.jpg",
-      "images/solace-02.jpg",
-      "images/solace-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Solace",
-    title: "Showrooms",
-    priceText: "1.46 Cr. (Box Price*)",
-
-    sqft: "830 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Nr. S.P Ring Road",
-      "Nearby Urban Conveniences",
-    ],
-  },
-  {
-    id: 352,
-    type: "Residential",
-    latest: "Gurukul",
-    location: "Gurukul-02",
-    price: 159,
-    soldOut: false,
-
-    images: [
-      "images/serene-heights-01.jpg",
-      "images/serene-heights-02.jpg",
-      "images/serene-heights-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Gurukul",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Serene Heights",
-    title: "3 BHK Apartments",
-    priceText: "1.59 Cr. (Box Price*)",
-
-    sqft: "2259 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Nr. Jain Derasar",
-      "Pure Residential",
-      "20+ Modern Amenities",
-    ],
-  },
-  {
-    id: 353,
-    type: "Residential",
-    latest: "Bopal",
-    location: "Bopal-10",
-    price: 150,
-    soldOut: false,
-
-    images: [
-      "images/spectra-01.jpg",
-      "images/spectra-02.jpg",
-      "images/spectra-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Spectra",
-    title: "3 & 4 BHK Apartments",
-    priceText: "1.5 - 2.08 Cr. (Box Price*)",
-
-    sqft: "2250 - 3125 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Nr. Jain Derasar",
-      "3 Road Corner Project",
-      "20+ Modern Amenities",
-      "Pure Residential",
-    ],
-  },
-  {
-    id: 354,
-    type: "Residential",
-    latest: "Bhuyangdev",
-    location: "Bhuyangdev-06",
-    price: 135,
-    soldOut: false,
-
-    images: [
-      "images/dharti-padmambica-01.jpg",
-      "images/dharti-padmambica-02.jpg",
-      "images/dharti-padmambica-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Bhuyangdev",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Dharti Padmambica",
-    title: "3 BHK Apartments",
-    priceText: "1.35 - 1.9 Cr. (Box Price*)",
-
-    sqft: "1719 - 2403 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Nr. Jain Derasar",
-      "2 Road Corner Project",
-      "Prime Location",
-    ],
-  },
-  {
-    id: 355,
-    type: "Residential",
-    latest: "Ghatlodiya",
-    location: "Ghatlodiya-01",
-    price: 148,
-    soldOut: false,
-
-    images: [
-      "images/snehal-exotica-01.jpg",
-      "images/snehal-exotica-02.jpg",
-      "images/snehal-exotica-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Ghatlodiya",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Snehal Exotica",
-    title: "3 BHK Apartments",
-    priceText: "1.48 Cr. (Box Price*)",
-
-    sqft: "2025 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Pure Residential",
-      "40+ Amenities",
-      "1 Allotted Car Parking",
-    ],
-  },
-  {
-    id: 356,
-    type: "Residential",
-    latest: "South-Bopal",
-    location: "South-Bopal-06",
-    price: 111,
-    soldOut: false,
-
-    images: [
-      "images/aarav-elenza-infinium-01.jpg",
-      "images/aarav-elenza-infinium-02.jpg",
-      "images/aarav-elenza-infinium-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Aarav Elenza Infinium",
-    title: "3 BHK Apartments",
-    priceText: "1.11 Cr. (Box Price*)",
-
-    sqft: "1950 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Nr. Jain Derasar",
-      "25+ Amenities",
-      "360 Open View",
-      "Podium Living",
-    ],
-  },
-  {
-    id: 357,
-    type: "Residential",
-    latest: "Gurukul",
-    location: "Gurukul-03",
-    price: 135,
-    soldOut: false,
-
-    images: [
-      "images/shruti-01.jpg",
-      "images/shruti-02.jpg",
-      "images/shruti-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Gurukul",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Shruti Apartment",
-    title: "3 BHK Apartments",
-    priceText: "1.35 - 1.7 Cr. (Box Price*)",
-
-    sqft: "1890 - 2403 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Nr. Jain Derasar",
-      "Pure Residential",
-      "Nr. Metro Station",
-      "15+ Modern Amenities",
-    ],
-  },
-   {
-    id: 358,
-    type: "Residential",
-    latest: "South-Bopal",
-    location: "South-Bopal-07",
-    price: 90,
-    soldOut: false,
-
-    images: [
-      "images/serenity-shivam-01.jpg",
-      "images/serenity-shivam-02.jpg",
-      "images/serenity-shivam-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Serenity Shivam",
-    title: "3 BHK Apartments",
-    priceText: "90 Lacs. (Box Price*)",
-
-    sqft: "1795 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "360 Open View",
-      "2 Road Corner Project",
-      "22+ Modern Amenities",
-    ],
-  },
-  {
-    id: 359,
-    type: "Residential",
-    latest: "South-Bopal",
-    location: "South-Bopal-08",
-    price: 85,
-    soldOut: false,
-
-    images: [
-      "images/serenity-satyam-01.jpg",
-      "images/serenity-satyam-02.jpg",
-      "images/serenity-satyam-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Serenity Satyam",
-    title: "3 BHK Apartments",
-    priceText: "85 Lacs. (Box Price*)",
-
-    sqft: "1755 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "360 Open View",
-      "2 Road Corner Project",
-      "22+ Modern Amenities",
-    ],
-  },
-  {
-    id: 360,
-    type: "Commercial",
-    latest: "South-Bopal",
-    location: "South-Bopal-09",
-    price: 60,
-    soldOut: false,
-
-    images: [
-      "images/serenity-satyam-01.jpg",
-      "images/serenity-satyam-02.jpg",
-      "images/serenity-satyam-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Serenity Satyam",
-    title: "Showrooms",
-    priceText: "60 Lacs. - 2 Cr. (Box Price*)",
-
-    sqft: "400 - 1200 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Prime Location",
-      "2 Road Corner Project",
-    ],
-  },
-  {
-    id: 361,
-    type: "Commercial",
-    latest: "South-Bopal",
-    location: "South-Bopal-10",
-    price: 95,
-    soldOut: false,
-
-    images: [
-      "images/saharsh-01.jpg",
-      "images/saharsh-02.jpg",
-      "images/saharsh-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Saharsh",
-    title: "Showrooms",
-    priceText: "95 Lacs. - 2.24 Cr. (Box Price*)",
-
-    sqft: "850 - 1500 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Prime Location",
-      "Nearby Urban Conveniences",
-    ],
-  },
-  {
-    id: 362,
-    type: "Residential",
-    latest: "South-Bopal",
-    location: "South-Bopal-11",
-    price: 66,
-    soldOut: false,
-
-    images: [
-      "images/saharsh-01.jpg",
-      "images/saharsh-02.jpg",
-      "images/saharsh-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Saharsh",
-    title: "2 & 3 BHK Apartments",
-    priceText: "66 - 85 lacs. (Box Price*)",
-
-    sqft: "1400 - 1790 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Lifetime Open View",
-      "25+ Modern Amenities",
-      "1 Allotted Car Parking",
-    ],
-  },
-  {
-    id: 365,
-    type: "Residential",
-    latest: "South-Bopal",
-    location: "South-Bopal-12",
-    price: 94,
-    soldOut: false,
-
-    images: [
-      "images/elenza-arista-01.jpg",
-      "images/elenza-arista-02.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Elenza Arista",
-    title: "3 BHK Apartments",
-    priceText: "94 Lacs. - 1.5 Cr. (Box Price*)",
-
-    sqft: "1945 - 3100 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Posh Location",
-      "25+ Modern Amenities",
-      "1 Allotted Car Parking",
-    ],
-  },
-  {
-    id: 366,
-    type: "Commercial",
-    latest: "South-Bopal",
-    location: "South-Bopal-13",
-    price: 100,
-    soldOut: false,
-
-    images: [
-      "images/elenza-arista-01.jpg",
-      "images/elenza-arista-02.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Elenza Arista",
-    title: "Showrooms",
-    priceText: "1 - 2.5 Cr. (Box Price*)",
-
-    sqft: "1100 - 1600 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Posh SoBo Location",
-      "High Footfall Area",
-      "1 Allotted Car Parking",
-    ],
-  },
-  // {
-  //   id: 367,
-  //   type: "Commercial",
-  //   latest: "New-Narol",
-  //   location: "New-Narol-02",
-  //   price: 000,
-  //   soldOut: false,
-
-  //   images: [
-  //     "images/rashmi-south-park-01.jpg",
-  //     "images/rashmi-south-park-02.jpg",
-  //     "images/rashmi-south-park-03.jpg",
-  //   ],
-  //   locationTag: "",
-  //   propertyLocation: "New-Narol",
-  //   propertyLocationImage: "Brochure Image*",
-  //   schemeName: "Rashmi South Park",
-  //   title: "Commercial Business Hub & Banquet Spaces",
-  //   priceText: "66 - 85 lacs. (Box Price*)",
-
-  //   sqft: "364 - 3926 Sq.ft",
-  //   sqftType: "Super Built-up",
-  //   features: [
-  //     "No GST",
-  //     "High Footfall Area",
-  //     "1 Allotted Car Parking",
-  //   ],
-  // },
-  {
-    id: 368,
-    type: "Commercial",
-    latest: "South-Bopal",
-    location: "South-Bopal-14",
-    price: 100,
-    soldOut: false,
-
-    images: [
-      "images/elenza-callista-01.jpg",
-      "images/elenza-callista-02.jpg",
-      "images/elenza-callista-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Elenza Callista",
-    title: "Showrooms",
-    priceText: "1 - 2 Cr. (Box Price*)",
-
-    sqft: "940 - 2300 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "2 Road Corner Project",
-      "Open Area around the Property ",
-      "Prime SoBo Location",
-    ],
-  },
-  {
-    id: 369,
-    type: "Residential",
-    latest: "South-Bopal",
-    location: "South-Bopal-15",
-    price: 98,
-    soldOut: false,
-
-    images: [
-      "images/elenza-callista-01.jpg",
-      "images/elenza-callista-02.jpg",
-      "images/elenza-callista-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Elenza Callista",
-    title: "3 & 4 BHK Flats",
-    priceText: "98 Lacs. - 1.97 Cr.(Box Price*)",
-
-    sqft: "1945 - 3900 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "2 Road Corner Project",
-      "Open Area around the Property ",
-      "30+ Modern Amenities",
-    ],
-  },
-  {
-    id: 370,
-    type: "Residential",
-    latest: "New-Narol",
-    location: "New-Narol-03",
-    price: 35,
-    soldOut: false,
-
-    images: [
-      "images/rashmi-nirvana-01.jpg",
-      "images/rashmi-nirvana-02.jpg",
-      "images/rashmi-nirvana-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "New-Narol",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Rashmi Nirvana",
-    title: "2 BHK Flats",
-    priceText: "35 Lacs.(Box Price*)",
-
-    sqft: "1296 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Nearby Urban Conveniences",
-      "1 Allotted Car Parking",
-      "15+ Modern Amenities",
-    ],
-  },
-  // {
-  //   id: 372,
-  //   type: "Commercial",
-  //   latest: "Shela",
-  //   location: "Shela-15",
-  //   price: 000,
-  //   soldOut: false,
-
-  //   images: [
-  //     "images/rashmi-riesen-01.jpg",
-  //     "images/rashmi-riesen-02.jpg",
-  //     "images/rashmi-riesen-03.jpg",
-  //   ],
-  //   locationTag: "",
-  //   propertyLocation: "Shela",
-  //   propertyLocationImage: "Brochure Image*",
-  //   schemeName: "Rashmi Riesen",
-  //   title: "Showrooms",
-  //   priceText: "000 Lacs. - 000 Cr.(Box Price*)",
-
-  //   sqft: "345 - 2425 Sq.ft",
-  //   sqftType: "Super Built-up",
-  //   features: [
-  //     "2 Road Corner Project",
-  //     "Off VIP Road",
-  //     "Prime Location",
-  //   ],
-  // },
-   {
-    id: 373,
-    type: "Residential",
-    latest: "Shela",
-    location: "Shela-16",
-    price: 55,
-    soldOut: false,
-
-    images: [
-      "images/rashmi-riesen-01.jpg",
-      "images/rashmi-riesen-02.jpg",
-      "images/rashmi-riesen-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Shela",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Rashmi Riesen",
-    title: "2 & 3 BHK Apartments",
-    priceText: "55 - 76 Lacs.(Box Price*)",
-
-    sqft: "1298 - 1775 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "2 Road Corner Project",
-      "Off VIP Road",
-      "15+ Modern Amenities",
-    ],
-  },
-  {
-    id: 374,
-    type: "Residential",
-    latest: "South-Bopal",
-    location: "South-Bopal-16",
-    price: 95,
-    soldOut: false,
-
-    images: [
-      "images/trinity-sky-01.jpg",
-      "images/trinity-sky-02.jpg",
-      "images/trinity-sky-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Trinity Sky",
-    title: "3 BHK Apartments",
-    priceText: "95 Lacs. (Box Price*)",
-
-    sqft: "1850 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Nr. Jain Derasar",
-      "17 ft. Balcony",
-      "20+ Modern Amenities",
-      "Italian Marble",
-    ],
-  },
-  {
-    id: 375,
-    type: "Commercial",
-    latest: "South-Bopal",
-    location: "South-Bopal-17",
-    price: 110,
-    soldOut: false,
-
-    images: [
-      "images/trinity-sky-01.jpg",
-      "images/trinity-sky-02.jpg",
-      "images/trinity-sky-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Trinity Sky",
-    title: "Showrooms",
-    priceText: "1.1 Cr. (Box Price*)",
-
-    sqft: "1000 - 2000 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Nr. Jain Derasar",
-      "High Footfall Area",
-    ],
-  },
-  // {
-  //   id: 376,
-  //   type: "Commercial",
-  //   latest: "Linkin-Road",
-  //   location: "Linkin-Road-04",
-  //   price: 000,
-  //   soldOut: false,
-
-  //   images: [
-  //     "images/ombre-01.jpg",
-  //     "images/ombre-02.jpg",
-  //     "images/ombre-03.jpg",
-  //   ],
-  //   locationTag: "",
-  //   propertyLocation: "Linkin-Road",
-  //   propertyLocationImage: "Brochure Image*",
-  //   schemeName: "Rashmi Ombre",
-  //   title: "Showrooms",
-  //   priceText: "1.1 Cr. (Box Price*)",
-
-  //   sqft: "710 - 2174 Sq.ft",
-  //   sqftType: "Super Built-up",
-  //   features: [
-  //     "Prime Commercial Location",
-  //     "High Footfall Area",
-  //   ],
-  // },
-  {
-    id: 377,
-    type: "Residential",
-    latest: "Linkin-Road",
-    location: "Linkin-Road-05",
-    price: 143,
-    soldOut: false,
-
-    images: [
-      "images/ombre-01.jpg",
-      "images/ombre-02.jpg",
-      "images/ombre-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Linkin-Road",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Rashmi Ombre",
-    title: "3 & 4 BHK Apartments",
-    priceText: "1.43, 2.12 Cr. (Box Price*)",
-
-    sqft: "2586 - 3850 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "20+ Modern Amenities",
-      "2 Allotted Car Parking",
-      "Twin Balcony",
-    ],
-  },
-  {
-    id: 378,
-    type: "Residential",
-    latest: "Shilaj",
-    location: "Shilaj-15",
-    price: 230,
-    soldOut: false,
-
-    images: [
-      "images/sky-scape-01.jpg",
-      "images/sky-scape-02.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Shilaj",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Rashmi Sky Scape",
-    title: "4 BHK Apartments",
-    priceText: "2.3 Cr. Onwards*",
-
-    sqft: "3210, 3275 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "25+ Podium Level Amenities",
-      "2 Allotted Car Parking",
-      "24 Storey Tower",
-      "Pure Residential",
-    ],
-  },
-   {
-    id: 379,
-    type: "Commercial",
-    latest: "Gift-City",
-    location: "Gift-City-07",
-    price: 70,
-    soldOut: false,
-
-    images: [
-      "images/the-identity-01.jpg",
-      "images/the-identity-02.jpg",
-      "images/the-identity-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Gift-City",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "The Identity",
-    title: "Showrooms & Offices",
-    priceText: "70 Lacs. Onwards*",
-
-    sqft: "698 - 7445 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "29 Storey Tower",
-      "Located in Prime G.I.F.T Area",
-      "10+ Commercial Amenities",
-      "1 Allotted Car Parkring",
-    ],
-  },
-  {
-    id: 381,
-    type: "Residential",
-    latest: "South-Bopal",
-    location: "South-Bopal-18",
-    price: 100,
-    soldOut: false,
-
-    images: [
-      "images/swastik-clairmont-01.jpg",
-      "images/swastik-clairmont-02.jpg",
-      "images/swastik-clairmont-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Swastik Clairmont",
-    title: "3 BHK Apartments",
-    priceText: "1 cr. (Box Price*)",
-
-    sqft: "1850 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "45+ Modern Amenities",
-      "Nr. S.P Ring Road",
-      "1 Allotted Car Parking",
-    ],
-  },
-  {
-    id: 382,
-    type: "Commercial",
-    latest: "South-Bopal",
-    location: "South-Bopal-19",
-    price: 42,
-    soldOut: false,
-
-    images: [
-      "images/swastik-clairmont-01.jpg",
-      "images/swastik-clairmont-02.jpg",
-      "images/swastik-clairmont-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Swastik Clairmont",
-    title: "Showrooms",
-    priceText: "42 Lacs. - 1.4 Cr.(Box Price*)",
-
-    sqft: "300 - 1000 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Prime Location",
-      "Nr. S.P Ring Road",
-      "1 Allotted Car Parking",
-    ],
-  },
-  {
-    id: 383,
-    type: "Commercial",
-    latest: "Ambli",
-    location: "Ambli-03",
-    price: 61,
-    soldOut: false,
-
-    images: [
-      "images/rashmi-connect-01.jpg",
-      "images/rashmi-connect-02.jpg",
-      "images/rashmi-connect-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Ambli",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Rashmi Connect",
-    title: "Showrooms & Offices",
-    priceText: "61 Lacs. - 10 Cr.(Box Price*)",
-
-    sqft: "758 - 7257 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Prime Location",
-      "Off S.P Ring Road",
-      "5+ Commercial Amenities",
-    ],
-  },
-  {
-    id: 384,
-    type: "Commercial",
-    latest: "Ambli",
-    location: "Ambli-04",
-    price: 60,
-    soldOut: false,
-
-    images: [
-      "images/rashmi-prime-01.jpg",
-      "images/rashmi-prime-02.jpg",
-      "images/rashmi-prime-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Ambli",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Rashmi Prime",
-    title: "Offices",
-    priceText: "60 Lacs. - 1.4 Cr.(Box Price*)",
-
-    sqft: "731 - 1995 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "1 Allotted Car Parking",
-      "Off S.P Ring Road",
-      "8+ Commercial Amenities",
-    ],
-  },
-  {
-    id: 385,
-    type: "Plot",
-    latest: "Adroda",
-    location: "Adroda-01",
-    price: 38,
-    soldOut: false,
-
-    images: [
-      "images/birdsong-01.jpg",
-      "images/birdsong-02.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Adroda",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Birdsong",
-    title: "Plots",
-    priceText: "38.9 Lacs. - 1.9 Cr.(Box Price*)",
-
-    sqft: "3690 - 18000 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "2 Allotted Car Parking",
-      "Prime Location",
-      "40+ Luxurious Amenities",
-    ],
-  },
-  {
-    id: 386,
-    type: "Residential",
-    latest: "South-Bopal",
-    location: "South-Bopal-20",
-    price: 303,
-    soldOut: false,
-
-    images: [
-      "images/gamara-iconic-01.jpg",
-      "images/gamara-iconic-02.jpg",
-      "images/gamara-iconic-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Gamara Iconic",
-    title: "4 BHK Apartments",
-    priceText: "3.03 - 3.2 Cr.(Box Price*)",
-
-    sqft: "4280 - 4530 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "3 Allotted Car Parking",
-      "360 Open View",
-      "37+ Luxurious Amenities",
-      "4 Balconies per Flat"
-    ],
-  },
-  {
-    id: 387,
-    type: "Residential",
-    latest: "South-Bopal",
-    location: "South-Bopal-21",
-    price: 89,
-    soldOut: false,
-
-    images: [
-      "images/praharsh-serena-01.jpg",
-      "images/praharsh-serena-02.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Praharsh Serena",
-    title: "3 BHK Apartments",
-    priceText: "89.4 Lacs.(Box Price*)",
-
-    sqft: "1790 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Double Balcony",
-      "360 Open View",
-      "30+ Modern Amenities",
-      "30,000 Sq.ft Garden Area"
-    ],
-  },
-   {
-    id: 388,
-    type: "Commercial",
-    latest: "South-Bopal",
-    location: "South-Bopal-22",
-    price: 126,
-    soldOut: false,
-
-    images: [
-      "images/praharsh-serena-01.jpg",
-      "images/praharsh-serena-02.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Praharsh Serena",
-    title: "Showrooms",
-    priceText: "1.26 - 2.04 Cr.(Box Price*)",
-
-    sqft: "716 - 1200 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "360 Open View",
-      "Prime Location"
-    ],
-  },
-  {
-    id: 389,
-    type: "Commercial",
-    latest: "Bopal",
-    location: "Bopal-11",
-    price: 456,
-    soldOut: false,
-
-    images: [
-      "images/praharsh-bluebell-01.jpg",
-      "images/praharsh-bluebell-02.jpg",
-      "images/praharsh-bluebell-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Praharsh Bluebell",
-    title: "Showrooms",
-    priceText: "4.56 - 8 Cr.(Box Price*)",
-
-    sqft: "1800 - 3500 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Nr. Jain Derasar",
-      "3 Road Corner Project",
-      "Prime Location",
-      "Off VIP Road",
-    ],
-  },
-  {
-    id: 390,
-    type: "Residential",
-    latest: "Bopal",
-    location: "Bopal-12",
-    price: 103,
-    soldOut: false,
-
-    images: [
-      "images/praharsh-bluebell-01.jpg",
-      "images/praharsh-bluebell-02.jpg",
-      "images/praharsh-bluebell-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Praharsh Bluebell",
-    title: "3 BHK Flats",
-    priceText: "1.03 - 1.06 Cr.(Box Price*)",
-
-    sqft: "1795 - 1830 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Nr. Jain Derasar",
-      "3 Road Corner Project",
-      "41+ Modern Amenities",
-      "Off VIP Road",
-    ],
-  },
-  {
-    id: 391,
-    type: "Residential",
-    latest: "South-Bopal",
-    location: "South-Bopal-23",
-    price: 86,
-    soldOut: false,
-
-    images: [
-      "images/green-fluorite-01.jpeg",
-      "images/green-fluorite-02.jpeg",
-      "images/green-fluorite-03.jpeg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Green Fluorite",
-    title: "3 BHK Flats",
-    priceText: "86 - 89 Lacs.(Box Price*)",
-
-    sqft: "1790 - 1850 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Nr. Jain Derasar",
-      "Pure Residential",
-      "20+ Modern Amenities",
-    ],
-  },
-  {
-    id: 392,
-    type: "Residential",
-    latest: "South-Bopal",
-    location: "South-Bopal-24",
-    price: 65,
-    soldOut: false,
-
-    images: [
-      "images/sky-42-01.jpg",
-      "images/sky-42-02.jpg",
-      "images/sky-42-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Sky 42",
-    title: "2 BHK Flats",
-    priceText: "65 Lacs.(Box Price*)",
-
-    sqft: "1385 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Nr. Jain Derasar",
-      "2 Road Corner Project",
-      "1 Allotted Car Parking",
-    ],
-  },
-  {
-    id: 393,
-    type: "Commercial",
-    latest: "South-Bopal",
-    location: "South-Bopal-25",
-    price: 75,
-    soldOut: false,
-
-    images: [
-      "images/sky-42-01.jpg",
-      "images/sky-42-02.jpg",
-      "images/sky-42-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Sky 42",
-    title: "Showrooms",
-    priceText: "75 Lacs. - 1.2 Cr.(Box Price*)",
-
-    sqft: "550 - 900 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Nr. Jain Derasar",
-      "2 Road Corner Project",
-      "Prime Location",
-    ],
-  },
-  {
-    id: 394,
-    type: "Commercial",
-    latest: "South-Bopal",
-    location: "South-Bopal-26",
-    price: 100,
-    soldOut: false,
-
-    images: [
-      "images/sky-line-01.jpg",
-      "images/sky-line-02.jpg",
-      "images/sky-line-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Sky Line",
-    title: "Showrooms",
-    priceText: "1 - 1.7 Cr.(Box Price*)",
-
-    sqft: "750 - 1300 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "360 Open View",
-      "2 Road Corner Project",
-      "Prime Location",
-    ],
-  },
-  {
-    id: 395,
-    type: "Residential",
-    latest: "South-Bopal",
-    location: "South-Bopal-27",
-    price: 65,
-    soldOut: false,
-
-    images: [
-      "images/sky-line-01.jpg",
-      "images/sky-line-02.jpg",
-      "images/sky-line-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Sky Line",
-    title: "2 & 3 BHK Apartments",
-    priceText: "65 - 87 Lacs.(Box Price*)",
-
-    sqft: "1385 - 1895 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "360 Open View",
-      "2 Road Corner Project",
-      "1 Allotted Car Parking",
-    ],
-  },
-  {
-    id: 396,
-    type: "Residential",
-    latest: "South-Bopal",
-    location: "South-Bopal-28",
-    price: 90,
-    soldOut: false,
-
-    images: [
-      "images/divine-skypark-01.jpg",
-      "images/divine-skypark-02.jpg",
-      "images/divine-skypark-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Skypark by Divine",
-    title: "3 & 4 BHK Apartments",
-    priceText: "90 Lacs. - 1.75 Cr.(Box Price*)",
-
-    sqft: "1850 - 3600 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Nr. VIP Road",
-      "15+ Amenities",
-      "1 Allotted Car Parking",
-    ],
-  },
-  {
-    id: 397,
-    type: "Commercial",
-    latest: "South-Bopal",
-    location: "South-Bopal-29",
-    price: 91,
-    soldOut: false,
-
-    images: [
-      "images/divine-skypark-01.jpg",
-      "images/divine-skypark-02.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Skypark by Divine",
-    title: "Showrooms",
-    priceText: "91 Lacs. - 2.22 Cr.(Box Price*)",
-
-    sqft: "700 - 1700 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Nr. VIP Road",
-      "Prime Location",
-      "1 Allotted Car Parking",
-    ],
-  },
-  {
-    id: 398,
-    type: "Commercial",
-    latest: "South-Bopal",
-    location: "South-Bopal-30",
-    price: 46,
-    soldOut: false,
-
-    images: [
-      "images/aadhvan-shine-01.jpeg",
-      "images/aadhvan-shine-02.jpeg",
-      "images/aadhvan-shine-03.jpeg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Aadhvan Shine",
-    title: "Showrooms & Offices",
-    priceText: "46 Lacs. - 2.93 Cr.(Box Price*)",
-
-    sqft: "550 - 1400 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Excellent Connectivity",
-      "360 Open View",
-      "Prime Location",
-    ],
-  },
-  {
-    id: 399,
-    type: "Residential",
-    latest: "South-Bopal",
-    location: "South-Bopal-31",
-    price: 78,
-    soldOut: false,
-
-    images: [
-      "images/aadhvan-shine-01.jpeg",
-      "images/aadhvan-shine-02.jpeg",
-      "images/aadhvan-shine-03.jpeg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Aadhvan Shine",
-    title: "3 BHK Apartments",
-    priceText: "78 - 82 Lacs.(Box Price*)",
-
-    sqft: "1650, 1750 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Nr. Jain Derasar",
-      "360 Open View",
-      "20+ Modern Amenities",
-    ],
-  },
-  {
-    id: 400,
-    type: "Residential",
-    latest: "South-Bopal",
-    location: "South-Bopal-32",
-    price: 85,
-    soldOut: false,
-
-    images: [
-      "images/rhythm-aura-01.jpg",
-      "images/rhythm-aura-02.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Rhythm Aura",
-    title: "3 BHK Apartments",
-    priceText: "85 Lacs.(Box Price*)",
-
-    sqft: "1761 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Nr. Jain Derasar",
-      "360 Open View",
-      "30+ Modern Amenities",
-      "2 Road Corner Project",
-    ],
-  },
-  {
-    id: 401,
-    type: "Commercial",
-    latest: "South-Bopal",
-    location: "South-Bopal-33",
-    price: 80,
-    soldOut: false,
-
-    images: [
-      "images/rhythm-aura-01.jpg",
-      "images/rhythm-aura-02.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Rhythm Aura",
-    title: "Showrooms",
-    priceText: "80 - 90 Lacs.(Box Price*)",
-
-    sqft: "600 - 750 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Nr. Jain Derasar",
-      "360 Open View",
-      "Prime SOBO Location",
-      "2 Road Corner Project",
-    ],
-  },
-  {
-    id: 402,
-    type: "Residential",
-    latest: "South-Bopal",
-    location: "South-Bopal-34",
-    price: 72,
-    soldOut: false,
-
-    images: [
-      "images/b-ethics-01.jpg",
-      "images/b-ethics-02.jpg",
-      "images/b-ethics-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "B Ethics",
-    title: "2 & 3 BHK Apartments",
-    priceText: "72 - 84 Lacs.(Box Price*)",
-
-    sqft: "1500 - 1750 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Pure Residential",
-      "360 Open View",
-      "Nearby Urban Conveniences",
-    ],
-  },
-  {
-    id: 403,
-    type: "Residential",
-    latest: "South-Bopal",
-    location: "South-Bopal-35",
-    price: 89,
-    soldOut: false,
-
-    images: [
-      "images/mahadev-lavish-01.jpg",
-      "images/mahadev-lavish-02.jpg",
-      "images/mahadev-lavish-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Mahadev Lavish",
-    title: "3 BHK Apartments",
-    priceText: "89 Lacs.(Box Price*)",
-
-    sqft: "1750 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "2 Road Corner Project",
-      "Nr. Jain Derasar",
-      "Lifetime Open View",
-      "25+ Modern Amenities",
-    ],
-  },
-  {
-    id: 404,
-    type: "Commercial",
-    latest: "South-Bopal",
-    location: "South-Bopal-36",
-    price: 65,
-    soldOut: false,
-
-    images: [
-      "images/mahadev-lavish-01.jpg",
-      "images/mahadev-lavish-02.jpg",
-      "images/mahadev-lavish-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "South-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Mahadev Lavish",
-    title: "Showrooms",
-    priceText: "65 Lacs.- 1.5 Cr.(Box Price*)",
-
-    sqft: "500 - 1400 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "2 Road Corner Project",
-      "Nr. Jain Derasar",
-      "Prime Location",
-    ],
-  },
-  {
-    id: 405,
-    type: "Residential",
-    latest: "Chharodi",
-    location: "Chharodi-23",
-    price: 89,
-    soldOut: false,
-
-    images: [
-      "images/arise-vibrant-01.jpg",
-      "images/arise-vibrant-02.jpg",
-      "images/arise-vibrant-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Chharodi",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Arise Vibrant",
-    title: "3 BHK Apartments",
-    priceText: "89 - 99 Lacs.(Box Price*)",
-
-    sqft: "1584 - 1764 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Pure Residential",
-      "50+ Modern Amenities",
-      "2 Allotted Car Parking",
-    ],
-  },
-  {
-    id: 406,
-    type: "Residential",
-    latest: "Chharodi",
-    location: "Chharodi-24",
-    price: 166,
-    soldOut: false,
-
-    images: [
-      "images/tremont-adleap-01.jpg",
-      "images/tremont-adleap-02.jpg",
-      "images/tremont-adleap-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Chharodi",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Tremont Adleap",
-    title: "3 & 4 BHK Apartments",
-    priceText: "1.66 - 2.35 Cr.(Box Price*)",
-
-    sqft: "2565 - 3600 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Pure Residential",
-      "25+ Modern Amenities",
-      "Nr. Jain Derasar",
-      "VRV System",
-    ],
-  },
-  {
-    id: 407,
-    type: "Residential",
-    latest: "Chharodi",
-    location: "Chharodi-25",
-    price: 165,
-    soldOut: false,
-
-    images: [
-      "images/swastik-reva-01.jpg",
-      "images/swastik-reva-02.jpg",
-      "images/swastik-reva-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Chharodi",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Swastik Reva",
-    title: "3 & 4 BHK Apartments",
-    priceText: "1.65 - 2.10 Cr.(Box Price*)",
-
-    sqft: "2655 - 3420 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Nr. S.G Highway",
-      "40+ Modern Amenities",
-      "2 Allotted Car Parking",
-    ],
-  },
-  {
-    id: 408,
-    type: "Residential",
-    latest: "Chharodi",
-    location: "Chharodi-26",
-    price: 260,
-    soldOut: false,
-
-    images: [
-      "images/sandalwood-26-01.jpg",
-      "images/sandalwood-26-02.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Chharodi",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Sandalwood 26",
-    title: "4 BHK Apartments",
-    priceText: "2.60 Cr.(Box Price*)",
-
-    sqft: "4005 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Pure Residential",
-      "360 Open View",
-      "2 Allotted Car Parking",
-    ],
-  },
-  {
-    id: 409,
-    type: "Residential",
-    latest: "Chharodi",
-    location: "Chharodi-27",
-    price: 145,
-    soldOut: false,
-
-    images: [
-      "images/arcadia-111-01.jpg",
-      "images/arcadia-111-02.jpg",
-      "images/arcadia-111-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Chharodi",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Arcadia 111",
-    title: "3 BHK Apartments",
-    priceText: "1.45 - 1.57 Cr.(Box Price*)",
-
-    sqft: "2304 - 2520 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "S.G Highway Touch",
-      "25+ Modern Amenities",
-      "2 Allotted Car Parking",
-    ],
-  },
-  {
-    id: 410,
-    type: "Commercial",
-    latest: "Gota",
-    location: "Gota-13",
-    price: 90,
-    soldOut: false,
-
-    images: [
-      "images/tremont-tower-01.jpg",
-      "images/tremont-tower-02.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Gota",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Tremont Tower",
-    title: "Showrooms & Offices",
-    priceText: "90 Lacs.- 5 Cr.(Box Price*)",
-
-    sqft: "1000 - 5000 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "S.G Highway Touch",
-      "10+ Commercial Amenities",
-      "Prue Commercial Project",
-    ],
-  },
-  {
-    id: 411,
-    type: "Residential",
-    latest: "Gota",
-    location: "Gota-14",
-    price: 255,
-    soldOut: false,
-
-    images: [
-      "images/tremont-terra-01.jpg",
-      "images/tremont-terra-02.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Gota",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Tremont Terra",
-    title: "4 BHK Apartments",
-    priceText: "2.55 - 2.82 Cr.(Box Price*)",
-
-    sqft: "3700 - 4100 Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "360 Open View",
-      "32+ Modern Amenities",
-      "Prue Residential",
-      "3 Allotted Car Parking",
-    ],
-  },
-   {
-    id: 412,
-    type: "Duplex Penthouse",
-    latest: "Gota",
-    location: "Gota-15",
-    price: 500,
-    soldOut: false,
-
-    images: [
-      "images/tremont-terra-01.jpg",
-      "images/tremont-terra-02.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Gota",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Tremont Terra",
-    title: "5 BHK Duplex Penthouse",
-    priceText: "5 - 5.3 Cr.(Box Price*)",
-
-    sqft: "6470 - 6750 + 450 - 700 (Terrace) Sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "360 Open View",
-      "32+ Modern Amenities",
-      "Prue Residential",
-      "3 Allotted Car Parking",
-    ],
-  },
-  {
-    id: 413,
-    type: "Residential",
-    latest: "Navrangpura",
-    location: "Navrangpura-04",
-    price: 360,
-    soldOut: false,
-
-    images: [
-      "images/rajharsh-celestial-01.jpg",
-      "images/rajharsh-celestial-02.jpg",
-      "images/rajharsh-celestial-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Navrangpura",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Rajharsh Celestial",
-    title: "4 BHK Apartments",
-    priceText: "3.6 Cr.(Box Price*)",
-
-    sqft: "3960 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "2 Alloted Car Parking",
-      "Nr. Jain Derasar",
-      "Pure Residential",
-    ],
-  },
-   {
-    id: 414,
-    type: "Residential",
-    latest: "Vasna",
-    location: "Vasna-07",
-    price: 75,
-    soldOut: false,
-
-    images: [
-      "images/rajyash-reanand-01.jpg",
-      "images/rajyash-reanand-02.jpg",
-      "images/rajyash-reanand-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Vasna",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Rajyash Reanand",
-    title: "2 & 3 BHK Flats",
-    priceText: "75 - 96 Lacs.(Box Price*)",
-
-    sqft: "735 - 945 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "3 Road Corner Project",
-      "1 Allotted Car Parking",
-    ],
-  },
-  {
-    id: 415,
-    type: "Residential",
-    latest: "Vasna",
-    location: "Vasna-08",
-    price: 72,
-    soldOut: false,
-
-    images: [
-      "images/rajyash-Riyana-01.jpg",
-      "images/rajyash-Riyana-02.jpg",
-      "images/rajyash-Riyana-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Vasna",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Rajyash Riyana",
-    title: "2 & 3 BHK Flats",
-    priceText: "72 Lacs.- 1 Cr.(Box Price*)",
-
-    sqft: "705 - 970 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "1 Allotted Car Parking",
-      "Nr. Jain Derasar",
-    ],
-  },
-  {
-    id: 416,
-    type: "Commercial",
-    latest: "Vasna",
-    location: "Vasna-09",
-    price: 130,
-    soldOut: false,
-
-    images: [
-      "images/rajyash-ridge-01.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Vasna",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Rajyash Ridge",
-    title: "3 BHK Flats",
-    priceText: "1.3 Cr.(Box Price*)",
-
-    sqft: "1040 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "2 Road Corner Project",
-      "1 Allotted Car Parking",
-    ],
-  },
-  {
-    id: 417,
-    type: "Residential",
-    latest: "Vasna",
-    location: "Vasna-10",
-    price: 151,
-    soldOut: false,
-
-    images: [
-      "images/arcus-aura-01.jpg",
-      "images/arcus-aura-02.jpg",
-      "images/arcus-aura-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Vasna",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Arcus Aura",
-    title: "3 BHK Flats",
-    priceText: "1.51 Cr.(Box Price*)",
-
-    sqft: "2097 - 2178 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "25+ Amenities",
-      "Nr. Jain Derasar",
-      "1 Allotted Car Parking",
-    ],
-  },
-  {
-    id: 418,
-    type: "Residential",
-    latest: "Vasna",
-    location: "Vasna-11",
-    price: 180,
-    soldOut: false,
-
-    images: [
-      "images/sky-arise-01.jpg",
-      "images/sky-arise-02.jpg",
-      "images/sky-arise-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Vasna",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Sky Arise",
-    title: "3 BHK Flats",
-    priceText: "1.8 Cr.(Box Price*)",
-
-    sqft: "2151 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Pure Residential",
-      "Nr. Jain Derasar",
-      "No vehicle zone at ground floor",
-    ],
-  },
-  // {
-  //   id: 419,
-  //   type: "Residential",
-  //   latest: "Vasna",
-  //   location: "Vasna-12",
-  //   price: 0,
-  //   soldOut: false,
-
-  //   images: [
-  //     "images/sky-elegance-01.jpg",
-  //     "images/sky-elegance-02.jpg",
-  //     "images/sky-elegance-03.jpg",
-  //   ],
-  //   locationTag: "",
-  //   propertyLocation: "Vasna",
-  //   propertyLocationImage: "Brochure Image*",
-  //   schemeName: "Sky Elegance",
-  //   title: "2 & 3 BHK Flats",
-  //   priceText: "0 Cr.(Box Price*)",
-
-  //   sqft: "1302 - 1944 sq.ft",
-  //   sqftType: "Super Built-up",
-  //   features: [
-  //     "Pure Residential",
-  //     "Nr. Jain Derasar",
-  //     "2 Road Corner Project",
-  //   ],
-  // },
-  // {
-  //   id: 420,
-  //   type: "Residential",
-  //   latest: "Ambawadi",
-  //   location: "Ambawadi-06",
-  //   price: 0,
-  //   soldOut: false,
-
-  //   images: [
-  //     "images/swara-sapphire-2-01.jpg",
-  //     "images/swara-sapphire-2-02.jpg",
-  //     "images/swara-sapphire-2-03.jpg",
-  //   ],
-  //   locationTag: "",
-  //   propertyLocation: "Ambawadi",
-  //   propertyLocationImage: "Brochure Image*",
-  //   schemeName: "Swara Sapphire 2",
-  //   title: "3 BHK Flats",
-  //   priceText: "0 Cr.(Box Price*)",
-
-  //   sqft: "1656 - 2484 sq.ft",
-  //   sqftType: "Super Built-up",
-  //   features: [
-  //     "Pure Residential",
-  //     "Limited Families",
-  //     // "Boutique Living",
-  //     "Nr. Metro Station",
-  //   ],
-  // },
-  {
-    id: 421,
-    type: "Residential",
-    latest: "Zundal",
-    location: "Zundal-12",
-    price: 59,
-    soldOut: false,
-
-    images: [
-      // "images/samhita-01.jpg",
-      // "images/samhita-02.jpg",
-      // "images/samhita-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Zundal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Samhita",
-    title: "2 & 3 BHK Flats",
-    priceText: "59 Lacs. Onwards(Box Price*)",
-
-    sqft: "1440 - 1890 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Nr S.P Ring Road",
-    ],
-  },
-   {
-    id: 422,
-    type: "Residential",
-    latest: "Vaishnodevi",
-    location: "Vaishnodevi-24",
-    price: 151,
-    soldOut: false,
-
-    images: [
-      "images/serenity-status-01.jpg",
-      "images/serenity-status-02.jpg",
-      "images/serenity-status-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Vaishnodevi",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Serenity Status",
-    title: "3 BHK Flats",
-    priceText: "1.51, 1.75 Cr.(Box Price*)",
-
-    sqft: "2736, 3042 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Pure Residential",
-      "Nr. Jain Derasar",
-      "30+ Modern Amenities",
-    ],
-  },
-  {
-    id: 423,
-    type: "Residential",
-    latest: "Chharodi",
-    location: "Chharodi-28",
-    price: 88,
-    soldOut: false,
-
-    images: [
-      "images/brook&lake-01.jpg",
-      "images/brook&lake-02.jpg",
-      "images/brook&lake-03.jpg",
-      "images/brook&lake-04.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Chharodi",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Mount Brook & Lake",
-    title: "3 BHK Flats",
-    priceText: "88 Lacs.- 1.07 Cr.(Box Price*)",
-
-    sqft: "1665 - 1935 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "B/H Nirma University",
-      "Lake View Apartments",
-      "30+ Modern Amenities",
-    ],
-  },
-   {
-    id: 424,
-    type: "Commercial",
-    latest: "Chharodi",
-    location: "Chharodi-29",
-    price: 55,
-    soldOut: false,
-
-    images: [
-      "images/brook&lake-01.jpg",
-      "images/brook&lake-02.jpg",
-      "images/brook&lake-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Chharodi",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Mount Brook & Lake",
-    title: "Showrooms",
-    priceText: "55 - 80 Lacs.(Box Price*)",
-
-    sqft: "245 - 770 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "B/H Nirma University",
-      "Prime Location",
-      "Nr. S.G Highway",
-    ],
-  },
-   {
-    id: 425,
-    type: "Residential",
-    latest: "Chharodi",
-    location: "Chharodi-30",
-    price: 115,
-    soldOut: false,
-
-    images: [
-      "images/alaya-belmonte-01.jpg",
-      "images/alaya-belmonte-02.jpg",
-      "images/alaya-belmonte-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Chharodi",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Alaya Belmonte",
-    title: "3 BHK Flats",
-    priceText: "1.15 Cr.(Box Price*)",
-
-    sqft: "1890 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "B/H Nirma University",
-      "All Basic Amenities",
-      "Nr. S.G Highway",
-    ],
-  },
-   {
-    id: 426,
-    type: "Residential",
-    latest: "Jagatpur",
-    location: "Jagatpur-24",
-    price: 120,
-    soldOut: false,
-
-    images: [
-      "images/azzaro-01.jpg",
-      "images/azzaro-02.jpg",
-      "images/azzaro-03.jpg",
-      "images/azzaro-04.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Jagatpur",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Azzaro",
-    title: "3 BHK Flats",
-    priceText: "1.2 - 1.4 Cr.(Box Price*)",
-
-    sqft: "2115 - 2475 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "2 Road Corner Project",
-      "Italian Marble",
-      "Nr. Jain Derasar",
-      "30+ Modern Amenities",
-    ],
-  },
-   {
-    id: 427,
-    type: "Penthouse",
-    latest: "Jagatpur",
-    location: "Jagatpur-25",
-    price: 235,
-    soldOut: false,
-
-    images: [
-      "images/azzaro-01.jpg",
-      "images/azzaro-02.jpg",
-      "images/azzaro-03.jpg",
-      "images/azzaro-04.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Jagatpur",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Azzaro",
-    title: "4 BHK Penthouse",
-    priceText: "2.35 Cr.(Box Price*)",
-
-    sqft: "3528 + 568 (Terrace) sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "2 Road Corner Project",
-      "Italian Marble",
-      "Nr. Jain Derasar",
-      "30+ Modern Amenities",
-    ],
-  },
-  {
-    id: 428,
-    type: "Commercial",
-    latest: "Jagatpur",
-    location: "Jagatpur-26",
-    price: 80,
-    soldOut: false,
-
-    images: [
-      "images/azzaro-01.jpg",
-      "images/azzaro-02.jpg",
-      "images/azzaro-03.jpg",
-      "images/azzaro-04.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Jagatpur",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Azzaro",
-    title: "Showrooms & Offices",
-    priceText: "80 Lacs.- 3.5 Cr.(Box Price*)",
-
-    sqft: "550 - 4000 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "2 Road Corner Project",
-      "Posh Area",
-      "High Price Appreciation",
-    ],
-  },
-  {
-    id: 430,
-    type: "Residential",
-    latest: "Vaishnodevi",
-    location: "Vaishnodevi-25",
-    price: 59,
-    soldOut: false,
-
-    images: [
-      "images/ideal-iris-01.jpg",
-      "images/ideal-iris-02.jpg",
-      "images/ideal-iris-03.jpg",
-      "images/ideal-iris-04.jpg",
-      "images/ideal-iris-05.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Vaishnodevi",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Ideal Iris",
-    title: "2 BHK Flats",
-    priceText: "59 - 67 Lacs.(Box Price*)",
-
-    sqft: "1215 - 1395 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Nr. Vaishnodevi Circle",
-      "1 Allotted Car Parking",
-      "20+ Amenities",
-    ],
-  },
-  {
-    id: 431,
-    type: "Residential",
-    latest: "Jagatpur",
-    location: "Jagatpur-28",
-    price: 191,
-    soldOut: false,
-
-    images: [
-      "images/ideal-imprint-01.jpg",
-      "images/ideal-imprint-02.jpg",
-      "images/ideal-imprint-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Jagatpur",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Ideal Imprint",
-    title: "4 BHK Flats",
-    priceText: "1.91 - 2.04 Cr.(Box Price*)",
-
-    sqft: "3150 - 3375 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "DGU Sound Proof",
-      "360 Open View",
-      "2 Allotted Car Parking",
-    ],
-  },
-  {
-    id: 432,
-    type: "Commercial",
-    latest: "Jagatpur",
-    location: "Jagatpur-29",
-    price: 135,
-    soldOut: false,
-
-    images: [
-      "images/ideal-imprint-01.jpg",
-      "images/ideal-imprint-02.jpg",
-      "images/ideal-imprint-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Jagatpur",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Ideal Imprint",
-    title: "Showrooms",
-    priceText: "1.35 Cr.(Box Price*)",
-
-    sqft: "790 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "DGU Sound Proof",
-      "Nr. S.G Highway",
-    ],
-  },
-   {
-    id: 433,
-    type: "Residential",
-    latest: "Shela",
-    location: "Shela-17",
-    price: 223,
-    soldOut: false,
-
-    images: [
-      "images/eliseo-2-01.jpg",
-      "images/eliseo-2-02.jpg",
-      "images/eliseo-2-05.jpg",
-      "images/eliseo-2-04.jpg",
-      "images/eliseo-2-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Shela",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Eliseo 2",
-    title: "4 BHK Flats",
-    priceText: "2.23, 2.51 Cr.(Box Price*)",
-
-    sqft: "3230, 3630 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Ready to Move Property",
-      "Pure Residential",
-      "Nr. Billionaire Street",
-      ],
-  },
-   {
-    id: 434,
-    type: "Residential",
-    latest: "Shela",
-    location: "Shela-18",
-    price: 156,
-    soldOut: false,
-
-    images: [
-      "images/eliseo-01.jpg",
-      "images/eliseo-02.jpg",
-      "images/eliseo-03.jpg",
-      "images/eliseo-04.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Shela",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Eliseo",
-    title: "4 BHK Flats",
-    priceText: "1.56 Cr.(Box Price*)",
-
-    sqft: "2825 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Ready to Move Property",
-      "Pure Residential",
-      "Nr. Billionaire Street",
-    ],
-  },
-   {
-    id: 435,
-    type: "Penthouse",
-    latest: "Shela",
-    location: "Shela-19",
-    price: 320,
-    soldOut: false,
-
-    images: [
-      "images/eliseo-01.jpg",
-      "images/eliseo-02.jpg",
-      "images/eliseo-03.jpg",
-      "images/eliseo-04.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Shela",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Eliseo",
-    title: "4 BHK Penthouse",
-    priceText: "3.20 Cr.(Box Price*)",
-
-    sqft: "5050 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Ready to Move Property",
-      "Pure Residential",
-      "Nr. Billionaire Street",
-    ],
-  },
-  {
-    id: 436,
-    type: "Residential",
-    latest: "Linkin-Road",
-    location: "Linkin-Road-06",
-    price: 119,
-    soldOut: false,
-
-    images: [
-      "images/eliseo-3-01.jpg",
-      "images/eliseo-3-02.jpg",
-      "images/eliseo-3-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Linkin-Road",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Eliseo 3",
-    title: "3 & 4 BHK Flats",
-    priceText: "1.19 - 1.64 Cr.(Box Price*)",
-
-    sqft: "2095 - 2850 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "14 Storey Tower",
-      "Nr. Lakshya International School",
-    ],
-  },
-  {
-    id: 437,
-    type: "Penthouse",
-    latest: "Linkin-Road",
-    location: "Linkin-Road-07",
-    price: 248,
-    soldOut: false,
-
-    images: [
-      "images/eliseo-3-01.jpg",
-      "images/eliseo-3-02.jpg",
-      "images/eliseo-3-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Linkin-Road",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Eliseo 3",
-    title: "3 BHK Penthouse",
-    priceText: "2.48, 2.55 Cr.(Box Price*)",
-
-    sqft: "3900, 4000 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "14 Storey Tower",
-      "Nr. Lakshya International School",
-    ],
-  },
-   {
-    id: 438,
-    type: "Residential",
-    latest: "Makarba",
-    location: "Makarba-01",
-    price: 126,
-    soldOut: false,
-
-    images: [
-      "images/eliseo-4-01.jpg",
-      "images/eliseo-4-02.jpg",
-      "images/eliseo-4-03.jpg",
-      "images/eliseo-4-04.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Makarba",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Eliseo 4",
-    title: "3 & 4 BHK Apartments",
-    priceText: "1.26 - 1.87 Cr.(Box Price*)",
-
-    sqft: "2007 - 2980 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "2 Road Corner Project",
-      "Nr. Jain Derasar",
-      "2 Allotted Car Parking",
-    ],
-  },
-  {
-    id: 438,
-    type: "Residential",
-    latest: "Makarba",
-    location: "Makarba-02",
-    price: 126,
-    soldOut: false,
-
-    images: [
-      "images/eliseo-4-01.jpg",
-      "images/eliseo-4-02.jpg",
-      "images/eliseo-4-03.jpg",
-      "images/eliseo-4-04.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Makarba",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Eliseo 4",
-    title: "4 BHK Penthouse",
-    priceText: "3.15 Cr. Onwards*(Box Price*)",
-
-    sqft: "2007 - 2980 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "2 Road Corner Project",
-      "Nr. Jain Derasar",
-      "2 Allotted Car Parking",
-    ],
-  },
-  {
-    id: 439,
-    type: "Residential",
-    latest: "Ambli-Bopal",
-    location: "Ambli-Bopal-19",
-    price: 521,
-    soldOut: false,
-
-    images: [
-      "images/apricus-01.jpg",
-      "images/apricus-02.jpg",
-      "images/apricus-03.jpg",
-      "images/apricus-04.jpg",
-      "images/apricus-05.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Ambli-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Apricus",
-    title: "4 BHK Apartments",
-    priceText: "5.21 Cr.(Box Price*)",
-
-    sqft: "5200, 5265 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "2 Road Corner Project",
-      "Pure Residential",
-      "3 Allotted Car Parking",
-      "DGU Sound Proof",
-    ],
-  },
-  {
-    id: 440,
-    type: "Residential",
-    latest: "Ambli-Bopal",
-    location: "Ambli-Bopal-20",
-    price: 353,
-    soldOut: false,
-
-    images: [
-      "images/ayaan-01.jpg",
-      "images/ayaan-02.jpg",
-      "images/ayaan-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Ambli-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Ayaan",
-    title: "4 BHK Apartments",
-    priceText: "3.53 Cr.(Box Price*)",
-
-    sqft: "3230 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "22 Storey Tower",
-      "Pure Residential",
-      "Nr. Billionaire Street",
-    ],
-  },
-  {
-    id: 441,
-    type: "Residential",
-    latest: "Ambli-Bopal",
-    location: "Ambli-Bopal-21",
-    price: 800,
-    soldOut: false,
-
-    images: [
-      "images/riviera-aspire-01.jpg",
-      "images/riviera-aspire-02.jpg",
-      "images/riviera-aspire-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Ambli-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Riviera Aspire",
-    title: "4 & 5 BHK Apartments",
-    priceText: "8 - 11.15 Cr.(Box Price*)",
-
-    sqft: "6940 - 9450 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Interior by Gauri Khan",
-      "4-6 Allotted Car Parking",
-      "3-5 Balconies per unit",
-      "Behind Iscon Temple",
-    ],
-  },
-  {
-    id: 442,
-    type: "Duplex",
-    latest: "Ambli-Bopal",
-    location: "Ambli-Bopal-22",
-    price: 1600,
-    soldOut: false,
-
-    images: [
-      "images/riviera-aspire-01.jpg",
-      "images/riviera-aspire-02.jpg",
-      "images/riviera-aspire-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Ambli-Bopal",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Riviera Aspire",
-    title: "6 BHK Duplex & Triplex",
-    priceText: "16 - 22 Cr.(Box Price*)",
-
-    sqft: "13290 - 17990 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Interior by Gauri Khan",
-      "4-6 Allotted Car Parking",
-      "3-5 Balconies per unit",
-      "Behind Iscon Temple",
-    ],
-  },
-  {
-    id: 443,
-    type: "Residential",
-    latest: "Science-park",
-    location: "Science-park-21",
-    price: 400,
-    soldOut: false,
-
-    images: [
-      "images/the-gold-sky-villa-01.jpg",
-      "images/the-gold-sky-villa-02.jpg",
-      "images/the-gold-sky-villa-03.jpg",
-      "images/the-gold-sky-villa-04.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Science-park",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "The Gold Sky Villa",
-    title: "4 BHK Flats",
-    priceText: "4 Cr.(Box Price*)",
-
-    sqft: "5160 - 5371 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Pure Residential",
-      "DGU Sound Proof",
-      "2-3 Allotted Car Parking",
-    ],
-  },
-  {
-    id: 444,
-    type: "Duplex",
-    latest: "Science-park",
-    location: "Science-park-22",
-    price: 750,
-    soldOut: false,
-
-    images: [
-      "images/the-gold-sky-villa-01.jpg",
-      "images/the-gold-sky-villa-02.jpg",
-      "images/the-gold-sky-villa-03.jpg",
-      "images/the-gold-sky-villa-04.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Science-park",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "The Gold Sky Villa",
-    title: "5 BHK Duplex",
-    priceText: "7.50 Cr.(Box Price*)",
-
-    sqft: "9711 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Pure Residential",
-      "DGU Sound Proof",
-      "2-3 Allotted Car Parking",
-    ],
-  },
-  {
-    id: 445,
-    type: "Penthouse",
-    latest: "Science-park",
-    location: "Science-park-23",
-    price: 700,
-    soldOut: false,
-
-    images: [
-      "images/the-gold-sky-villa-01.jpg",
-      "images/the-gold-sky-villa-02.jpg",
-      "images/the-gold-sky-villa-03.jpg",
-      "images/the-gold-sky-villa-04.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Science-park",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "The Gold Sky Villa",
-    title: "5 BHK Penthouse",
-    priceText: "7 Cr.(Box Price*)",
-
-    sqft: "9273, 9205 + 750(Terrace) sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Pure Residential",
-      "DGU Sound Proof",
-      "2-3 Allotted Car Parking",
-    ],
-  },
-  {
-    id: 446,
-    type: "Residential",
-    latest: "Science-park",
-    location: "Science-park-24",
-    price: 450,
-    soldOut: false,
-
-    images: [
-      "images/binori-aristella-01.jpg",
-      "images/binori-aristella-02.jpg",
-      "images/binori-aristella-03.jpg",
-      "images/binori-aristella-04.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Science-park",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Binori Aristella",
-    title: "4 BHK Apartments",
-    priceText: "4.50 Cr.(Box Price*)",
-
-    sqft: "5400 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Pure Residential",
-      "360 Open View",
-      "3 Allotted Car Parking",
-    ],
-  },
-  {
-    id: 447,
-    type: "Residential",
-    latest: "Science-park",
-    location: "Science-park-25",
-    price: 212,
-    soldOut: false,
-
-    images: [
-      "images/oryn-armonia-01.jpg",
-      "images/oryn-armonia-02.jpg",
-      "images/oryn-armonia-03.jpg",
-    ],
-    locationTag: "",
-    propertyLocation: "Science-park",
-    propertyLocationImage: "Brochure Image*",
-    schemeName: "Oryn Armonia",
-    title: "3 & 4 BHK Apartments",
-    priceText: "2.12 - 2.97 Cr.(Box Price*)",
-
-    sqft: "2844 - 4059 sq.ft",
-    sqftType: "Super Built-up",
-    features: [
-      "Pure Residential",
-      "3 Side Lifetime Open View",
-      "22+ Modern Amenities",
-    ],
-  },
-
-
-
 ];
 
 
