@@ -1,30 +1,344 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Refer & Earn | SF Real Estate</title>
-    <link rel="stylesheet" href="refer.css" />
-    <link rel="stylesheet" href="/style.css" />
-    <link rel="stylesheet" href="/menu.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
-  </head>
-  <body style="background-color: #8c1843;">
-      <nav class="desktop-nav">
+<html class="light scroll-smooth" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Referral Program | EstateRefine</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link rel="stylesheet" href="style.css?v=6.0" />
+  <link rel="stylesheet" href="menu.css">
+  <link rel="preload" as="video" href="asset.mp4" type="video/mp4" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Inter:wght@400;500;600&family=Outfit:wght@300;400;600;700&display=block"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=block"
+    rel="stylesheet" />
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "error-container": "#ffdad6",
+            "on-primary-fixed-variant": "#8f0f07",
+            "on-background": "#1b1c1c",
+            "inverse-on-surface": "#f3f0f0",
+            "on-error-container": "#93000a",
+            "inverse-primary": "#ffb4a8",
+            "on-secondary-fixed": "#3e0502",
+            "surface-container-low": "#f6f3f2",
+            "on-tertiary": "#ffffff",
+            "surface-tint": "#b22b1d",
+            "surface-container-high": "#eae7e7",
+            "on-surface": "#1b1c1c",
+            "tertiary-fixed": "#dfe0ff",
+            "surface-bright": "#fbf9f8",
+            "primary-fixed": "#ffdad4",
+            "on-secondary": "#ffffff",
+            "secondary-container": "#ff9b8c",
+            "surface-container-highest": "#e4e2e1",
+            "primary-fixed-dim": "#ffb4a8",
+            "on-primary": "#ffffff",
+            "on-secondary-container": "#783126",
+            "on-surface-variant": "#5a413d",
+            "on-secondary-fixed-variant": "#783026",
+            "outline-variant": "#e2bfb9",
+            "tertiary": "#00137f",
+            "tertiary-fixed-dim": "#bcc2ff",
+            "inverse-surface": "#303030",
+            "on-error": "#ffffff",
+            "secondary-fixed": "#ffdad4",
+            "on-tertiary-fixed": "#000c61",
+            "on-tertiary-fixed-variant": "#1830c2",
+            "surface-container": "#f0eded",
+            "on-tertiary-container": "#94a0ff",
+            "surface-container-lowest": "#ffffff",
+            "secondary-fixed-dim": "#ffb4a8",
+            "on-primary-container": "#ff8371",
+            "surface-variant": "#e4e2e1",
+            "on-primary-fixed": "#410000",
+            "tertiary-container": "#0021b9",
+            "outline": "#8e706c",
+            "surface-dim": "#dcd9d9",
+            "primary-container": "#8C1843",
+            "surface": "#fbf9f8",
+            "background": "#fbf9f8",
+            "primary": "#8C1843",
+            "error": "#ba1a1a",
+            "secondary": "#96473b"
+          },
+          fontFamily: {
+            "headline": ["Manrope"],
+            "body": ["Inter"],
+            "label": ["Inter"],
+            "outfit": ["Outfit"]
+          },
+          borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" },
+        },
+      },
+    }
+  </script>
+  <style>
+    .desktop-nav {
+      position: sticky !important;
+      background: #8C1843 !important;
+    }
+
+    /* Modal Styling */
+    #modalContent {
+      max-height: 95vh !important;
+      margin: auto;
+      scrollbar-width: thin;
+      scrollbar-color: #8C184333 transparent;
+    }
+
+    #modalContent::-webkit-scrollbar {
+      width: 4px;
+    }
+
+    #modalContent::-webkit-scrollbar-thumb {
+      background: #8C184333;
+      border-radius: 10px;
+    }
+
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+    }
+
+    .editorial-shadow {
+      box-shadow: 0 20px 40px rgba(27, 28, 28, 0.04), 0 8px 16px rgba(27, 28, 28, 0.02);
+    }
+
+    .primary-gradient {
+      background: linear-gradient(135deg, #8C1843 0%, #a41b4e 100%);
+    }
+
+    .text-\[4\.15rem\] {
+      font-size: 4.15rem;
+    }
+
+    /* Force smooth font rendering and prevent layout shift */
+    body {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+    }
+
+    /* Ensure Inter font is loaded and applied without jerk */
+    .font-body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif !important;
+    }
+
+    /* Silky-smooth GPU-accelerated FAQ animations */
+    @keyframes expandContent {
+      from {
+        opacity: 0;
+        transform: scaleY(0.85) translateY(-8px);
+        transform-origin: top;
+      }
+      to {
+        opacity: 1;
+        transform: scaleY(1) translateY(0);
+        transform-origin: top;
+      }
+    }
+
+    @keyframes collapseContent {
+      from {
+        opacity: 1;
+        transform: scaleY(1) translateY(0);
+        transform-origin: top;
+      }
+      to {
+        opacity: 0;
+        transform: scaleY(0.85) translateY(-8px);
+        transform-origin: top;
+      }
+    }
+
+    details > div {
+      animation: expandContent 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+    }
+
+    details:not([open]) > div {
+      animation: collapseContent 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+    }
+
+    @keyframes heroTaglineReveal {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .hero-tagline-appear {
+      animation: heroTaglineReveal 0.9s cubic-bezier(0.22, 1, 0.36, 1) 0.2s both;
+    }
+
+    /* Custom Dropdown Styling */
+    .custom-select {
+      position: relative;
+      display: block;
+      width: 100%;
+    }
+
+    .custom-select-trigger {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 0.625rem 0.75rem;
+      background-color: #f5f3f1;
+      border: 1px solid #e8e5e2;
+      border-radius: 0.375rem;
+      font-family: inherit;
+      font-size: 0.875rem;
+      font-weight: 400;
+      color: #3c5478;
+      cursor: pointer;
+      min-height: 44px;
+      transition: all 0.25s ease;
+      text-align: left;
+    }
+
+    .custom-select-trigger:hover {
+      background-color: #ede9e6;
+      border-color: #ddd9d5;
+    }
+
+    .custom-select-trigger:focus {
+      outline: none;
+      border-color: #8C1843;
+      box-shadow: 0 0 0 2px rgba(140, 24, 67, 0.1);
+    }
+
+    .custom-select-trigger.open {
+      border-color: #8C1843;
+      background-color: #f5f3f1;
+    }
+
+    .custom-select-value {
+      flex: 1;
+      color: #3c5478;
+    }
+
+    .custom-select-trigger:not(.open) .custom-select-value:empty::before {
+      content: attr(data-placeholder);
+      color: #9a9a9a;
+    }
+
+    .custom-select-arrow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 20px;
+      height: 20px;
+      flex-shrink: 0;
+      margin-left: 0.5rem;
+      color: #8C1843;
+      font-size: 16px;
+      font-weight: 600;
+      pointer-events: none;
+      transition: transform 0.25s ease;
+    }
+
+    .custom-select-trigger.open .custom-select-arrow {
+      transform: rotate(180deg);
+    }
+
+    .custom-select-dropdown {
+      position: absolute;
+      top: calc(100% + 6px);
+      left: 0;
+      right: 0;
+      background-color: #ffffff;
+      border: 1px solid #e8e5e2;
+      border-radius: 0.5rem;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+      z-index: 1000;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(-6px);
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      max-height: 280px;
+      overflow-y: auto;
+    }
+
+    .custom-select-dropdown.open {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    .custom-select-dropdown::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    .custom-select-dropdown::-webkit-scrollbar-track {
+      background: #f5f3f1;
+    }
+
+    .custom-select-dropdown::-webkit-scrollbar-thumb {
+      background: #d4cfc8;
+      border-radius: 3px;
+    }
+
+    .custom-select-dropdown::-webkit-scrollbar-thumb:hover {
+      background: #c0b9b0;
+    }
+
+    .custom-select-option {
+      padding: 0.75rem;
+      cursor: pointer;
+      font-size: 0.875rem;
+      font-weight: 400;
+      color: #3c5478;
+      transition: all 0.15s ease;
+      min-height: 44px;
+      display: flex;
+      align-items: center;
+      border-left: 2px solid transparent;
+    }
+
+    .custom-select-option:hover {
+      background-color: #f9f7f5;
+      color: #8C1843;
+      border-left-color: #8C1843;
+    }
+
+    .custom-select-option.selected {
+      background-color: #fef3f1;
+      color: #8C1843;
+      font-weight: 500;
+      border-left-color: #8C1843;
+    }
+
+    .custom-select select {
+      display: none;
+    }
+  </style>
+</head>
+
+<body class="bg-surface font-body text-on-surface">
+  <nav class="desktop-nav">
   <div class="desktop-nav-left">
- <a href="/index.html">
-    <img src="/images/SAI FAKIRA LOGO WHITE .png" class="desk-logo" alt="Logo"></a>  </div>
+    <a href="index.html">
+    <img src="images/SAI FAKIRA LOGO WHITE .png" class="desk-logo" alt="Logo"></a>
+  </div>
 
   <ul class="desktop-nav-links">
-    <li><a href="/index.html">Home</a></li>
-    <li><a href="/refer.html">Refer & Earn</a></li>
-    <li><a href="/nri.html">NRI</a></li>
-    <li><a href="/SAI FAKIRA COMPANY PROFILE new.pdf">Profile</a></li>
-        <li><a href="/aboutUs.html">About Us</a></li>
-
+    <li><a href="index.html">Home</a></li>
+    <li><a href="refer.html">Refer & Earn</a></li>
+    <li><a href="nri.html">NRI</a></li>
+    <li><a href="SAI FAKIRA COMPANY PROFILE new.pdf">Profile</a></li>
+    <li><a href="aboutUs.html">About Us</a></li>
   </ul>
 </nav>
        <!-- MENU ICON (TOP RIGHT) -->
@@ -42,7 +356,7 @@
 
   <!-- Header -->
   <div class="menu-header">
-    <img src="/images/ESEFF REAL ESTATE LOGO (3).png" alt="logo">
+    <img src="images/ESEFF REAL ESTATE LOGO (3).png" alt="logo">
     <button id="closeMenu">×</button>
   </div>
 
@@ -51,302 +365,744 @@
     <li><a href="index.html">Home</a></li>
     <li><a href="refer.html">Refer & Earn</a></li>
     <li><a href="nri.html">NRI Corner</a></li>
-    <li><a href="/SAI FAKIRA COMPANY PROFILE new.pdf">Profile</a></li>
-        <li><a href="/aboutUs.html">About Us</a></li>
-
-
+    <li><a href="SAI FAKIRA COMPANY PROFILE new.pdf">Profile</a></li>
+    <li><a href="aboutUs.html">About Us</a></li>
   </ul>
 </div>
-    <section class="refer-main">
-     <div class="refer-section">
-  <!-- Left Content -->
-  <div class="refer-content">
-    <h2 >REFER<br>&<br> EARN</h2>
-    <p>THE MORE YOU SHARE,<br>THE MORE YOU EARN</p>
-    <a href="https://drive.google.com/file/d/1RujsGaXEgoa9ncj6LH4pbVLMocuvW_DP/view?usp=sharing"
-       target="_blank" class="policy-link">
-       View Refer & Earn Policy*
-    </a>
-    <button class="refer-btn-1" id="openReferBtn">Refer Now</button>
-    <!-- Optional Policy Link -->
-        <!-- <img src="/images/real estate image cropped - Copy.png" alt="Mobile view" class="mobile-img"> -->
+  <main>
+    <!-- Hero Section -->
+    <section class="relative min-h-[calc(100vh-64px)] md:min-h-[calc(100vh-72px)] flex items-center overflow-hidden bg-surface py-8 sm:py-10 md:py-14 lg:py-20">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 md:px-8 grid grid-cols-1 lg:grid-cols-2 gap-7 sm:gap-8 lg:gap-12 items-center w-full">
+        <div class="z-10 order-2 lg:order-1 max-w-xl mx-auto lg:mx-0 text-center lg:text-left">
 
+          <h1
+            class="text-[3rem] sm:text-5xl md:text-6xl lg:text-[7rem] font-headline font-black text-primary leading-[0.9] tracking-tight mb-3 sm:mb-4 md:mb-6">
+            <span class="lg:hidden">Refer &amp; Earn.</span>
+            <span class="hidden lg:inline">Refer &amp; <br /><span class="text-primary-container">Earn.</span></span>
+          </h1>
+          <p class="hidden sm:block text-[1.1rem] sm:text-lg md:text-xl text-on-surface-variant font-body leading-[1.55] opacity-90 mt-2 md:mt-4 mb-3 md:mb-4 max-w-[34ch] mx-auto lg:mx-0">
+            Share your network with confidence. When your referral completes a successful engagement, you receive a reward.
+          </p>
+          <p class="hero-tagline-appear font-bold text-primary tracking-[0.01em] uppercase whitespace-nowrap text-[clamp(0.8rem,3.35vw,1rem)] sm:text-base mt-1 sm:mt-0 mb-8 sm:mb-9">
+            THE MORE YOU SHARE, THE MORE YOU EARN
+          </p>
+          <div class="flex flex-col sm:flex-row flex-wrap gap-3 md:gap-4 mt-1 md:mt-2 justify-center lg:justify-start">
+            <button onclick="openModal()"
+              class="w-full sm:w-auto px-6 sm:px-8 py-3 md:py-3.5 rounded-lg bg-primary text-white font-body font-semibold text-base md:text-lg hover:bg-primary-container transition-all editorial-shadow flex items-center justify-center sm:justify-start gap-2 cursor-pointer border-none">
+              Start Referring
+            </button>
+            <a href="#how-it-works-section"
+              class="w-full sm:w-auto px-6 sm:px-8 py-3 md:py-3.5 rounded-lg border-2 border-outline-variant text-primary font-body font-semibold text-base md:text-lg hover:bg-surface-container-low transition-all cursor-pointer text-center">
+              How it Works
+            </a>
+          </div>
+        </div>
+        <div class="relative flex flex-col justify-center items-center order-1 lg:order-2 mb-4 sm:mb-6 lg:mb-0 w-full">
+          <!-- Atmospheric Depth Glows -->
+          <div
+            class="absolute inset-0 bg-primary/5 rounded-[40%] blur-[80px] transform rotate-12 -z-10 w-[120%] h-[120%] -ml-[10%] pointer-events-none">
+          </div>
+          <div
+            class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-[80%] bg-gradient-to-tr from-primary-container/10 via-transparent to-transparent rounded-[30%] blur-3xl -z-10 pointer-events-none">
+          </div>
+
+          <!-- Masked & Multiply Blended Video -->
+          <div class="relative w-full max-w-[580px] sm:max-w-[640px] md:max-w-[720px] lg:max-w-5xl group overflow-hidden">
+            <!-- Strong Boundary Blur - All edges & corners -->
+            <div class="absolute inset-0 z-10 pointer-events-none" 
+                 style="box-shadow: inset 0 0 25px 10px #fbf9f8; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); mask-image: linear-gradient(to right, black 0%, transparent 3%, transparent 97%, black 100%), linear-gradient(to bottom, black 0%, transparent 5%, transparent 95%, black 100%); -webkit-mask-image: linear-gradient(to right, black 0%, transparent 3%, transparent 97%, black 100%), linear-gradient(to bottom, black 0%, transparent 5%, transparent 95%, black 100%);">
+            </div>
+            <video 
+              autoplay 
+              loop 
+              muted 
+              playsinline
+              class="w-full h-full object-contain mix-blend-multiply transition-transform duration-1000 ease-out group-hover:scale-[1.03]"
+              style="-webkit-mask-image: linear-gradient(to right, transparent 0%, black 3%, black 97%, transparent 100%), linear-gradient(to bottom, transparent 0%, black 5%, black 95%, transparent 100%); -webkit-mask-composite: source-in; mask-image: linear-gradient(to right, transparent 0%, black 3%, black 97%, transparent 100%), linear-gradient(to bottom, transparent 0%, black 5%, black 95%, transparent 100%); mask-composite: intersect;">
+              <source src="asset.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="mt-3 sm:mt-4 md:mt-5 px-3 sm:px-0 text-center w-full">
+            <p class="font-body font-semibold text-primary text-[0.92rem] sm:text-xs md:text-sm tracking-[0.03em] uppercase whitespace-normal sm:whitespace-nowrap">
+              Get benefits from Rs 10,000 to Rs 1,00,000
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- How it Works: Asymmetric Grid -->
+    <section id="how-it-works-section" class="py-14 md:py-24 bg-surface-container-low">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 md:mb-16 gap-6 md:gap-8">
+          <div class="max-w-2xl">
+            <h2 class="text-3xl md:text-4xl font-headline font-bold text-primary mb-3 tracking-tight">How Referral Works</h2>
+            <p class="text-on-surface-variant font-body text-base md:text-lg">A simple 3-step process to refer and earn rewards.</p>
+          </div>
+          <div class="h-[2px] flex-grow bg-outline-variant/20 mx-8 hidden md:block"></div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-12 md:gap-x-12 group/grid">
+          <!-- Step 1 -->
+          <div
+            class="group relative transition-all duration-500 ease-out p-4 md:p-8 -m-4 md:-m-8 rounded-2xl md:rounded-3xl hover:bg-surface-container-lowest hover:editorial-shadow hover:z-20 hover:-translate-y-2 hover:scale-[1.05] group-hover/grid:[&:not(:hover)]:blur-sm group-hover/grid:[&:not(:hover)]:opacity-40 group-hover/grid:[&:not(:hover)]:scale-95 cursor-default">
+            <div
+              class="text-5xl md:text-[120px] font-headline font-black text-primary/5 leading-none md:mb-[-60px] mb-[-20px] group-hover:text-primary/10 transition-colors">
+              01</div>
+            <div class="relative md:pl-4">
+              <span class="material-symbols-outlined text-primary-container text-3xl md:text-4xl mb-2 md:mb-4"
+                data-icon="person_add">person_add</span>
+              <h3 class="text-lg md:text-xl font-headline font-bold mb-2 md:mb-3">Initiate Referral</h3>
+              <p class="text-sm md:text-sm leading-relaxed text-on-surface-variant">Share your friend's contact details with us. We'll take care of introducing them to our team.</p>
+            </div>
+          </div>
+          <!-- Step 2 -->
+          <div
+            class="group relative transition-all duration-500 ease-out p-4 md:p-8 -m-4 md:-m-8 rounded-2xl md:rounded-3xl hover:bg-surface-container-lowest hover:editorial-shadow hover:z-20 hover:-translate-y-2 hover:scale-[1.05] group-hover/grid:[&:not(:hover)]:blur-sm group-hover/grid:[&:not(:hover)]:opacity-40 group-hover/grid:[&:not(:hover)]:scale-95 cursor-default">
+            <div
+              class="text-5xl md:text-[120px] font-headline font-black text-primary/5 leading-none md:mb-[-60px] mb-[-20px] group-hover:text-primary/10 transition-colors">
+              02</div>
+            <div class="relative md:pl-4">
+              <span class="material-symbols-outlined text-primary-container text-3xl md:text-4xl mb-2 md:mb-4"
+                data-icon="verified">verified</span>
+              <h3 class="text-lg md:text-xl font-headline font-bold mb-2 md:mb-3">Seamless Onboarding</h3>
+              <p class="text-sm md:text-sm leading-relaxed text-on-surface-variant">We connect your friend with our team and guide them through the process smoothly.</p>
+            </div>
+          </div>
+          <!-- Step 3 -->
+          <div
+            class="group relative transition-all duration-500 ease-out p-4 md:p-8 -m-4 md:-m-8 rounded-2xl md:rounded-3xl hover:bg-surface-container-lowest hover:editorial-shadow hover:z-20 hover:-translate-y-2 hover:scale-[1.05] group-hover/grid:[&:not(:hover)]:blur-sm group-hover/grid:[&:not(:hover)]:opacity-40 group-hover/grid:[&:not(:hover)]:scale-95 cursor-default">
+            <div
+              class="text-5xl md:text-[120px] font-headline font-black text-primary/5 leading-none md:mb-[-60px] mb-[-20px] group-hover:text-primary/10 transition-colors">
+              03</div>
+            <div class="relative md:pl-4">
+              <span class="material-symbols-outlined text-primary-container text-3xl md:text-4xl mb-2 md:mb-4"
+                data-icon="payments">payments</span>
+              <h3 class="text-lg md:text-xl font-headline font-bold mb-2 md:mb-3">Wealth Accumulation</h3>
+              <p class="text-sm md:text-sm leading-relaxed text-on-surface-variant">Get paid when your friend completes a deal. Your reward goes straight to your account.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- FAQ Section -->
+    <section class="py-16 md:py-24 bg-primary">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 md:px-8">
+        <h2 class="text-3xl md:text-4xl font-headline font-extrabold text-white text-center mb-12 md:mb-16 tracking-tight">Frequently Asked
+          Questions</h2>
+        <div class="space-y-4">
+          <!-- Question 1 -->
+          <details class="faq-item group bg-white rounded-xl shadow-lg overflow-hidden flex flex-col">
+            <summary
+              class="p-6 flex justify-between items-center cursor-pointer list-none [&::-webkit-details-marker]:hidden border-b border-transparent group-open:border-zinc-100 transition-colors duration-300">
+              <span class="text-lg font-headline font-bold text-primary">How do I refer someone?</span>
+              <span
+                class="material-symbols-outlined text-primary font-bold transition-transform duration-500 group-open:rotate-180">expand_more</span>
+            </summary>
+            <div class="p-6 pt-2 bg-white origin-top">
+              <p class="text-on-surface-variant font-body leading-relaxed">Simply click on the "Refer Now" button, fill
+                out your and your friend’s details, and submit the form. Our team will contact your referral for
+                verification.</p>
+            </div>
+          </details>
+          <!-- Question 2 -->
+          <details class="faq-item group bg-white rounded-xl shadow-lg overflow-hidden flex flex-col">
+            <summary
+              class="p-4 sm:p-6 flex justify-between items-center cursor-pointer list-none [&::-webkit-details-marker]:hidden border-b border-transparent group-open:border-zinc-100 transition-colors duration-300 gap-3 min-h-[44px]">
+              <span class="text-base sm:text-lg font-headline font-bold text-primary">When will I receive my reward?</span>
+              <span
+                class="material-symbols-outlined text-primary font-bold transition-transform duration-500 group-open:rotate-180 flex-shrink-0">expand_more</span>
+            </summary>
+            <div class="p-4 sm:p-6 sm:pt-2 bg-white origin-top">
+              <p class="text-sm sm:text-base text-on-surface-variant font-body leading-relaxed">Rewards are processed within 30 working days
+                after your referral’s property deal is successfully completed.</p>
+            </div>
+          </details>
+          <!-- Question 3 -->
+          <details class="faq-item group bg-white rounded-xl shadow-lg overflow-hidden flex flex-col">
+            <summary
+              class="p-4 sm:p-6 flex justify-between items-center cursor-pointer list-none [&::-webkit-details-marker]:hidden border-b border-transparent group-open:border-zinc-100 transition-colors duration-300 gap-3 min-h-[44px]">
+              <span class="text-base sm:text-lg font-headline font-bold text-primary">Can I refer multiple people?</span>
+              <span
+                class="material-symbols-outlined text-primary font-bold transition-transform duration-500 group-open:rotate-180 flex-shrink-0">expand_more</span>
+            </summary>
+            <div class="p-4 sm:p-6 sm:pt-2 bg-white origin-top">
+              <p class="text-sm sm:text-base text-on-surface-variant font-body leading-relaxed">Yes, you can refer as many people as you
+                like. Each successful referral makes you eligible for additional rewards.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- Referral Modal (Hidden by default) -->
+  <div id="referralModal"
+    class="fixed inset-0 z-[5000] flex items-center justify-center p-2 sm:p-4 bg-black/60 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300">
+    <div
+      class="bg-surface-container-lowest p-5 md:p-8 rounded-2xl md:rounded-3xl shadow-2xl relative w-full max-w-[95vw] md:max-w-[640px] transform scale-95 transition-transform duration-300 overflow-y-auto"
+      id="modalContent">
+      <button onclick="closeModal()" type="button"
+        class="absolute top-4 right-4 text-zinc-400 hover:text-zinc-600 transition-colors z-[60] bg-white rounded-full p-1 shadow-sm">
+        <span class="material-symbols-outlined text-[18px]">close</span>
+      </button>
+      <!-- STEP 1: Selection -->
+      <div id="step-1-selection" class="flex flex-col animate-[fadeIn_0.3s_ease-out]">
+        <div class="text-center mb-6 md:mb-10 mt-2">
+          <h2 class="text-2xl md:text-3xl font-headline font-extrabold text-primary mb-2 md:mb-3">Start Your Referral</h2>
+          <p class="text-sm md:text-base text-zinc-600 font-body">Please choose the referral type to continue.</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-6 mb-3 md:mb-6 px-0 md:px-2">
+          <!-- Property Card -->
+          <div onclick="selectReferralType('Property')"
+            class="border border-zinc-200/80 rounded-xl p-4 md:p-8 cursor-pointer hover:border-primary/40 hover:shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:-translate-y-1 transition-all duration-300 group bg-white flex flex-col items-start text-left min-h-[160px] md:min-h-auto">
+            <div
+              class="w-12 h-12 md:w-14 md:h-14 bg-surface-container-low rounded-lg flex items-center justify-center mb-3 md:mb-6 group-hover:bg-primary/5 transition-colors">
+              <span
+                class="material-symbols-outlined text-zinc-800 group-hover:text-primary transition-colors text-2xl md:text-3xl">domain</span>
+            </div>
+            <h3 class="font-headline font-bold text-lg md:text-xl text-zinc-900 mb-2 md:mb-3 group-hover:text-primary transition-colors">
+              Property Referral</h3>
+            <p
+              class="text-xs md:text-sm text-zinc-500 font-body leading-relaxed group-hover:text-zinc-600 transition-colors">
+              Refer someone looking for help with property purchase opportunities.</p>
+          </div>
+
+          <!-- Loan Card -->
+          <div onclick="selectReferralType('Loan')"
+            class="border border-zinc-200/80 rounded-xl p-4 md:p-8 cursor-pointer hover:border-primary/40 hover:shadow-[0_8px_30px_rgb(0,0,0,0.06)] hover:-translate-y-1 transition-all duration-300 group bg-white flex flex-col items-start text-left min-h-[160px] md:min-h-auto">
+            <div
+              class="w-12 h-12 md:w-14 md:h-14 bg-surface-container-low rounded-lg flex items-center justify-center mb-3 md:mb-6 group-hover:bg-primary/5 transition-colors">
+              <span
+                class="material-symbols-outlined text-zinc-800 group-hover:text-primary transition-colors text-2xl md:text-3xl">account_balance</span>
+            </div>
+            <h3 class="font-headline font-bold text-lg md:text-xl text-zinc-900 mb-2 md:mb-3 group-hover:text-primary transition-colors">
+              Loan Referral</h3>
+            <p
+              class="text-xs md:text-sm text-zinc-500 font-body leading-relaxed group-hover:text-zinc-600 transition-colors">
+              Refer someone who needs support in finding the right loan options.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STEP 2: Form -->
+      <div id="step-2-form" class="hidden animate-[fadeIn_0.3s_ease-out] relative">
+        <button type="button" onclick="showStep1()"
+          class="absolute top-0 left-0 text-zinc-400 hover:text-zinc-600 transition-colors flex items-center text-[10px] md:text-[12px] font-bold uppercase tracking-wider gap-1 z-10 hover:-translate-x-1 min-h-[44px] px-2">
+          <span class="material-symbols-outlined text-[18px] md:text-[20px] text-primary">arrow_back</span>
+          <span>Back</span>
+        </button>
+        <form class="space-y-4 md:space-y-6 pt-10" id="referralForm">
+          <input type="hidden" name="referralType" id="referralType" value="">
+          <div class="space-y-2 text-center mb-4 md:mb-6">
+            <h2 class="text-lg md:text-2xl font-headline font-extrabold text-primary" id="formTitle">Provide Referral
+              Details</h2>
+            <p class="text-zinc-500 text-[9px] md:text-[10px] font-outfit uppercase tracking-wider">Please enter the details below to submit your referral.</p>
+            <p class="text-zinc-400 text-[8px] md:text-[9px] font-outfit mt-2"><span class="text-red-500 font-extrabold">*</span> indicates required field</p>
+          </div>
+          <div class="space-y-3">
+            <h3
+              class="font-body font-extrabold text-zinc-400 text-[9px] md:text-[10px] tracking-[0.15em] uppercase border-b border-zinc-100 pb-1">
+              Your Information</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-3">
+              <div class="space-y-1">
+                <label class="text-[9px] md:text-[10px] font-body font-bold text-[#3c5478] uppercase">Your Name <span class="text-red-500 font-extrabold">*</span></label>
+                <input
+                  class="w-full bg-surface-container-low border-none rounded-md px-3 py-2 md:py-2.5 text-base md:text-sm font-outfit font-medium focus:ring-1 focus:ring-primary-container min-h-[44px]"
+                  placeholder="e.g. Julian Vane" type="text" id="yourNameInput" required />
+              </div>
+              <div class="space-y-1">
+                <label class="text-[9px] md:text-[10px] font-body font-bold text-[#3c5478] uppercase">Your Number <span class="text-red-500 font-extrabold">*</span></label>
+                <input
+                  class="w-full bg-surface-container-low border-none rounded-md px-3 py-2 md:py-2.5 text-base md:text-sm font-outfit font-medium focus:ring-1 focus:ring-primary-container min-h-[44px]"
+                  placeholder="10-digit mobile number" type="tel" id="yourNumberInput" maxlength="10" pattern="[0-9]{10}" oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10)" required />
+              </div>
+            </div>
+          </div>
+          <div class="space-y-3 pt-2">
+            <h3
+              class="font-body font-extrabold text-zinc-400 text-[9px] md:text-[10px] tracking-[0.15em] uppercase border-b border-zinc-100 pb-1">
+              Referral Information</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-3">
+              <div class="space-y-1">
+                <label class="text-[9px] md:text-[10px] font-body font-bold text-[#3c5478] uppercase">Family &amp; Friend's
+                  Name <span class="text-red-500 font-extrabold">*</span></label>
+                <input
+                  class="w-full bg-surface-container-low border-none rounded-md px-3 py-2 md:py-2.5 text-base md:text-sm font-outfit font-medium focus:ring-1 focus:ring-primary-container min-h-[44px]"
+                  placeholder="e.g. Elena Rossi" type="text" id="friendNameInput" required />
+              </div>
+              <div class="space-y-1">
+                <label class="text-[9px] md:text-[10px] font-body font-bold text-[#3c5478] uppercase">Family &amp; Friend's
+                  Number <span class="text-red-500 font-extrabold">*</span></label>
+                <input
+                  class="w-full bg-surface-container-low border-none rounded-md px-3 py-2 md:py-2.5 text-base md:text-sm font-outfit font-medium focus:ring-1 focus:ring-primary-container min-h-[44px]"
+                  placeholder="10-digit mobile number" type="tel" id="friendNumberInput" maxlength="10" pattern="[0-9]{10}" oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10)" required />
+              </div>
+              <!-- Appears only for Property Referral -->
+              <div class="space-y-1 hidden animate-[fadeIn_0.3s_ease-out]" id="propertyTypeContainer">
+                <label class="text-[9px] md:text-[10px] font-body font-bold text-[#3c5478] uppercase">Property Type</label>
+                <div class="custom-select" id="propertyTypeCustom">
+                  <button type="button" class="custom-select-trigger" id="propertyTypeTrigger">
+                    <span class="custom-select-value">Select property type</span>
+                    <span class="custom-select-arrow">▼</span>
+                  </button>
+                  <div class="custom-select-dropdown" id="propertyTypeDropdown">
+                    <div class="custom-select-option" data-value="Residential">Residential</div>
+                    <div class="custom-select-option" data-value="Commercial">Commercial</div>
+                    <div class="custom-select-option" data-value="Plot">Plot</div>
+                  </div>
+                  <select id="propertyTypeInput" style="display: none;">
+                    <option value="" disabled selected>Select property type</option>
+                    <option value="Residential">Residential</option>
+                    <option value="Commercial">Commercial</option>
+                    <option value="Plot">Plot</option>
+                  </select>
+                </div>
+              </div>
+              <div class="space-y-1 hidden animate-[fadeIn_0.3s_ease-out]" id="propertyNameContainer">
+                <label class="text-[9px] md:text-[10px] font-body font-bold text-[#3c5478] uppercase">Property Name</label>
+                <input
+                  class="w-full bg-surface-container-low border-none rounded-md px-3 py-2 md:py-2.5 text-base md:text-sm font-outfit font-medium focus:ring-1 focus:ring-primary-container min-h-[44px]"
+                  placeholder="e.g. Sapphire Estates" type="text" id="propertyNameInput" />
+              </div>
+              <!-- Appears only for Loan Referral -->
+              <div class="space-y-1 hidden animate-[fadeIn_0.3s_ease-out]" id="loanTypeContainer">
+                <label class="text-[9px] md:text-[10px] font-body font-bold text-[#3c5478] uppercase">Loan Type</label>
+                <div class="custom-select" id="loanTypeCustom">
+                  <button type="button" class="custom-select-trigger" id="loanTypeTrigger">
+                    <span class="custom-select-value">Select loan type</span>
+                    <span class="custom-select-arrow">▼</span>
+                  </button>
+                  <div class="custom-select-dropdown" id="loanTypeDropdown">
+                    <div class="custom-select-option" data-value="Home loan">Home loan</div>
+                    <div class="custom-select-option" data-value="Mortgage loan">Mortgage loan</div>
+                    <div class="custom-select-option" data-value="Other">Other</div>
+                  </div>
+                  <select id="loanTypeInput" style="display: none;">
+                    <option value="" disabled selected>Select loan type</option>
+                    <option value="Home loan">Home loan</option>
+                    <option value="Mortgage loan">Mortgage loan</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+              </div>
+              <div class="space-y-1 hidden animate-[fadeIn_0.3s_ease-out]" id="loanRangeContainer">
+                <label class="text-[9px] md:text-[10px] font-body font-bold text-[#3c5478] uppercase">Loan Range</label>
+                <div class="custom-select" id="loanRangeCustom">
+                  <button type="button" class="custom-select-trigger" id="loanRangeTrigger">
+                    <span class="custom-select-value">Select expected range</span>
+                    <span class="custom-select-arrow">▼</span>
+                  </button>
+                  <div class="custom-select-dropdown" id="loanRangeDropdown">
+                    <div class="custom-select-option" data-value="20 lacs - 40 lacs">20 lacs - 40 lacs</div>
+                    <div class="custom-select-option" data-value="40 lacs - 60 lacs">40 lacs - 60 lacs</div>
+                    <div class="custom-select-option" data-value="60 lacs - 80 lacs">60 lacs - 80 lacs</div>
+                    <div class="custom-select-option" data-value="80 lacs - 1cr">80 lacs - 1cr</div>
+                    <div class="custom-select-option" data-value="above 1 cr">above 1 cr</div>
+                  </div>
+                  <select id="loanRangeInput" style="display: none;">
+                    <option value="" disabled selected>Select expected range</option>
+                    <option value="20 lacs - 40 lacs">20 lacs - 40 lacs</option>
+                    <option value="40 lacs - 60 lacs">40 lacs - 60 lacs</option>
+                    <option value="60 lacs - 80 lacs">60 lacs - 80 lacs</option>
+                    <option value="80 lacs - 1cr">80 lacs - 1cr</option>
+                    <option value="above 1 cr">above 1 cr</option>
+                  </select>
+                </div>
+              </div>
+              <div class="space-y-1 md:col-span-2 hidden animate-[fadeIn_0.3s_ease-out]" id="loanTypeOtherContainer">
+                <label class="text-[9px] md:text-[10px] font-body font-bold text-[#3c5478] uppercase">Please Specify Loan Type</label>
+                <input
+                  class="w-full bg-surface-container-low border-none rounded-md px-3 py-2 md:py-2.5 text-base md:text-sm font-outfit font-medium focus:ring-1 focus:ring-primary-container min-h-[44px]"
+                  placeholder="e.g. Personal loan" type="text" id="loanTypeOtherInput" />
+              </div>
+            </div>
+          </div>
+          <div class="pt-3 md:pt-4">
+            <div class="flex items-start md:items-center gap-2 md:gap-3 mb-3 md:mb-4 px-0 md:px-1 animate-[fadeIn_0.3s_ease-out]">
+              <input type="checkbox" id="termsAgreement" required
+                class="w-5 h-5 flex-shrink-0 rounded-md border-2 border-primary text-primary focus:ring-primary focus:ring-offset-0 bg-white cursor-pointer transition-colors shadow-sm mt-1" />
+              <label for="termsAgreement"
+                class="text-xs md:text-sm font-outfit font-semibold text-[#3c5478] cursor-pointer select-none leading-snug">
+                I have read <a href="policy.pdf" target="_blank"
+                  class="text-primary hover:underline underline-offset-4 decoration-2">terms and conditions</a> of
+                referral policy and I agree
+              </label>
+            </div>
+            <button
+              class="w-full primary-gradient text-on-primary py-3 md:py-3.5 rounded-md font-outfit font-bold tracking-wide hover:opacity-90 transition-all duration-300 editorial-shadow text-base md:text-base min-h-[48px]"
+              type="submit" id="submitBtn">
+              Submit Referral
+            </button>
+            <p id="formErrorMessage" class="hidden text-center text-xs text-[#ba1a1a] mt-2 font-body">
+              We could not submit your referral right now. Please try again.
+            </p>
+            <p class="text-center text-[8px] md:text-[9px] text-zinc-400 mt-2 md:mt-3 uppercase tracking-tighter">
+              By submitting, you agree to our terms and conditions..
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
   </div>
 
-  <!-- Right Image -->
-  <div class="refer-img">
-    <img src="/images/real estate image HZ  cropped.png" alt="Laptop view" class="desktop-img">
+  <!-- Submission Success Modal -->
+  <div id="successModal"
+    class="fixed inset-0 z-[130] flex items-center justify-center p-4 bg-black/55 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300">
+    <div
+      class="bg-surface-container-lowest w-full max-w-md rounded-xl p-6 md:p-7 editorial-shadow transform scale-95 transition-transform duration-300 text-center"
+      id="successModalContent">
+      <div class="w-14 h-14 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center">
+        <span class="material-symbols-outlined text-primary text-[30px]">check_circle</span>
+      </div>
+      <h3 class="text-2xl font-headline font-extrabold text-primary mb-2">Referral Submitted</h3>
+      <p class="text-sm md:text-base text-zinc-600 font-body leading-relaxed mb-6">
+        Thank you. We have received your referral details and our team will contact your referred person shortly.
+      </p>
+      <button type="button" onclick="closeSuccessModal()"
+        class="w-full primary-gradient text-white font-body font-semibold text-base py-3 rounded-lg hover:opacity-90 transition-opacity min-h-[46px]">
+        Done
+      </button>
+    </div>
   </div>
-</div>
 
-<!-- OPEN BUTTON -->
-<!-- <button id="openReferBtn" style="background:#8c1843;color:white;padding:10px 20px;border:none;border-radius:5px;cursor:pointer;">
-  Refer & Earn
-</button> -->
-
-<!-- REFER FORM POPUP -->
-<div class="popup-overlay" id="popupOverlay" style="display:none;">
-  <div class="popup-box">
-    <span class="close-btn" id="closePopup">&times;</span>
-
-    <h2 style="text-align:center;color:#8c1843;">Refer & Earn</h2>
-
-    <form id="referForm" method="POST" action="https://script.google.com/macros/s/AKfycbzXdwp5MH0BUjj_0OHQJdwGpH1Uc88HRsZgbWpDDL1urOOPuZcKzrjtdz4bylH1Ucay/exec",>
-      <label for="referrerName">Your Name</label>
-      <input type="text" id="referrerName" name="referrerName" placeholder="Enter your name" required minlength="2">
-
-      <label for="referrerPhone">Your Number</label>
-      <input type="tel" id="referrerPhone" name="referrerPhone" placeholder="Enter your phone number" required pattern="[0-9]{10}" maxlength="10">
-
-      <label for="friendName">Family & Friend's Name</label>
-      <input type="text" id="friendName" name="friendName" placeholder="Enter your friend's name" required minlength="2">
-
-      <label for="friendPhone">Family & Friend's Number</label>
-      <input type="tel" id="friendPhone" name="friendPhone" placeholder="Enter your friend's number" required pattern="[0-9]{10}" maxlength="10">
-
-      <button type="submit">Submit</button>
-      <div id="message" style="margin-top:10px;font-weight:600;"></div>
-    </form>
-
-    <!-- Hidden Audio -->
-    <audio id="successSound" src="/ttsmaker-file-2025-10-11-14-38-7.mp3" preload="auto"></audio>
-  </div>
-</div>
-
-<!-- SCRIPT -->
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  const openReferBtn = document.getElementById("openReferBtn");
-  const popupOverlay = document.getElementById("popupOverlay");
-  const closePopup = document.getElementById("closePopup");
-  const form = document.getElementById("referForm");
-  const message = document.getElementById("message");
-  const audio = document.getElementById("successSound");
-
-  // Open popup
-  openReferBtn.addEventListener("click", () => {
-    popupOverlay.style.display = "flex";
-  });
-
-  // Close popup
-  closePopup.addEventListener("click", () => {
-    popupOverlay.style.display = "none";
-  });
-
-  // Close clicking outside
-  popupOverlay.addEventListener("click", (e) => {
-    if (e.target === popupOverlay) popupOverlay.style.display = "none";
-  });
-
-  // Submit form
-  form.addEventListener("submit", async (e) => {
-    e.preventDefault();
-    const submitBtn = form.querySelector("button[type='submit']");
-    submitBtn.disabled = true;
-
-    const referrerPhone = document.getElementById("referrerPhone").value.trim();
-    const friendPhone = document.getElementById("friendPhone").value.trim();
-
-    if (referrerPhone === friendPhone) {
-      message.textContent = "Both phone numbers must be different!";
-      message.className = "error";
-      submitBtn.disabled = false;
-      return;
+  <!-- Modal Scripts -->
+  <script>
+    function openModal() {
+      const modal = document.getElementById('referralModal');
+      const content = document.getElementById('modalContent');
+      modal.classList.remove('opacity-0', 'pointer-events-none');
+      modal.classList.add('opacity-100');
+      content.classList.remove('scale-95');
+      content.classList.add('scale-100');
+      document.body.classList.add('overflow-hidden');
+      showStep1();
     }
 
-    // Wait message
-    message.textContent = "⏳ Please wait, your referral is being submitted...";
-    message.className = "";
+    function selectReferralType(type) {
+      document.getElementById('referralType').value = type;
+      document.getElementById('step-1-selection').classList.add('hidden');
+      document.getElementById('step-1-selection').classList.remove('flex');
+      document.getElementById('step-2-form').classList.remove('hidden');
+      document.getElementById('formTitle').innerText = `${type} Referral Details`;
+      document.getElementById('submitBtn').innerText = `Submit ${type} Referral`;
 
-    try {
-      const formData = new FormData(form);
-      const res = await fetch(form.action, { method: "POST", body: formData });
-
-      if (res.ok) {
-        // Success → play voice
-        audio.currentTime = 0;
-        audio.play();
-
-        message.textContent = "✅ Thank you! Your referral has been submitted successfully.";
-        message.className = "success";
-        form.reset();
-
-        // Auto-close popup after 2s
-        setTimeout(() => {
-          popupOverlay.style.display = "none";
-          message.textContent = "";
-        }, 2000);
+      // Toggle Property & Loan field visibility
+      if (type === 'Property') {
+        document.getElementById('propertyTypeContainer').classList.remove('hidden');
+        document.getElementById('propertyNameContainer').classList.remove('hidden');
+        document.getElementById('loanRangeContainer').classList.add('hidden');
+        document.getElementById('loanTypeContainer').classList.add('hidden');
+        document.getElementById('loanTypeOtherContainer').classList.add('hidden');
+        document.getElementById('propertyNameInput').required = false;
+        document.getElementById('propertyTypeInput').value = document.getElementById('propertyTypeInput').value || '';
+        document.getElementById('loanRangeInput').value = '';
+        document.getElementById('loanTypeInput').value = '';
+        document.getElementById('loanTypeOtherInput').value = '';
+      } else if (type === 'Loan') {
+        document.getElementById('loanRangeContainer').classList.remove('hidden');
+        document.getElementById('loanTypeContainer').classList.remove('hidden');
+        document.getElementById('propertyTypeContainer').classList.add('hidden');
+        document.getElementById('propertyNameContainer').classList.add('hidden');
+        document.getElementById('propertyNameInput').required = false;
+        document.getElementById('propertyNameInput').value = '';
+        document.getElementById('propertyTypeInput').value = '';
       } else {
-        message.textContent = "❌ Something went wrong. Please try again.";
-        message.className = "error";
+        document.getElementById('propertyTypeContainer').classList.add('hidden');
+        document.getElementById('propertyNameContainer').classList.add('hidden');
+        document.getElementById('loanRangeContainer').classList.add('hidden');
+        document.getElementById('loanTypeContainer').classList.add('hidden');
+        document.getElementById('loanTypeOtherContainer').classList.add('hidden');
+        document.getElementById('propertyNameInput').required = false;
+        document.getElementById('propertyNameInput').value = '';
+        document.getElementById('propertyTypeInput').value = '';
+        document.getElementById('loanRangeInput').value = '';
+        document.getElementById('loanTypeInput').value = '';
+        document.getElementById('loanTypeOtherInput').value = '';
       }
-    } catch (err) {
-      console.error(err);
-      message.textContent = "❌ Error submitting form.";
-      message.className = "error";
-    } finally {
-      submitBtn.disabled = false;
     }
-  });
-});
-</script>
-    <!-- FAQ SECTION -->
-    <section class="faq-section">
-  <h2 class="faq-title">Frequently Asked Questions</h2>
 
-  <!-- <div class="faq-item">
-    <button class="faq-question">
-      What is the Refer & Earn program?
-      <span class="faq-icon">+</span>
-    </button>
-    <div class="faq-answer">
-      Our Refer & Earn program lets you refer friends or clients to SF Real Estate.
-      When your referral completes a property transaction, you earn exciting rewards.
-    </div>
-  </div> -->
+    function showStep1() {
+      document.getElementById('step-2-form').classList.add('hidden');
+      document.getElementById('step-1-selection').classList.remove('hidden');
+      document.getElementById('step-1-selection').classList.add('flex');
+      document.getElementById('referralType').value = '';
+    }
 
-  <!-- <div class="faq-item">
-    <button class="faq-question">
-      Who can participate in the referral program?
-      <span class="faq-icon">+</span>
-    </button>
-    <div class="faq-answer">
-      Anyone above 18 years old can participate, as long as the referred person is a
-      new client and not already registered with us.
-    </div>
-  </div> -->
+    function closeModal() {
+      const modal = document.getElementById('referralModal');
+      const content = document.getElementById('modalContent');
+      modal.classList.remove('opacity-100');
+      modal.classList.add('opacity-0', 'pointer-events-none');
+      content.classList.remove('scale-100');
+      content.classList.add('scale-95');
+      document.body.classList.remove('overflow-hidden');
+    }
 
-  <div class="faq-item">
-    <button class="faq-question">
-      How do I refer someone?
-      <span class="faq-icon">+</span>
-    </button>
-    <div class="faq-answer">
-      Simply click on the “Refer Now” button, fill out your and your friend’s details,
-      and submit the form. Our team will contact your referral for verification.
-    </div>
-  </div>
+    function openSuccessModal() {
+      const modal = document.getElementById('successModal');
+      const content = document.getElementById('successModalContent');
+      modal.classList.remove('opacity-0', 'pointer-events-none');
+      modal.classList.add('opacity-100');
+      content.classList.remove('scale-95');
+      content.classList.add('scale-100');
+      document.body.classList.add('overflow-hidden');
+    }
 
-  <div class="faq-item">
-    <button class="faq-question">
-      When will I receive my reward?
-      <span class="faq-icon">+</span>
-    </button>
-    <div class="faq-answer">
-      Rewards are processed within 30 working days after your referral’s property
-      deal is successfully completed.
-    </div>
-  </div>
+    function closeSuccessModal() {
+      const modal = document.getElementById('successModal');
+      const content = document.getElementById('successModalContent');
+      modal.classList.remove('opacity-100');
+      modal.classList.add('opacity-0', 'pointer-events-none');
+      content.classList.remove('scale-100');
+      content.classList.add('scale-95');
+      document.body.classList.remove('overflow-hidden');
+    }
 
-  <div class="faq-item">
-    <button class="faq-question">
-      Can I refer multiple people?
-      <span class="faq-icon">+</span>
-    </button>
-    <div class="faq-answer">
-      Yes, you can refer as many people as you like. Each successful referral makes
-      you eligible for additional rewards.
-    </div>
-  </div>
-</section>
-<script>
-  const faqs = document.querySelectorAll(".faq-item");
-
-  faqs.forEach((faq) => {
-    faq.querySelector(".faq-question").addEventListener("click", () => {
-      faq.classList.toggle("active");
-
-      // Close other FAQs when one is opened (optional)
-      faqs.forEach((item) => {
-        if (item !== faq) item.classList.remove("active");
-      });
+    // Close on backdrop click
+    document.getElementById('referralModal').addEventListener('click', function (e) {
+      if (e.target === this) {
+        closeModal();
+      }
     });
-  });
-</script>
 
+    // Close success modal on backdrop click
+    document.getElementById('successModal').addEventListener('click', function (e) {
+      if (e.target === this) {
+        closeSuccessModal();
+      }
+    });
 
-    <script>
-      const btn = document.getElementById("togglePolicy");
-      const content = document.getElementById("policyContent");
-
-      btn.addEventListener("click", () => {
-        content.classList.toggle("open");
-        btn.classList.toggle("active");
-
-        if (content.classList.contains("open")) {
-          btn.textContent = "Hide Policy ▲";
-        } else {
-          btn.textContent = "Read Full Policy ▾";
+    // FAQ Mutual Exclusivity - Only one open at a time
+    const faqItems = document.querySelectorAll('.faq-item');
+    faqItems.forEach(item => {
+      item.addEventListener('toggle', function() {
+        if (this.open) {
+          // Close all other FAQ items
+          faqItems.forEach(other => {
+            if (other !== this) {
+              other.open = false;
+            }
+          });
         }
       });
-    </script>
-     <script>
-    // Drag to Scroll for Top Picks — Desktop Only
-    if (window.innerWidth > 768) {
-      const slider = document.querySelector('.top-picks-cards');
+    });
 
-      let isDown = false;
-      let startX;
-      let scrollLeft;
+    // Custom Dropdown Functionality
+    function initializeCustomSelect(customSelectId) {
+      const customSelect = document.getElementById(customSelectId);
+      if (!customSelect) return;
 
-      slider.addEventListener('mousedown', (e) => {
-        isDown = true;
-        slider.classList.add('active');
+      const trigger = customSelect.querySelector('.custom-select-trigger');
+      const dropdown = customSelect.querySelector('.custom-select-dropdown');
+      const options = customSelect.querySelectorAll('.custom-select-option');
+      const hiddenSelect = customSelect.querySelector('select');
+      const valueDisplay = customSelect.querySelector('.custom-select-value');
 
-        // Disable text selection during drag
-        slider.style.userSelect = "none";
-        slider.style.webkitUserSelect = "none";
-
-        startX = e.pageX - slider.offsetLeft;
-        scrollLeft = slider.scrollLeft;
+      // Toggle dropdown on trigger click
+      trigger.addEventListener('click', (e) => {
+        e.stopPropagation();
+        dropdown.classList.toggle('open');
+        trigger.classList.toggle('open');
       });
 
-      slider.addEventListener('mouseleave', () => {
-        isDown = false;
-        slider.classList.remove('active');
-
-        slider.style.userSelect = "";
-        slider.style.webkitUserSelect = "";
+      // Handle option selection
+      options.forEach(option => {
+        option.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const value = option.getAttribute('data-value');
+          
+          // Update display
+          valueDisplay.textContent = value;
+          
+          // Update hidden select
+          hiddenSelect.value = value;
+          hiddenSelect.dispatchEvent(new Event('change', { bubbles: true }));
+          
+          // Update selected styling
+          options.forEach(opt => opt.classList.remove('selected'));
+          option.classList.add('selected');
+          
+          // Close dropdown
+          dropdown.classList.remove('open');
+          trigger.classList.remove('open');
+        });
       });
 
-      slider.addEventListener('mouseup', () => {
-        isDown = false;
-        slider.classList.remove('active');
-
-        slider.style.userSelect = "";
-        slider.style.webkitUserSelect = "";
+      // Close dropdown when clicking outside
+      document.addEventListener('click', () => {
+        dropdown.classList.remove('open');
+        trigger.classList.remove('open');
       });
 
-      slider.addEventListener('mousemove', (e) => {
-        if (!isDown) return;
-        e.preventDefault();
-        const x = e.pageX - slider.offsetLeft;
-        const walk = (x - startX) * 2;
-        slider.scrollLeft = scrollLeft - walk;
+      // Prevent dropdown from closing when clicking inside it
+      dropdown.addEventListener('click', (e) => {
+        e.stopPropagation();
       });
     }
+
+    // Initialize all custom selects
+    initializeCustomSelect('loanTypeCustom');
+    initializeCustomSelect('loanRangeCustom');
+    initializeCustomSelect('propertyTypeCustom');
+
+    // Handle "Other" loan type visibility
+    const loanTypeSelect = document.getElementById('loanTypeInput');
+    const loanTypeOtherContainer = document.getElementById('loanTypeOtherContainer');
+    
+    if (loanTypeSelect && loanTypeOtherContainer) {
+      loanTypeSelect.addEventListener('change', function() {
+        if (this.value === 'Other') {
+          loanTypeOtherContainer.classList.remove('hidden');
+          document.getElementById('loanTypeOtherInput').focus();
+        } else {
+          loanTypeOtherContainer.classList.add('hidden');
+          document.getElementById('loanTypeOtherInput').value = '';
+        }
+      });
+    }
+
+    // Toggle Property Type container visibility when Property is selected
+    const referralTypeSelect = document.getElementById('referralType');
+    const propertyTypeContainer = document.getElementById('propertyTypeContainer');
+    const propertyNameContainer = document.getElementById('propertyNameContainer');
+    const loanTypeContainer = document.getElementById('loanTypeContainer');
+    const loanRangeContainer = document.getElementById('loanRangeContainer');
+
+    if (referralTypeSelect) {
+      referralTypeSelect.addEventListener('change', function() {
+        if (this.value === 'Property') {
+          propertyTypeContainer?.classList.remove('hidden');
+          propertyNameContainer?.classList.remove('hidden');
+          loanTypeContainer?.classList.add('hidden');
+          loanRangeContainer?.classList.add('hidden');
+          loanTypeOtherContainer?.classList.add('hidden');
+        } else if (this.value === 'Loan') {
+          loanTypeContainer?.classList.remove('hidden');
+          loanRangeContainer?.classList.remove('hidden');
+          propertyTypeContainer?.classList.add('hidden');
+          propertyNameContainer?.classList.add('hidden');
+          loanTypeOtherContainer?.classList.add('hidden');
+        }
+      });
+    }
+
+    const REFERRAL_SUBMIT_ENDPOINT = 'https://script.google.com/macros/s/AKfycbxgECfSSq3Tk2_7otk33UonNUcy0dwNIcXDkeV195-xOgIM5B2FmH56po0H_0aA9iC8/exec';
+
+    // Form submit handling
+    function resetCustomSelect(customSelectId, placeholder) {
+      const customSelect = document.getElementById(customSelectId);
+      if (!customSelect) return;
+
+      const options = customSelect.querySelectorAll('.custom-select-option');
+      const hiddenSelect = customSelect.querySelector('select');
+      const valueDisplay = customSelect.querySelector('.custom-select-value');
+
+      options.forEach(option => option.classList.remove('selected'));
+      hiddenSelect.value = '';
+      valueDisplay.textContent = placeholder;
+    }
+
+    async function submitReferralData(payload) {
+      const response = await fetch(REFERRAL_SUBMIT_ENDPOINT, {
+        method: 'POST',
+        mode: 'cors',
+        headers: {
+          'Content-Type': 'text/plain;charset=utf-8'
+        },
+        body: JSON.stringify(payload)
+      });
+
+      if (!response.ok) {
+        throw new Error(`Submission failed with status ${response.status}`);
+      }
+
+      return { success: true };
+    }
+
+    // --- Added for existing codebase integration ---
+    function initializeMenuToggle() {
+      const menuToggle = document.getElementById("menuToggle");
+      const mobileMenu = document.getElementById("mobileMenu");
+      const closeMenu = document.getElementById("closeMenu");
+      const overlay = document.getElementById("overlay");
+
+      if (!menuToggle || !mobileMenu || !closeMenu || !overlay) return;
+
+      menuToggle.addEventListener("click", () => {
+        mobileMenu.classList.add("active");
+        overlay.classList.add("show");
+      });
+
+      const closeNow = () => {
+        mobileMenu.classList.remove("active");
+        overlay.classList.remove("show");
+      };
+
+      closeMenu.addEventListener("click", closeNow);
+      overlay.addEventListener("click", closeNow);
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      initializeMenuToggle();
+    });
+    // -----------------------------------------------
+
+    document.getElementById('referralForm').addEventListener('submit', async function (e) {
+      e.preventDefault();
+      const submitButton = document.getElementById('submitBtn');
+      const formErrorMessage = document.getElementById('formErrorMessage');
+      const selectedType = document.getElementById('referralType').value;
+
+      if (!this.checkValidity()) {
+        this.reportValidity();
+        return;
+      }
+
+      formErrorMessage.classList.add('hidden');
+      const originalButtonText = submitButton.innerText;
+      submitButton.disabled = true;
+      submitButton.innerText = 'Submitting...';
+
+      const payload = {
+        referralType: selectedType,
+        yourName: document.getElementById('yourNameInput').value.trim(),
+        yourNumber: document.getElementById('yourNumberInput').value.trim(),
+        friendName: document.getElementById('friendNameInput').value.trim(),
+        friendNumber: document.getElementById('friendNumberInput').value.trim(),
+        propertyName: document.getElementById('propertyNameInput').value.trim(),
+        propertyType: document.getElementById('propertyTypeInput').value,
+        loanType: document.getElementById('loanTypeInput').value,
+        loanTypeOther: document.getElementById('loanTypeOtherInput').value.trim(),
+        loanRange: document.getElementById('loanRangeInput').value,
+        submittedAt: new Date().toISOString()
+      };
+
+      try {
+        await submitReferralData(payload);
+
+        closeModal();
+        openSuccessModal();
+
+        this.reset();
+        showStep1();
+        resetCustomSelect('loanTypeCustom', 'Select loan type');
+        resetCustomSelect('loanRangeCustom', 'Select expected range');
+        resetCustomSelect('propertyTypeCustom', 'Select property type');
+        document.getElementById('loanTypeOtherInput').value = '';
+        loanTypeOtherContainer?.classList.add('hidden');
+      } catch (error) {
+        formErrorMessage.innerText = error.message || 'We could not submit your referral right now. Please try again.';
+        formErrorMessage.classList.remove('hidden');
+      } finally {
+        submitButton.disabled = false;
+        submitButton.innerText = originalButtonText;
+      }
+    });
   </script>
-  <!-- Menu -->
-<script>
-  const menuToggle = document.getElementById("menuToggle");
-  const mobileMenu = document.getElementById("mobileMenu");
-  const closeMenu = document.getElementById("closeMenu");
-  const overlay = document.getElementById("overlay");
+</body>
 
-  // Open Menu
-  menuToggle.addEventListener("click", () => {
-    mobileMenu.classList.add("active");
-    overlay.classList.add("show");
-  });
-
-  // Close Menu
-  const closeNow = () => {
-    mobileMenu.classList.remove("active");
-    overlay.classList.remove("show");
-  };
-
-  closeMenu.addEventListener("click", closeNow);
-  overlay.addEventListener("click", closeNow);
-</script>
-  </body>
 </html>
