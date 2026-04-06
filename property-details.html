@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Property Details</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* Reset some default styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+
+      body {
+        background-color: #fff;
+        color: #333;
+        line-height: 1.2;
+        padding: 20px;
+      }
+
+      /* Container for property details */
+      .property-details-page {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        border-top: 5px solid #8c1843; /* Accent color */
+        transition: all 0.3s ease;
+      }
+
+      .property-details-page h1 {
+        color: #8c1843;
+        font-size: 2rem;
+        margin-bottom: 10px;
+      }
+
+      .property-details-page p {
+        color: #555;
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+      }
+
+      .property-details-page ul {
+        list-style-type: disc;
+        margin-left: 20px;
+        margin-bottom: 30px;
+      }
+
+      .property-details-page ul li {
+        margin-bottom: 10px;
+        color: #333;
+        font-size: 1rem;
+      }
+
+      /* Back link */
+      .property-details-page a {
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        background-color: #8c1843;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+        font-weight: 600;
+      }
+
+      .property-details-page a:hover {
+        background-color: #6e1133;
+      }
+      .property-details-page img {
+        width: 100%;
+        max-height: 400px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 20px;
+      }
+
+      /* Responsive */
+      @media (max-width: 600px) {
+        .property-details-page {
+          padding: 20px;
+          margin: 20px;
+        }
+
+        .property-details-page h1 {
+          font-size: 1.5rem;
+        }
+
+        .property-details-page p {
+          font-size: 1rem;
+        }
+
+        .property-details-page ul li {
+          font-size: 0.9rem;
+        }
+         .property-details-page a {
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        background-color: #8c1843;
+        padding: 8px 5px;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+        font-weight: 600;
+        font-size: 12px;
+      }
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="property-details-page">
+      <img id="propImage" src="" alt="Property Image" />
+      <h1 id="propTitle"></h1>
+      <p id="propLocation"></p>
+      <ul id="propList"></ul>
+      <a href="index.html">Back to All Properties</a>
+    </div>
+
+    <script>
+      // Sample data for all cards (copy from index.html or JSON)
+      const properties = [
+        {
+          id: "1",
+          image: "images/Buildiings.jpeg",
+          title: "Ready To Move 4BHK Duplex 4150sq.ft. @1.75cr",
+          location: "Jagatpur",
+          list: [
+            "(including AEC Auda & Maintainance*)",
+            "20+ Doctors Families already owned the property*",
+            "Ultra luxurious property with all amenities",
+            "2 Alloted Car Parking",
+            "Recently BU Available*",
+          ],
+        },
+        {
+          id: "4",
+          image: "images/Buildiings.jpeg",
+          title: "Best Investment Property 2920sq.ft only @10250 per sq.ft",
+          location: "RajPath-Club",
+          list: [
+            "(including AEC Auda & Maintainance*)",
+            "2nd Floor Showroom",
+            "1.25k Rent Running",
+          ],
+        },
+        {
+          id: "6",
+          image: "images/Buildiings.jpeg",
+          title:
+            "Ready To Move 4BHK Duplex (Fully Furnished) 4150sq.ft. @2.20cr",
+          location: "Jagatpur",
+          list: [
+            "Box Price(including All*)",
+            "Sample House",
+            "20+ Doctors Families already owned the property*",
+            "Ultra luxurious property with all amenities",
+            "2 Alloted Car Parking",
+            "Recently BU Available*",
+          ],
+        },
+      ];
+
+      // Get card ID from URL
+      const params = new URLSearchParams(window.location.search);
+      const id = params.get("id");
+
+      // Find property
+      const property = properties.find((p) => p.id === id);
+
+      if (property) {
+        document.getElementById("propTitle").textContent = property.title;
+        document.getElementById("propLocation").textContent = property.location;
+        document.getElementById("propImage").src = property.image;
+        const ul = document.getElementById("propList");
+        property.list.forEach((item) => {
+          const li = document.createElement("li");
+          li.textContent = item;
+          ul.appendChild(li);
+        });
+      } else {
+        document.querySelector(".property-details-page").innerHTML =
+          "<p>Property not found.</p>";
+      }
+    </script>
+  </body>
+</html>

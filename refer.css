@@ -1,0 +1,606 @@
+/* ========== GLOBAL ========== */
+body {
+  font-family: "Poppins", sans-serif;
+  /* background-color: #8c1843; */
+/* background: 
+    repeating-linear-gradient(
+      135deg,
+      #8c1843,
+      #8c1843 3px,
+      #7a153a 5px,
+      #7a153a 8px
+    );
+  background-blend-mode: multiply;
+  filter: brightness(105%) contrast(110%);  margin: 0; */
+  padding: 0;
+}
+/* Popup Overlay */
+.popup-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+/* Popup Box */
+.popup-box {
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 400px;
+  position: relative;
+  animation: popupScale 0.3s ease;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes popupScale {
+  from {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Close Button */
+.close-btn {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  font-size: 22px;
+  cursor: pointer;
+  color: #888;
+  transition: 0.3s;
+}
+.close-btn:hover {
+  color: #e74c3c;
+}
+
+/* Refer Button */
+.refer-btn {
+  background: white;
+  color: #8c1843;
+  border: none;
+  /* padding: 12px 25px; */
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: fit-content;
+}
+.refer-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Form Styling */
+.popup-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.popup-box input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.popup-box button {
+  background: #8c1843;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.popup-box button:hover {
+  background: #a92258;
+}
+
+#message {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.success {
+  color: green;
+}
+.error {
+  color: red;
+}
+
+/* ========== FORM SECTION ========== */
+.refer-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 20px 15px; */
+  /* gap: 50px; */
+  /* margin-top: 50px; */
+  background-color: #8c1843;
+}
+
+.refer-container {
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 420px;
+}
+#referHeading {
+  white-space: pre-line;
+}
+
+.refer-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: 600;
+  color: #444;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+input:focus {
+  border-color: #8c1843;
+  outline: none;
+}
+
+button {
+  background-color: #8c1843;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+/* button:hover {
+  background-color: #8c1843;
+} */
+
+.success,
+.error {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.success {
+  color: green;
+}
+.error {
+  color: red;
+}
+
+/* ========== POLICY SECTION ========== */
+.policy-wrapper {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+}
+
+.policy-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.policy-title {
+  font-size: 28px;
+  margin: 0;
+  color: #0b2343;
+}
+
+.policy-subtitle {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Toggle Button */
+.toggle-btn {
+  background: #8c1843;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background: #8c1843;
+}
+
+.toggle-btn.active {
+  background: #0b2343;
+}
+
+/* Policy content container (hidden by default) */
+.policy-container {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+/* When open */
+.policy-container.open {
+  max-height: 5000px; /* big enough for full content */
+  opacity: 1;
+  margin-top: 20px;
+}
+
+/* Section styling */
+.policy-section {
+  margin-bottom: 25px;
+}
+
+.policy-section h2 {
+  color: #8c1843;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.policy-section p,
+.policy-section ul,
+.policy-section ol {
+  line-height: 1.6;
+  color: #333;
+  font-size: 15px;
+}
+
+.policy-section ul,
+.policy-section ol {
+  padding-left: 25px;
+}
+
+.highlight {
+  background: #f0f8ff;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.policy-footer {
+  text-align: center;
+  font-size: 13px;
+  color: #777;
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+}
+.policy-link {
+  display: inline-block;
+  /* color: white; */
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  /* transition: transform 0.3s ease, background-color 0.3s ease; */
+  /* margin-top: 50px; */
+  /* margin: 0 130px; */
+}
+
+/* Hover effect */
+.policy-link:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+/* Click (press) effect */
+.policy-link:active {
+  transform: scale(0.95);
+  color: rgba(255, 255, 255, 1);
+}
+
+.faq-section {
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 0 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.faq-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.faq-item {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.faq-question {
+  width: 100%;
+  background: #f9f9f9;
+  color: #333;
+  border: none;
+  text-align: left;
+  padding: 15px 20px;
+  font-size: 17px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.faq-question:hover {
+  background: #f1f1f1;
+}
+
+.faq-icon {
+  font-size: 22px;
+  color: #8c1843;
+  transition: transform 0.3s ease;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  background: #fff;
+  color: #555;
+  padding: 0 20px;
+  line-height: 1.6;
+  transition: max-height 0.4s ease, padding 0.3s ease;
+}
+
+.faq-item.active .faq-answer {
+  max-height: 300px; /* enough to fit long answers */
+  padding: 15px 20px;
+}
+
+.faq-item.active .faq-icon {
+  transform: rotate(45deg);
+}
+.refer-img {
+  position: relative;
+  width: 100%;
+  height: 100%; /* or fixed height if you want, e.g. 400px */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.refer-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Apply common image styling */
+.refer-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Keeps full image visible */
+}
+
+/* Show only desktop image by default */
+.desktop-img {
+  display: block;
+}
+.mobile-img {
+  display: none;
+}
+
+.refer-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* full image visible without cropping */
+}
+/* Main container for 2-side layout */
+.refer-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* padding: 80px 80px; */
+  /* gap: 40px; */
+  flex-wrap: wrap;
+  /* background: #fff; */
+}
+
+/* Left side (text part) */
+.refer-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  white-space: pre-line;
+  /* gap: 20px; */
+}
+
+.refer-content h2 {
+  font-family: "Fugaz One", sans-serif;
+  font-size: 100px;
+  font-weight: 800;
+  line-height: 1.1;
+  margin: 0;
+  text-align: center;
+  width: 465px;
+  background: linear-gradient(90deg, #ffde17, #ff6b00, #ffde17);
+  background-size: 200% auto;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: shine 3s linear infinite;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+} 
+
+.refer-content p {
+  font-family: "Fugaz One", sans-serif;
+  font-size: 34px;
+  font-weight: 500;
+  color: whitesmoke;
+  margin: 0 0 0 40px;
+  font-weight: 600;
+    /* color: #ffde17;   */
+
+}
+.refer-btn-1 {
+  font-family: "Fugaz One", sans-serif;
+  display: inline-block;
+  background-color: whitesmoke;
+  color: #8c1843;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+  margin-top: 30px;
+  animation: scalePulse 1.5s infinite ease-in-out;
+}
+@keyframes scalePulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.8);
+  }
+}
+
+/* Right side (image part) */
+.refer-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+
+.refer-img img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Show only desktop image by default */
+.desktop-img {
+  display: block;
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 768px) {
+  .policy-container {
+    padding: 25px;
+  }
+
+  .refer-section {
+    /* flex-direction: column-reverse; */
+    padding: 40px 20px 0px 20px;
+    /* margin-top: 200px; */
+    height: 82vh;
+  }
+
+  .refer-content {
+    text-align: justify;
+    align-items: center;
+    /* padding-left: 10px; */
+    /* height: 50vh; */
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .refer-img {
+    display: none;
+    /* margin: 0; */
+    /* height: 100vh; */
+  }
+  .refer-content h2 {
+    font-size: 100px;
+    text-align: center;
+    width: 100%;
+  }
+  .policy-link {
+    font-size: 15px;
+  }
+
+  .refer-content p {
+    font-size: 28px;
+    /* margin-left: 20px; */
+    margin: 0;
+  }
+
+  /* Switch image to mobile version */
+  .desktop-img {
+    display: none;
+  }
+  .mobile-img {
+    position: absolute;
+    width: 75%;
+    left: 200px;
+    top: 650px;
+  }
+
+  .refer-btn-1 {
+    font-family: "Fugaz One", sans-serif;
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    color: #8c1843;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+    margin-top: 30px;
+    animation: scalePulse 1.5s infinite ease-in-out;
+  }
+  @keyframes scalePulse {
+    0%,
+    100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+  }
+}
+

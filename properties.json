@@ -1,0 +1,97 @@
+[
+  {
+    "type": "Residential",
+    "latest": "Jagatpur",
+    "location": "Jagatpur",
+    "tag": "JAGATPUR",
+    "deal": "BREAKING DEAL",
+    "title": "Ready To Move 4BHK Duplex 4150sq.ft. @1.75cr",
+    "list": [
+      "(including AEC Auda & Maintainance*)",
+      "20+ Doctors Families already owned the property*",
+      "Ultra luxurious property with all amenities",
+      "2 Alloted Car Parking",
+      "Recently BU Available*"
+    ],
+    "whatsappType": "Silver Luxuria"
+  }
+    ,  {
+    "type": "Commercial",
+    "latest": "Bhuyangdev-Sola",
+    "location": "Bhuyangdev-Sola",
+    "tag": "BHUYANGDEV",
+    "deal": "BREAKING DEAL",
+    "title": "Solaris Business Hub Offices available only <i class='fa-solid fa-indian-rupee-sign'></i>6000 per sq.ft",
+    "list": [
+      "(including AEC Auda & Maintainance*)",
+      "Ready to Move in Offices in Prime Business Hub Area",
+      "Doctor's consulting / IT Business / Service Business",
+      "Just 2km Away From S.G Highway / Science City Road*"
+    ],
+    "whatsappType": "Akshat Paradise"
+  },
+
+  {
+    "type": "Residential",
+    "latest": "Shilaj",
+    "location": "Shilaj",
+    "tag": "SHILAJ",
+    "deal": "HOT DEAL",
+    "title": "Luxurious 3BHK <span style='font-size: 15px; color: black'>(1760sq.ft)</span> Flat in Only <i class='fa-solid fa-indian-rupee-sign'></i>81.50<span style='color: black; font-size: 14px'>lacs</span>",
+    "list": [
+      "(including All*)",
+      "Near to Possession Property*",
+      "2km From Iconic Sindhu Bhavan Road*",
+      "Fully Vastu Complaint*"
+    ],
+    "whatsappType": "Trogon Twin Tower"
+  }
+   ,  {
+    "type": "Commercial",
+    "latest": "RajPath-Club",
+    "location": "RajPath-Club",
+    "tag": "RAJPATH ROAD",
+    "deal": "HOT DEAL",
+    "title": " Best Investment Property 2920sq.ft only @10250 per sq.ft",
+    "list": [
+      "(including AEC Auda & Maintainance*)",
+      "2nd Floor Showroom",
+      "1.25k Rent Running"
+    ],
+    "whatsappType": "RajPath-Club"
+  },
+  {
+    "type": "Residential",
+    "latest": "Ashram-Road",
+    "location": "Ashram-Road",
+    "tag": "ASHRAM ROAD",
+    "deal": "HOT DEAL",
+    "title": "Offices in WestBank 720sq.ft & 1185sq.ft only @12000 per sq.ft",
+    "list": [
+      "(including AEC Auda &amp; Maintainance*)",
+      "RiverFront Facing Corner Offices*",
+      "with Alloted 1 Car Parking"
+    ],
+    "whatsappType": "WestBank"
+  },
+    {
+    "type": "Residential",
+    "latest": "Jagatpur",
+    "location": "Jagatpur",
+    "tag": "JAGATPUR",
+    "deal": "BREAKING DEAL",
+    "title": "Ready To Move 4BHK Duplex <span style='color: black; font-size: 14px;'>(Fully Furnished)</span>4150sq.ft. @2.20cr",
+    "list": [
+          "<li style='color: black;font-weight: 700;'>Box Price(including All*)</li>",
+      "Sample House",
+      "20+ Doctors Families already owned the property*",
+      "Ultra luxurious property with all amenities",
+        "2 Alloted Car Parking",
+        "Recently BU Available*"
+
+    ],
+    "whatsappType": "Jagatpur"
+  }
+]
+
+

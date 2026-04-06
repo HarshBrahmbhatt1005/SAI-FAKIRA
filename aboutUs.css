@@ -1,0 +1,210 @@
+/* ===========================
+   GLOBAL THEME
+=========================== */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: floralwhite;
+  color: #333;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 65px;
+}
+
+/* Section Titles */
+.section-title {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 700;
+  /* margin-bottom: 25px; */
+  color: #8c1843;
+  letter-spacing: 0.5px;
+}
+
+/* ===========================
+   WHY CHOOSE US SECTION
+=========================== */
+.why-choose-us {
+  padding: 60px 0;
+  /* background: linear-gradient(135deg, #ffffff, #faf5f6); */
+  background-color: floralwhite;
+  border-top: 4px solid #8c1834;
+  border-bottom: 4px solid #8c1834;
+}
+
+.why-content {
+  background: floralwhite;
+  padding: 30px;
+  border-radius: 14px;
+  /* box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.08); */
+  line-height: 1.8;
+}
+
+.why-content h3 {
+  font-size: 1.9rem;
+  margin-top: 20px;
+  color: #8c1834;
+  display: flex;
+  justify-content: center;
+}
+
+.highlight {
+  background: #8c1843;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+  color: white !important;
+}
+
+.why-content-p {
+  margin: 12px 0;
+  font-size: 1rem;
+  color: #444;
+  
+}
+
+.why-content strong {
+  color: #8c1834;
+}
+
+/* Blockquote Styling */
+blockquote {
+  margin: 25px 0;
+  padding: 20px;
+  background: #8c18340a;
+  border-left: 6px solid #8c1834;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #8c1834;
+  border-radius: 8px;
+}
+
+
+
+/* ===========================
+   DISCLAIMER SECTION
+=========================== */
+.sf-disclaimerr {
+  background: floralwhite;
+  padding: 40px 0;
+  /* margin-top: 40px; */
+  border-top: 3px solid #8c1834;
+}
+
+.sf-disclaimer__wrapp {
+  max-width: 900px;
+  margin: auto;
+  /* background: white; */
+  padding: 25px;
+  border-radius: 14px;
+  /* box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.08); */
+}
+
+.sf-disclaimer__titlee {
+align-items: center;
+  font-size: 1.8rem;
+  /* margin-bottom: 15px; */
+  text-align: center;
+}
+
+.sf-disclaimer__content p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #444;
+}
+/* =========================================================
+   SECTION 4 - OUR CORE SERVICES
+   ========================================================= */
+
+.nri-core-services {
+  padding: 20px;
+  background: floralwhite;
+}
+
+/* .nri-core-services .section-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  color: #8c1843;
+  margin-bottom: 50px;
+} */
+
+.core-services-grid {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+/* SERVICE CARD */
+.core-service-card {
+  background: #ffffff;
+  border: 1px solid rgba(140, 23, 52, 0.25);
+  border-radius: 14px;
+  padding: 25px 22px;
+  transition: 0.3s ease;
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+.core-service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(140, 23, 52, 0.25);
+  border-color: #8c1843;
+}
+
+/* ICON */
+.cs-icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 14px;
+  background: rgba(140, 23, 52, 0.10);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cs-icon i {
+  font-size: 26px;
+  color: #8c1843;
+}
+
+/* TEXT */
+.cs-text h4 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #8c1843;
+}
+
+.cs-text p {
+  margin-top: 6px;
+  color: #444;
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  .why-content {
+    padding: 20px;
+  }
+  blockquote {
+    font-size: 1rem;
+  }
+}
