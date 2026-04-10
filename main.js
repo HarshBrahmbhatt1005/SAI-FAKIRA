@@ -1836,14 +1836,11 @@ function checkOnlineStatus() {
   const offlinePage = document.getElementById("offlinePage");
   if (!offlinePage) return;
 
-  // Hide loading screen once page is fully loaded
-  window.addEventListener("load", () => {
-    setTimeout(() => {
-      offlinePage.style.display = "none";
-    }, 100);
-  });
+  // Hide immediately — page is already loaded when this runs
+  offlinePage.style.display = "none";
 
   function updateOnlineStatus() {
+    // iOS Safari can incorrectly report offline — only show if truly offline
     if (!navigator.onLine) {
       offlinePage.style.display = "flex";
     } else {
@@ -1853,33 +1850,14 @@ function checkOnlineStatus() {
 
   window.addEventListener("online", updateOnlineStatus);
   window.addEventListener("offline", updateOnlineStatus);
-  updateOnlineStatus();
 
-  // Only show loading screen for actual network errors, not resource loading errors
-  window.addEventListener("error", (event) => {
-    // Ignore resource loading errors (images, stylesheets, etc.)
-    if (event.target !== window) {
-      return;
-    }
-    // Only show for actual JavaScript errors
-    offlinePage.style.display = "flex";
-
-    // Auto-hide after 3 seconds if page recovers
-    setTimeout(() => {
-      if (navigator.onLine) {
-        offlinePage.style.display = "none";
-      }
-    }, 3000);
-  }, true);
-
+  // Only show for unhandled fetch/network promise rejections — NOT JS errors
   window.addEventListener("unhandledrejection", (event) => {
-    // Only show for network-related rejections
     if (event.reason && event.reason.message &&
       (event.reason.message.includes("Failed to fetch") ||
         event.reason.message.includes("Network"))) {
       offlinePage.style.display = "flex";
 
-      // Auto-hide after 3 seconds if page recovers
       setTimeout(() => {
         if (navigator.onLine) {
           offlinePage.style.display = "none";

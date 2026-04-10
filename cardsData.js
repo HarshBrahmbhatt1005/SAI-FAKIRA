@@ -15,7 +15,7 @@ const propertyCardsData = [
     "propertyLocation": "Adani-Shantigram",
     "schemeName": "Ambrosia",
     "features": [
-      "Water Cascade & Aromatic Garden In Project",
+      "Water Cascade And Aromatic Garden In The Project",
       "30+ Amenities",
       "Premium Location + Locality",
       "2-3 Alloted car Parking"
@@ -49,7 +49,7 @@ const propertyCardsData = [
     "features": [
       "(including AEC Auda & Maintainance*)",
       "Ready to Move in Offices in Prime Business Hub Area",
-      // "Doctor's consulting / IT Business / Service Business",
+      "Doctor's consulting / IT Business / Service Business",
       "Just 2km Away From S.G Highway / Science City Road*"
     ],
     "nestedCategories": {
@@ -71,20 +71,25 @@ const propertyCardsData = [
     "price": 208,
     "soldOut": false,
     "images": [
+      "/images/Suresha-anew-01.jpg",
+      "/images/Suresha-anew-02.jpg",
+      "/images/Suresha-anew-03.jpg"
     ],
     "propertyLocation": "Bhuyangdev",
-    "schemeName": "Suresha a New",
+    "schemeName": "Suresha Anew",
     "features": [
       "Ready to Move",
-      "2 Alloted Car Parking"
+      "2 Alloted Car Parking",
+      "3 Road Corner Project",
+      "15+ Amenities"
     ],
     "nestedCategories": {
       "Apartments": [
         {
           "bhk": "4 BHK",
-          "sqft": "3528",
+          "sqft": "2865 - 3515",
           "sqftType": "SuperBuilt-up",
-          "price": "2.08 Cr"
+          "price": "2.08 - 2.55 Cr"
         }
       ]
     }
@@ -93,7 +98,7 @@ const propertyCardsData = [
     "id": 4,
     "type": "Commercial",
     "latest": "RajPath-Club",
-    "location": "RajPath-Club",
+    "location": "RajPath-Club-01",
     "price": 299,
     "soldOut": false,
     "images": [
@@ -112,9 +117,9 @@ const propertyCardsData = [
       "Commercial": [
         {
           "bhk": "Showrooms",
-          "sqft": "1500",
+          "sqft": "2920",
           "sqftType": "SuperBuilt-up",
-          "price": "10250 per sq.ft"
+          "price": "2.99 Cr"
         }
       ]
     }
@@ -123,7 +128,7 @@ const propertyCardsData = [
     "id": 5,
     "type": "Commercial",
     "latest": "Ashram-Road",
-    "location": "Ashram-Road",
+    "location": "Ashram-Road-01",
     "price": 86,
     "soldOut": false,
     "images": [
@@ -325,11 +330,17 @@ const propertyCardsData = [
     ],
     "nestedCategories": {
       "Commercial": [
+        // {
+        //   "bhk": "Showrooms",
+        //   "sqft": "3150 - 4800",
+        //   "sqftType": "SuperBuilt-up",
+        //   "price": "1.50 Cr"
+        // },
         {
           "bhk": "Offices",
-          "sqft": "2000",
+          "sqft": "1430",
           "sqftType": "SuperBuilt-up",
-          "price": "1.50 Cr"
+          "price": "1.75 Cr"
         }
       ]
     }
@@ -370,9 +381,11 @@ const propertyCardsData = [
     "location": "Karnavati Club-Road-01",
     "price": 0,
     "soldOut": true,
-    "images": [],
+    "images": [
+      "/images/Buildiings.jpeg"
+    ],
     "propertyLocation": "Karnavati Club-Road",
-    "schemeName": "",
+    "schemeName": "Premium Plots",
     "features": [],
     "nestedCategories": {
       "Plot": [
@@ -390,7 +403,7 @@ const propertyCardsData = [
     "type": "Residential",
     "latest": "Shahibaug",
     "location": "Shahibaug-01",
-    "price": 0,
+    "price": 238,
     "soldOut": false,
     "images": [
       "/images/Anmol-Ambience.jpg",
@@ -409,7 +422,7 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2700",
+          "sqft": "2359 - 2476",
           "sqftType": "SuperBuilt-up",
           "price": "Price On Call"
         }
@@ -417,29 +430,28 @@ const propertyCardsData = [
       "Penthouse": [
         {
           "bhk": "4 BHK",
-          "sqft": "3528",
+          "sqft": "3262 + 800(Terrace)",
           "sqftType": "SuperBuilt-up",
-          "price": "Price On Call"
+          "price": "2.38 Cr"
         }
       ]
     }
   },
   {
-    "id": 15,
+    "id": 14,
     "type": "Commercial",
     "latest": "C.G Road",
     "location": "C.G Road-01",
     "price": 1500,
     "soldOut": false,
-    "images": [],
-    "locationTag": "C.G Road",
+    "images": ["/images/Buildiings.jpeg"],
     "propertyLocation": "C.G Road",
     "schemeName": "",
     "features": [
       "Newly Constructed Property",
       "Nr.Swastik Cross Road",
       "Idle for Brand Outlet",
-      "Possesion in Jan-2026"
+      "Ready to Move Property"
     ],
     "nestedCategories": {
       "Commercial": [
@@ -459,7 +471,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 17,
+    "id": 15,
     "type": "Residential",
     "latest": "Paldi",
     "location": "Paldi-01",
@@ -481,13 +493,13 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2700",
+          "sqft": "1781 - 2130",
           "sqftType": "SuperBuilt-up",
           "price": "Price On Request"
         },
         {
           "bhk": "4 BHK",
-          "sqft": "3528",
+          "sqft": "2840",
           "sqftType": "SuperBuilt-up",
           "price": "Price On Request"
         }
@@ -495,7 +507,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 18,
+    "id": 16,
     "type": "Residential",
     "latest": "Paldi",
     "location": "Paldi-02",
@@ -531,7 +543,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 19,
+    "id": 17,
     "type": "Residential",
     "latest": "Jagatpur",
     "location": "Jagatpur-01",
@@ -571,7 +583,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 20,
+    "id": 18,
     "type": "Residential",
     "latest": "Tragad",
     "location": "Tragad-01",
@@ -594,23 +606,23 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2700",
+          "sqft": "1872 - 2097",
           "sqftType": "Super Built-up",
-          "price": "69 Lacs"
+          "price": "61 - 68 Lacs"
         }
       ]
     }
   },
   {
-    "id": 21,
+    "id": 19,
     "type": "Residential",
     "latest": "Shilaj",
     "location": "Shilaj-01",
-    "price": 78,
+    "price": 81,
     "soldOut": true,
     "images": [],
-    "propertyLocation": "",
-    "schemeName": "",
+    "propertyLocation": "Shilaj",
+    "schemeName": "Silver Brook 2",
     "features": [
       "Near to Possession Property*",
       "2km From Iconic Sindhu Bhavan Road*",
@@ -620,15 +632,15 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2700",
+          "sqft": "1760",
           "sqftType": "Super Built-up",
-          "price": "78 Lacs"
+          "price": "81 Lacs"
         }
       ]
     }
   },
   {
-    "id": 22,
+    "id": 20,
     "type": "Mixed",
     "latest": "Naranpura",
     "location": "Naranpura-01",
@@ -654,13 +666,13 @@ const propertyCardsData = [
           "bhk": "3 BHK",
           "sqft": "2718",
           "sqftType": "Super Built-up",
-          "basic price": "1.96 Cr"
+          "price": "1.96 Cr"
         },
         {
           "bhk": "4 BHK",
           "sqft": "3843 - 3924",
           "sqftType": "Super Built-up",
-          "basic price": "2.70 - 2.83 Cr"
+          "price": "2.70 - 2.83 Cr"
         }
       ],
       "Commercial": [
@@ -668,13 +680,13 @@ const propertyCardsData = [
           "bhk": "Showrooms",
           "sqft": "2079 - 6112",
           "sqftType": "Carpet",
-          "basic price": "3.74 - 13.44 Cr"
+          "price": "3.74 - 13.44 Cr"
         }
       ]
     }
   },
   {
-    "id": 23,
+    "id": 21,
     "type": "Mixed",
     "latest": "Naranpura",
     "location": "Naranpura-02",
@@ -713,7 +725,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 24,
+    "id": 22,
     "type": "Residential",
     "latest": "Gurukul",
     "location": "Gurukul-01",
@@ -745,7 +757,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 25,
+    "id": 23,
     "type": "Residential",
     "latest": "Shilaj",
     "location": "Shilaj-02",
@@ -768,7 +780,7 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2700",
+          "sqft": "1760",
           "sqftType": "SuperBuilt-up",
           "price": "97 Lac"
         }
@@ -776,7 +788,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 26,
+    "id": 24,
     "type": "Residential",
     "latest": "Vaishnodevi",
     "location": "Vaishnodevi-02",
@@ -798,7 +810,7 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "4 BHK",
-          "sqft": "3528",
+          "sqft": "2432",
           "sqftType": "Super Built-up",
           "price": "2.72 Cr"
         }
@@ -806,7 +818,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 27,
+    "id": 25,
     "type": "Mixed",
     "latest": "Gandhinagar",
     "location": "Gandhinagar-01",
@@ -828,29 +840,29 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2700",
+          "sqft": "3861 - 3915",
           "sqftType": "SuperBuilt-up",
-          "price": "1.87 Cr"
+          "price": "1.87 - 1.89 Cr"
         },
         {
           "bhk": "4 BHK",
-          "sqft": "3528",
+          "sqft": "5553 - 5634",
           "sqftType": "SuperBuilt-up",
-          "price": "1.87 Cr"
+          "price": "2.77 - 2.81 Cr"
         }
       ],
-      "Penthouse": [
+      "Duplex Penthouse": [
         {
           "bhk": "5 BHK",
-          "sqft": "4000",
+          "sqft": "8631 - 8793 + 1143(Terrace)",
           "sqftType": "SuperBuilt-up",
-          "price": "4 Cr"
+          "price": "4.45 Cr"
         }
       ]
     }
   },
   {
-    "id": 28,
+    "id": 26,
     "type": "Residential",
     "latest": "Naranpura",
     "location": "Naranpura-03",
@@ -873,15 +885,15 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2700",
-          "sqftType": "SuperBuilt-up",
+          "sqft": "999",
+          "sqftType": "Carpet",
           "price": "1.20 Cr"
         }
       ]
     }
   },
   {
-    "id": 29,
+    "id": 27,
     "type": "Residential",
     "latest": "Jagatpur",
     "location": "Jagatpur-02",
@@ -912,7 +924,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 30,
+    "id": 28,
     "type": "Residential",
     "latest": "Naranpura",
     "location": "Naranpura-04",
@@ -949,7 +961,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 31,
+    "id": 29,
     "type": "Residential",
     "latest": "Adani-Shantigram",
     "location": "Adani-Shantigram-02",
@@ -981,7 +993,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 32,
+    "id": 30,
     "type": "Residential",
     "latest": "Adani-Shantigram",
     "location": "Adani-Shantigram-03",
@@ -1011,7 +1023,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 33,
+    "id": 31,
     "type": "Residential",
     "latest": "Adani-Shantigram",
     "location": "Adani-Shantigram-04",
@@ -1048,7 +1060,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 34,
+    "id": 32,
     "type": "Mixed",
     "latest": "Adani-Shantigram",
     "location": "Adani-Shantigram-05",
@@ -1087,7 +1099,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 35,
+    "id": 33,
     "type": "Residential",
     "latest": "Adani-Shantigram",
     "location": "Adani-Shantigram-06",
@@ -1118,7 +1130,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 36,
+    "id": 34,
     "type": "Duplex",
     "latest": "Jagatpur",
     "location": "Jagatpur-03",
@@ -1145,7 +1157,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 37,
+    "id": 35,
     "type": "Residential",
     "latest": "Adani-Shantigram",
     "location": "Adani-Shantigram-07",
@@ -1177,7 +1189,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 38,
+    "id": 36,
     "type": "Plot",
     "latest": "Adani-Shantigram",
     "location": "Adani-Shantigram-08",
@@ -1203,7 +1215,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 39,
+    "id": 37,
     "type": "Residential",
     "latest": "Adani-Shantigram",
     "location": "Adani-Shantigram-09",
@@ -1233,7 +1245,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 40,
+    "id": 38,
     "type": "Duplex",
     "latest": "Adani-Shantigram",
     "location": "Adani-Shantigram-10",
@@ -1281,10 +1293,10 @@ const propertyCardsData = [
           "price": "16 Cr onwards"
         }
       ]
-    },
-  },
+    }
+   },
   // {
-  //   "id": 41,
+  //   "id": 39,
   //   "type": "Residential",
   //   "latest": "Adani-Shantigram",
   //   "location": "Adani-Shantigram-11",
@@ -1309,7 +1321,7 @@ const propertyCardsData = [
   //   }
   // },
   {
-    "id": 42,
+    "id": 40,
     "type": "Residential",
     "latest": "Gota",
     "location": "Gota-01",
@@ -1354,7 +1366,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 43,
+    "id": 41,
     "type": "Commercial",
     "latest": "Jagatpur",
     "location": "Jagatpur-04",
@@ -1388,7 +1400,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 44,
+    "id": 42,
     "type": "Residential",
     "latest": "Vaishnodevi",
     "location": "Vaishnodevi-03",
@@ -1411,19 +1423,25 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2700",
+          "sqft": "1194 - 1568+131",
+          "sqftType": "Carpet",
+          "price": "53 - 76 Lacs"
+        },
+        {
+          "bhk": "4 BHK",
+          "sqft": "1260 - 1576",
           "sqftType": "SuperBuilt-up",
-          "price": "1.35 Cr"
+          "price": "56 Lacs onwards"
         }
       ]
     }
   },
   {
-    "id": 45,
+    "id": 43,
     "type": "Residential",
     "latest": "Gandhinagar",
     "location": "Gandhinagar-02",
-    "price": 135,
+    "price": 130,
     "soldOut": false,
     "images": [
       "/images/Sandlewood-01.jpg",
@@ -1443,15 +1461,21 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2700",
+          "sqft": "2862",
           "sqftType": "SuperBuilt-up",
-          "price": "1.35 Cr"
+          "price": "1.30 Cr"
+        },
+        {
+          "bhk": "4 BHK",
+          "sqft": "3510 - 4032",
+          "sqftType": "SuperBuilt-up",
+          "price": "1.60 - 1.83 Cr"
         }
       ]
     }
   },
   {
-    "id": 46,
+    "id": 44,
     "type": "Residential",
     "latest": "Gandhinagar",
     "location": "Gandhinagar-03",
@@ -1482,7 +1506,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 47,
+    "id": 45,
     "type": "Mixed",
     "latest": "Gandhinagar",
     "location": "Gandhinagar-04",
@@ -1505,15 +1529,15 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2700",
+          "sqft": "2322 - 2727",
           "sqftType": "SuperBuilt-up",
-          "price": "1 Cr"
+          "price": "1 - 1.15 Cr"
         }
       ],
-      "Penthouse": [
+      "Duplex Penthouse": [
         {
           "bhk": "4 BHK",
-          "sqft": "3528",
+          "sqft": "3634 + 1080(Terrace)",
           "sqftType": "SuperBuilt-up",
           "price": "2 Cr"
         }
@@ -1521,7 +1545,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 48,
+    "id": 46,
     "type": "Residential",
     "latest": "Gandhinagar",
     "location": "Gandhinagar-05",
@@ -1552,7 +1576,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 49,
+    "id": 47,
     "type": "Residential",
     "latest": "Bhuyangdev",
     "location": "Bhuyandev-01",
@@ -1588,7 +1612,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 50,
+    "id": 48,
     "type": "Residential",
     "latest": "Bhuyangdev",
     "location": "Bhuyandev-02",
@@ -1625,7 +1649,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 51,
+    "id": 49,
     "type": "Residential",
     "latest": "Shilaj",
     "location": "Shilaj-03",
@@ -1651,7 +1675,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 52,
+    "id": 50,
     "type": "Residential",
     "latest": "Naranpura",
     "location": "Naranpura-05",
@@ -1674,15 +1698,15 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2700",
+          "sqft": "1815 - 2116",
           "sqftType": "SuperBuilt-up",
-          "price": "1.10 Cr"
+          "price": "1.24 Cr onwards"
         }
       ]
     }
   },
   {
-    "id": 53,
+    "id": 51,
     "type": "Residential",
     "latest": "Naranpura",
     "location": "Naranpura-06",
@@ -1704,15 +1728,15 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2700",
+          "sqft": "2295",
           "sqftType": "SuperBuilt-up",
-          "price": "1.45 Cr"
+          "price": "1.46 Cr"
         }
       ]
     }
   },
   {
-    "id": 54,
+    "id": 52,
     "type": "Residential",
     "latest": "Naranpura",
     "location": "Naranpura-07",
@@ -1729,21 +1753,21 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "2 BHK",
-          "sqft": "1950",
+          "sqft": "1233",
           "sqftType": "SuperBuilt-up",
           "price": "61 Lac"
         },
         {
           "bhk": "3 BHK",
-          "sqft": "2700",
+          "sqft": "2133",
           "sqftType": "SuperBuilt-up",
-          "price": "61 Lac"
+          "price": "1.05 Cr"
         }
       ]
     }
   },
   {
-    "id": 55,
+    "id": 53,
     "type": "Residential",
     "latest": "Chharodi",
     "location": "Chharodi-01",
@@ -1774,7 +1798,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 56,
+    "id": 54,
     "type": "Mixed",
     "latest": "Science-park",
     "location": "Science-park-01",
@@ -1796,35 +1820,37 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "4 BHK",
-          "sqft": "3528",
+          "sqft": "5514 - 5918",
           "sqftType": "SuperBuilt-up",
-          "price": "3.5 Cr"
+          "price": "5 Cr"
         },
         {
           "bhk": "5 BHK",
-          "sqft": "4000",
+          "sqft": "6954, 7042",
           "sqftType": "SuperBuilt-up",
-          "price": "3.5 Cr"
+          "price": "6 Cr"
         }
       ],
       "Penthouse": [
         {
           "bhk": "5 BHK",
-          "sqft": "4000",
+          "sqft": "9638 + 1452(Terrace)",
           "sqftType": "SuperBuilt-up",
-          "price": "6 Cr"
-        },
+          "price": "12.50 Cr"
+        }
+      ],
+      "Duplex": [
         {
           "bhk": "6 BHK",
-          "sqft": "4500",
+          "sqft": "10606",
           "sqftType": "SuperBuilt-up",
-          "price": "6 Cr"
+          "price": "10.50 Cr"
         }
       ]
     }
   },
   {
-    "id": 57,
+    "id": 55,
     "type": "Commercial",
     "latest": "Chharodi",
     "location": "Chharodi-02",
@@ -1854,7 +1880,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 58,
+    "id": 56,
     "type": "Commercial",
     "latest": "Vaishnodevi",
     "location": "Vaishnodevi-04",
@@ -1883,7 +1909,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 59,
+    "id": 57,
     "type": "Residential",
     "latest": "Zundal",
     "location": "Zundal-01",
@@ -1914,7 +1940,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 60,
+    "id": 58,
     "type": "Residential",
     "latest": "Zundal",
     "location": "Zundal-02",
@@ -1945,7 +1971,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 61,
+    "id": 59,
     "type": "Residential",
     "latest": "Zundal",
     "location": "Zundal-03",
@@ -1976,7 +2002,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 62,
+    "id": 60,
     "type": "Mixed",
     "latest": "Zundal",
     "location": "Zundal-04",
@@ -2021,7 +2047,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 63,
+    "id": 61,
     "type": "Commercial",
     "latest": "Zundal",
     "location": "Zundal-05",
@@ -2052,7 +2078,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 64,
+    "id": 62,
     "type": "Commercial",
     "latest": "Zundal",
     "location": "Zundal-06",
@@ -2083,7 +2109,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 65,
+    "id": 63,
     "type": "Commercial",
     "latest": "Chharodi",
     "location": "Chharodi-03",
@@ -2112,7 +2138,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 66,
+    "id": 64,
     "type": "Residential",
     "latest": "Naranpura",
     "location": "Naranpura-08",
@@ -2142,7 +2168,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 67,
+    "id": 65,
     "type": "Commercial",
     "latest": "Bopal",
     "location": "Bopal-02",
@@ -2171,7 +2197,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 68,
+    "id": 66,
     "type": "Residential",
     "latest": "Naranpura",
     "location": "Naranpura-09",
@@ -2192,7 +2218,7 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "4 BHK",
-          "sqft": "3528",
+          "sqft": "3015",
           "sqftType": "SuperBuilt-up",
           "price": "2.40 Cr"
         }
@@ -2200,7 +2226,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 69,
+    "id": 67,
     "type": "Residential",
     "latest": "Memnagar",
     "location": "Memnagar-01",
@@ -2230,7 +2256,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 70,
+    "id": 68,
     "type": "Residential",
     "latest": "Gota",
     "location": "Gota-02",
@@ -2261,7 +2287,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 71,
+    "id": 69,
     "type": "Commercial",
     "latest": "Navrangpura",
     "location": "Navrangpura-02",
@@ -2281,16 +2307,16 @@ const propertyCardsData = [
     "nestedCategories": {
       "Commercial": [
         {
-          "bhk": "Offices",
-          "sqft": "2000",
+          "bhk": "Showrooms/Offices",
+          "sqft": "1000 - 1200",
           "sqftType": "SuperBuilt-up",
-          "price": "65 Lacs"
+          "price": "65 - 78 Lacs"
         }
       ]
     }
   },
   {
-    "id": 72,
+    "id": 70,
     "type": "Mixed",
     "latest": "Jagatpur",
     "location": "Jagatpur-05",
@@ -2335,7 +2361,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 73,
+    "id": 71,
     "type": "Residential",
     "latest": "Jagatpur",
     "location": "Jagatpur-06",
@@ -2371,7 +2397,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 74,
+    "id": 72,
     "type": "Residential",
     "latest": "Jagatpur",
     "location": "Jagatpur-07",
@@ -2401,7 +2427,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 75,
+    "id": 73,
     "type": "Residential",
     "latest": "Jagatpur",
     "location": "Jagatpur-08",
@@ -2431,7 +2457,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 76,
+    "id": 74,
     "type": "Residential",
     "latest": "Jagatpur",
     "location": "Jagatpur-09",
@@ -2466,7 +2492,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 77,
+    "id": 75,
     "type": "Residential",
     "latest": "Gota",
     "location": "Gota-03",
@@ -2497,7 +2523,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 78,
+    "id": 76,
     "type": "Residential",
     "latest": "GiftCity",
     "location": "Gift-City-01",
@@ -2533,7 +2559,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 79,
+    "id": 77,
     "type": "Duplex",
     "latest": "Jagatpur",
     "location": "Jagatpur-10",
@@ -2560,7 +2586,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 80,
+    "id": 78,
     "type": "Commercial",
     "latest": "Gota",
     "location": "Gota-04",
@@ -2569,7 +2595,7 @@ const propertyCardsData = [
     "images": [
       "/images/AATMANTAN-01.jpg",
       "/images/AATMANTAN-02.jpg",
-      "/images/opus-01.jpg",
+      "/images/opus-01.jpg"
     ],
     "propertyLocation": "Gota",
     "schemeName": "Shankus Opus",
@@ -2588,7 +2614,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 81,
+    "id": 79,
     "type": "Residential",
     "latest": "Naranpura",
     "location": "Naranpura-10",
@@ -2611,15 +2637,15 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "4 BHK",
-          "sqft": "3528",
+          "sqft": "1882 - 1968",
           "sqftType": "SuperBuilt-up",
-          "price": "3.19 Cr"
+          "price": "3.19 - 3.75 Cr"
         }
       ]
     }
   },
   {
-    "id": 82,
+    "id": 80,
     "type": "Residential",
     "latest": "Vaishnodevi",
     "location": "Vaishnodevi-05",
@@ -2641,15 +2667,15 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2700",
+          "sqft": "2727",
           "sqftType": "SuperBuilt-up",
-          "price": "1.51 Cr"
+          "price": "1.80 Cr"
         }
       ]
     }
   },
   {
-    "id": 83,
+    "id": 81,
     "type": "Residential",
     "latest": "Vaishnodevi",
     "location": "Vaishnodevi-06",
@@ -2672,21 +2698,21 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2700",
+          "sqft": "2350",
           "sqftType": "SuperBuilt-up",
           "price": "1.41 Cr"
         },
         {
           "bhk": "4 BHK",
-          "sqft": "3528",
+          "sqft": "3250",
           "sqftType": "SuperBuilt-up",
-          "price": "1.41 Cr"
+          "price": "1.92 Cr"
         }
       ]
     }
   },
   {
-    "id": 84,
+    "id": 82,
     "type": "Residential",
     "latest": "Vaishnodevi",
     "location": "Vaishnodevi-07",
@@ -2709,7 +2735,7 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2700",
+          "sqft": "2385",
           "sqftType": "SuperBuilt-up",
           "price": "1.19 Cr"
         },
@@ -2717,13 +2743,13 @@ const propertyCardsData = [
           "bhk": "4 BHK",
           "sqft": "3528",
           "sqftType": "SuperBuilt-up",
-          "price": "1.19 Cr"
+          "price": "1.76 Cr"
         }
       ]
     }
   },
   {
-    "id": 85,
+    "id": 83,
     "type": "Residential",
     "latest": "Vaishnodevi",
     "location": "Vaishnodevi-08",
@@ -2745,21 +2771,15 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2700",
+          "sqft": "2286 - 2502",
           "sqftType": "SuperBuilt-up",
-          "price": "99 Lacs"
-        },
-        {
-          "bhk": "4 BHK",
-          "sqft": "3528",
-          "sqftType": "SuperBuilt-up",
-          "price": "99 Lacs"
+          "price": "99 Lacs - 1.08 Cr"
         }
       ]
     }
   },
   {
-    "id": 86,
+    "id": 84,
     "type": "Residential",
     "latest": "Vaishnodevi",
     "location": "Vaishnodevi-09",
@@ -2781,15 +2801,15 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2700",
+          "sqft": "2565 - 2700",
           "sqftType": "SuperBuilt-up",
-          "price": "1.11 Cr"
+          "price": "1.11 - 1.17 Cr"
         }
       ]
     }
   },
   {
-    "id": 87,
+    "id": 85,
     "type": "Residential",
     "latest": "Gota",
     "location": "Gota-05",
@@ -2825,7 +2845,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 88,
+    "id": 86,
     "type": "Mixed",
     "latest": "Vaishnodevi",
     "location": "Vaishnodevi-10",
@@ -2848,26 +2868,26 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "4 BHK",
-          "sqft": "3528",
+          "sqft": "3600",
           "sqftType": "SuperBuilt-up",
-          "price": "1.84 Cr"
+          "price": "1.88 Cr"
         }
       ],
       "Duplex": [
         {
           "bhk": "6 BHK",
-          "sqft": "4500",
+          "sqft": "5400",
           "sqftType": "SuperBuilt-up",
-          "price": "3.18 Cr"
+          "price": "2.82 Cr"
         }
       ]
     }
   },
   {
-    "id": 88,
+    "id": 87,
     "type": "Mixed",
     "latest": "Gandhinagar",
-    "location": "Gandhinagar-05",
+    "location": "Gandhinagar-06",
     "price": 142,
     "soldOut": false,
     "images": [
@@ -2909,10 +2929,10 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 89,
+    "id": 88,
     "type": "Residential",
     "latest": "Gandhinagar",
-    "location": "Gandhinagar-06",
+    "location": "Gandhinagar-07",
     "price": 92,
     "soldOut": false,
     "images": [
@@ -2946,10 +2966,10 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 90,
+    "id": 89,
     "type": "Residential",
     "latest": "Gandhinagar",
-    "location": "Gandhinagar-07",
+    "location": "Gandhinagar-08",
     "price": 124,
     "soldOut": false,
     "images": [
@@ -2969,21 +2989,94 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2700",
+          "sqft": "2565",
           "sqftType": "SuperBuilt-up",
           "price": "1.24 Cr"
         },
         {
           "bhk": "4 BHK",
-          "sqft": "3528",
+          "sqft": "3519",
           "sqftType": "SuperBuilt-up",
-          "price": "1.24 Cr"
+          "price": "Price on Request"
+        }
+      ]
+    }
+  },
+  {
+    "id": 90,
+    "type": "Residential",
+    "latest": "Gandhinagar",
+    "location": "Gandhinagar-09",
+    "price": 145,
+    "soldOut": false,
+    "images": [
+      "/images/The-gate-x-01.jpg",
+      "/images/The-gate-x-02.jpg",
+      "/images/The-gate-x-03.jpg"
+    ],
+    "propertyLocation": "PDPU Road,Gandhinagar",
+    "schemeName": "The Gate-X by Dev Aashish",
+    "features": [
+      "20 Storeys Project",
+      "4 Side Open Project",
+      "80+ Podium Amenities",
+      "2-3 Alloted Car Parking",
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "3123",
+          "sqftType": "SuperBuilt-up",
+          "price": "1.45 Cr"
+        },
+        {
+          "bhk": "4 BHK",
+          "sqft": "4050 - 4194",
+          "sqftType": "SuperBuilt-up",
+          "price": "1.88 - 1.95 Cr"
         }
       ]
     }
   },
   {
     "id": 91,
+    "type": "Residential",
+    "latest": "Gandhinagar",
+    "location": "Gandhinagar-10",
+    "price": 136,
+    "soldOut": false,
+    "images": [
+      "/images/The-gate-2-01.jpg",
+      "/images/The-gate-2-02.jpg",
+      "/images/The-gate-2-03.jpg"
+    ],
+    "propertyLocation": "PDPU Road,Gandhinagar",
+    "schemeName": "The Gate-2 by Dev Aashish",
+    "features": [
+      "50+ Amenities",
+      "2 Alloted Car Parking",
+      "Italian Marble Flooring"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "2898",
+          "sqftType": "SuperBuilt-up",
+          "price": "1.36 Cr"
+        },
+        {
+          "bhk": "4 BHK",
+          "sqft": "4194",
+          "sqftType": "SuperBuilt-up",
+          "price": "1.98 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 92,
     "type": "Mixed",
     "latest": "Science-park",
     "location": "Science-park-02",
@@ -3005,7 +3098,7 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "4 BHK",
-          "sqft": "3528",
+          "sqft": "3200",
           "sqftType": "SuperBuilt-up",
           "price": "2.30 Cr"
         }
@@ -3013,15 +3106,15 @@ const propertyCardsData = [
       "Penthouse": [
         {
           "bhk": "4 BHK",
-          "sqft": "3528",
+          "sqft": "3791-4428 + 485-944(Terrace)",
           "sqftType": "SuperBuilt-up",
-          "price": "3.07 Cr"
+          "price": "3.07 - 3.86 Cr"
         }
       ]
     }
   },
   {
-    "id": 92,
+    "id": 93,
     "type": "Residential",
     "latest": "Science-park",
     "location": "Science-park-03",
@@ -3043,21 +3136,21 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2700",
+          "sqft": "2788",
           "sqftType": "SuperBuilt-up",
           "price": "1.81 Cr"
         },
         {
           "bhk": "4 BHK",
-          "sqft": "3528",
+          "sqft": "3770",
           "sqftType": "SuperBuilt-up",
-          "price": "1.81 Cr"
+          "price": "2.45 Cr"
         }
       ]
     }
   },
   {
-    "id": 93,
+    "id": 94,
     "type": "Residential",
     "latest": "Bodakdev",
     "location": "Bodakdev-01",
@@ -3087,7 +3180,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 94,
+    "id": 95,
     "type": "Residential",
     "latest": "Iscon-Ambli",
     "location": "Iscon-Ambli-01",
@@ -3117,7 +3210,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 95,
+    "id": 96,
     "type": "Commercial",
     "latest": "Iscon-Ambli",
     "location": "Iscon-Ambli-02",
@@ -3153,7 +3246,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 96,
+    "id": 97,
     "type": "Residential",
     "latest": "Iscon",
     "location": "Iscon-01",
@@ -3184,16 +3277,16 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 97,
+    "id": 98,
     "type": "Residential",
     "latest": "Linkin-Road",
     "location": "Linkin-Road-01",
     "price": 155,
     "soldOut": false,
     "images": [
-      "images/swati18-01.jpg",
-      "/images/swati18-02.jpg",
-      "/images/swati18-03.jpg"
+      "/images/swati-premier-01.jpg",
+      "/images/swati-premier-02.jpg",
+      "/images/swati-premier-03.jpg"
     ],
     "propertyLocation": "Linkin-Road",
     "schemeName": "Swati-Premier",
@@ -3213,7 +3306,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 98,
+    "id": 99,
     "type": "Residential",
     "latest": "Vaishnodevi",
     "location": "Vaishnodevi-11",
@@ -3235,15 +3328,23 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2700",
-          "sqftType": "Super Built-up",
+          "sqft": "968",
+          "sqftType": "Carpet",
           "price": "75.29 Lacs"
+        }
+      ],
+      "Commercial": [
+        {
+          "bhk": "Showrooms",
+          "sqft": "563 - 1575",
+          "sqftType": "Carpet",
+          "price": "61 Lacs - 1.73 Cr"
         }
       ]
     }
   },
   {
-    "id": 99,
+    "id": 100,
     "type": "Residential",
     "latest": "Shela",
     "location": "Shela-01",
@@ -3265,15 +3366,23 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2700",
-          "sqftType": "SuperBuilt-up",
+          "sqft": "968",
+          "sqftType": "Carpet",
           "price": "75 Lacs"
         }
-      ]
+      ],
+        "Commercial": [
+          {
+            "bhk": "Showrooms",
+            "sqft": "700 - 2000",
+            "sqftType": "Carpet",
+            "price": "1.08 - 3.10 Cr"
+          }
+        ]
     }
   },
   {
-    "id": 100,
+    "id": 101,
     "type": "Residential",
     "latest": "Wapa",
     "location": "Wapa-01",
@@ -3296,15 +3405,15 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "4 BHK",
-          "sqft": "3528",
-          "sqftType": "SuperBuilt-up",
+          "sqft": "2485",
+          "sqftType": "Carpet",
           "price": "2.45 Cr"
         }
       ]
     }
   },
   {
-    "id": 101,
+    "id": 102,
     "type": "Residential",
     "latest": "Wapa",
     "location": "Wapa-02",
@@ -3327,15 +3436,23 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2700",
-          "sqftType": "SuperBuilt-up",
-          "price": "1.08 Cr"
+          "sqft": "1165 - 1355",
+          "sqftType": "Carpet",
+          "price": "1.08 - 1.25 Cr"
         }
-      ]
+      ],
+        "Commercial": [
+          {
+            "bhk": "Showrooms",
+            "sqft": "1000 - 2000",
+            "sqftType": "SuperBuilt-up",
+            "price": "1.25 - 2.50 Cr"
+          }
+        ]
     }
   },
   {
-    "id": 102,
+    "id": 103,
     "type": "Residential",
     "latest": "Paldi",
     "location": "Paldi-03",
@@ -3356,21 +3473,21 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2700",
+          "sqft": "1773",
           "sqftType": "SuperBuilt-up",
           "price": "1.09 Cr"
         },
         {
           "bhk": "3.5 BHK",
-          "sqft": "2900",
+          "sqft": "2043",
           "sqftType": "SuperBuilt-up",
-          "price": "1.09 Cr"
+          "price": "1.26 Cr"
         }
       ]
     }
   },
   {
-    "id": 103,
+    "id": 104,
     "type": "Residential",
     "latest": "Naroda",
     "location": "Naroda-01",
@@ -3386,8 +3503,8 @@ const propertyCardsData = [
     "nestedCategories": {
       "Apartments": [
         {
-          "bhk": "2 BHK",
-          "sqft": "1950",
+          "bhk": "2 BHK Fully Furnished",
+          "sqft": "990",
           "sqftType": "SuperBuilt-up",
           "price": "32 Lacs"
         }
@@ -3395,7 +3512,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 104,
+    "id": 105,
     "type": "Commercial",
     "latest": "Thaltej",
     "location": "Thaltej-02",
@@ -3416,40 +3533,16 @@ const propertyCardsData = [
     "nestedCategories": {
       "Commercial": [
         {
-          "bhk": "Offices",
-          "sqft": "1222",
+          "bhk": "Showrooms",
+          "sqft": "2200 - 36000",
           "sqftType": "SuperBuilt-up",
-          "price": "1.43 Cr"
-        }
-      ]
-    }
-  },
-  {
-    "id": 105,
-    "type": "Residential",
-    "latest": "Link-in Road",
-    "location": "Link-in-Road-01",
-    "price": 155,
-    "soldOut": false,
-    "images": [
-      "/images/swatiPremier-01.jpg",
-      "/images/swatiPremier-02.jpg",
-      "/images/swatiPremier-03.jpg"
-    ],
-    "propertyLocation": "Link-in Road",
-    "schemeName": "Swati Premier",
-    "features": [
-      "Personal Lift & Foyer",
-      "2 Alloted Car Parking",
-      "All Basic Amenities"
-    ],
-    "nestedCategories": {
-      "Apartments": [
+          "price": "2.80 Cr onwards"
+        },
         {
-          "bhk": "4 BHK",
-          "sqft": "3528",
+          "bhk": "Offices",
+          "sqft": "1250 - 36000",
           "sqftType": "SuperBuilt-up",
-          "price": "1.55 Cr"
+          "price": "1.45 Cr onwards"
         }
       ]
     }
@@ -3591,10 +3684,10 @@ const propertyCardsData = [
       "East-West Facing Plots"
     ],
     "nestedCategories": {
-      "Apartments": [
+      "Bungalow": [
         {
           "bhk": "4 BHK",
-          "sqft": "3528",
+          "sqft": "3123 - 5454",
           "sqftType": "SuperBuilt-up",
           "price": "6 Cr"
         }
@@ -3614,7 +3707,7 @@ const propertyCardsData = [
       "/images/kaveri-03.jpeg"
     ],
     "propertyLocation": "Shilaj",
-    "schemeName": "Vivanta by A.Shridhar",
+    "schemeName": "Kaveri Soham Vivanta by A.Shridhar",
     "features": [
       "1 Allotted Car Parking",
       "50+ Amenities"
@@ -3623,9 +3716,9 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2700",
+          "sqft": "1550 - 1745",
           "sqftType": "SuperBuilt-up",
-          "price": "97 Lacs"
+          "price": "82 - 92 Lacs"
         }
       ]
     }
@@ -3718,9 +3811,9 @@ const propertyCardsData = [
       "Commercial": [
         {
           "bhk": "Offices",
-          "sqft": "2000",
+          "sqft": "625 - 16000",
           "sqftType": "Carpet",
-          "price": "66 Lacs"
+          "price": "66 Lacs onwards"
         }
       ]
     }
@@ -3730,7 +3823,7 @@ const propertyCardsData = [
     "type": "Commercial",
     "latest": "Sindhu-Bhavan",
     "location": "Sindhu-Bhavan-02",
-    "price": 384,
+    "price": 450,
     "soldOut": false,
     "images": [
       "/images/Absolute-01.jpg",
@@ -3745,10 +3838,10 @@ const propertyCardsData = [
     "nestedCategories": {
       "Commercial": [
         {
-          "bhk": "Showrooms",
-          "sqft": "1500",
+          "bhk": "Pre Leased Showrooms",
+          "sqft": "2925",
           "sqftType": "Carpet",
-          "price": "4.5 Cr"
+          "price": "4.5 Cr onwards"
         }
       ]
     }
@@ -3924,9 +4017,17 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "4 BHK",
-          "sqft": "3528",
+          "sqft": "4264",
           "sqftType": "SuperBuilt-up",
-          "price": "2.78 Cr"
+          "price": "3.48 Cr"
+        }
+      ],
+      "Duplex Penthouse": [
+        {
+          "bhk": "4 BHK",
+          "sqft": "7700",
+          "sqftType": "SuperBuilt-up",
+          "price": "7.58 Cr"
         }
       ]
     }
@@ -3953,10 +4054,16 @@ const propertyCardsData = [
     "nestedCategories": {
       "Commercial": [
         {
-          "bhk": "Offices",
-          "sqft": "2000",
+          "bhk": "Showrooms",
+          "sqft": "2000 - 13000",
           "sqftType": "SuperBuilt-up",
-          "price": "1.41 Cr"
+          "price": "1.70 Cr onwards"
+        },
+        {
+          "bhk": "Offices",
+          "sqft": "928 - 17000",
+          "sqftType": "SuperBuilt-up",
+          "price": "69 Lacs onwards"
         }
       ]
     }
@@ -4142,7 +4249,7 @@ const propertyCardsData = [
     "price": 155,
     "soldOut": false,
     "images": [
-      "images/Granduere-01.jpg",
+      "/images/Granduere-01.jpg",
       "/images/Granduere-02.jpg",
       "/images/Granduere-03.jpg"
     ],
@@ -4158,7 +4265,7 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "4 BHK",
-          "sqft": "3528",
+          "sqft": "1600 - 2200",
           "sqftType": "Carpet",
           "price": "1.55 Cr"
         }
@@ -4168,8 +4275,8 @@ const propertyCardsData = [
   {
     "id": 130,
     "type": "Commercial",
-    "latest": "Ambli-Bopal",
-    "location": "Ambli-Bopal-01",
+    "latest": "Iscon-Ambli",
+    "location": "Iscon-Ambli-03",
     "price": 88,
     "soldOut": false,
     "images": [
@@ -4177,7 +4284,7 @@ const propertyCardsData = [
       "/images/Citadel-02.jpg",
       "/images/Citadel-03.jpg"
     ],
-    "propertyLocation": "Ambli-Bopal Road",
+    "propertyLocation": "Iscon-Ambli Road",
     "schemeName": "Citadel",
     "features": [
       "Ready to Move",
@@ -4330,7 +4437,7 @@ const propertyCardsData = [
     "id": 135,
     "type": "Residential",
     "latest": "Koba-Gandhinagar",
-    "location": "Gandhinagar-08",
+    "location": "Gandhinagar-11",
     "price": 200,
     "soldOut": false,
     "images": [
@@ -4358,10 +4465,10 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 135,
+    "id": 136,
     "type": "Residential",
     "latest": "Koba-Gandhinagar",
-    "location": "Gandhinagar-09",
+    "location": "Gandhinagar-12",
     "price": 314,
     "soldOut": false,
     "images": [
@@ -4389,13 +4496,13 @@ const propertyCardsData = [
           "bhk": "5 BHK",
           "sqft": "6057",
           "sqftType": "Carpet",
-          "basic price": "3.19 Cr"
+          "price": "3.19 Cr"
         }
       ]
     }
   },
   {
-    "id": 136,
+    "id": 137,
     "type": "Mixed",
     "latest": "Ambli",
     "location": "Ambli-01",
@@ -4433,7 +4540,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 137,
+    "id": 138,
     "type": "Mixed",
     "latest": "Shilaj",
     "location": "Shilaj-06",
@@ -4454,29 +4561,21 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2700",
+          "sqft": "1760",
           "sqftType": "Super Built-up",
-          "price": "1 Cr"
+          "price": "1.69 Cr"
         },
         {
-          "bhk": "3 BHK",
-          "sqft": "2700",
-          "sqftType": "Super Built-up",
-          "price": "1.56 Cr"
-        }
-      ],
-      "Penthouse": [
-        {
           "bhk": "4 BHK",
-          "sqft": "3528",
+          "sqft": "3475",
           "sqftType": "Super Built-up",
-          "price": "2.05 Cr"
+          "price": "3.33 Cr"
         }
       ]
     }
   },
   {
-    "id": 138,
+    "id": 139,
     "type": "Residential",
     "latest": "Ambawadi",
     "location": "Ambawadi-01",
@@ -4504,7 +4603,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 139,
+    "id": 140,
     "type": "Residential",
     "latest": "Paldi",
     "location": "Paldi-04",
@@ -4525,21 +4624,21 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2700",
+          "sqft": "2610 - 2736",
           "sqftType": "SuperBuilt-up",
-          "price": "1.88 Cr"
+          "price": "1.88 - 1.97 Cr"
         },
         {
           "bhk": "4 BHK",
-          "sqft": "3528",
+          "sqft": "3654 - 3744",
           "sqftType": "SuperBuilt-up",
-          "price": "1.88 Cr"
+          "price": "2.63 - 2.70 Cr"
         }
       ]
     }
   },
   {
-    "id": 140,
+    "id": 141,
     "type": "Residential",
     "latest": "Ambawadi",
     "location": "Ambawadi-02",
@@ -4566,7 +4665,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 141,
+    "id": 142,
     "type": "Residential",
     "latest": "Thaltej",
     "location": "Thaltej-03",
@@ -4578,7 +4677,7 @@ const propertyCardsData = [
       "/images/Z-Luxuria-03.jpg"
     ],
     "propertyLocation": "Thaltej",
-    "schemeName": "Zade Luxuria",
+    "schemeName": "Z Luxuria",
     "features": [
       "2 Side Road Corner Project",
       "33 Storey Project",
@@ -4589,7 +4688,7 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "4 BHK",
-          "sqft": "3528",
+          "sqft": "5400",
           "sqftType": "SuperBuilt-up",
           "price": "6.26 Cr"
         }
@@ -4597,7 +4696,37 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 142,
+    "id": 143,
+    "type": "Residential",
+    "latest": "Thaltej",
+    "location": "Thaltej-04",
+    "price": 152,
+    "soldOut": false,
+    "images": [
+      "/images/Zade-two-01.jpg",
+      "/images/Zade-two-02.jpg",
+      "/images/Zade-two-03.jpg"
+    ],
+    "propertyLocation": "Thaltej",
+    "schemeName": "Zade Two",
+    "features": [
+      "32 Storey Project",
+      "Nr. SBR",
+      "No Retail spaces, only Offices",
+    ],
+    "nestedCategories": {
+      "Commercial": [
+        {
+          "bhk": "Offices",
+          "sqft": "1230 - 11000",
+          "sqftType": "SuperBuilt-up",
+          "price": "1.52 Cr onwards"
+        }
+      ]
+    }
+  },
+  {
+    "id": 144,
     "type": "Residential",
     "latest": "Shilaj",
     "location": "Shilaj-07",
@@ -4627,10 +4756,10 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 143,
+    "id": 145,
     "type": "Residential",
     "latest": "Thaltej",
-    "location": "Thaltej-04",
+    "location": "Thaltej-05",
     "price": 137,
     "soldOut": false,
     "images": [
@@ -4661,10 +4790,10 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 144,
+    "id": 146,
     "type": "Residential",
     "latest": "Thaltej",
-    "location": "Thaltej-05",
+    "location": "Thaltej-06",
     "price": 151,
     "soldOut": false,
     "images": [
@@ -4696,10 +4825,10 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 145,
+    "id": 147,
     "type": "Residential",
     "latest": "Thaltej",
-    "location": "Thaltej-06",
+    "location": "Thaltej-07",
     "price": 485,
     "soldOut": false,
     "images": [
@@ -4725,10 +4854,10 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 146,
+    "id": 148,
     "type": "Residential",
     "latest": "Iscon-Ambli",
-    "location": "Iscon-Ambli-03",
+    "location": "Iscon-Ambli-04",
     "price": 850,
     "soldOut": false,
     "images": [
@@ -4761,10 +4890,10 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 147,
+    "id": 149,
     "type": "Residential",
     "latest": "Iscon-Ambli",
-    "location": "Iscon-Ambli-04",
+    "location": "Iscon-Ambli-05",
     "price": 600,
     "soldOut": false,
     "images": [
@@ -4798,10 +4927,10 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 148,
+    "id": 150,
     "type": "Mixed",
     "latest": "Iscon-Ambli",
-    "location": "Iscon-Ambli-05",
+    "location": "Iscon-Ambli-06",
     "price": 583,
     "soldOut": false,
     "images": [
@@ -4835,10 +4964,10 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 149,
+    "id": 151,
     "type": "Residential",
     "latest": "Iscon-Ambli",
-    "location": "Iscon-Ambli-06",
+    "location": "Iscon-Ambli-07",
     "price": 680,
     "soldOut": false,
     "images": [
@@ -4865,10 +4994,10 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 150,
+    "id": 152,
     "type": "Mixed",
     "latest": "Iscon Ambli",
-    "location": "Iscon-Ambli-07",
+    "location": "Iscon-Ambli-08",
     "price": 400,
     "soldOut": false,
     "images": [
@@ -4903,7 +5032,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 151,
+    "id": 153,
     "type": "Residential",
     "latest": "Bodakdev",
     "location": "Bodakdev-03",
@@ -4925,24 +5054,24 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "4 BHK",
-          "sqft": "3528",
-          "sqftType": "Super Built-up",
-          "price": "2.93 Cr"
+          "sqft": "1766 - 2237",
+          "sqftType": "Carpet",
+          "price": "2.93 Cr onwards"
         },
         {
           "bhk": "5 BHK",
-          "sqft": "4000",
-          "sqftType": "Super Built-up",
-          "price": "2.93 Cr"
+          "sqft": "3346",
+          "sqftType": "Carpet",
+          "price": "5.55 Cr"
         }
       ]
     }
   },
   {
-    "id": 152,
+    "id": 154,
     "type": "Residential",
     "latest": "Gandhinagar",
-    "location": "Gandhinagar-09",
+    "location": "Gandhinagar-13",
     "price": 150,
     "soldOut": false,
     "images": [
@@ -4967,7 +5096,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 153,
+    "id": 155,
     "type": "Residential",
     "latest": "Shela",
     "location": "Shela-02",
@@ -4998,7 +5127,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 154,
+    "id": 156,
     "type": "Residential",
     "latest": "Linkin-Road",
     "location": "Linkin-Road-02",
@@ -5033,7 +5162,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 155,
+    "id": 157,
     "type": "Residential",
     "latest": "Ambawadi",
     "location": "Ambawadi-03",
@@ -5060,7 +5189,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 156,
+    "id": 158,
     "type": "Mixed",
     "latest": "Karnavati CLub",
     "location": "Karnavati Club-01",
@@ -5104,10 +5233,10 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 157,
+    "id": 159,
     "type": "Residential",
     "latest": "Shahibaug",
-    "location": "Shahibaug-03",
+    "location": "Shahibaug-02",
     "price": 61,
     "soldOut": false,
     "images": [
@@ -5133,7 +5262,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 158,
+    "id": 160,
     "type": "Commercial",
     "latest": "Vaishnodevi",
     "location": "Vaishnodevi-15",
@@ -5157,19 +5286,19 @@ const propertyCardsData = [
           "bhk": "Showroooms",
           "sqft": "919 - 3000",
           "sqftType": "SuperBuilt-up",
-          "price": "1.76 Cr"
+          "price": "1.76 Cr onwards"
         },
         {
           "bhk": "Offices",
           "sqft": "1068 - 3000",
           "sqftType": "SuperBuilt-up",
-          "price": "70 Lacs"
+          "price": "70 Lacs onwards"
         }
       ]
     }
   },
   {
-    "id": 159,
+    "id": 161,
     "type": "Commercial",
     "latest": "Karnavati Club",
     "location": "Karnavati Club-02",
@@ -5205,7 +5334,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 160,
+    "id": 162,
     "type": "Residential",
     "latest": "Ambawadi",
     "location": "Ambawadi-04",
@@ -5235,10 +5364,10 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 161,
+    "id": 163,
     "type": "Residential",
     "latest": "Thaltej",
-    "location": "Thaltej-07",
+    "location": "Thaltej-08",
     "price": 310,
     "soldOut": false,
     "images": [
@@ -5264,10 +5393,10 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 162,
+    "id": 164,
     "type": "Commercial",
     "latest": "Thaltej",
-    "location": "Thaltej-08",
+    "location": "Thaltej-09",
     "price": 185,
     "soldOut": false,
     "images": [
@@ -5295,10 +5424,10 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 163,
+    "id": 165,
     "type": "Residential",
     "latest": "Thaltej",
-    "location": "Thaltej-09",
+    "location": "Thaltej-10",
     "price": 465,
     "soldOut": false,
     "images": [
@@ -5326,7 +5455,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 164,
+    "id": 166,
     "type": "Residential",
     "latest": "Rajpath Club",
     "location": "Rajpath Club-01",
@@ -5358,7 +5487,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 165,
+    "id": 167,
     "type": "Residential",
     "latest": "Rajpath Club",
     "location": "Rajpath Club-02",
@@ -5390,10 +5519,10 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 166,
+    "id": 168,
     "type": "Mixed",
     "latest": "Thaltej",
-    "location": "Thaltej-10",
+    "location": "Thaltej-11",
     "price": 570,
     "soldOut": false,
     "images": [
@@ -5429,7 +5558,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 167,
+    "id": 169,
     "type": "Residential",
     "latest": "Agol gam",
     "location": "Agol gam-01",
@@ -5460,10 +5589,10 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 168,
+    "id": 170,
     "type": "Residential",
     "latest": "Thaltej",
-    "location": "Thaltej-11",
+    "location": "Thaltej-12",
     "price": 557,
     "soldOut": false,
     "images": [
@@ -5497,10 +5626,10 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 169,
+    "id": 171,
     "type": "Residential",
     "latest": "Thaltej",
-    "location": "Thaltej-12",
+    "location": "Thaltej-13",
     "price": 325,
     "soldOut": false,
     "images": [
@@ -5527,10 +5656,10 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 170,
+    "id": 172,
     "type": "Commercial",
     "latest": "Thaltej",
-    "location": "Thaltej-13",
+    "location": "Thaltej-14",
     "price": 169,
     "soldOut": false,
     "images": [
@@ -5564,7 +5693,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 171,
+    "id": 173,
     "type": "Mixed",
     "latest": "ManekBaug",
     "location": "ManekBaug-01",
@@ -5597,7 +5726,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 172,
+    "id": 174,
     "type": "Mixed",
     "latest": "Shela",
     "location": "Shela-03",
@@ -5635,7 +5764,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 173,
+    "id": 175,
     "type": "Mixed",
     "latest": "South Bopal",
     "location": "South Bopal-01",
@@ -5673,7 +5802,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 174,
+    "id": 176,
     "type": "Mixed",
     "latest": "Wapa",
     "location": "Wapa-05",
@@ -5717,7 +5846,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 175,
+    "id": 177,
     "type": "Mixed",
     "latest": "Shela",
     "location": "Shela-04",
@@ -5754,7 +5883,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 176,
+    "id": 178,
     "type": "Residential",
     "latest": "Sattadhar",
     "location": "Sattadhar-01",
@@ -5783,7 +5912,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 177,
+    "id": 179,
     "type": "Mixed",
     "latest": "Shela",
     "location": "Shela-05",
@@ -5821,7 +5950,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 178,
+    "id": 180,
     "type": "Plot",
     "latest": "Sanand",
     "location": "Sanand-01",
@@ -5850,7 +5979,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 179,
+    "id": 181,
     "type": "Plot",
     "latest": "Sanand",
     "location": "Sanand-02",
@@ -5879,7 +6008,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 180,
+    "id": 182,
     "type": "Commercial",
     "latest": "Bopal",
     "location": "Bopal-05",
@@ -5914,7 +6043,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 181,
+    "id": 183,
     "type": "Commercial",
     "latest": "Navrangpura",
     "location": "Navrangpura-03",
@@ -5949,7 +6078,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 182,
+    "id": 184,
     "type": "Residential",
     "latest": "Shela",
     "location": "Shela-06",
@@ -5985,7 +6114,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 183,
+    "id": 185,
     "type": "Residential",
     "latest": "Gota",
     "location": "Gota-07",
@@ -6023,7 +6152,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 184,
+    "id": 186,
     "type": "Residential",
     "latest": "Gota",
     "location": "Gota-08",
@@ -6054,7 +6183,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 185,
+    "id": 187,
     "type": "Residential",
     "latest": "Gota",
     "location": "Gota-09",
@@ -6091,7 +6220,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 186,
+    "id": 188,
     "type": "Commercial",
     "latest": "Gota",
     "location": "Gota-10",
@@ -6125,7 +6254,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 187,
+    "id": 189,
     "type": "Mixed",
     "latest": "Shilaj",
     "location": "Shilaj-08",
@@ -6159,7 +6288,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 188,
+    "id": 190,
     "type": "Residential",
     "latest": "Satellite",
     "location": "Satellite-02",
@@ -6197,7 +6326,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 189,
+    "id": 191,
     "type": "Mixed",
     "latest": "Satellite",
     "location": "Satellite-03",
@@ -6225,6 +6354,14 @@ const propertyCardsData = [
           "price": "3.52 - 4.9 Cr"
         }
       ],
+      "Duplex": [
+        {
+          "bhk": "5 BHK",
+          "sqft": "5600",
+          "sqftType": "SuperBuilt-up",
+          "price": "6.14 Cr"
+        }
+      ],
       "Commercial": [
         {
           "bhk": "Showrooms",
@@ -6233,18 +6370,10 @@ const propertyCardsData = [
           "price": "4 Cr"
         }
       ],
-      "Duplex": [
-        {
-          "bhk": "5 BHK",
-          "sqft": "5600",
-          "sqftType": "SuperBuilt-up",
-          "price": "6.14 Cr"
-        }
-      ]
     }
   },
   {
-    "id": 190,
+    "id": 192,
     "type": "Residential",
     "latest": "Jagatpur",
     "location": "Jagatpur-12",
@@ -6275,7 +6404,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 191,
+    "id": 193,
     "type": "Residential",
     "latest": "Gota",
     "location": "Gota-11",
@@ -6305,7 +6434,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 192,
+    "id": 194,
     "type": "Residential",
     "latest": "Vaishnodevi",
     "location": "Vaishnodevi-16",
@@ -6336,7 +6465,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 193,
+    "id": 195,
     "type": "Mixed",
     "latest": "Vaishnodevi",
     "location": "Vaishnodevi-17",
@@ -6361,7 +6490,7 @@ const propertyCardsData = [
           "bhk": "3 BHK",
           "sqft": "2385",
           "sqftType": "SuperBuilt-up",
-          "price": "1.3 Cr"
+          "price": "1.30 Cr"
         },
         {
           "bhk": "4 BHK",
@@ -6375,7 +6504,13 @@ const propertyCardsData = [
           "bhk": "4 BHK",
           "sqft": "4797",
           "sqftType": "SuperBuilt-up",
-          "price": "2.7 Cr"
+          "price": "2.75 Cr"
+        },
+        {
+          "bhk": "5 BHK",
+          "sqft": "6156",
+          "sqftType": "SuperBuilt-up",
+          "price": "3.50 Cr"
         }
       ],
       "Commercial": [
@@ -6389,10 +6524,40 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 194,
+    "id": 196,
     "type": "Mixed",
     "latest": "Vaishnodevi",
     "location": "Vaishnodevi-18",
+    "price": 145,
+    "soldOut": false,
+    "images": [
+      "images/aurika-one-01.jpg",
+      "images/aurika-one-02.jpg",
+      "images/aurika-one-03.jpg"
+    ],
+    "propertyLocation": "Vaishnodevi Circle",
+    "schemeName": "Aurika One",
+    "features": [
+      "behind Vaishnodevi Temple",
+      "1 km to Nirma University",
+      "2 Road Corner Project",
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "2682",
+          "sqftType": "Super Built-up",
+          "price": "1.45 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 197,
+    "type": "Mixed",
+    "latest": "Vaishnodevi",
+    "location": "Vaishnodevi-19",
     "price": 112,
     "soldOut": false,
     "images": [
@@ -6411,26 +6576,18 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2025",
+          "sqft": "2025 - 2430",
           "sqftType": "Super Built-up",
-          "price": "1.12 Cr"
-        }
-      ],
-      "Commercial": [
-        {
-          "bhk": "Showrooms",
-          "sqft": "1000 - 1500",
-          "sqftType": "Carpet",
-          "price": "1.5 - 2.15 Cr"
+          "price": "1.13 - 1.40 Cr"
         }
       ]
     }
   },
   {
-    "id": 195,
+    "id": 198,
     "type": "Residential",
     "latest": "Vaishnodevi",
-    "location": "Vaishnodevi-19",
+    "location": "Vaishnodevi-20",
     "price": 112,
     "soldOut": false,
     "images": [
@@ -6463,7 +6620,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 196,
+    "id": 199,
     "type": "Residential",
     "latest": "New Ranip",
     "location": "New Ranip-01",
@@ -6498,7 +6655,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 197,
+    "id": 200,
     "type": "Residential",
     "latest": "Shela",
     "location": "Shela-07",
@@ -6534,7 +6691,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 198,
+    "id": 201,
     "type": "Residential",
     "latest": "Bopal",
     "location": "Bopal-06",
@@ -6564,7 +6721,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 199,
+    "id": 202,
     "type": "Residential",
     "latest": "Chharodi",
     "location": "Chharodi-05",
@@ -6594,7 +6751,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 200,
+    "id": 203,
     "type": "Residential",
     "latest": "Naranpura",
     "location": "Naranpura-11",
@@ -6638,7 +6795,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 201,
+    "id": 204,
     "type": "Residential",
     "latest": "Memnagar",
     "location": "Memnagar-02",
@@ -6667,7 +6824,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 202,
+    "id": 205,
     "type": "Mixed",
     "latest": "Satellite",
     "location": "Satellite-04",
@@ -6705,7 +6862,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 203,
+    "id": 206,
     "type": "Residential",
     "latest": "Chharodi",
     "location": "Chharodi-06",
@@ -6735,7 +6892,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 204,
+    "id": 207,
     "type": "Mixed",
     "latest": "Prahladnagar",
     "location": "Prahladnagar-02",
@@ -6773,7 +6930,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 205,
+    "id": 208,
     "type": "Mixed",
     "latest": "New Ranip",
     "location": "New Ranip-02",
@@ -6817,7 +6974,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 206,
+    "id": 209,
     "type": "Mixed",
     "latest": "New Ranip",
     "location": "New Ranip-03",
@@ -6862,7 +7019,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 207,
+    "id": 210,
     "type": "Residential",
     "latest": "Chharodi",
     "location": "Chharodi-07",
@@ -6898,7 +7055,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 208,
+    "id": 211,
     "type": "Commercial",
     "latest": "Iscon",
     "location": "Iscon-02",
@@ -6934,7 +7091,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 209,
+    "id": 212,
     "type": "Mixed",
     "latest": "Chharodi",
     "location": "Chharodi-08",
@@ -6979,7 +7136,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 210,
+    "id": 213,
     "type": "Mixed",
     "latest": "Chharodi",
     "location": "Chharodi-09",
@@ -7016,7 +7173,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 211,
+    "id": 214,
     "type": "Residential",
     "latest": "Jagatpur",
     "location": "Jagatpur-13",
@@ -7061,10 +7218,10 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 212,
+    "id": 215,
     "type": "Mixed",
     "latest": "Iscon-Ambli",
-    "location": "Iscon-Ambli-08",
+    "location": "Iscon-Ambli-09",
     "price": 370,
     "soldOut": false,
     "images": [
@@ -7101,7 +7258,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 213,
+    "id": 216,
     "type": "Residential",
     "latest": "Jagatpur",
     "location": "Jagatpur-14",
@@ -7138,7 +7295,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 214,
+    "id": 217,
     "type": "Residential",
     "latest": "Science-city",
     "location": "Science-city-01",
@@ -7149,7 +7306,7 @@ const propertyCardsData = [
       "images/Harmony-Nityam_02.jpeg",
       "images/Harmony-Nityam_03.jpeg"
     ],
-    "propertyLocation": "Science Park",
+    "propertyLocation": "Science City",
     "schemeName": "Nityam Harmony",
     "features": [
       "Pure Residential",
@@ -7169,7 +7326,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 215,
+    "id": 218,
     "type": "Residential",
     "latest": "Science-city",
     "location": "Science-city-02",
@@ -7180,7 +7337,7 @@ const propertyCardsData = [
       "images/the-sparkle-02.png",
       "images/the-sparkle-03.png"
     ],
-    "propertyLocation": "Science Park",
+    "propertyLocation": "Science City",
     "schemeName": "The Sparkle",
     "features": [
       "Pure Residential",
@@ -7206,7 +7363,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 216,
+    "id": 219,
     "type": "Residential",
     "latest": "Satellite",
     "location": "Satellite-05",
@@ -7238,7 +7395,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 217,
+    "id": 220,
     "type": "Mixed",
     "latest": "Jagatpur",
     "location": "Jagatpur-15",
@@ -7269,7 +7426,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 218,
+    "id": 221,
     "type": "Residential",
     "latest": "Science-city",
     "location": "Science-city-03",
@@ -7280,7 +7437,7 @@ const propertyCardsData = [
       "images/harikesh-02.png",
       "images/harikesh-03.png"
     ],
-    "propertyLocation": "Science Park",
+    "propertyLocation": "Science City",
     "schemeName": "Harmony Harikesh",
     "features": [
       "360 Open View",
@@ -7306,7 +7463,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 219,
+    "id": 222,
     "type": "Mixed",
     "latest": "Science-city",
     "location": "Science-city-04",
@@ -7353,7 +7510,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 220,
+    "id": 223,
     "type": "Mixed",
     "latest": "Satellite",
     "location": "Satellite-06",
@@ -7397,7 +7554,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 221,
+    "id": 224,
     "type": "Residential",
     "latest": "Chharodi",
     "location": "Chharodi-10",
@@ -7436,7 +7593,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 222,
+    "id": 225,
     "type": "Residential",
     "latest": "Science-city",
     "location": "Science-city-05",
@@ -7447,7 +7604,7 @@ const propertyCardsData = [
       "images/Stark-torre-02.jpeg",
       "images/Stark-torre-03.jpeg"
     ],
-    "propertyLocation": "Science Park",
+    "propertyLocation": "Science City",
     "schemeName": "Stark Torre",
     "features": [
       "DGU Sound Proof",
@@ -7467,7 +7624,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 223,
+    "id": 226,
     "type": "Mixed",
     "latest": "Chharodi",
     "location": "Chharodi-11",
@@ -7515,7 +7672,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 224,
+    "id": 227,
     "type": "Residential",
     "latest": "Science-city",
     "location": "Science-city-06",
@@ -7548,7 +7705,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 225,
+    "id": 228,
     "type": "Commercial",
     "latest": "Panjrapol",
     "location": "Panjrapol-01",
@@ -7577,7 +7734,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 226,
+    "id": 229,
     "type": "Residential",
     "latest": "Chharodi",
     "location": "Chharodi-12",
@@ -7614,7 +7771,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 227,
+    "id": 230,
     "type": "Residential",
     "latest": "Panjrapol",
     "location": "Panjrapol-02",
@@ -7644,7 +7801,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 228,
+    "id": 231,
     "type": "Residential",
     "latest": "Chharodi",
     "location": "Chharodi-13",
@@ -7689,24 +7846,24 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 229,
+    "id": 232,
     "type": "Residential",
     "latest": "Thaltej",
-    "location": "Thaltej-14",
+    "location": "Thaltej-15",
     "price": 340,
     "soldOut": false,
     "images": [],
-    "propertyLocation": "",
+    "propertyLocation": "Thaltej",
     "schemeName": "Sun Residency",
     "features": [
       "2km From Iconic Sindhu Bhavan Road",
       "5 kw solar panel with auto cleaning system*",
-      "Ready to Move Bungalow*"
+      "Fully Furnished, Ready to Move Bungalow"
     ],
     "nestedCategories": {
-      "Apartments": [
+      "Bungalow": [
         {
-          "bhk": "Fully Furnished Bungalow",
+          "bhk": " 3 BHK",
           "sqft": "4000",
           "sqftType": "SuperBuilt-up",
           "price": "3.40 Cr"
@@ -7715,7 +7872,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 230,
+    "id": 233,
     "type": "Commercial",
     "latest": "Science-city",
     "location": "Science-city-07",
@@ -7752,7 +7909,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 231,
+    "id": 234,
     "type": "Mixed",
     "latest": "Science-city",
     "location": "Science-city-08",
@@ -7790,7 +7947,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 232,
+    "id": 235,
     "type": "Residential",
     "latest": "Satellite",
     "location": "Satellite-07",
@@ -7820,7 +7977,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 233,
+    "id": 236,
     "type": "Residential",
     "latest": "Navrangpura",
     "location": "Navrangpura-04",
@@ -7851,7 +8008,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 234,
+    "id": 237,
     "type": "Commercial",
     "latest": "South Bopal",
     "location": "South Bopal-02",
@@ -7881,7 +8038,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 235,
+    "id": 238,
     "type": "Mixed",
     "latest": "Jagatpur",
     "location": "Jagatpur-16",
@@ -7916,7 +8073,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 236,
+    "id": 239,
     "type": "Residential",
     "latest": "Zundal",
     "location": "Zundal-07",
@@ -7945,7 +8102,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 237,
+    "id": 240,
     "type": "Residential",
     "latest": "Jagatpur",
     "location": "Jagatpur-17",
@@ -7983,7 +8140,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 238,
+    "id": 241,
     "type": "Mixed",
     "latest": "Zundal",
     "location": "Zundal-08",
@@ -8025,7 +8182,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 239,
+    "id": 242,
     "type": "Residential",
     "latest": "Adalaj",
     "location": "Adalaj-01",
@@ -8060,7 +8217,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 240,
+    "id": 243,
     "type": "Residential",
     "latest": "Satellite",
     "location": "Satellite-08",
@@ -8097,7 +8254,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 241,
+    "id": 244,
     "type": "Mixed",
     "latest": "Adalaj",
     "location": "Adalaj-02",
@@ -8136,7 +8293,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 242,
+    "id": 245,
     "type": "Residential",
     "latest": "Adalaj",
     "location": "Adalaj-03",
@@ -8166,7 +8323,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 243,
+    "id": 246,
     "type": "Residential",
     "latest": "Satellite",
     "location": "Satellite-09",
@@ -8196,7 +8353,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 244,
+    "id": 247,
     "type": "Mixed",
     "latest": "Adalaj",
     "location": "Adalaj-04",
@@ -8254,7 +8411,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 245,
+    "id": 248,
     "type": "Residential",
     "latest": "Shyamal",
     "location": "Shyamal-01",
@@ -8291,7 +8448,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 246,
+    "id": 249,
     "type": "Residential",
     "latest": "Bodakdev",
     "location": "Bodakdev-04",
@@ -8328,7 +8485,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 247,
+    "id": 250,
     "type": "Residential",
     "latest": "Zundal",
     "location": "Zundal-09",
@@ -8364,7 +8521,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 248,
+    "id": 251,
     "type": "Residential",
     "latest": "Adalaj",
     "location": "Adalaj-05",
@@ -8393,7 +8550,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 249,
+    "id": 252,
     "type": "Mixed",
     "latest": "Adalaj",
     "location": "Adalaj-06",
@@ -8437,7 +8594,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 250,
+    "id": 253,
     "type": "Residential",
     "latest": "Adalaj",
     "location": "Adalaj-07",
@@ -8473,7 +8630,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 251,
+    "id": 254,
     "type": "Mixed",
     "latest": "Adalaj",
     "location": "Adalaj-08",
@@ -8517,7 +8674,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 252,
+    "id": 255,
     "type": "Mixed",
     "latest": "Shela",
     "location": "Shela-08",
@@ -8555,7 +8712,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 253,
+    "id": 256,
     "type": "Mixed",
     "latest": "Shela",
     "location": "Shela-09",
@@ -8594,7 +8751,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 254,
+    "id": 257,
     "type": "Mixed",
     "latest": "Satellite",
     "location": "Satellite-10",
@@ -8638,7 +8795,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 255,
+    "id": 258,
     "type": "Mixed",
     "latest": "Shilaj",
     "location": "Shilaj-09",
@@ -8677,7 +8834,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 256,
+    "id": 259,
     "type": "Residential",
     "latest": "South-Bopal",
     "location": "South-Bopal-01",
@@ -8715,7 +8872,7 @@ const propertyCardsData = [
     }
   },
   // {
-  //   "id": 257,
+  //   "id": 260,
   //   "type": "Residential",
   //   "latest": "Kasindra",
   //   "location": "Kasindra-01",
@@ -8745,7 +8902,7 @@ const propertyCardsData = [
   //   }
   // },
   // {
-  //   "id": 258,
+  //   "id": 261,
   //   "type": "Residential",
   //   "latest": "Kasindra",
   //   "location": "Kasindra-02",
@@ -8776,7 +8933,7 @@ const propertyCardsData = [
   //   }
   // },
   {
-    "id": 259,
+    "id": 262,
     "type": "Residential",
     "latest": "Kasindra",
     "location": "Kasindra-03",
@@ -8806,7 +8963,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 260,
+    "id": 263,
     "type": "Mixed",
     "latest": "Satellite",
     "location": "Satellite-11",
@@ -8850,7 +9007,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 261,
+    "id": 264,
     "type": "Mixed",
     "latest": "Satellite",
     "location": "Satellite-12",
@@ -8907,7 +9064,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 262,
+    "id": 265,
     "type": "Mixed",
     "latest": "Bopal",
     "location": "Bopal-07",
@@ -8958,7 +9115,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 263,
+    "id": 266,
     "type": "Mixed",
     "latest": "South-Bopal",
     "location": "South-Bopal-02",
@@ -9002,7 +9159,7 @@ const propertyCardsData = [
     }  
   },
   {
-    "id": 264,
+    "id": 267,
     "type": "Residential",
     "latest": "Gurukul",
     "location": "Gurukul-02",
@@ -9032,7 +9189,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 265,
+    "id": 268,
     "type": "Residential",
     "latest": "Bopal",
     "location": "Bopal-08",
@@ -9069,7 +9226,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 266,
+    "id": 269,
     "type": "Residential",
     "latest": "Bhuyangdev",
     "location": "Bhuyangdev-02",
@@ -9099,7 +9256,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 267,
+    "id": 270,
     "type": "Residential",
     "latest": "Ghatlodiya",
     "location": "Ghatlodiya-01",
@@ -9129,7 +9286,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 268,
+    "id": 271,
     "type": "Residential",
     "latest": "South-Bopal",
     "location": "South-Bopal-03",
@@ -9160,7 +9317,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 269,
+    "id": 272,
     "type": "Residential",
     "latest": "Gurukul",
     "location": "Gurukul-03",
@@ -9191,7 +9348,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 270,
+    "id": 273,
     "type": "Residential",
     "latest": "South-Bopal",
     "location": "South-Bopal-04",
@@ -9221,7 +9378,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 271,
+    "id": 274,
     "type": "Mixed",
     "latest": "South-Bopal",
     "location": "South-Bopal-05",
@@ -9259,7 +9416,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 272,
+    "id": 275,
     "type": "Mixed",
     "latest": "South-Bopal",
     "location": "South-Bopal-06",
@@ -9302,7 +9459,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 273,
+    "id": 276,
     "type": "Mixed",
     "latest": "South-Bopal",
     "location": "South-Bopal-07",
@@ -9340,7 +9497,143 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 274,
+    "id": 277,
+    "type": "Mixed",
+    "latest": "Science-Park",
+    "location": "Science-Park-01",
+    "price": 191,
+    "soldOut": false,
+    "images": [
+      "images/Amaryllis-01.jpg",
+      "images/Amaryllis-02.jpg",
+      "images/Amaryllis-03.jpg"
+    ],
+    "propertyLocation": "Science Park",
+    "schemeName": "Amaryllis",
+    "features": [
+      "40+ Amenities",
+      "Garden Living Balcony",
+      "2 Alloted Car Parking",
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "4 BHK",
+          "sqft": "3194 - 3351",
+          "sqftType": "Super Built-up",
+          "price": "1.91 - 2.01 Cr."
+        }
+      ],
+      "Commercial": [
+        {
+          "bhk": "Showrooms",
+          "sqft": "426 - 1447",
+          "sqftType": "Super Built-up",
+          "price": "68 Lacs - 2.31 Cr."
+        }
+      ]
+    }
+  },
+  {
+    "id": 278,
+    "type": "Mixed",
+    "latest": "Science-Park",
+    "location": "Science-Park-02",
+    "price": 294,
+    "soldOut": false,
+    "images": [
+      "images/Altitude-01.jpg",
+      "images/Altitude-02.jpg",
+      "images/Altitude-03.jpg"
+    ],
+    "propertyLocation": "Science Park",
+    "schemeName": "The Altitude",
+    "features": [
+      "All Basic Amenities",
+      "Huge Personal Foyer",
+      "3 Alloted Car Parking",
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "4 BHK",
+          "sqft": "4750",
+          "sqftType": "Super Built-up",
+          "price": "2.94 Cr."
+        }
+      ]
+    }
+  },
+  {
+    "id": 279,
+    "type": "Mixed",
+    "latest": "Science-Park",
+    "location": "Science-Park-03",
+    "price": 129,
+    "soldOut": false,
+    "images": [
+      "images/August-01.jpg",
+      "images/August-02.jpg",
+      "images/August-03.jpg"
+    ],
+    "propertyLocation": "Science Park",
+    "schemeName": "The August",
+    "features": [
+      "Ready to Move",
+      "10+ Amenities",
+      "2 Road Corner Project",
+      "1 Alloted Car Parking",
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "2160",
+          "sqftType": "Super Built-up",
+          "price": "1.29 Cr."
+        }
+      ]
+    }
+  },
+  {
+    "id": 280,
+    "type": "Mixed",
+    "latest": "Science-Park",
+    "location": "Science-Park-04",
+    "price": 363,
+    "soldOut": false,
+    "images": [
+      "images/Anamaya-01.jpg",
+      "images/Anamaya-02.jpg",
+      "images/Anamaya-03.jpg"
+    ],
+    "propertyLocation": "Science Park",
+    "schemeName": "The Anamaya",
+    "features": [
+     "Ready to Move",
+      "16+ Amenities",
+      "2 Road Corner Project",
+      "3-4 Alloted Car Parking",
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "4 BHK",
+          "sqft": "5190",
+          "sqftType": "Super Built-up",
+          "price": "3.63 Cr."
+        },
+        {
+          "bhk": "5 BHK",
+          "sqft": "6350",
+          "sqftType": "Super Built-up",
+          "price": "4.44 Cr."
+        }
+      ]
+    }
+  },
+  {
+    "id": 281,
     "type": "Mixed",
     "latest": "South-Bopal",
     "location": "South-Bopal-08",
@@ -9360,7 +9653,7 @@ const propertyCardsData = [
     ],
     "nestedCategories": {
       "Apartments": [
-        { 
+        {
           "bhk": "3 BHK",
           "sqft": "1945",
           "sqftType": "Super Built-up",
@@ -9384,7 +9677,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 275,
+    "id": 282,
     "type": "Residential",
     "latest": "New-Narol",
     "location": "New-Narol-01",
@@ -9414,7 +9707,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 276,
+    "id": 283,
     "type": "Residential",
     "latest": "Shela",
     "location": "Shela-10",
@@ -9450,7 +9743,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 277,
+    "id": 284,
     "type": "Mixed",
     "latest": "South-Bopal",
     "location": "South-Bopal-09",
@@ -9489,7 +9782,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 278,
+    "id": 285,
     "type": "Residential",
     "latest": "Linkin-Road",
     "location": "Linkin-Road-03",
@@ -9525,7 +9818,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 279,
+    "id": 286,
     "type": "Residential",
     "latest": "Shilaj",
     "location": "Shilaj-10",
@@ -9564,7 +9857,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 280,
+    "id": 287,
     "type": "Commercial",
     "latest": "Gift-City",
     "location": "Gift-City-06",
@@ -9601,7 +9894,7 @@ const propertyCardsData = [
     } 
   },
   {
-    "id": 281,
+    "id": 288,
     "type": "Mixed",
     "latest": "South-Bopal",
     "location": "South-Bopal-10",
@@ -9639,7 +9932,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 282,
+    "id": 289,
     "type": "Commercial",
     "latest": "Ambli",
     "location": "Ambli-02",
@@ -9675,7 +9968,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 283,
+    "id": 290,
     "type": "Commercial",
     "latest": "Ambli",
     "location": "Ambli-03",
@@ -9705,7 +9998,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 284,
+    "id": 291,
     "type": "Plot",
     "latest": "Adroda",
     "location": "Adroda-01",
@@ -9734,7 +10027,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 285,
+    "id": 292,
     "type": "Residential",
     "latest": "South-Bopal",
     "location": "South-Bopal-11",
@@ -9765,7 +10058,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 286,
+    "id": 293,
     "type": "Mixed",
     "latest": "South-Bopal",
     "location": "South-Bopal-12",
@@ -9804,7 +10097,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 287,
+    "id": 294,
     "type": "Mixed",
     "latest": "Bopal",
     "location": "Bopal-09",
@@ -9849,7 +10142,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 288,
+    "id": 295,
     "type": "Residential",
     "latest": "South-Bopal",
     "location": "South-Bopal-13",
@@ -9879,7 +10172,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 289,
+    "id": 296,
     "type": "Mixed",
     "latest": "South-Bopal",
     "location": "South-Bopal-14",
@@ -9915,7 +10208,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 290,
+    "id": 297,
     "type": "Mixed",
     "latest": "South-Bopal",
     "location": "South-Bopal-15",
@@ -9959,7 +10252,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 291,
+    "id": 298,
     "type": "Mixed",
     "latest": "South-Bopal",
     "location": "South-Bopal-16",
@@ -10003,7 +10296,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 292,
+    "id": 299,
     "type": "Mixed",
     "latest": "South-Bopal",
     "location": "South-Bopal-17",
@@ -10041,7 +10334,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 293,
+    "id": 300,
     "type": "Mixed",
     "latest": "South-Bopal",
     "location": "South-Bopal-18",
@@ -10080,7 +10373,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 294,
+    "id": 301,
     "type": "Residential",
     "latest": "South-Bopal",
     "location": "South-Bopal-19",
@@ -10116,7 +10409,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 295,
+    "id": 302,
     "type": "Mixed",
     "latest": "South-Bopal",
     "location": "South-Bopal-20",
@@ -10155,7 +10448,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 296,
+    "id": 303,
     "type": "Residential",
     "latest": "Chharodi",
     "location": "Chharodi-14",
@@ -10185,7 +10478,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 297,
+    "id": 304,
     "type": "Residential",
     "latest": "Chharodi",
     "location": "Chharodi-15",
@@ -10222,7 +10515,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 298,
+    "id": 305,
     "type": "Residential",
     "latest": "Chharodi",
     "location": "Chharodi-16",
@@ -10258,7 +10551,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 299,
+    "id": 306,
     "type": "Residential",
     "latest": "Chharodi",
     "location": "Chharodi-17",
@@ -10287,7 +10580,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 300,
+    "id": 307,
     "type": "Residential",
     "latest": "Chharodi",
     "location": "Chharodi-18",
@@ -10317,7 +10610,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 301,
+    "id": 308,
     "type": "Commercial",
     "latest": "Gota",
     "location": "Gota-12",
@@ -10352,7 +10645,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 302,
+    "id": 309,
     "type": "Mixed",
     "latest": "Gota",
     "location": "oGta-01",
@@ -10390,7 +10683,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 303,
+    "id": 310,
     "type": "Residential",
     "latest": "Navrangpura",
     "location": "Navrangpura-05",
@@ -10420,7 +10713,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 304,
+    "id": 311,
     "type": "Residential",
     "latest": "Vasna",
     "location": "Vasna-01",
@@ -10455,7 +10748,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 305,
+    "id": 312,
     "type": "Residential",
     "latest": "Vasna",
     "location": "Vasna-02",
@@ -10490,7 +10783,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 306,
+    "id": 313,
     "type": "Commercial",
     "latest": "Vasna",
     "location": "Vasna-03",
@@ -10517,7 +10810,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 307,
+    "id": 314,
     "type": "Residential",
     "latest": "Vasna",
     "location": "Vasna-04",
@@ -10547,7 +10840,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 308,
+    "id": 315,
     "type": "Residential",
     "latest": "Vasna",
     "location": "Vasna-05",
@@ -10577,7 +10870,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 309,
+    "id": 316,
     "type": "Residential",
     "latest": "Zundal",
     "location": "Zundal-10",
@@ -10607,10 +10900,10 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 310,
+    "id": 317,
     "type": "Residential",
     "latest": "Vaishnodevi",
-    "location": "Vaishnodevi-20",
+    "location": "Vaishnodevi-21",
     "price": 151,
     "soldOut": false,
     "images": [
@@ -10637,7 +10930,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 311,
+    "id": 318,
     "type": "Mixed",
     "latest": "Chharodi",
     "location": "Chharodi-19",
@@ -10676,7 +10969,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 312,
+    "id": 319,
     "type": "Residential",
     "latest": "Chharodi",
     "location": "Chharodi-20",
@@ -10706,7 +10999,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 313,
+    "id": 320,
     "type": "Mixed",
     "latest": "Jagatpur",
     "location": "Jagatpur-18",
@@ -10754,10 +11047,10 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 314,
+    "id": 321,
     "type": "Residential",
     "latest": "Vaishnodevi",
-    "location": "Vaishnodevi-21",
+    "location": "Vaishnodevi-22",
     "price": 59,
     "soldOut": false,
     "images": [
@@ -10786,7 +11079,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 315,
+    "id": 322,
     "type": "Mixed",
     "latest": "Jagatpur",
     "location": "Jagatpur-19",
@@ -10824,7 +11117,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 316,
+    "id": 323,
     "type": "Residential",
     "latest": "Shela",
     "location": "Shela-11",
@@ -10856,7 +11149,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 317,
+    "id": 324,
     "type": "Mixed",
     "latest": "Shela",
     "location": "Shela-12",
@@ -10895,7 +11188,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 318,
+    "id": 325,
     "type": "Mixed",
     "latest": "Linkin-Road",
     "location": "Linkin-Road-04",
@@ -10938,7 +11231,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 319,
+    "id": 326,
     "type": "Mixed",
     "latest": "Makarba",
     "location": "Makarba-01",
@@ -10983,10 +11276,10 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 320,
+    "id": 327,
     "type": "Residential",
-    "latest": "Ambli-Bopal",
-    "location": "Ambli-Bopal-02",
+    "latest": "Iscon-Ambli",
+    "location": "Iscon-Ambli-10",
     "price": 521,
     "soldOut": false,
     "images": [
@@ -10996,7 +11289,7 @@ const propertyCardsData = [
       "images/apricus-04.jpg",
       "images/apricus-05.jpg"
     ],
-    "propertyLocation": "Ambli-Bopal",
+    "propertyLocation": "Iscon-Ambli",
     "schemeName": "Apricus",
     "features": [
       "2 Road Corner Project",
@@ -11016,10 +11309,10 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 321,
+    "id": 328,
     "type": "Residential",
-    "latest": "Ambli-Bopal",
-    "location": "Ambli-Bopal-03",
+    "latest": "Iscon-Ambli",
+    "location": "Iscon-Ambli-11",
     "price": 353,
     "soldOut": false,
     "images": [
@@ -11027,7 +11320,7 @@ const propertyCardsData = [
       "images/ayaan-02.jpg",
       "images/ayaan-03.jpg"
     ],
-    "propertyLocation": "Ambli-Bopal",
+    "propertyLocation": "Iscon-Ambli",
     "schemeName": "Ayaan",
     "features": [
       "22 Storey Tower",
@@ -11046,10 +11339,10 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 322,
+    "id": 329,
     "type": "Mixed",
-    "latest": "Ambli-Bopal",
-    "location": "Ambli-Bopal-04",
+    "latest": "Iscon-Ambli",
+    "location": "Iscon-Ambli-12",
     "price": 800,
     "soldOut": false,
     "images": [
@@ -11057,7 +11350,7 @@ const propertyCardsData = [
       "images/riviera-aspire-02.jpg",
       "images/riviera-aspire-03.jpg"
     ],
-    "propertyLocation": "Ambli-Bopal",
+    "propertyLocation": "Iscon-Ambli",
     "schemeName": "Riviera Aspire",
     "features": [
       "Interior by Gauri Khan",
@@ -11099,7 +11392,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 323,
+    "id": 330,
     "type": "Mixed",
     "latest": "Science-park",
     "location": "Science-park-05",
@@ -11146,7 +11439,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 324,
+    "id": 331,
     "type": "Residential",
     "latest": "Science-park",
     "location": "Science-park-06",
@@ -11177,7 +11470,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 325,
+    "id": 332,
     "type": "Residential",
     "latest": "Science-park",
     "location": "Science-park-07",
@@ -11213,7 +11506,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 326,
+    "id": 333,
     "type": "Mixed",
     "latest": "Sindhu-Bhavan",
     "location": "Sindhu-Bhavan-03",
@@ -11251,7 +11544,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 327,
+    "id": 334,
     "type": "Commercial",
     "latest": "Shilaj",
     "location": "Shilaj-11",
@@ -11281,7 +11574,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 328,
+    "id": 335,
     "type": "Mixed",
     "latest": "South-Bopal",
     "location": "South-Bopal-21",
@@ -11319,7 +11612,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 329,
+    "id": 336,
     "type": "Residential",
     "latest": "South-Bopal",
     "location": "South-Bopal-22",
@@ -11349,7 +11642,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 330,
+    "id": 337,
     "type": "Residential",
     "latest": "South-Bopal",
     "location": "South-Bopal-23",
@@ -11379,7 +11672,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 331,
+    "id": 338,
     "type": "Residential",
     "latest": "Chanakyapuri",
     "location": "Chanakyapuri-01",
@@ -11415,7 +11708,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 332,
+    "id": 339,
     "type": "Residential",
     "latest": "Shela",
     "location": "Shela-13",
@@ -11445,7 +11738,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 333,
+    "id": 340,
     "type": "Mixed",
     "latest": "Shela",
     "location": "Shela-14",
@@ -11483,7 +11776,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 334,
+    "id": 341,
     "type": "Mixed",
     "latest": "Shela",
     "location": "Shela-15",
@@ -11527,7 +11820,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 335,
+    "id": 342,
     "type": "Residential",
     "latest": "Shela",
     "location": "Shela-16",
@@ -11571,7 +11864,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 336,
+    "id": 343,
     "type": "Residential",
     "latest": "Vasna",
     "location": "Vasna-06",
@@ -11607,7 +11900,7 @@ const propertyCardsData = [
     }
   },
    {
-    "id": 337,
+    "id": 344,
     "type": "Residential",
     "latest": "Sindhu-Bhavan",
     "location": "Sindhu-Bhavan-04",
@@ -11646,11 +11939,11 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 338,
+    "id": 345,
     "type": "Residential",
     "latest": "Sanand",
     "location": "Sanand-03",
-    "price": 0,
+    "price": 0 ,
     "soldOut": false,
     "images": [
       "images/le-parque-01.jpg",
@@ -11676,7 +11969,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 339,
+    "id": 346,
     "type": "Residential",
     "latest": "Gurukul",
     "location": "Gurukul-04",
@@ -11706,7 +11999,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 340,
+    "id": 347,
     "type": "Mixed",
     "latest": "Shela",
     "location": "Shela-17",
@@ -11758,7 +12051,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 341,
+    "id": 348,
     "type": "Residential",
     "latest": "Shela",
     "location": "Shela-18",
@@ -11788,7 +12081,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 342,
+    "id": 349,
     "type": "Residential",
     "latest": "Shela",
     "location": "Shela-19",
@@ -11818,7 +12111,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 343,
+    "id": 350,
     "type": "Residential",
     "latest": "Shela",
     "location": "Shela-20",
@@ -11855,7 +12148,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 344,
+    "id": 351,
     "type": "Residential",
     "latest": "Shela",
     "location": "Shela-21",
@@ -11885,7 +12178,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 345,
+    "id": 352,
     "type": "Mixed",
     "latest": "Shela",
     "location": "Shela-22",
@@ -11929,10 +12222,10 @@ const propertyCardsData = [
   }
   },
  {
-    "id": 346,
+    "id": 353,
     "type": "Mixed",
     "latest": "Gift City",
-    "location": "Gift City",
+    "location": "Gift City-01",
     "price": 0,
     "soldOut": false,
     "images": [
@@ -11965,7 +12258,7 @@ const propertyCardsData = [
     }
   }, 
   {
-    "id": 347,
+    "id": 354,
     "type": "Mixed",
     "latest": "Shela",
     "location": "Shela-23",
@@ -11995,7 +12288,7 @@ const propertyCardsData = [
     }
   }, 
   {
-    "id": 348,
+    "id": 355,
     "type": "Mixed",
     "latest": "Shela",
     "location": "Shela-24",
@@ -12037,7 +12330,7 @@ const propertyCardsData = [
     }
   }, 
    {
-    "id": 349,
+    "id": 356,
     "type": "Mixed",
     "latest": "Shela",
     "location": "Shela-25",
@@ -12067,7 +12360,7 @@ const propertyCardsData = [
     }
   },
    {
-    "id": 350,
+    "id": 357,
     "type": "Mixed",
     "latest": "Shela",
     "location": "Shela-26",
@@ -12097,10 +12390,10 @@ const propertyCardsData = [
     }
   }, 
   {
-    "id": 351,
+    "id": 358,
     "type": "Mixed",
     "latest": "Shantipura ",
-    "location": "Shantipura",
+    "location": "Shantipura-01",
     "price": 151,
     "soldOut": false,
     "images": [
@@ -12140,9 +12433,9 @@ const propertyCardsData = [
         ]
 
     }
-  },
+  }, 
     {
-    "id": 352,
+    "id": 359,
     "type": "Mixed",
     "latest": "Shela",
     "location": "Shela-27",
@@ -12182,7 +12475,7 @@ const propertyCardsData = [
     }
   }, 
  {
-    "id": 353,
+    "id": 360,
     "type": "Mixed",
     "latest": "Shela",
     "location": "Shela-28",
@@ -12221,7 +12514,7 @@ const propertyCardsData = [
     }
   }, 
   {
-    "id": 354,
+    "id": 361,
     "type": "Mixed",
     "latest": "Shela",
     "location": "Shela-29",
@@ -12266,10 +12559,10 @@ const propertyCardsData = [
     }
   }, 
   {
-    "id": 355,
+    "id": 362,
     "type": "Mixed",
     "latest": "South Bopal",
-    "location": "South Bopal-",
+    "location": "South Bopal--01",
     "price":100,
     "soldOut": false,
     "images": [
@@ -12305,10 +12598,10 @@ const propertyCardsData = [
     }
   }, 
   {
-    "id": 356,
+    "id": 363,
     "type": "Mixed",
     "latest": "South Bopal",
-    "location": "South Bopal-",
+    "location": "South Bopal--02",
     "price":87,
     "soldOut": false,
     "images": [
@@ -12344,7 +12637,7 @@ const propertyCardsData = [
     }
   }, 
   {
-    "id": 357,
+    "id": 364,
     "type": "Mixed",
     "latest": "Shela",
     "location": "Shela-30",
@@ -12374,7 +12667,7 @@ const propertyCardsData = [
     }
   }, 
  {
-    "id": 358,
+    "id": 365,
     "type": "Mixed",
     "latest": "Shela",
     "location": "Shela-31",
@@ -12412,7 +12705,7 @@ const propertyCardsData = [
     }
   }, 
   {
-    "id": 359,
+    "id": 366,
     "type": "Mixed",
     "latest": "Shela",
     "location": "Shela-32",
@@ -12455,7 +12748,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 360,
+    "id": 367,
     "type": "Mixed",
     "latest": "Shela",
     "location": "Shela-33",
@@ -12491,7 +12784,7 @@ const propertyCardsData = [
     }
   }, 
   {
-    "id": 361,
+    "id": 368,
     "type": "Mixed",
     "latest": "Shela",
     "location": "Shela-34",
@@ -12535,7 +12828,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 362,
+    "id": 369,
     "type": "Mixed",
     "latest": "Shela",
     "location": "Shela-35",
@@ -12581,7 +12874,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 363,
+    "id": 370,
     "type": "Mixed",
     "latest": "South Bopal",
     "location": "South Bopal-03",
@@ -12619,7 +12912,7 @@ const propertyCardsData = [
     }
   },
    {
-    "id": 364,
+    "id": 371,
     "type": "Mixed",
     "latest": "Shela",
     "location": "Shela-36",
@@ -12663,7 +12956,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 365,
+    "id": 372,
     "type": "Residential",
     "latest": "Shilaj",
     "location": "Shilaj-12",
@@ -12693,7 +12986,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 366,
+    "id": 373,
     "type": "Residential",
     "latest": "Shela",
     "location": "Shela-37",
@@ -12724,7 +13017,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 367,
+    "id": 374,
     "type": "Mixed",
     "latest": "Shela",
     "location": "Shela-38",
@@ -12769,7 +13062,7 @@ const propertyCardsData = [
     }
   },
   {
-    "id": 368,
+    "id": 375,
     "type": "Mixed",
     "latest": "Shela",
     "location": "Shela-39",
