@@ -5,7 +5,7 @@
 .heading-2{
   color: #8c1843;
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
 }
 /* The Blue Background Container */
         .nri-section-container {
@@ -427,6 +427,7 @@ select {
   /* max-width: 480px; */
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 /* CTA BUTTONS */
@@ -2035,6 +2036,7 @@ select {
 ========================= */
 .nri-services-v3 {
   padding: 90px 0;
+  background: white;
 }
 
 .section-title {

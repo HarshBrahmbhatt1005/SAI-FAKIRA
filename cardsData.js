@@ -81,7 +81,7 @@ const propertyCardsData = [
       "Ready to Move",
       "2 Alloted Car Parking",
       "3 Road Corner Project",
-      "15+ Amenities"
+      "15+ Modern Amenities"
     ],
     "nestedCategories": {
       "Apartments": [
@@ -526,18 +526,16 @@ const propertyCardsData = [
     "features": [
       "2 Alloted Car Parking",
       "0km to Derasar & Mandir",
-      "3 Road Corner Project",
       "Nr.Riverfront Biodiversity Park",
-      "50+ Amenities",
-      "With Cantilever Balcony"
+      "50+ Modern Amenities",
     ],
     "nestedCategories": {
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "1764 - 2214",
+          "sqft": "1764 - 2205",
           "sqftType": "Super Built-up",
-          "price": "1.05 - 1.33 Cr"
+          "price": "1.23 - 1.56 Cr"
         }
       ]
     }
@@ -969,9 +967,11 @@ const propertyCardsData = [
     "soldOut": false,
     "images": [
       "/images/Aster-Neo-1.jpg",
-      "/images/Aster-Neo-2.png",
+      "/images/Aster-Neo-2.jpg",
       "/images/Aster-Neo-3.jpg",
-      "/images/Aster-Neo-4.jpg"
+      "/images/Aster-Neo-4.jpg",
+      "/images/Aster-Neo-5.jpg",
+      
     ],
     "propertyLocation": "Adani-Shantigram",
     "schemeName": "Aster Neo",
@@ -1035,7 +1035,7 @@ const propertyCardsData = [
       "/images/ELYSIUM-03.png"
     ],
     "propertyLocation": "Adani-Shantigram",
-    "schemeName": "Elysium Phase-2",
+    "schemeName": "Elysium Novus",
     "features": [
       "Planned With Breathing Engineering",
       "20+ Amenities",
@@ -13103,6 +13103,277 @@ const propertyCardsData = [
           "price": "60 Lacs onwards"
         }
       ]
+    }
+  },
+     {
+    "id": 376,
+    "type": "Residential",
+    "latest": "Ambawadi",
+    "location": "Ambawadi-05",
+    "price":176,
+    "soldOut": false,
+    "images": [
+      "images/giriraj-avinya-01.jpg",
+      "images/giriraj-avinya-02.jpg",
+      "images/giriraj-avinya-03.jpg"
+    ],
+    "propertyLocation": "Ambawadi",
+    "schemeName": "Giriraj Avinya",
+    "features": [
+      "Pure Residential Project",
+      "Ready to Move Property",
+      "Vastu compliant Architecture"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "2230 - 2440",
+          "sqftType": "Super Built-up",
+          "price": "1.76 - 1.92 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 377,
+    "type": "Residential",
+    "latest": "Chandkheda",
+    "location": "Chandkheda-01",
+    "price":75,
+    "soldOut": false,
+    "images": [
+      "images/shiv-vivanta-01.jpg",
+      "images/shiv-vivanta-02.jpg",
+      "images/shiv-vivanta-03.jpg"
+    ],
+    "propertyLocation": "Chandkheda",
+    "schemeName": "Shiv Vivanta",
+    "features": [
+      "Pure Residential Project",
+      "2 Road Corner Project",
+      "Earthquake Resistant Structure"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "2115",
+          "sqftType": "Super Built-up",
+          "price": "75 Lacs"
+        }
+      ]
+    }
+  },
+  {
+    "id": 378,
+    "type": "Residential",
+    "latest": "Tragad",
+    "location": "Tragad-02",
+    "price":58,
+    "soldOut": false,
+    "images": [
+      "images/sky-park-01.jpg",
+      "images/sky-park-02.jpg",
+      "images/sky-park-03.jpg"
+    ],
+    "propertyLocation": "Tragad",
+    "schemeName": "Sky Park",
+    "features": [
+      "Pure Residential Project",
+      "22+ Modern Amenities",
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "2.5 BHK",
+          "sqft": "1539 - 1683",
+          "sqftType": "Super Built-up",
+          "price": "58 - 63 Lacs"
+        }
+      ]
+    }
+  },
+  {
+    "id": 379,
+    "type": "Residential",
+    "latest": "Tragad",
+    "location": "Tragad-03",
+    "price":69,
+    "soldOut": false,
+    "images": [
+      "images/the-park-01.jpg",
+      "images/the-park-02.jpg",
+      "images/the-park-03.jpg"
+    ],
+    "propertyLocation": "Tragad",
+    "schemeName": "The Park",
+    "features": [
+      "Vastu compliant Architecture",
+      "24+ Modern Amenities",
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "2 BHK",
+          "sqft": "1602 - 1773",
+          "sqftType": "Super Built-up",
+          "price": "69 - 76 Lacs"
+        },
+        {
+          "bhk": "3 BHK",
+          "sqft": "2178 - 2493",
+          "sqftType": "Super Built-up",
+          "price": "98 Lacs - 1.09 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 380,
+    "type": "Residential",
+    "latest": "South-Bopal",
+    "location": "South-Bopal-27",
+    "price":93,
+    "soldOut": false,
+    "images": [
+      "images/swastik-varmine-01.jpg",
+      "images/swastik-varmine-02.jpg",
+      "images/swastik-varmine-03.jpg",
+      "images/swastik-varmine-04.jpg"
+    ],
+    "propertyLocation": "South-Bopal",
+    "schemeName": "Swastik Varmine",
+    "features": [
+      "Off VIP Road",
+      "3 Side Open View",
+      "2 Road Corner Project",
+      "30+ Modern Amenities"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "1850",
+          "sqftType": "Super Built-up",
+          "price": "93.50 Lacs"
+        },
+        {
+          "bhk": "4 BHK",
+          "sqft": "3750",
+          "sqftType": "Super Built-up",
+          "price": "1.90 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 381,
+    "type": "Residential",
+    "latest": "Naranpura",
+    "location": "Naranpura-12",
+    "price":159,
+    "soldOut": false,
+    "images": [
+      "images/shantam-solitaire-01.jpg",
+      "images/shantam-solitaire-02.jpg",
+    ],
+    "propertyLocation": "Naranpura",
+    "schemeName": "Shantam Solitaire",
+    "features": [
+      "Pure Residential Project",
+      "Nr. Jain Derasar",
+      "1-2 Allotted Car Parking",
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "1971, 2115",
+          "sqftType": "Super Built-up",
+          "price": "1.59 - 1.70 Cr"
+        },
+        {
+          "bhk": "4 BHK",
+          "sqft": "3537",
+          "sqftType": "Super Built-up",
+          "price": "2.88 Cr"
+        }
+      ],
+      "Duplex": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "2916",
+          "sqftType": "Super Built-up",
+          "price": "2.35 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 382,
+    "type": "Residential",
+    "latest": "Naranpura",
+    "location": "Naranpura-13",
+    "price":165,
+    "soldOut": false,
+    "images": [
+      "images/venus-deshna-01.jpg",
+      "images/venus-deshna-02.jpg",
+      "images/venus-deshna-03.jpg"
+    ],
+    "propertyLocation": "Naranpura",
+    "schemeName": "Venus Deshna",
+    "features": [
+      "Pure Residential Project",
+      "Nr. Jain Derasar",
+      "15+ Amenities",
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "1926",
+          "sqftType": "Super Built-up",
+          "price": "1.65 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 383,
+    "type": "Mixed",
+    "latest": "South Bopal`",
+    "location": "South Bopal-04",
+    "price":93,
+    "soldOut": false,
+    "images": [
+      "images/swastik-varmine-03.jpg",
+      "images/swastik-varmine-03.jpg",
+      "images/swastik-varmine-03.jpg"
+    ],
+    "propertyLocation": "South Bopal",
+    "schemeName": "Swastik Varmine",
+    "features": [
+      "2 Road corner project",
+      "3-Sided Open View",
+      "15+ Modern Amenities"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "1850",
+          "sqftType": "Super Built-up",
+          "price": "93.50 Lacs"
+        },
+        {
+          "bhk": "4 BHK",
+          "sqft": "3750",
+          "sqftType": "Super Built-up",
+          "price": "1.90 Cr"
+        }
+      ],
     }
   },
 ];
