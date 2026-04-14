@@ -606,7 +606,7 @@ const propertyCardsData = [
           "bhk": "3 BHK",
           "sqft": "1872 - 2097",
           "sqftType": "Super Built-up",
-          "price": "61 - 68 Lacs"
+          "price": "80 - 88 Lacs"
         }
       ]
     }
@@ -664,13 +664,13 @@ const propertyCardsData = [
           "bhk": "3 BHK",
           "sqft": "2718",
           "sqftType": "Super Built-up",
-          "price": "1.96 Cr"
+          "price": "2.14 Cr"
         },
         {
           "bhk": "4 BHK",
-          "sqft": "3843 - 3924",
+          "sqft": "3843 , 3924",
           "sqftType": "Super Built-up",
-          "price": "2.70 - 2.83 Cr"
+          "price": "3.02 , 3.08 Cr"
         }
       ],
       "Commercial": [
@@ -678,7 +678,7 @@ const propertyCardsData = [
           "bhk": "Showrooms",
           "sqft": "2079 - 6112",
           "sqftType": "Carpet",
-          "price": "3.74 - 13.44 Cr"
+          "price": "3.88 - 13.84 Cr"
         }
       ]
     }
@@ -1423,15 +1423,15 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "1194 - 1568+131",
+          "sqft": "1194 - 1568 + 131",
           "sqftType": "Carpet",
-          "price": "53 - 76 Lacs"
+          "price": "69 - 93 Lacs"
         },
         {
           "bhk": "4 BHK",
-          "sqft": "1260 - 1576",
-          "sqftType": "SuperBuilt-up",
-          "price": "56 Lacs onwards"
+          "sqft": "1260 , 1576",
+          "sqftType": "Carpet",
+          "price": "73 , 91 Lacs"
         }
       ]
     }
@@ -1454,22 +1454,20 @@ const propertyCardsData = [
       "90+ Amenities",
       "2 Alloted Car Parking",
       "Nr. Dholeshwar Mahadev Temple",
-      "4 Side open Project",
-      "Personal Lift"
-    ],
+      "4 Side open Project",    ],
     "nestedCategories": {
       "Apartments": [
         {
           "bhk": "3 BHK",
           "sqft": "2862",
           "sqftType": "SuperBuilt-up",
-          "price": "1.30 Cr"
+          "price": "1.45 Cr"
         },
         {
           "bhk": "4 BHK",
           "sqft": "3510 - 4032",
           "sqftType": "SuperBuilt-up",
-          "price": "1.60 - 1.83 Cr"
+          "price": "1.77 - 2.03 Cr"
         }
       ]
     }
@@ -1728,9 +1726,9 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2295",
+          "sqft": "2250 - 2295",
           "sqftType": "SuperBuilt-up",
-          "price": "1.46 Cr"
+          "price": "1.73 - 1.77 Cr"
         }
       ]
     }
@@ -2310,7 +2308,7 @@ const propertyCardsData = [
           "bhk": "Showrooms/Offices",
           "sqft": "1000 - 1200",
           "sqftType": "SuperBuilt-up",
-          "price": "65 - 78 Lacs"
+          "price": "Price on Request"
         }
       ]
     }
@@ -2737,13 +2735,13 @@ const propertyCardsData = [
           "bhk": "3 BHK",
           "sqft": "2385",
           "sqftType": "SuperBuilt-up",
-          "price": "1.19 Cr"
+          "price": "1.34 Cr"
         },
         {
           "bhk": "4 BHK",
           "sqft": "3528",
           "sqftType": "SuperBuilt-up",
-          "price": "1.76 Cr"
+          "price": "1.98 Cr"
         }
       ]
     }
@@ -2773,7 +2771,7 @@ const propertyCardsData = [
           "bhk": "3 BHK",
           "sqft": "2286 - 2502",
           "sqftType": "SuperBuilt-up",
-          "price": "99 Lacs - 1.08 Cr"
+          "price": "1.16 - 1.26 Cr"
         }
       ]
     }
@@ -2868,17 +2866,17 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "4 BHK",
-          "sqft": "3600",
+          "sqft": "3537 - 3699",
           "sqftType": "SuperBuilt-up",
-          "price": "1.88 Cr"
+          "price": "2.25 - 2.55 Cr"
         }
       ],
       "Duplex": [
         {
           "bhk": "6 BHK",
-          "sqft": "5400",
+          "sqft": "5292 + 76 T",
           "sqftType": "SuperBuilt-up",
-          "price": "2.82 Cr"
+          "price": "4.15 - 4.50 Cr"
         }
       ]
     }
@@ -2907,23 +2905,23 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "3060",
+          "sqft": "3015 - 3060",
           "sqftType": "SuperBuilt-up",
-          "price": "1.42 Cr"
+          "price": "1.50 Cr"
         },
         {
           "bhk": "4 BHK",
           "sqft": "3915",
           "sqftType": "SuperBuilt-up",
-          "price": "1.82 Cr"
+          "price": "1.94 Cr"
         }
       ],
       "Penthouse": [
         {
           "bhk": "4 BHK",
-          "sqft": "3915 + 3915(Terrace)",
+          "sqft": "3915 + 3915 T",
           "sqftType": "SuperBuilt-up",
-          "price": "2.74 Cr"
+          "price": "2.85 Cr"
         }
       ]
     }
@@ -2954,13 +2952,13 @@ const propertyCardsData = [
           "bhk": "3 BHK",
           "sqft": "2367 - 2754",
           "sqftType": "SuperBuilt-up",
-          "price": "92 Lacs - 1.22 Cr"
+          "price": "Price on Request"
         },
         {
           "bhk": "4 BHK",
           "sqft": "3285",
           "sqftType": "SuperBuilt-up",
-          "price": "1.27 Cr onwards"
+          "price": "Price on Request"
         }
       ]
     }
@@ -3028,13 +3026,13 @@ const propertyCardsData = [
           "bhk": "3 BHK",
           "sqft": "3123",
           "sqftType": "SuperBuilt-up",
-          "price": "1.45 Cr"
+          "price": "1.78 Cr"
         },
         {
           "bhk": "4 BHK",
-          "sqft": "4050 - 4194",
+          "sqft": "4050 , 4194",
           "sqftType": "SuperBuilt-up",
-          "price": "1.88 - 1.95 Cr"
+          "price": "2.30 , 2.37 Cr"
         }
       ]
     }
@@ -3475,13 +3473,13 @@ const propertyCardsData = [
           "bhk": "3 BHK",
           "sqft": "1773",
           "sqftType": "SuperBuilt-up",
-          "price": "1.09 Cr"
+          "price": "1.20 Cr"
         },
         {
           "bhk": "3.5 BHK",
           "sqft": "2043",
           "sqftType": "SuperBuilt-up",
-          "price": "1.26 Cr"
+          "price": "1.37 Cr"
         }
       ]
     }
@@ -3718,7 +3716,7 @@ const propertyCardsData = [
           "bhk": "3 BHK",
           "sqft": "1550 - 1745",
           "sqftType": "SuperBuilt-up",
-          "price": "82 - 92 Lacs"
+          "price": "91 Lacs - 1.02 Cr"
         }
       ]
     }
@@ -4285,7 +4283,7 @@ const propertyCardsData = [
       "/images/Citadel-03.jpg"
     ],
     "propertyLocation": "Iscon-Ambli Road",
-    "schemeName": "Citadel",
+    "schemeName": "The Citadel",
     "features": [
       "Ready to Move",
       "30+ Amenities",
@@ -6214,7 +6212,7 @@ const propertyCardsData = [
           "bhk": "Showrooms",
           "sqft": "500 - 2500",
           "sqftType": "SuperBuilt-up",
-          "price": "67 Lacs - 3.37 Cr"
+          "price": "84 Lacs onwards*" 
         }
       ]
     }
@@ -6242,13 +6240,13 @@ const propertyCardsData = [
           "bhk": "Showrooms",
           "sqft": "1200 - 10000",
           "sqftType": "SuperBuilt-up",
-          "price": "1.8 - 2.9 Cr"
+          "price": "1.80 - 2.90 Cr"
         },
         {
           "bhk": "Offices",
           "sqft": "700 - 10000",
           "sqftType": "SuperBuilt-up",
-          "price": "45 lacs - 7.2 Cr"
+          "price": "45 lacs Onwards*"
         }
       ]
     }
@@ -7124,14 +7122,6 @@ const propertyCardsData = [
           "sqftType": "SuperBuilt-up",
           "price": "1.91 Cr"
         }
-      ],
-      "Commercial": [
-        {
-          "bhk": "Showrooms",
-          "sqft": "817",
-          "sqftType": "SuperBuilt-up",
-          "price": "1.14 Cr"
-        }
       ]
     }
   },
@@ -7304,7 +7294,6 @@ const propertyCardsData = [
     "images": [
       "images/Harmony-Nityam_01.jpeg",
       "images/Harmony-Nityam_02.jpeg",
-      "images/Harmony-Nityam_03.jpeg"
     ],
     "propertyLocation": "Science City",
     "schemeName": "Nityam Harmony",
@@ -7581,14 +7570,6 @@ const propertyCardsData = [
           "sqftType": "Carpet",
           "price": "1.28 - 1.37 Cr"
         }
-      ],
-      "Commercial": [
-        {
-          "bhk": "Showrooms",
-          "sqft": "350 - 1300",
-          "sqftType": "Carpet",
-          "price": "45 Lacs - 1.69 Cr"
-        }
       ]
     }
   },
@@ -7728,7 +7709,7 @@ const propertyCardsData = [
           "bhk": "Showrooms/Offices",
           "sqft": "750 - 4700",
           "sqftType": "SuperBuilt-up",
-          "price": "58 Lacs - 3.6 Cr"
+          "price": "65 Lacs - 4 Cr"
         }
       ]
     }
@@ -7835,14 +7816,6 @@ const propertyCardsData = [
           "price": "1.80 Cr"
         }
       ],
-      "Commercial": [
-        {
-          "bhk": "Showrooms",
-          "sqft": "650 - 700",
-          "sqftType": "SuperBuilt-up",
-          "price": "1.04 - 1.12 Cr"
-        }
-      ]
     }
   },
   {
@@ -9402,7 +9375,7 @@ const propertyCardsData = [
           "bhk": "3 BHK",
           "sqft": "1755",
           "sqftType": "Super Built-up",
-          "price": "85 Lacs."
+          "price": "85 Lacs"
         }
       ],
       "Commercial": [
@@ -9410,7 +9383,7 @@ const propertyCardsData = [
           "bhk": "Showrooms",
           "sqft": "400 - 1200",
           "sqftType": "Super Built-up",
-          "price": "60 Lacs - 2cr"
+          "price": "60 Lacs - 2 Cr"
         }
       ]
     }
@@ -9543,8 +9516,7 @@ const propertyCardsData = [
     "soldOut": false,
     "images": [
       "images/Altitude-01.jpg",
-      "images/Altitude-02.jpg",
-      "images/Altitude-03.jpg"
+      "images/Altitude-02.jpg"
     ],
     "propertyLocation": "Science Park",
     "schemeName": "The Altitude",
@@ -9573,8 +9545,8 @@ const propertyCardsData = [
     "soldOut": false,
     "images": [
       "images/August-01.jpg",
-      "images/August-02.jpg",
-      "images/August-03.jpg"
+      "images/August-02.png",
+      "images/August-03.png"
     ],
     "propertyLocation": "Science Park",
     "schemeName": "The August",
@@ -9603,9 +9575,9 @@ const propertyCardsData = [
     "price": 363,
     "soldOut": false,
     "images": [
-      "images/Anamaya-01.jpg",
-      "images/Anamaya-02.jpg",
-      "images/Anamaya-03.jpg"
+      "images/Anammya-01.png",
+      "images/Anammya-02.png",
+      "images/Anammya-03.png"
     ],
     "propertyLocation": "Science Park",
     "schemeName": "The Anamaya",

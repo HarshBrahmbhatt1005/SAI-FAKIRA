@@ -422,7 +422,7 @@ function createPropertyCard(data) {
         <div class="detailsRow">
           <div class="detailCol">
             <span class="detailValue price-val">${initialConfig.price || '-'}</span>
-            <span class="detailLabel">Price</span>
+            <span class="detailLabel">Box Price</span>
           </div>
           <div class="divider"></div>
           <div class="detailCol">
