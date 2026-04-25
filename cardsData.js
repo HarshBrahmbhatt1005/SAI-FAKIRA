@@ -3062,13 +3062,13 @@ const propertyCardsData = [
           "bhk": "3 BHK",
           "sqft": "2898",
           "sqftType": "SuperBuilt-up",
-          "price": "1.36 Cr"
+          "price": "1.63 Cr"
         },
         {
           "bhk": "4 BHK",
           "sqft": "4194",
           "sqftType": "SuperBuilt-up",
-          "price": "1.98 Cr"
+          "price": "2.30 Cr"
         }
       ]
     }
@@ -13312,40 +13312,1155 @@ const propertyCardsData = [
       ]
     }
   },
-  {
+ {
     "id": 383,
-    "type": "Mixed",
-    "latest": "South Bopal`",
-    "location": "South Bopal-04",
-    "price":93,
+    "type": "Residential",
+    "latest": "Tapovan",
+    "location": "Tapovan-01",
+    "price": 231,
     "soldOut": false,
     "images": [
-      "images/swastik-varmine-03.jpg",
-      "images/swastik-varmine-03.jpg",
-      "images/swastik-varmine-03.jpg"
+      "images/shikhar-kiaan-01.jpg",
+      "images/shikhar-kiaan-02.jpg",
+      "images/shikhar-kiaan-03.jpg"
+    ],
+    "propertyLocation": "Zundal",
+    "schemeName": "Shikhar Kiaan",
+    "features": [
+      "VRV System",
+      "DGU Sound Proof",
+      "20+ Amenities",
+      "2 Alloted Car Parking"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "4 BHK",
+          "sqft": "4014 - 4545",
+          "sqftType": "SuperBuilt-up",
+          "price": "2.32 - 2.60 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 384,
+    "type": "Residential",
+    "latest": "Zundal",
+    "location": "Zundal-12",
+    "price": 95,
+    "soldOut": false,
+    "images": [
+      "images/province-01.jpg",
+      "images/province-02.jpg",
+      "images/province-03.jpg",
+      "images/province-04.jpg"
+    ],
+    "propertyLocation": "Zundal",
+    "schemeName": "Province",
+    "features": [
+      "Ready to Move",
+      "Fully Vastu Compliant",
+      "10+ Amenities"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "2115",
+          "sqftType": "SuperBuilt-up",
+          "price": "95 - 98 Lac"
+        },
+        {
+          "bhk": "4 BHK",
+          "sqft": "3240",
+          "sqftType": "SuperBuilt-up",
+          "price": "1.55 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 385,
+    "type": "Residential",
+    "latest": "Zundal",
+    "location": "Zundal-13",
+    "price": 84,
+    "soldOut": false,
+    "images": [
+      "images/radiant-rays-01.jpg",
+      "images/radiant-rays-02.jpg",
+      "images/radiant-rays-03.jpg",
+      "images/radiant-rays-04.jpg"
+    ],
+    "propertyLocation": "Zundal",
+    "schemeName": "Radiant Rays",
+    "features": [
+      "2 road corner",
+      "No vehicle zone at ground floor",
+      "45+ Amenities"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "1890",
+          "sqftType": "SuperBuilt-up",
+          "price": "84 Lacs"
+        }
+      ]
+    }
+  },
+  {
+    "id": 386,
+    "type": "Residential",
+    "latest": "Tapovan ",
+    "location": "Tapovan-02",
+    "price": 188,
+    "soldOut": false,
+    "images": [
+      "images/shyam-elegance-01.jpg",
+      "images/shyam-elegance-02.jpg",
+      "images/shyam-elegance-03.jpg",
+      "images/shyam-elegance-04.jpg"
+    ],
+    "propertyLocation": "Tapovan ",
+    "schemeName": "Shyam Elegance",
+    "features": [
+      "Ready to Move",
+      "Pure residential",
+      "20+ Amenities",
+      "3 Alloted Car Parking"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "4 BHK",
+          "sqft": "3690, 4095",
+          "sqftType": "SuperBuilt-up",
+          "price": "1.88 , 2.07 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 387,
+    "type": "Residential",
+    "latest": "Bhat",
+    "location": "Bhat-01",
+    "price": 200,
+    "soldOut": false,
+    "images": [
+      "images/harved-avan-01.jpg",
+      "images/harved-avan-02.jpg",
+      "images/harved-avan-03.jpg"
+    ],
+    "propertyLocation": "Bhat ",
+    "schemeName": "Harved avan",
+    "features": [
+      "2 road corner",
+      "25+ Amenities",
+      "3 Alloted Car Parking"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "4 BHK",
+          "sqft": "3600, 3735",
+          "sqftType": "SuperBuilt-up",
+          "price": "2, 2.10 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 388,
+    "type": "Residential",
+    "latest": "Tapovan",
+    "location": "Tapovan-03",
+    "price": 140,
+    "soldOut": false,
+    "images": [
+      "images/sampad-adirath-01.jpg",
+      "images/sampad-adirath-02.jpg",
+      "images/sampad-adirath-03.jpg"
+    ],
+    "propertyLocation": "Tapovan ",
+    "schemeName": "Sampad Adirath",
+    "features": [
+      "Pure residential",
+      "2 Road Corner Project",
+      "40+ Amenities",
+      "2 Alloted Car Parking"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "2565",
+          "sqftType": "SuperBuilt-up",
+          "price": "1.40 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 389,
+    "type": "Residential",
+    "latest": "Tapovan",
+    "location": "Tapovan-04",
+    "price": 170,
+    "soldOut": false,
+    "images": [
+      "images/harved-supremo-01.jpg",
+      "images/harved-supremo-02.jpg",
+      "images/harved-supremo-03.jpg",
+      "images/harved-supremo-04.jpg"
+    ],
+    "propertyLocation": "Tapovan",
+    "schemeName": "Harved Supremo",
+    "features": [
+      "Pure residential",
+      "35+ Amenities",
+      "2-3 Allotted Car Parking",
+      "20 Storey Tower"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "3015",
+          "sqftType": "SuperBuilt-up",
+          "price": "1.70"
+        },
+        {
+          "bhk": "4 BHK",
+          "sqft": "4563",
+          "sqftType": "SuperBuilt-up",
+          "price": "2.54 - 2.62"
+        }
+      ]
+    }
+  },
+  {
+    "id": 390,
+    "type": "Residential",
+    "latest": "Tapovan",
+    "location": "Tapovan-05",
+    "price": 80,
+    "soldOut": false,
+    "images": [
+      "images/tulsi-paradise-01.jpg",
+      "images/tulsi-paradise-02.jpg",
+      "images/tulsi-paradise-03.jpg"
+    ],
+    "propertyLocation": "Tapovan",
+    "schemeName": "Tulsi Paradise",
+    "features": [
+      "Ready to Move Property",
+      "Pure residential",
+      "15+ Amenities"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "1800, 1845",
+          "sqftType": "SuperBuilt-up",
+          "price": "80 Lacs"
+        }
+      ]
+    }
+  },
+  {
+    "id": 391,
+    "type": "Residential",
+    "latest": "Motera",
+    "location": "Motera-01",
+    "price": 113,
+    "soldOut": false,
+    "images": [
+      "images/vrundavan-zion-01.jpg",
+      "images/vrundavan-zion-02.jpg",
+      "images/vrundavan-zion-03.jpg",
+      "images/vrundavan-zion-04.jpg"
+    ],
+    "propertyLocation": "Motera",
+    "schemeName": "Vrundavan Zion",
+    "features": [
+      "20+ Amenities",
+      "Semi Smart Home",
+      "Nr. River Front"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "1800 - 1863",
+          "sqftType": "SuperBuilt-up",
+          "price": "1.13 - 1.18 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 392,
+    "type": "Residential",
+    "latest": "Zundal",
+    "location": "Zundal-14",
+    "price": 73,
+    "soldOut": false,
+    "images": [
+      "images/rythm-sky-01.jpg",
+      "images/rythm-sky-02.jpg",
+      "images/rythm-sky-03.jpg"
+    ],
+    "propertyLocation": "Zundal",
+    "schemeName": "Rythm Sky",
+    "features": [
+      "Ready to Move",
+      "Fully Vastu Compliant",
+      "15+ Amenities",
+      "Nr. S.P Ring Road"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "1845",
+          "sqftType": "SuperBuilt-up",
+          "price": "73 Lacs"
+        }
+      ]
+    }
+  },
+  {
+    "id": 393,
+    "type": "Residential",
+    "latest": "Zundal",
+    "location": "Zundal-15",
+    "price": 60,
+    "soldOut": false,
+    "images": [
+      "images/the-satyagrah-landmark-01.jpg",
+      "images/the-satyagrah-landmark-02.jpg",
+      "images/the-satyagrah-landmark-03.jpg"
+    ],
+    "propertyLocation": "Zundal",
+    "schemeName": " The Satyagrah landmark",
+    "features": [
+      "2 road corner",
+      "Fully Vastu Compliant",
+      "20+ Amenities",
+      "3 Basement Parking"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "2 BHK",
+          "sqft": "1530, 1710",
+          "sqftType": "SuperBuilt-up",
+          "price": "60.61 , 66.81 lacs"
+        },
+        {
+          "bhk": "3 BHK",
+          "sqft": "1890, 1935",
+          "sqftType": "SuperBuilt-up",
+          "price": "74.59 ,76 lacs"
+        }
+      ]
+    }
+  },
+  {
+    "id": 394,
+    "type": "Residential",
+    "latest": "Zundal ",
+    "location": "Zundal-16",
+    "price": 63,
+    "soldOut": false,
+    "images": [
+      "images/swastik-harmony-01.jpg",
+      "images/swastik-harmony-02.jpg",
+      "images/swastik-harmony-03.jpg",
+      "images/swastik-harmony-04.jpg"
+    ],
+    "propertyLocation": "Zundal ",
+    "schemeName": "Swastik harmony ",
+    "features": [
+      "2 Road Corner Project",
+      "15+ Amenities",
+      "At S.P Ring Road"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "2 BHK",
+          "sqft": "1350",
+          "sqftType": "SuperBuilt-up",
+          "price": "63 Lacs"
+        },
+        {
+          "bhk": "3 BHK",
+          "sqft": "1890",
+          "sqftType": "SuperBuilt-up",
+          "price": "86 Lacs"
+        }
+      ]
+    }
+  },
+  {
+    "id": 395,
+    "type": "Residential",
+    "latest": "Zundal",
+    "location": "Zundal-17",
+    "price": 56,
+    "soldOut": false,
+    "images": [
+      "images/om-elegance-01.jpg",
+      "images/om-elegance-02.jpg",
+      "images/om-elegance-03.jpg"
+    ],
+    "propertyLocation": "Zundal",
+    "schemeName": "Om Elegance",
+    "features": [
+      "2 Road Corner Project",
+      "Fully Vastu Compliant",
+      "50+ Amenities",
+      "Nr. S.P Ring Road"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "2 BHK",
+          "sqft": "1350 - 1575",
+          "sqftType": "SuperBuilt-up",
+          "price": "56.51 - 68 Lacs"
+        },
+        {
+          "bhk": "3 BHK",
+          "sqft": "2115",
+          "sqftType": "SuperBuilt-up",
+          "price": "89.93 - 92.28 Lacs"
+        }
+      ]
+    }
+  },
+  {
+    "id": 396,
+    "type": "Residential",
+    "latest": "Shilaj",
+    "location": "Shilaj-13",
+    "price": 450,
+    "soldOut": false,
+    "images": [
+      "images/the-beaumonde-01.jpg",
+      "images/the-beaumonde-02.jpg",
+      "images/the-beaumonde-03.jpg",
+      "images/the-beaumonde-04.jpg",
+    ],
+    "propertyLocation": "Shilaj",
+    "schemeName": "The Beaumonde",
+    "features": [
+      "Fully Vastu Compliant",
+      "45+ Amenities",
+      "3 Alloted Car Parking"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "4 BHK",
+          "sqft": "5250",
+          "sqftType": "SuperBuilt-up",
+          "price": "4.5 Cr"
+        }
+      ],
+      "Duplex": [
+        {
+          "bhk": "5 BHK",
+          "sqft": "8665-9115 + 530-325 (Terrace)",
+          "sqftType": "SuperBuilt-up",
+          "price": "8.5 - 9 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 397,
+    "type": "Residential",
+    "latest": "Nava Vadaj",
+    "location": "Nava Vadaj-01",
+    "price": 130,
+    "soldOut": false,
+    "images": [
+      "images/aadish-prime-01.jpg",
+      "images/aadish-prime-02.webp",
+      "images/aadish-prime-03.jpg"
+    ],
+    "propertyLocation": "Nava Vadaj",
+    "schemeName": "Aadish prime",
+    "features": [
+      "15+ Amenities",
+      "Nearby Urban Conveniences",
+      "2 Road Corner Project"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "2304",
+          "sqftType": "SuperBuilt-up",
+          "price": "1.3 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 398,
+    "type": "Mixed",
+    "latest": "Gandhinagar",
+    "location": "Gandhinagar-14",
+    "price": 53,
+    "soldOut": false,
+    "images": [
+      "images/griham-orchid-01.jpg",
+      "images/griham-orchid-02.jpg",
+      "images/griham-orchid-03.jpg",
+    ],
+    "propertyLocation": "Gandhinagar",
+    "schemeName": "Griham orchid",
+    "features": [
+      "Ready to Move",
+      "1 Alloted Car Parking",
+      "Off S.P Ring Road"
+    ],
+    "nestedCategories": {
+      "Residential": [
+        {
+          "bhk": "2 BHK",
+          "sqft": "1260, 1305",
+          "sqftType": "SuperBuilt-up",
+          "price": "53.05, 54.70 Lacs"
+        },
+        {
+          "bhk": "3 BHK",
+          "sqft": "1620, 1665",
+          "sqftType": "SuperBuilt-up",
+          "price": "67.10, 68.70 Lacs"
+        }
+      ],
+      "Commercial": [
+        {
+          "bhk": "Offices",
+          "sqft": "142 onwards",
+          "sqftType": "SuperBuilt-up",
+          "price": "30 Lacs onwards"
+        }
+      ]
+    }
+  },
+  {
+    "id": 399,
+    "type": "Residential",
+    "latest": "Nana chiloda ",
+    "location": "Nana chiloda-01",
+    "price": 52,
+    "soldOut": false,
+    "images": [
+      "images/rehvassa-saffron-01.jpg",
+      "images/rehvassa-saffron-02.jpg",
+      "images/rehvassa-saffron-03.jpg"
+    ],
+    "propertyLocation": "Nana chiloda ",
+    "schemeName": "Rehvassa Saffron",
+    "features": [
+      "Ready to Move",
+      "10+ Amenities",
+      "1 Alloted Car Parking"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "2 BHK",
+          "sqft": "1575 - 1710",
+          "sqftType": "SuperBuilt-up",
+          "price": "52 - 57 Lacs"
+        },
+        {
+          "bhk": "3 BHK",
+          "sqft": "1890",
+          "sqftType": "SuperBuilt-up",
+          "price": "63 Lacs"
+        }
+      ]
+    }
+  },
+  {
+    "id": 400,
+    "type": "Commercial",
+    "latest": "Chandkheda",
+    "location": "Chandkheda-02",
+    "price": 83,
+    "soldOut": false,
+    "images": [
+      "images/sahjanand-marigold-01.jpg",
+      "images/sahjanand-marigold-02.jpg",
+      "images/sahjanand-marigold-03.jpg",
+      "images/sahjanand-marigold-04.jpg"
+    ],
+    "propertyLocation": "Chandkheda",
+    "schemeName": "Sahjanand marigold",
+    "features": [
+      "Ready to Move",
+      "Fully Vastu Compliant",
+      "40+ Amenities"
+    ],
+    "nestedCategories": {
+      "Commercial": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "1845 - 2070",
+          "sqftType": "SuperBuilt-up",
+          "price": "85 - 95 Lacs"
+        },
+        {
+          "bhk": "Offices",
+          "sqft": "302 - 785",
+          "sqftType": "SuperBuilt-up",
+          "price": "55.80 Lacs"
+        }
+      ]
+    }
+  },
+  {
+    "id": 401,
+    "type": "Residential",
+    "latest": "Hebatpur",
+    "location": "Hebatpur-01",
+    "price": 357,
+    "soldOut": false,
+    "images": [
+      "images/the-gold-by-samor-01.jpg",
+      "images/the-gold-by-samor-02.jpg",
+      "images/the-gold-by-samor-03.jpg",
+      "images/the-gold-by-samor-04.jpg"
+    ],
+    "propertyLocation": "Hebatpur",
+    "schemeName": "The gold by Samor",
+    "features": [
+      "Ready to Move",
+      "Pure residential",
+      "Nr.Jain Derasar",
+      "35+ Amenities",
+      "2 Alloted Car Parking"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "4 BHK",
+          "sqft": "4750, 4971",
+          "sqftType": "SuperBuilt-up",
+          "price": "3.57 - 3.73 Cr"
+        }
+      ],
+      "Duplex": [
+        {
+          "bhk": "5 BHK",
+          "sqft": "8034",
+          "sqftType": "SuperBuilt-up",
+          "price": "6.48 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 402,
+    "type": "Residential",
+    "latest": "Nava vadaj",
+    "location": "Nava vadaj-02",
+    "price": 110,
+    "soldOut": false,
+    "images": [
+      "images/shyam-one-01.jpg",
+      "images/shyam-one-02.jpg",
+      "images/shyam-one-03.jpg"
+    ],
+    "propertyLocation": "Nava vadaj",
+    "schemeName": "Shyam One",
+    "features": [
+      "2 Road Corner Project",
+      "Nr. Jain Derasar",
+      "15+ Amenities",
+      "2 Alloted Car Parking"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "2070",
+          "sqftType": "SuperBuilt-up",
+          "price": "1.10 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 403,
+    "type": "Residential",
+    "latest": "Nava vadaj",
+    "location": "Nava vadaj-02",
+    "price": 127,
+    "soldOut": false,
+    "images": [
+      "images/the-centrium-2-01.jpg",
+      "images/the-centrium-2-02.jpg",
+      "images/the-centrium-2-03.jpg"
+    ],
+    "propertyLocation": "Nava vadaj",
+    "schemeName": "The Centrium 2",
+    "features": [
+      "20+ Podium Level Amenities",
+      "1 Alloted Car Parking",
+      "Excellent Connectivity"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "2214 - 2475",
+          "sqftType": "SuperBuilt-up",
+          "price": "1.27 - 1.43 Cr"
+        },
+        {
+          "bhk": "4 BHK",
+          "sqft": "3177",
+          "sqftType": "SuperBuilt-up",
+          "price": "1.83 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 404,
+    "type": "Residential",
+    "latest": "Nava Vadaj",
+    "location": "Nava Vadaj-03",
+    "price": 88,
+    "soldOut": false,
+    "images": [
+      "images/the-palm-paradise-01.jpg",
+      "images/the-palm-paradise-02.jpg",
+      "images/the-palm-paradise-03.jpg",
+      "images/the-palm-paradise-04.jpg"
+    ],
+    "propertyLocation": "Nava Vadaj",
+    "schemeName": "The Palm Paradise ",
+    "features": [
+      "Ready to Move",
+      "Fully Vastu Compliant",
+      "20+ Amenities"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "1575 - 2025",
+          "sqftType": "SuperBuilt-up",
+          "price": "88 Lacs - 1.14 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 405,
+    "type": "Commercial",
+    "latest": "Nava Vadaj",
+    "location": "Nava Vadaj-04",
+    "price": 125,
+    "soldOut": false,
+    "images": [
+      "images/shri-vishnudhara-aashiyana-01.jpg",
+      "images/shri-vishnudhara-aashiyana-02.jpg",
+      "images/shri-vishnudhara-aashiyana-03.jpg"
+    ],
+    "propertyLocation": "Nava Vadaj",
+    "schemeName": "Shri Vishnudhara Aashiyana ",
+    "features": [
+      "2 road corner",
+      "Vastu Compliant",
+      "Premium Commercial Amenities"
+    ],
+    "nestedCategories": {
+      "Commercial": [
+        {
+          "bhk": "Showrooms",
+          "sqft": "1500 - 7550",
+          "sqftType": "SuperBuilt-up",
+          "price": "2.50 - 16.61 Cr"
+        },
+        {
+          "bhk": "Offices",
+          "sqft": "1642 - 7550",
+          "sqftType": "SuperBuilt-up",
+          "price": "1.47 - 7.50 Cr"
+        },
+        {
+          "bhk": "Hospital",
+          "sqft": "1642 - 7550",
+          "sqftType": "SuperBuilt-up",
+          "price": "1.25 - 5.80 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 406,
+    "type": "Residential",
+    "latest": "South Bopal",
+    "location": "South Bopal-28",
+    "price": 65,
+    "soldOut": false,
+    "images": [
+      "images/happy-skyside-01.jpg",
+      "images/happy-skyside-02.jpg",
+      "images/happy-skyside-03.jpg"
     ],
     "propertyLocation": "South Bopal",
-    "schemeName": "Swastik Varmine",
+    "schemeName": "Happy Skyside",
     "features": [
-      "2 Road corner project",
-      "3-Sided Open View",
-      "15+ Modern Amenities"
+      "2 road corner",
+      "15+ Amenities",
+      "1 Alloted Car Parking"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "2 BHK",
+          "sqft": "1360",
+          "sqftType": "SuperBuilt-up",
+          "price": "65 Lacs"
+        },
+        {
+          "bhk": "3 BHK",
+          "sqft": "1850",
+          "sqftType": "SuperBuilt-up",
+          "price": "88 Lacs"
+        }
+      ]
+    }
+  },
+  {
+    "id": 407,
+    "type": "Residential",
+    "latest": "South Bopal",
+    "location": "South Bopal-29",
+    "price": 88,
+    "soldOut": false,
+    "images": [
+      "images/happy-aura-01.jpg",
+      "images/happy-aura-02.jpg",
+      "images/happy-aura-03.jpg"
+    ],
+    "propertyLocation": "South Bopal",
+    "schemeName": "Happy Aura",
+    "features": [
+      "Pure residential",
+      "2 Road Corner Project",
+      "25+ Amenities",
+      "1-2 Allotted Car Parking"
     ],
     "nestedCategories": {
       "Apartments": [
         {
           "bhk": "3 BHK",
           "sqft": "1850",
-          "sqftType": "Super Built-up",
-          "price": "93.50 Lacs"
+          "sqftType": "SuperBuilt-up",
+          "price": "88 Lacs"
         },
         {
           "bhk": "4 BHK",
-          "sqft": "3750",
-          "sqftType": "Super Built-up",
-          "price": "1.90 Cr"
+          "sqft": "3700",
+          "sqftType": "SuperBuilt-up",
+          "price": "1.75 Cr"
         }
-      ],
+      ]
     }
   },
+  {
+    "id": 409,
+    "type": "Residential",
+    "latest": "Ghuma",
+    "location": "Ghuma-01",
+    "price": 60,
+    "soldOut": false,
+    "images": [
+      "images/happy-aadesh-01.jpg",
+      "images/happy-aadesh-02.jpg",
+      "images/happy-aadesh-03.jpg"
+    ],
+    "propertyLocation": "Ghuma",
+    "schemeName": "Happy Aadesh",
+    "features": [
+      "Ready to Move",
+      "15+ Amenities",
+      "1 Alloted Car Parking"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "1400",
+          "sqftType": "SuperBuilt-up",
+          "price": "60 Lacs"
+        }
+      ]
+    }
+  },
+  {
+    "id": 410,
+    "type": "Residential",
+    "latest": "Kasindra",
+    "location": "Kasindra-04",
+    "price": 100,
+    "soldOut": false,
+    "images": [
+      "images/happy-sanidhya-01.jpg",
+      "images/happy-sanidhya-02.jpg",
+      "images/happy-sanidhya-03.jpg"
+    ],
+    "propertyLocation": "Kasindra",
+    "schemeName": "Happy Sanidhya",
+    "features": [
+      "15+ Amenities",
+      "1 Alloted Car Parking"
+    ],
+    "nestedCategories": {
+      "Bungalow": [
+        {
+          "bhk": "4 BHK",
+          "sqft": "1233 - 2367 + 2619 Construction",
+          "sqftType": "SuperBuilt-up",
+          "price": "1 - 1.50 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 411,
+    "type": "Residential",
+    "latest": "Iscon Ambli",
+    "location": "Iscon Ambli-13",
+    "price": 500,
+    "soldOut": false,
+    "images": [
+      "images/maruti-aatman-01.jpg",
+      "images/maruti-aatman-02.jpg",
+      "images/maruti-aatman-03.jpg"
+    ],
+    "propertyLocation": "Iscon Ambli",
+    "schemeName": "Maruti Aatman",
+    "features": [
+      "Nr.Jain Derasar",
+      "3 Alloted Car Parking",
+      "2 Road Corner Project"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "4 BHK",
+          "sqft": "4800 - 5500",
+          "sqftType": "SuperBuilt-up",
+          "price": "5 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 412,
+    "type": "Residential",
+    "latest": "Kudasan",
+    "location": "Kudasan-01",
+    "price": 140,
+    "soldOut": false,
+    "images": [
+      "images/auxeria-01.jpg",
+      "images/auxeria-02.jpg",
+      "images/auxeria-03.jpg"
+    ],
+    "propertyLocation": "Kudasan",
+    "schemeName": "Auxeria",
+    "features": [
+      "Pure Residential",
+      "360 Open View",
+      "Fully Vastu Compliant",
+      "2 Alloted Car Parking"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "2835",
+          "sqftType": "SuperBuilt-up",
+          "price": "1.40 - 1.55 Cr"
+        }
+      ],
+      "Duplex": [
+        {
+          "bhk": "4 BHK",
+          "sqft": "5490",
+          "sqftType": "SuperBuilt-up",
+          "price": "3.15 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 413,
+    "type": "Residential",
+    "latest": "Kudasan",
+    "location": "Kudasan-02",
+    "price": 111,
+    "soldOut": false,
+    "images": [
+      "images/beryl-sky-01.jpg",
+      "images/beryl-sky-02.jpg",
+      "images/beryl-sky-03.jpg"
+    ],
+    "propertyLocation": "Kudasan",
+    "schemeName": "Beryl Sky",
+    "features": [
+      "1 Alloted Car Parking",
+      "20+ Modern Amenities",
+      "Nr. Daiict"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "2475, 2565",
+          "sqftType": "SuperBuilt-up",
+          "price": "1.11 , 1.15 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 414,
+    "type": "Commercial",
+    "latest": "Kudasan",
+    "location": "Kudasan-03",
+    "price": 160,
+    "soldOut": false,
+    "images": [
+      "images/the-grasslands-01.jpg",
+      "images/the-grasslands-02.jpg",
+      "images/the-grasslands-03.jpg"
+    ],
+    "propertyLocation": "Kudasan",
+    "schemeName": "The Grasslands",
+    "features": [
+      "2 Alloted Car Parking",
+      "2 Road Corner Project",
+      "Double-Height Balconies & Courtyards"
+    ],
+    "nestedCategories": {
+      "Residential": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "2880 , 3060",
+          "sqftType": "SuperBuilt-up",
+          "price": "1.60 , 1.70 Cr"
+        },
+        {
+          "bhk": "4 BHK",
+          "sqft": "3789 - 4383",
+          "sqftType": "SuperBuilt-up",
+          "price": "2.10 - 2.40 Cr"
+        }
+      ],
+      "Commercial": [
+        {
+          "bhk": "Offices",
+          "sqft": "0",
+          "sqftType": "SuperBuilt-up",
+          "price": "75 Lacs - 3 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 415,
+    "type": "Residential",
+    "latest": "Kudasan",
+    "location": "Kudasan-04",
+    "price": 193,
+    "soldOut": false,
+    "images": [
+      "images/the-linea-01.jpg",
+      "images/the-linea-02.jpg",
+      "images/the-linea-03.jpg"
+    ],
+    "propertyLocation": "Kudasan",
+    "schemeName": "The Linea",
+    "features": [
+      "Ready To Move",
+      "Pure Residential",
+      "35+ Amenities",
+      "2 Alloted Car Parking"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "3573 - 4221",
+          "sqftType": "SuperBuilt-up",
+          "price": "1.93 - 2.30 Cr"
+        }
+      ],
+      "Duplex": [
+        {
+          "bhk": "5 BHK",
+          "sqft": "7128",
+          "sqftType": "SuperBuilt-up",
+          "price": "3.50 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 416,
+    "type": "Residential",
+    "latest": "Naranpura",
+    "location": "Naranpura-14",
+    "price": 77,
+    "soldOut": false,
+    "images": [
+      "images/suryansh-skyline-01.jpg",
+      "images/suryansh-skyline-02.jpg",
+      "images/suryansh-skyline-03.jpg",
+      "images/suryansh-skyline-04.jpg"
+    ],
+    "propertyLocation": "Naranpura",
+    "schemeName": "Suryansh Skyline",
+    "features": [
+      "40+ Podim Amenities",
+      "2 Road Corner Project",
+      "No Vehicle Zone at Ground Floor"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "2 BHK",
+          "sqft": "1260",
+          "sqftType": "SuperBuilt-up",
+          "price": "77 - 82 Lacs"
+        },
+        {
+          "bhk": "3 BHK",
+          "sqft": "1855",
+          "sqftType": "SuperBuilt-up",
+          "price": "1.18 Cr"
+        }
+      ]
+    }
+  }  
 ];
