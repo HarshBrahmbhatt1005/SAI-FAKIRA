@@ -1,0 +1,1920 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sai Fakira Real Estate</title>
+  <link rel="icon" type="image/jpeg" href="" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="menu.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    /* FORCED TICKER VISIBILITY */
+    .partners-strip {
+      background: var(--bg-color);
+      padding: 60px 20px;
+      border-top: 1px solid var(--border-color);
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .news-ticker-banner {
+      width: 100% !important;
+      background: transparent !important;
+      padding: 30px 0 !important;
+      overflow: hidden !important;
+      display: flex !important;
+      align-items: center !important;
+      border: none !important;
+      margin: 20px 0 !important;
+      position: relative !important;
+      z-index: 9999 !important;
+      opacity: 1 !important;
+      visibility: visible !important;
+    }
+
+    .ticker-track {
+      display: flex !important;
+      white-space: nowrap !important;
+      gap: 80px !important;
+      animation: ticker-animation 35s linear infinite !important;
+      align-items: center !important;
+      width: max-content !important;
+    }
+
+    .ticker-logo {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      flex-shrink: 0 !important;
+    }
+
+    .marquee-title {
+      text-align: center;
+      font-family: 'Georgia', serif;
+      font-size: 28px;
+      color: #1a1a1a;
+      margin-bottom: 30px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      opacity: 0;
+      animation: up 0.8s ease forwards;
+    }
+
+    .ticker-logo img {
+      height: 65px !important;
+      /* Slightly smaller for better professionalism */
+      width: auto !important;
+      max-width: 180px !important;
+      object-fit: contain !important;
+      transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) !important;
+      padding: 0 10px !important;
+    }
+
+
+
+    @keyframes ticker-animation {
+      from {
+        transform: translateX(0);
+      }
+
+      to {
+        transform: translateX(-50%);
+      }
+    }
+
+    /* ENSURE NO BULLETS */
+    .news-ticker-banner,
+    .ticker-track,
+    .ticker-logo {
+      list-style: none !important;
+      list-style-type: none !important;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0&icon_names=arrow_circle_left" />
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_circle_right" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0&icon_names=door_back" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Mrs+Saint+Delafield&display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Mrs+Saint+Delafield&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+
+  <!-- Preload critical images -->
+  <link rel="preload" as="image" href="images/ESEFF REAL ESTATE LOGO (3).png" />
+  <link rel="preload" as="image" href="images/ESEFF REAL ESTATE LOGO (6).png" />
+  <link rel="preload" as="image" href="images/SAI FAKIRA LOGO WHITE .png" />
+
+  <style>
+    /* New Minimalist Design System */
+    :root {
+      --primary-accent: #8b1a2e;
+      --bg-color: #faf8f5;
+      --text-main: #1a1a1a;
+      --text-muted: #888;
+      --text-light: #aaa;
+      --border-color: #e8e3dc;
+      --card-bg: #ffffff;
+      --font-serif: 'Georgia', serif;
+      --font-sans: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      font-family: var(--font-sans);
+    }
+
+    /* Navigation */
+    .desktop-nav {
+      background: var(--bg-color);
+      border-bottom: 1px solid var(--border-color);
+      padding: 10px 40px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 70px;
+    }
+
+    .desktop-nav-left .desk-logo {
+      height: 50px;
+      width: 100px;
+      filter: none;
+      /* Removed white filter if any */
+    }
+
+    .desktop-nav-links {
+      display: flex;
+      gap: 36px;
+      list-style: none;
+    }
+
+    .desktop-nav-links a {
+      font-size: 14px;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.2s;
+      font-weight: 500;
+    }
+
+    .desktop-nav-links a:hover {
+      color: var(--primary-accent);
+    }
+
+    /* Minimal Hero - Two Column Layout */
+    .hero-pro {
+      height: calc(100vh - 70px);
+      background: linear-gradient(135deg, #faf8f5 0%, rgba(139, 26, 46, 0.05) 100%);
+      padding: 40px 40px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      gap: 40px;
+      text-align: left;
+      overflow: visible;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
+    }
+
+    .logo-hero-container {
+      margin-bottom: 30px;
+      opacity: 0;
+      animation: up 0.8s 0.1s ease forwards;
+      width: fit-content;
+    }
+
+    .hero-logo-large {
+      max-width: 200px;
+      height: auto;
+    }
+
+    .hero-pro .eyebrow {
+      font-size: 12px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--primary-accent);
+      margin-bottom: 20px;
+      opacity: 0;
+      animation: up 0.7s 0.2s ease forwards;
+    }
+
+    .hero-pro h1 {
+      font-family: var(--font-serif);
+      font-size: 68px;
+      font-weight: 400;
+      line-height: 1.2;
+      margin-bottom: 15px;
+      /* max-width: 500px; */
+      opacity: 0;
+      animation: up 0.8s 0.3s ease forwards;
+      color: var(--text-main);
+    }
+
+    .hero-pro h1 em {
+      font-style: italic;
+      color: var(--primary-accent);
+    }
+
+    .hero-pro .tagline {
+      font-size: 16px;
+      color: var(--text-muted);
+      max-width: 500px;
+      line-height: 1.5;
+      margin-bottom: 25px;
+      opacity: 0;
+      animation: up 0.8s 0.4s ease forwards;
+    }
+
+    /* Hero Image Container */
+    .hero-image-container {
+      opacity: 0;
+      animation: up 0.8s 0.5s ease forwards;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 400px;
+      width: 100%;
+    }
+
+    .hero-image-container img {
+      width: 100%;
+      height: 100%;
+      max-width: none;
+      border-radius: 16px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+      object-fit: cover;
+    }
+
+    /* Search Bar Redesign */
+    .search-wrap {
+      background: #fff;
+      border: 1px solid var(--border-color);
+      border-radius: 50px;
+      display: flex;
+      align-items: center;
+      padding: 8px 8px 8px 20px;
+      width: 100%;
+      max-width: 500px;
+      opacity: 0;
+      animation: up 0.8s 0.5s ease forwards;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+      transition: border-color 0.3s, box-shadow 0.3s;
+      position: relative;
+      z-index: 1;
+      overflow: visible !important;
+    }
+
+    .search-wrap:focus-within {
+      border-color: var(--primary-accent);
+      box-shadow: 0 10px 40px rgba(139, 26, 46, 0.1);
+    }
+
+    .search-wrap input {
+      flex: 1;
+      border: none;
+      outline: none;
+      font-size: 15px;
+      color: var(--text-main);
+    }
+
+    .search-divider {
+      width: 1px;
+      height: 24px;
+      background: var(--border-color);
+      margin: 0 15px;
+    }
+
+    .search-wrap select {
+      border: none;
+      outline: none;
+      background: none;
+      font-size: 14px;
+      color: var(--text-muted);
+      cursor: pointer;
+      padding-right: 10px;
+    }
+
+    .search-btn {
+      background: var(--primary-accent);
+      color: #fff;
+      border: none;
+      padding: 12px 30px;
+      border-radius: 40px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform 0.2s, opacity 0.2s;
+    }
+
+    .search-btn:hover {
+      opacity: 0.9;
+      transform: scale(1.02);
+    }
+
+    /* Quick Pills */
+    .pills {
+      display: flex;
+      gap: 8px;
+      margin-top: 15px;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      opacity: 0;
+      animation: up 0.8s 0.6s ease forwards;
+    }
+
+    .pill {
+      font-size: 12px;
+      color: var(--text-muted);
+      padding: 8px 20px;
+      border-radius: 999px;
+      border: 1px solid var(--border-color);
+      background: #fff;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .pill:hover,
+    .pill.active {
+      border-color: var(--primary-accent);
+      color: var(--primary-accent);
+      background: rgba(139, 26, 46, 0.05);
+    }
+
+    /* Stats */
+    .stats {
+      display: flex;
+      gap: 40px;
+      margin-top: 20px;
+      opacity: 0;
+      animation: up 0.8s 0.7s ease forwards;
+    }
+
+    .stat-n {
+      font-size: 36px;
+      font-family: var(--font-serif);
+      color: var(--text-main);
+      font-variant-numeric: tabular-nums;
+      /* Prevents jumping digits */
+    }
+
+    .stat-l {
+      font-size: 12px;
+      color: var(--text-light);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-top: 5px;
+    }
+
+    .stat-div {
+      width: 1px;
+      background: var(--border-color);
+      height: 40px;
+      align-self: center;
+    }
+
+    /* Property Section Styling */
+    .Property-section {
+      background: #fff;
+      padding: 80px 20px;
+    }
+
+    .section-title {
+      font-family: var(--font-serif);
+      font-size: 32px;
+      color: var(--text-main);
+      margin-bottom: 10px;
+    }
+
+    .Many-More {
+      color: var(--text-muted);
+      margin-bottom: 50px;
+    }
+
+    /* Cards Overrides */
+    .Property-card {
+      border: 1px solid var(--border-color) !important;
+      background: #fff !important;
+      border-radius: 16px !important;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.02) !important;
+      transition: transform 0.3s, border-color 0.3s !important;
+    }
+
+    .Property-card:hover {
+      border-color: var(--primary-accent) !important;
+      transform: translateY(-8px) !important;
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05) !important;
+    }
+
+    .projectName {
+      font-family: var(--font-serif) !important;
+      font-weight: 500 !important;
+      color: var(--text-main) !important;
+    }
+
+    .detailValue {
+      color: var(--primary-accent) !important;
+    }
+
+    /* Animations */
+    @keyframes up {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Scroll Arrow Refinement */
+    .scroll-arrow {
+      background: var(--primary-accent) !important;
+      color: white !important;
+      box-shadow: 0 10px 20px rgba(139, 26, 46, 0.2) !important;
+    }
+
+    @media (max-width: 1024px) {
+      .desktop-nav {
+        padding: 10px 20px;
+      }
+
+      .hero-pro {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 30px 20px;
+        height: auto;
+        min-height: calc(100vh - 70px);
+        text-align: center;
+      }
+
+      .hero-content {
+        align-items: center;
+      }
+
+      .hero-pro h1 {
+        font-size: 40px;
+      }
+
+      .search-wrap {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+      }
+
+      .pills {
+        justify-content: center;
+      }
+
+      .hero-image-container {
+        min-height: 350px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .desktop-nav {
+        padding: 8px 16px;
+        height: 60px;
+      }
+
+      .desktop-nav-left .desk-logo {
+        height: 40px;
+        width: 80px;
+      }
+
+      .hero-pro {
+        padding: 25px 16px;
+        height: auto;
+        min-height: auto;
+      }
+
+      .hero-pro h1 {
+        font-size: 32px;
+      }
+
+      .stats {
+        gap: 25px;
+      }
+
+      .search-wrap {
+        flex-direction: column;
+        border-radius: 20px;
+        padding: 12px;
+        max-width: 100%;
+      }
+
+      .search-divider {
+        display: none;
+      }
+
+      .search-wrap select {
+        margin: 8px 0;
+        width: 100%;
+        border-bottom: 1px solid var(--border-color);
+        padding-bottom: 8px;
+      }
+
+      .search-btn {
+        width: 100%;
+        padding: 10px 20px;
+      }
+
+      .hero-image-container {
+        min-height: 280px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="desktop-nav">
+    <div class="desktop-nav-left">
+      <a href="index.html">
+        <img src="images/SAI FAKIRA LOGO WHITE .png" class="desk-logo" alt="Logo" />
+      </a>
+    </div>
+
+    <ul class="desktop-nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="refer.html">Refer & Earn</a></li>
+      <li><a href="nri.html">NRI</a></li>
+      <li><a href="SAI FAKIRA-PARKER’S.pdf">Profile</a></li>
+      <li><a href="aboutUs.html">About Us</a></li>
+    </ul>
+
+    <!-- Mobile Toggle -->
+    <div class="menu-toggle" id="menuToggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- Mobile Slide Menu (Re-added) -->
+    <div id="overlay"></div>
+    <div class="side-menu" id="mobileMenu">
+      <div class="menu-header">
+        <img src="images/ESEFF REAL ESTATE LOGO (3).png" alt="logo" style="height: 40px;">
+        <button id="closeMenu">×</button>
+      </div>
+      <ul class="menu-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="refer.html">Refer & Earn</a></li>
+        <li><a href="nri.html">NRI</a></li>
+        <li><a href="SAI FAKIRA-PARKER’S.pdf">Profile</a></li>
+        <li><a href="aboutUs.html">About Us</a></li>
+      </ul>
+    </div>
+  </nav>
+  <button id="scrollArrow" class="scroll-arrow" aria-label="Scroll down to see more" title="See more">
+    <!-- SVG arrow (crisp + easy to style) -->
+    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M12 5v14M5 12l7 7 7-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+        stroke-linejoin="round" />
+    </svg>
+  </button>
+
+  <section class="hero-pro">
+    <div class="hero-content">
+      <div class="logo-hero-container">
+        <img src="images/ESEFF REAL ESTATE LOGO (3).png" id="logo" class="hero-logo-large" alt="Sai Fakira Logo">
+      </div>
+
+      <h1 data-aos="fade-up" data-aos-delay="100">Find a home that<br><em>makes you smile</em></h1>
+
+      <p class="tagline" data-aos="fade-up" data-aos-delay="200">Premium properties across Ahmedabad, Gift City &amp;
+        beyond — handpicked for families, investors, and NRIs.</p>
+
+      <div class="search-wrap" data-aos="fade-up" data-aos-delay="300">
+        <input type="text" id="propSearch-hero" placeholder="Search by locality, project or builder…"
+          oninput="document.getElementById('propSearch').value = this.value; document.getElementById('propSearch').dispatchEvent(new Event('input'))" />
+        <div class="search-divider"></div>
+        <div class="custom-select-hero" id="customSelectHero">
+          <div class="select-selected" id="heroSelectedValue">All types</div>
+          <div class="select-items select-hide" id="heroSelectItems">
+            <div data-value="all">All types</div>
+            <div data-value="Residential">Residential</div>
+            <div data-value="Commercial">Commercial</div>
+            <div data-value="Plot">Plot</div>
+          </div>
+          <input type="hidden" id="hero-type-placeholder" value="all"
+            onchange="const val = this.value; const dropdown = document.getElementById('typeDropdown'); if(dropdown) { const cb = dropdown.querySelector('input[value=\''+val+'\']'); if(cb) { cb.click(); } }">
+        </div>
+
+        <button class="search-btn"
+          onclick="const section = document.getElementById('filterAndCards'); if(section) { section.scrollIntoView({ behavior: 'smooth' }); }">Search</button>
+      </div>
+
+      <div class="pills" data-aos="fade-up" data-aos-delay="400">
+        <div class="pill" onclick="document.querySelector('.prop-chip[data-location=\'Adani-Shantigram\']')?.click()">
+          Adani Shantigram</div>
+        <div class="pill"
+          onclick="document.querySelector('.prop-chip[data-location=\'GiftCity\']')?.click() || document.querySelector('.prop-chip[data-location=\'Gift City\']')?.click()">
+          Gift City</div>
+        <div class="pill" onclick="document.querySelector('.prop-chip[data-location=\'Bodakdev\']')?.click()">Bodakdev
+        </div>
+        <div class="pill"
+          onclick="document.querySelector('.prop-chip[data-location=\'Ambli\']')?.click() || document.querySelector('.prop-chip[data-location=\'Ambli-Bopal\']')?.click()">
+          Ambli</div>
+        <div class="pill" onclick="document.querySelector('.prop-chip[data-location=\'Thaltej\']')?.click()">Thaltej</div>
+      </div>
+
+      <div class="stats" data-aos="fade-up" data-aos-delay="500">
+        <div class="stat">
+          <div class="stat-n" data-target="500">0+</div>
+          <div class="stat-l">Properties</div>
+        </div>
+        <div class="stat-div"></div>
+        <div class="stat">
+          <div class="stat-n" data-target="50">0+</div>
+          <div class="stat-l">Top Builders</div>
+        </div>
+        <div class="stat-div"></div>
+        <div class="stat">
+          <div class="stat-n" data-target="150">0+</div>
+          <div class="stat-l">Family</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero Image -->
+    <div class="hero-image-container">
+      <img src="images/hero-background.png.png" alt="Real estate illustration" />
+    </div>
+
+  </section>
+
+  <div style="position: absolute;">
+
+  </div>
+
+  <!-- INQUIRY FORM POPUP -->
+
+  <div id="formOverlay" class="form-overlay">
+    <div class="form-container">
+      <div style="
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            align-items: center;
+          ">
+        <h2>Inquire Now</h2>
+        <button id="closeForm" class="close-btn">✖</button>
+      </div>
+
+      <form onsubmit="sendEmail(event)">
+        <input type="text" id="name" placeholder="Name" required />
+
+        <input type="tel" id="phone" placeholder="Your Phone" required pattern="[0-9]{10}" maxlength="10"
+          title="Please enter a 10-digit phone number" />
+
+        <select id="interest" required onchange="toggleSubOptions()">
+          <option value="">Interested In</option>
+          <option value="Residential">Residential</option>
+          <option value="Commercial">Commercial</option>
+        </select>
+
+        <select id="residentialOptions" style="display: none" required>
+          <option value="">Select Residential Property</option>
+          <option value="Silver Luxuria">Silver Luxuria</option>
+          <option value="Akshat Paradise">Akshat Paradise</option>
+          <option value="Satyam-Skyline 2">Satyam-Skyline 2</option>
+          <option value="Silver Group 2">Silver Group 2</option>
+          <option value="Sereneous Life">Sereneous Life</option>
+        </select>
+
+        <select id="commercialOptions" style="display: none" required>
+          <option value="">Select Commercial property</option>
+          <option value="Trogon Twin Tower">Trogon Twin Tower</option>
+          <option value="Solaris Business Hub">Solaris Business Hub</option>
+        </select>
+
+        <button type="submit" class="btn">Submit Inquiry</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ===== Form Overlay ===== -->
+  <div id="formOverlay" class="form-overlay">
+    <div class="form-container">
+      <div style="
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          ">
+        <h2>Inquire Now</h2>
+        <button id="closeForm" class="close-btn">✖</button>
+      </div>
+
+      <form onsubmit="sendEmail(event)">
+        <!-- Name -->
+        <input type="text" id="name" placeholder="Name" required />
+
+        <!-- Phone -->
+        <input type="tel" id="phone" placeholder="Your Phone" required pattern="[0-9]{10}" maxlength="10"
+          title="Please enter a 10-digit phone number" />
+
+        <!-- Main Interest -->
+        <select id="interest" required onchange="toggleSubOptions()">
+          <option value="">Interested In</option>
+          <option value="Residential">Residential</option>
+          <option value="Commercial">Commercial</option>
+        </select>
+
+        <!-- Residential Sub-options -->
+        <select id="residentialOptions" style="display: none" required>
+          <option value="">Select Your Dream Property</option>
+          <option value="Apartment">Apartment</option>
+          <option value="Villa">Villa</option>
+          <option value="Plot">Plot</option>
+          <option value="Bungalow">Bungalow</option>
+        </select>
+
+        <!-- Commercial Sub-options -->
+        <select id="commercialOptions" style="display: none" required>
+          <option value="">Select Commercial Type</option>
+          <option value="Office">Office</option>
+          <option value="Shop">Shop</option>
+          <option value="Warehouse">Warehouse</option>
+          <option value="Showroom">Showroom</option>
+        </select>
+
+        <button type="submit" class="btn">Submit Inquiry</button>
+      </form>
+    </div>
+  </div>
+  <!-- ===== MOBILE ONLY TOP PICKS ===== -->
+  <section class="top-picks-mobile">
+    <h2>Saifakira Latest Picks For You</h2>
+
+    <div class="top-picks-cards">
+
+      <!-- Card 1 -->
+      <div class="mobile-top-card" data-projects='[
+      {"name":"Aster Neo","sub":"2 BHK · luxurious ","image":"images/Aster-Neo-2.png"},
+      {"name":"Embrace","sub":"3 BHK · Ultra luxurious","image":"images/Embrace-01.png"},
+      {"name":"Eiysium Phase-2","sub":" luxurious · 2 & 3 BHK ","image":"images/ELYSIUM-01.png"},
+      {"name":"The North Park","sub":"Ultra luxurious Bungalows","image":"images/The-North-Park-01.jpg"},
+      {"name":"Green Field","sub":"  Ultra luxurious · 3 & 4 BHK ","image":"images/Greenfield-01.jpeg"},
+      {"name":"Paarijat","sub":" luxurious · 4 BHK ","image":"images/Paarijat-02.jpeg"},
+      {"name":"Ambrosia","sub":" luxurious · 4 BHK ","image":"images/Embrosia-02.jpeg"},
+      {"name":"Skyline","sub":" luxurious · 4 BHK ","image":"images/Skyline-02.jpeg"},
+      {"name":"The West Park","sub":" Preium Residential Plots ","image":"images/The-Westpark-01.jpeg"},
+      {"name":"Belrosa","sub":"Ultra luxurious · 4 & 5 BHK Flats, 5 & 6 BHK Duplex ","image":"images/Belrosa-02.jpeg"}
+
+       ]'>
+        <div class="top-logo-row">
+          <img src="images/adani_realty.svg" class="top-logo" alt="">
+          <span class="top-logo-name">Adani Realty</span>
+        </div>
+        <div class="card-content">
+          <h3 class="m-title"></h3>
+          <p class="m-sub"></p>
+          <button class="whatsappMobileBtn">Get Details</button>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <!-- <div class="mobile-top-card" data-location="Bopal" data-projects='[
+  {"name":"Emberlynn-1","sub":"Luxurious 4 BHK · at Bopal","image":"/images/Emberlynn-1-1.jpg"},
+  {"name":"Emberlynn-2","sub":" Luxurious 4 BHK & 5 BHK · at Satellite","image":"/images/Emberlynn-2.jpg"},
+  {"name":"Emberlynn-3","sub":"Luxurious 3 BHK · at Satellite","image":"/images/Emberlynn-3-1.jpg"},
+  {"name":"Emberlynn-4","sub":"Luxurious 3 BHK & 4 BHK & 5 BHK · at Gandhinagar","image":"/images/Emberlynn-4-1.jpg"}
+]'>
+        <div class="top-logo-row">
+          <img src="images/emberlynn-logo.svg" class="top-logo" alt="">
+          <span class="top-logo-name">Emberlynn Group</span>
+        </div>
+        <div class="card-content">
+          <h3 class="m-title"></h3>
+          <p class="m-sub"></p>
+
+          <button class="whatsappMobileBtn">Get Details</button>
+        </div>
+      </div> -->
+
+
+      <!-- Card 3 -->
+      <div class="mobile-top-card" data-projects='[
+      {"name":"Siddharth Vrundavan","sub":"Luxurious 4 BHK · at Jagatpur","image":"images/Siddharth-Vrundavan-1.jpeg"},
+      {"name":"Siddharth Gardenia","sub":"Luxurious 3 BHK · at Tragad","image":"images/Siddharth-Gardenia-1.jpeg"},
+      {"name":"Siddharth Haven","sub":"Spacious 3 BHK · at Gandhinagar","image":"images/Siddharth-Heaven-02.jpg"}
+       ]'>
+        <div class="top-logo-row">
+          <img src="images/Siddharth-Group-final-logo.png" class="top-logo" alt="">
+          <span class="top-logo-name">Siddharth Group</span>
+        </div>
+
+        <div class="card-content">
+          <h3 class="m-title"></h3>
+          <p class="m-sub"></p>
+          <!-- WhatsApp Button -->
+          <button class="whatsappMobileBtn">Get Details</button>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="mobile-top-card" data-projects='[
+      {"name":"Vaikunth","sub":"Luxurious 4 BHK Bungalow · at Shilaj","image":"images/Vaikunth-01.jpg"},
+      {"name":"Vivanta","sub":"3 BHK Apartments · at Shilaj","image":"images/Kaveri-03.jpeg"},
+      {"name":"Wynn","sub":"Premium Showrooms & Offices · at Sindhu-Bhavan","image":"images/Wynn-03.jpg"},
+      {"name":"Absolute","sub":"Pre-Leased Showrooms · at Sindhu-Bhavan","image":"images/Absolute-03.jpg"},
+      {"name":"Anantara Abode","sub":"4 BHK Flats & Penthouses · at Science-Park","image":"images/abode-01.jpg"},
+      {"name":"Anantara Imperial","sub":"3 & 4 BHK Flats · at Science-Park","image":"images/Imperial-01.jpg"},
+      {"name":"Anantara Alora","sub":"3 BHK Flats & 4 BHK Duplex · at Science-Park","image":"images/Alora-03.jpg"},
+      {"name":"Athens","sub":"Premium Offices · at Shivranjani","image":"images/Athens-01.jpg"}
+
+
+
+       ]'>
+        <div class="top-logo-row">
+          <img src="images/A-Shridhar.svg" class="top-logo" alt="">
+          <span class="top-logo-name">A.Shridhar</span>
+        </div>
+
+        <div class="card-content">
+          <h3 class="m-title"></h3>
+          <p class="m-sub"></p>
+          <!-- WhatsApp Button -->
+          <button class="whatsappMobileBtn">Get Details</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Property Filteing -->
+  <section class="Property-section" id="propertySection">
+    <h2 class="section-title">
+      Select Your Dream Property
+    </h2>
+    <p class="Many-More">(And Many More Coming Soon!!)</p>
+    <!-- <section class="filter-section">
+      <div class="filter-group">
+  <label for="nameSearch">Search Property</label>
+  <input
+    type="text"
+    id="nameSearch"
+    class="search-input"
+    placeholder="Search by project name..."
+  />
+</div>
+
+      <div class="filter-group">
+        <label for="latestFilter">Locations</label>
+        <select id="latestFilter">
+          <option value="all">All</option>
+          <option value="Adani-Shantigram">Adani Shantigram</option>
+          <option value="Ashram-Road">Ashram-Road</option>
+          <option value="Ambli-Bopal">Ambli-Bopal Road</option>
+          <option value="Bapunagar">Bapunagar</option>
+          <option value="Bhavanpur">Bhavanpur</option>
+          <option value="Bhuyangdev">Bhuyangdev</option>
+          <option value="Bodakdev">Bodakdev</option>
+          <option value="Bopal">Bopal</option>
+          <option value="C.G Road">C.G Road</option>
+          <option value="Chharodi">Chharodi</option>
+          <option value="Chandrasan">Chandrasan</option>
+          <option value="Gandhinagar">Gandhinagar</option>
+          <option value="GiftCity">Gift City</option>
+          <option value="Gota">Gota</option>
+          <option value="Govindpura">Govindpura</option>
+          <option value="Gurukul">Gurukul</option>
+          <option value="Hathijan">Hathijan</option>
+          <option value="Iscon">Iscon</option>
+          <option value="Iscon-Ambli">Iscon-Ambli Road</option>
+          <option value="Jagatpur">Jagatpur</option>
+          <option value="Jhaloda">Jhaloda</option>
+          <option value="Karnavati Club">Karnavati Club</option>
+          <option value="Laxmanpura">Laxmanpura</option>
+          <option value="Link-in Road">Link-in Road</option>
+          <option value="ManekBaug">ManekBaug</option>
+          <option value="Memnagar">Memnagar</option>
+          <option value="Naranpura">Naranpura</option>
+          <option value="Nandoli">Nandoli</option>
+          <option value="Naroda">Naroda</option>
+          <option value="Navrangpura">Navrangpura</option>
+          <option value="Paldi">Paldi</option>
+          <option value="Prahladnagar">Prahladnagar</option>
+          <option value="RajPath-Club">RajPath-Club</option>
+          <option value="Satellite">Satellite</option>
+          <option value="Science-park">Science-park</option>
+          <option value="Shahibaug">Shahibaug</option>
+          <option value="Shela">Shela</option>
+          <option value="Shivranjani">Shivranjani</option>
+          <option value="Shilaj">Shilaj</option>
+          <option value="Sindhu-Bhavan">Sindhu Bhavan Road</option>
+          <option value="Thaltej">Thaltej</option>
+          <option value="Tragad">Tragad</option>
+          <option value="Vaishnodevi">Vaishnodevi</option>
+          <option value="Wapa">Wapa</option>
+          <option value="Zundal">Zundal</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="typeFilter">Property Type</label>
+        <select id="typeFilter">
+          <option value="all">All</option>
+          <option value="Residential">Residential</option>
+          <option value="Commercial">Commercial</option>
+          <option value="Duplex">Duplex</option>
+          <option value="Penthouse">PentHouse</option>
+          <option value="Plot">Plot</option>
+        </select>
+      </div>
+      
+      <div class="filter-group price-slider-group">
+  <label>
+    Price Range :
+    <strong id="priceRangeText">All</strong>
+  </label>
+
+  <input
+    type="range"
+    id="priceRangeSlider"
+    min="0"
+    max="4"
+    step="1"
+    value="0"
+  />
+
+  <div class="price-steps">
+    <span>All</span>
+    <span>&lt;1Cr</span>
+    <span>1Cr-2Cr</span>
+    <span>2Cr-3Cr</span>
+    <span>3Cr+</span>
+  </div>
+</div>
+<div class="popular-localities">
+  <span class="label">Popular Localities →</span>
+<button class="loc-chip" data-latest="Adani-Shantigram">Adani Shantigram</button>
+<button class="loc-chip" data-latest="Ambli-Bopal">Ambli</button>
+<button class="loc-chip" data-latest="Bodakdev">Bodakdev</button>
+<button class="loc-chip" data-latest="Chharodi">Chharodi</button>
+<button class="loc-chip" data-latest="Gota">Gota</button>
+<button class="loc-chip" data-latest="Jagatpur">Jagatpur</button>
+
+
+</div>
+
+
+
+    </section> -->
+    <!-- PROPERTY FILTER SECTION -->
+    <div class="prop-filter-card">
+
+      <!-- SEARCH -->
+      <div class="prop-field">
+        <label for="propSearch">Search Property</label>
+        <input type="text" id="propSearch" class="prop-input" placeholder="Search by project name..." />
+      </div>
+
+      <!-- LOCATION - MULTI SELECT -->
+      <div class="prop-field">
+        <label for="propLocation">Locations</label>
+        <div class="custom-multiselect-wrapper">
+          <div class="custom-multiselect-display prop-select" id="locationDisplay">
+            <span class="multiselect-placeholder">All Locations</span>
+            <i class="fa-solid fa-chevron-down multiselect-arrow"></i>
+          </div>
+          <div class="custom-multiselect-dropdown" id="locationDropdown">
+            <!-- <div class="multiselect-actions">
+            <button type="button" class="multiselect-action-btn" id="selectAllLocations">
+              <i class="fa-solid fa-check-double"></i> Select All
+            </button>
+            <button type="button" class="multiselect-action-btn" id="deselectAllLocations">
+              <i class="fa-solid fa-xmark"></i> Deselect All
+            </button>
+          </div> -->
+            <div class="multiselect-search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" placeholder="Search locations..." id="locationSearchInput">
+            </div>
+            <div class="multiselect-options" id="locationOptions">
+              <label class="multiselect-option">
+                <input type="checkbox" value="Adalaj" data-label="Adalaj">
+                <span>Adalaj</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Adani-Shantigram" data-label="Adani Shantigram">
+                <span>Adani Shantigram</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Ashram-Road" data-label="Ashram-Road">
+                <span>Ashram-Road</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Ambli" data-label="Ambli">
+                <span>Ambli</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Ambli-Bopal" data-label="Ambli-Bopal Road">
+                <span>Ambli-Bopal Road</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Bapunagar" data-label="Bapunagar">
+                <span>Bapunagar</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Bhavanpur" data-label="Bhavanpur">
+                <span>Bhavanpur</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Bhuyangdev" data-label="Bhuyangdev">
+                <span>Bhuyangdev</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Bodakdev" data-label="Bodakdev">
+                <span>Bodakdev</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Bopal" data-label="Bopal">
+                <span>Bopal</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="C.G Road" data-label="C.G Road">
+                <span>C.G Road</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Chharodi" data-label="Chharodi">
+                <span>Chharodi</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Chandkheda" data-label="Chandkheda">
+                <span>Chandkheda</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Chandrasan" data-label="Chandrasan">
+                <span>Chandrasan</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Gandhinagar" data-label="Gandhinagar">
+                <span>Gandhinagar</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="GiftCity" data-label="Gift City">
+                <span>Gift City</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Gota" data-label="Gota">
+                <span>Gota</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Govindpura" data-label="Govindpura">
+                <span>Govindpura</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Gurukul" data-label="Gurukul">
+                <span>Gurukul</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Hathijan" data-label="Hathijan">
+                <span>Hathijan</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Iscon" data-label="Iscon">
+                <span>Iscon</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Iscon-Ambli" data-label="Iscon-Ambli Road">
+                <span>Iscon-Ambli Road</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Jagatpur" data-label="Jagatpur">
+                <span>Jagatpur</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Jhaloda" data-label="Jhaloda">
+                <span>Jhaloda</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Karnavati Club" data-label="Karnavati Club">
+                <span>Karnavati Club</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Laxmanpura" data-label="Laxmanpura">
+                <span>Laxmanpura</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Link-in Road" data-label="Link-in Road">
+                <span>Link-in Road</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="ManekBaug" data-label="ManekBaug">
+                <span>ManekBaug</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Memnagar" data-label="Memnagar">
+                <span>Memnagar</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Naranpura" data-label="Naranpura">
+                <span>Naranpura</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Nandoli" data-label="Nandoli">
+                <span>Nandoli</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Naroda" data-label="Naroda">
+                <span>Naroda</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Navrangpura" data-label="Navrangpura">
+                <span>Navrangpura</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Panjrapole" data-label="Panjrapole">
+                <span>Panjrapole</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Paldi" data-label="Paldi">
+                <span>Paldi</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Prahladnagar" data-label="Prahladnagar">
+                <span>Prahladnagar</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="RajPath-Club" data-label="RajPath-Club">
+                <span>RajPath-Club</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Satellite" data-label="Satellite">
+                <span>Satellite</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Science-city" data-label="Science-city">
+                <span>Science-City</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Science-park" data-label="Science-park">
+                <span>Science-park</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Shahibaug" data-label="Shahibaug">
+                <span>Shahibaug</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Shela" data-label="Shela">
+                <span>Shela</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Shivranjani" data-label="Shivranjani">
+                <span>Shivranjani</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Shilaj" data-label="Shilaj">
+                <span>Shilaj</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Sindhu-Bhavan" data-label="Sindhu Bhavan Road">
+                <span>Sindhu Bhavan Road</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Thaltej" data-label="Thaltej">
+                <span>Thaltej</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Tragad" data-label="Tragad">
+                <span>Tragad</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Vaishnodevi" data-label="Vaishnodevi">
+                <span>Vaishnodevi</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Wapa" data-label="Wapa">
+                <span>Wapa</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Zundal" data-label="Zundal">
+                <span>Zundal</span>
+              </label>
+            </div>
+          </div>
+          <input type="hidden" id="propLocation" value="">
+        </div>
+      </div>
+
+      <!-- PROPERTY TYPE - MULTI SELECT -->
+      <div class="prop-field">
+        <label for="propType">Property Type</label>
+        <div class="custom-multiselect-wrapper">
+          <div class="custom-multiselect-display prop-select" id="typeDisplay">
+            <span class="multiselect-placeholder">All Types</span>
+            <i class="fa-solid fa-chevron-down multiselect-arrow"></i>
+          </div>
+          <div class="custom-multiselect-dropdown" id="typeDropdown">
+            <!-- <div class="multiselect-actions">
+            <button type="button" class="multiselect-action-btn" id="selectAllTypes">
+              <i class="fa-solid fa-check-double"></i> Select All
+            </button>
+            <button type="button" class="multiselect-action-btn" id="deselectAllTypes">
+              <i class="fa-solid fa-xmark"></i> Deselect All
+            </button>
+          </div> -->
+            <div class="multiselect-options" id="typeOptions">
+              <label class="multiselect-option">
+                <input type="checkbox" value="Residential" data-label="Residential">
+                <span>Residential</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Commercial" data-label="Commercial">
+                <span>Commercial</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Duplex" data-label="Duplex">
+                <span>Duplex</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Penthouse" data-label="Penthouse">
+                <span>Penthouse</span>
+              </label>
+              <label class="multiselect-option">
+                <input type="checkbox" value="Plot" data-label="Plot">
+                <span>Plot</span>
+              </label>
+            </div>
+          </div>
+          <input type="hidden" id="propType" value="">
+        </div>
+      </div>
+
+      <!-- PRICE RANGE -->
+      <div class="prop-price">
+        <div class="prop-price-wrapper">
+          <label>
+            Price Range :
+            <strong id="propPriceText">All</strong>
+          </label>
+
+          <input type="range" id="propPriceSlider" min="0" max="4" step="1" value="0" />
+
+          <div class="prop-price-steps">
+            <span>All</span>
+            <span>&lt;1Cr</span>
+            <span>1Cr–2Cr</span>
+            <span>2Cr–3Cr</span>
+            <span>3Cr+</span>
+          </div>
+        </div>
+
+        <!-- CLEAR FILTERS BUTTON -->
+        <div class="prop-clear">
+          <button id="clearFiltersBtn" class="clear-filters-btn">
+            <i class="fa-solid fa-filter-circle-xmark"></i>
+            Clear All Filters
+          </button>
+        </div>
+      </div>
+
+      <!-- POPULAR LOCALITIES -->
+      <div class="prop-locations">
+        <span class="prop-label">Popular Localities →</span>
+
+        <button class="prop-chip" data-location="Adani-Shantigram">Adani Shantigram</button>
+        <button class="prop-chip" data-location="Ambli-Bopal">Ambli</button>
+        <button class="prop-chip" data-location="Bodakdev">Bodakdev</button>
+        <button class="prop-chip" data-location="Chharodi">Chharodi</button>
+        <button class="prop-chip" data-location="Gota">Gota</button>
+        <button class="prop-chip" data-location="Jagatpur">Jagatpur</button>
+        <button class="prop-chip" data-location="Vaishnodevi">Vaishnodevi</button>
+      </div>
+
+      <!-- ACTIVE FILTERS DISPLAY -->
+      <div class="active-filters-section" id="activeFiltersSection">
+        <div class="active-filters-label">Active Filters:</div>
+        <div class="active-filters-container" id="activeFiltersContainer">
+          <!-- Filter pills will be dynamically added here -->
+        </div>
+      </div>
+
+    </div>
+
+    <!-- MOBILE COMPACT FILTER -->
+    <div class="mobile-filter-compact">
+      <!-- Search Bar with Filter Button -->
+      <div class="mobile-search-bar">
+        <div class="mobile-search-wrapper">
+          <i class="fa-solid fa-magnifying-glass mobile-search-icon"></i>
+          <input type="text" id="mobileSearch" class="mobile-search-input"
+            placeholder="Search by project, builder, area..." />
+        </div>
+        <button class="mobile-filter-icon-btn" id="mobileAllFiltersBtn">
+          <i class="fa-solid fa-sliders"></i>
+        </button>
+      </div>
+
+      <!-- Quick Filter Icons (3 buttons only) -->
+      <div class="mobile-quick-filters">
+        <button class="quick-filter-btn" id="mobileLocationBtn">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Location</span>
+        </button>
+        <button class="quick-filter-btn" id="mobileTypeBtn">
+          <i class="fa-solid fa-building"></i>
+          <span>Type</span>
+        </button>
+        <button class="quick-filter-btn" id="mobileBudgetBtn">
+          <i class="fa-solid fa-indian-rupee-sign"></i>
+          <span>Budget</span>
+        </button>
+      </div>
+
+      <!-- Active Filters Display -->
+      <div class="mobile-active-filters" id="mobileActiveFilters">
+        <!-- Active filter chips will be added here dynamically -->
+      </div>
+
+      <!-- Popular Areas Section -->
+      <div class="mobile-popular-areas">
+        <h4 class="mobile-popular-title">Popular Localities</h4>
+        <div class="mobile-popular-chips">
+          <button class="mobile-popular-chip" data-location="Adani-Shantigram">Adani Shantigram</button>
+          <button class="mobile-popular-chip" data-location="Ambli-Bopal">Ambli</button>
+          <button class="mobile-popular-chip" data-location="Bodakdev">Bodakdev</button>
+          <button class="mobile-popular-chip" data-location="Chharodi">Chharodi</button>
+          <button class="mobile-popular-chip" data-location="Gota">Gota</button>
+          <button class="mobile-popular-chip" data-location="Jagatpur">Jagatpur</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- MOBILE FILTER MODAL -->
+    <div class="mobile-filter-modal" id="mobileFilterModal">
+      <div class="mobile-filter-content">
+        <div class="mobile-filter-header">
+          <h3>Filters</h3>
+          <button class="mobile-filter-close" id="closeFilterModal">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+
+        <div class="mobile-filter-body">
+
+          <!-- Location Multi-Select (Collapsible) -->
+          <div class="mobile-filter-section">
+            <div class="mobile-filter-trigger" id="mobileLocationTrigger">
+              <div class="mobile-filter-trigger-content">
+                <label class="mobile-filter-label">Location</label>
+                <span class="mobile-filter-selected" id="mobileLocationSelected">All Locations</span>
+              </div>
+              <i class="fa-solid fa-chevron-down mobile-filter-arrow"></i>
+            </div>
+
+            <div class="mobile-filter-dropdown" id="mobileLocationDropdown">
+              <div class="mobile-multiselect-actions">
+                <button type="button" class="mobile-action-btn" id="mobileSelectAllLocations">
+                  <i class="fa-solid fa-check-double"></i> Select All
+                </button>
+                <button type="button" class="mobile-action-btn" id="mobileDeselectAllLocations">
+                  <i class="fa-solid fa-xmark"></i> Deselect All
+                </button>
+              </div>
+              <div class="mobile-multiselect-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search locations..." id="mobileLocationSearch">
+              </div>
+              <div class="mobile-multiselect-options" id="mobileLocationOptions">
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Adani-Shantigram" data-label="Adani Shantigram">
+                  <span>Adani Shantigram</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Ashram-Road" data-label="Ashram-Road">
+                  <span>Ashram-Road</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Ambli-Bopal" data-label="Ambli-Bopal Road">
+                  <span>Ambli-Bopal Road</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Bapunagar" data-label="Bapunagar">
+                  <span>Bapunagar</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Bhavanpur" data-label="Bhavanpur">
+                  <span>Bhavanpur</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Bhuyangdev" data-label="Bhuyangdev">
+                  <span>Bhuyangdev</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Bodakdev" data-label="Bodakdev">
+                  <span>Bodakdev</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Bopal" data-label="Bopal">
+                  <span>Bopal</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="C.G Road" data-label="C.G Road">
+                  <span>C.G Road</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Chharodi" data-label="Chharodi">
+                  <span>Chharodi</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Chandrasan" data-label="Chandrasan">
+                  <span>Chandrasan</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Gandhinagar" data-label="Gandhinagar">
+                  <span>Gandhinagar</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="GiftCity" data-label="Gift City">
+                  <span>Gift City</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Gota" data-label="Gota">
+                  <span>Gota</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Govindpura" data-label="Govindpura">
+                  <span>Govindpura</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Gurukul" data-label="Gurukul">
+                  <span>Gurukul</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Hathijan" data-label="Hathijan">
+                  <span>Hathijan</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Iscon" data-label="Iscon">
+                  <span>Iscon</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Iscon-Ambli" data-label="Iscon-Ambli Road">
+                  <span>Iscon-Ambli Road</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Jagatpur" data-label="Jagatpur">
+                  <span>Jagatpur</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Jhaloda" data-label="Jhaloda">
+                  <span>Jhaloda</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Karnavati Club" data-label="Karnavati Club">
+                  <span>Karnavati Club</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Laxmanpura" data-label="Laxmanpura">
+                  <span>Laxmanpura</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Link-in Road" data-label="Link-in Road">
+                  <span>Link-in Road</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="ManekBaug" data-label="ManekBaug">
+                  <span>ManekBaug</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Memnagar" data-label="Memnagar">
+                  <span>Memnagar</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Naranpura" data-label="Naranpura">
+                  <span>Naranpura</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Nandoli" data-label="Nandoli">
+                  <span>Nandoli</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Naroda" data-label="Naroda">
+                  <span>Naroda</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Navrangpura" data-label="Navrangpura">
+                  <span>Navrangpura</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Paldi" data-label="Paldi">
+                  <span>Paldi</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Prahladnagar" data-label="Prahladnagar">
+                  <span>Prahladnagar</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="RajPath-Club" data-label="RajPath-Club">
+                  <span>RajPath-Club</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Satellite" data-label="Satellite">
+                  <span>Satellite</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Science-park" data-label="Science-park">
+                  <span>Science-park</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Shahibaug" data-label="Shahibaug">
+                  <span>Shahibaug</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Shela" data-label="Shela">
+                  <span>Shela</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Shivranjani" data-label="Shivranjani">
+                  <span>Shivranjani</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Shilaj" data-label="Shilaj">
+                  <span>Shilaj</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Sindhu-Bhavan" data-label="Sindhu Bhavan Road">
+                  <span>Sindhu Bhavan Road</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Thaltej" data-label="Thaltej">
+                  <span>Thaltej</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Tragad" data-label="Tragad">
+                  <span>Tragad</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Vaishnodevi" data-label="Vaishnodevi">
+                  <span>Vaishnodevi</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Wapa" data-label="Wapa">
+                  <span>Wapa</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Zundal" data-label="Zundal">
+                  <span>Zundal</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Property Type Multi-Select (Collapsible) -->
+          <div class="mobile-filter-section">
+            <div class="mobile-filter-trigger" id="mobileTypeTrigger">
+              <div class="mobile-filter-trigger-content">
+                <label class="mobile-filter-label">Property Type</label>
+                <span class="mobile-filter-selected" id="mobileTypeSelected">All Types</span>
+              </div>
+              <i class="fa-solid fa-chevron-down mobile-filter-arrow"></i>
+            </div>
+
+            <div class="mobile-filter-dropdown" id="mobileTypeDropdown">
+              <div class="mobile-multiselect-actions">
+                <button type="button" class="mobile-action-btn" id="mobileSelectAllTypes">
+                  <i class="fa-solid fa-check-double"></i> Select All
+                </button>
+                <button type="button" class="mobile-action-btn" id="mobileDeselectAllTypes">
+                  <i class="fa-solid fa-xmark"></i> Deselect All
+                </button>
+              </div>
+              <div class="mobile-multiselect-options" id="mobileTypeOptions">
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Residential" data-label="Residential">
+                  <span>Residential</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Commercial" data-label="Commercial">
+                  <span>Commercial</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Duplex" data-label="Duplex">
+                  <span>Duplex</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Penthouse" data-label="Penthouse">
+                  <span>Penthouse</span>
+                </label>
+                <label class="mobile-multiselect-option">
+                  <input type="checkbox" value="Plot" data-label="Plot">
+                  <span>Plot</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Budget Filter -->
+          <div class="mobile-filter-section">
+            <label class="mobile-filter-label">
+              Budget: <strong id="mobileBudgetText">All</strong>
+            </label>
+            <input type="range" id="mobileBudgetSlider" class="mobile-budget-slider" min="0" max="4" step="1"
+              value="0" />
+            <div class="mobile-budget-labels">
+              <span>All</span>
+              <span>&lt;1Cr</span>
+              <span>1-2Cr</span>
+              <span>2-3Cr</span>
+              <span>3Cr+</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="mobile-filter-footer">
+          <button class="mobile-clear-btn" id="mobileClearAll">
+            Clear All
+          </button>
+          <button class="mobile-apply-btn" id="mobileApplyFilters">
+            Apply Filters
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Property Cards Container - Dynamically Rendered -->
+  <div class="Property-slider">
+    <button class="slider-btn prev">
+      <i class="fa-solid fa-circle-arrow-left arrow-left"></i>
+    </button>
+    <div class="slider-window">
+      <div class="property-container">
+        <!-- Cards will be dynamically generated by main.js -->
+      </div>
+    </div>
+    <button class="slider-btn next">
+      <i class="fa-solid fa-circle-arrow-right arrow-right"></i>
+    </button>
+  </div>
+  <div class="no-result">
+    <span>C</span>
+    <span>o</span>
+    <span>m</span>
+    <span>i</span>
+    <span>n</span>
+    <span>g</span>
+    <span>&nbsp;</span>
+    <span>S</span>
+    <span>o</span>
+    <span>o</span>
+    <span>n</span>
+  </div>
+  </section>
+
+  <!-- Our Trusted Partners Section -->
+  <section class="partners-strip">
+    <!-- CLEAN BUILDER LOGO TICKER -->
+    <h2 class="marquee-title">Our Trusted Partners</h2>
+    <div class="news-ticker-banner">
+      <div class="ticker-track">
+        <div class="ticker-logo"><img src="images/Logos/CHANDRANA.png.png" alt="Chandrana"></div>
+        <div class="ticker-logo"><img src="images/Logos/DEEP BUILDERS.png.png" alt="Deep Builders"></div>
+        <div class="ticker-logo"><img src="images/Logos/GALA.png.png" alt="Gala"></div>
+        <div class="ticker-logo"><img src="images/Logos/GOYAL.png.png" alt="Goyal"></div>
+        <div class="ticker-logo"><img src="images/Logos/HR GROUP.png" alt="HR Group"></div>
+        <div class="ticker-logo"><img src="images/Logos/KAVISHA.png.png" alt="Kavisha"></div>
+        <div class="ticker-logo"><img src="images/Logos/Your paragraph text.png" alt="Kavyaratna"></div>
+        <div class="ticker-logo"><img src="images/Logos/LILAMANI.png.png" alt="Lilamani"></div>
+
+        <div class="ticker-logo"><img src="images/adani_realty.svg" alt="Adani"></div>
+        <div class="ticker-logo"><img src="images/Logos/A SHRIDHAR.png" alt="Shridhar"></div>
+        <div class="ticker-logo"><img src="images/Emberlynn-logo.svg" alt="Emberlynn"></div>
+        <div class="ticker-logo"><img src="images/Siddharth-Group-final-logo.png" alt="Siddharth"></div>
+
+        <!-- Repeat for seamless loop -->
+        <div class="ticker-logo"><img src="images/Logos/CHANDRANA.png.png" alt="Chandrana"></div>
+        <div class="ticker-logo"><img src="images/Logos/DEEP BUILDERS.png.png" alt="Deep Builders"></div>
+        <div class="ticker-logo"><img src="images/Logos/GALA.png.png" alt="Gala"></div>
+        <div class="ticker-logo"><img src="images/Logos/GOYAL.png.png" alt="Goyal"></div>
+        <div class="ticker-logo"><img src="images/Logos/HR GROUP.png" alt="HR Group"></div>
+        <div class="ticker-logo"><img src="images/Logos/KAVISHA.png.png" alt="Kavisha"></div>
+        <div class="ticker-logo"><img src="images/Logos/KAVYARATNA.png.png" alt="Kavyaratna"></div>
+        <div class="ticker-logo"><img src="images/Logos/LILAMANI.png.png" alt="Lilamani"></div>
+
+        <div class="ticker-logo"><img src="images/adani_realty.svg" alt="Adani"></div>
+        <div class="ticker-logo"><img src="images/A-Shridhar.svg" alt="Shridhar"></div>
+        <div class="ticker-logo"><img src="images/Emberlynn-logo.svg" alt="Emberlynn"></div>
+        <div class="ticker-logo"><img src="images/Siddharth-Group-final-logo.png" alt="Siddharth"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer
+    style="background: var(--bg-color); border-top: 1px solid var(--border-color); padding: 60px 20px; text-align: left;">
+    <div
+      style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 40px;">
+      <div style="flex: 1; min-width: 250px;">
+        <img src="images/ESEFF REAL ESTATE LOGO (3).png" style="height: 50px; margin-bottom: 20px;" alt="Logo">
+        <p style="color: var(--text-muted); font-size: 14px; line-height: 1.6; max-width: 300px;">
+          Sai Fakira Real Estate · Ess Eff · Parker's. Delivering excellence in real estate across Bharat.
+        </p>
+      </div>
+
+      <div style="flex: 1; min-width: 200px;">
+        <h4 style="font-family: var(--font-serif); margin-bottom: 20px;">Quick Links</h4>
+        <ul style="list-style: none; padding: 0;">
+          <li style="margin-bottom: 10px;"><a href="nri.html"
+              style="color: var(--text-muted); text-decoration: none; font-size: 14px;">NRI Corner</a></li>
+          <li style="margin-bottom: 10px;"><a href="SAI FAKIRA-PARKER’S.pdf"
+              style="color: var(--text-muted); text-decoration: none; font-size: 14px;">Profile</a></li>
+          <li style="margin-bottom: 10px;"><a href="aboutUs.html"
+              style="color: var(--text-muted); text-decoration: none; font-size: 14px;">About Us</a></li>
+        </ul>
+      </div>
+
+      <div style="flex: 1; min-width: 200px;">
+        <h4 style="font-family: var(--font-serif); margin-bottom: 20px;">Contact</h4>
+        <p style="color: var(--text-muted); font-size: 14px; line-height: 1.6;">
+          Sponsored by:<br>
+          <strong style="color: var(--primary-accent); font-size: 18px;">Sai Fakira Financial Services</strong>
+        </p>
+        <a href="refer.html"
+          style="display: inline-block; margin-top: 20px; padding: 10px 25px; border: 1px solid var(--primary-accent); color: var(--primary-accent); border-radius: 999px; text-decoration: none; font-size: 13px; font-weight: 500; transition: all 0.2s;">
+          Refer & Earn →
+        </a>
+      </div>
+    </div>
+    <div
+      style="max-width: 1200px; margin: 40px auto 0; padding-top: 20px; border-top: 1px solid #eee; text-align: center;">
+      <p style="color: var(--text-light); font-size: 12px;">© 2026 Sai Fakira Real Estate. All rights reserved.</p>
+    </div>
+  </footer>
+  <section class="page-not-found" id="offlinePage" style="display:none;">
+    <div class="pnf-container">
+      <img src="images/ESEFF REAL ESTATE LOGO (3).png" alt="ESSEFF Logo" class="loading-logo" />
+      <div class="loading-dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- External JavaScript Files -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="cardsData.js?v=2"></script>
+  <script src="main.js?v=2"></script>
+
+  <!-- IMAGE LIGHTBOX GALLERY -->
+  <div class="lightbox-overlay" id="lightboxOverlay">
+    <div class="lightbox-container">
+      <!-- Close Button -->
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close gallery">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <!-- Image Counter -->
+      <div class="lightbox-counter" id="lightboxCounter">
+        <span id="currentImageIndex">1</span> / <span id="totalImages">1</span>
+      </div>
+
+      <!-- Main Image Display -->
+      <div class="lightbox-image-wrapper">
+        <img src="" alt="Property Image" id="lightboxImage" class="lightbox-image">
+
+        <!-- Navigation Buttons -->
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous image">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next image">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <!-- Thumbnail Strip -->
+      <div class="lightbox-thumbnails" id="lightboxThumbnails">
+        <!-- Thumbnails will be dynamically added here -->
+      </div>
+
+      <!-- Property Title -->
+      <div class="lightbox-title" id="lightboxTitle">
+        Property Name
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Stats Counting Animation
+    function initStatsAnimation() {
+      const observerOptions = {
+        threshold: 0.2
+      };
+
+      const statsObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const stats = entry.target.querySelectorAll('.stat-n');
+            stats.forEach(animateValue);
+            observer.unobserve(entry.target);
+          }
+        });
+      }, observerOptions);
+
+      const statsContainer = document.querySelector('.stats');
+      if (statsContainer) {
+        statsObserver.observe(statsContainer);
+      }
+    }
+
+    function animateValue(obj) {
+      const target = parseInt(obj.getAttribute('data-target'));
+      const duration = 3000; // 3 seconds for a smooth, readable count
+      let startTimestamp = null;
+
+      const step = (timestamp) => {
+        if (!startTimestamp) startTimestamp = timestamp;
+        const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+
+        // easeInOutQuart: starts slow, speeds up, then slows down gently.
+        // This ensures the user sees it start from 0.
+        const easedProgress = progress < 0.5
+          ? 8 * progress * progress * progress * progress
+          : 1 - Math.pow(-2 * progress + 2, 4) / 2;
+
+        const currentCount = Math.floor(easedProgress * target);
+        obj.innerHTML = currentCount.toLocaleString() + "+";
+
+        if (progress < 1) {
+          window.requestAnimationFrame(step);
+        } else {
+          obj.innerHTML = target.toLocaleString() + "+";
+        }
+      };
+
+      window.requestAnimationFrame(step);
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      initStatsAnimation();
+
+      // --- CUSTOM HERO SELECT LOGIC ---
+      const selectHero = document.getElementById("customSelectHero");
+      const selected = document.getElementById("heroSelectedValue");
+      const items = document.getElementById("heroSelectItems");
+      const hiddenInput = document.getElementById("hero-type-placeholder");
+
+      if (selectHero && selected && items) {
+        selected.addEventListener("click", function (e) {
+          e.stopPropagation();
+          selectHero.classList.toggle("select-arrow-active");
+          items.classList.toggle("select-hide");
+        });
+
+        items.querySelectorAll("div").forEach(item => {
+          item.addEventListener("click", function () {
+            const val = this.getAttribute("data-value");
+            const text = this.innerHTML;
+
+            selected.innerHTML = text;
+            if (hiddenInput) {
+              hiddenInput.value = val;
+              hiddenInput.dispatchEvent(new Event('change'));
+            }
+
+            // Update active state
+            items.querySelectorAll("div").forEach(d => d.classList.remove("same-as-selected"));
+            this.classList.add("same-as-selected");
+
+            // Close
+            selectHero.classList.remove("select-arrow-active");
+            items.classList.add("select-hide");
+          });
+        });
+
+        document.addEventListener("click", function () {
+          selectHero.classList.remove("select-arrow-active");
+          items.classList.add("select-hide");
+        });
+      }
+    });
+  </script>
+</body>
+
+</html>

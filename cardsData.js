@@ -186,9 +186,9 @@ const propertyCardsData = [
       "Penthouse": [
         {
           "bhk": "4 BHK",
-          "sqft": "3528",
+          "sqft": "4347 + 1993 (Terrace)",
           "sqftType": "SuperBuilt-up",
-          "price": "2 Cr"
+          "price": "3.5 Cr"
         }
       ]
     }
@@ -618,7 +618,11 @@ const propertyCardsData = [
     "location": "Shilaj-01",
     "price": 81,
     "soldOut": true,
-    "images": [],
+    "images": [
+       "/images/silver-brook-2-01.jpg",
+       "/images/silver-brook-2-02.jpg",
+       "/images/silver-brook-2-03.jpg"
+    ],
     "propertyLocation": "Shilaj",
     "schemeName": "Silver Brook 2",
     "features": [
@@ -1058,7 +1062,7 @@ const propertyCardsData = [
         }
       ]
     }
-  },
+  },  
   {
     "id": 32,
     "type": "Mixed",
@@ -1129,33 +1133,8 @@ const propertyCardsData = [
       ]
     }
   },
-  {
-    "id": 34,
-    "type": "Duplex",
-    "latest": "Jagatpur",
-    "location": "Jagatpur-03",
-    "price": 175,
-    "soldOut": true,
-    "images": [],
-    "propertyLocation": "",
-    "schemeName": "",
-    "features": [
-      "(including AEC Auda & Maintainance*)",
-      "20+ Doctors Families already owned the property*",
-      "2 Alloted Car Parking",
-      "Recently BU Available*"
-    ],
-    "nestedCategories": {
-      "Duplex": [
-        {
-          "bhk": "4 BHK",
-          "sqft": "3528",
-          "sqftType": "SuperBuilt-up",
-          "price": "1.75 Cr"
-        }
-      ]
-    }
-  },
+  
+  
   {
     "id": 35,
     "type": "Residential",
@@ -1208,7 +1187,7 @@ const propertyCardsData = [
         {
           "bhk": "Premium Residential Plots",
           "sqft": "6300 onwards",
-          "sqftType": "carpet",
+          "sqftType": "SuperBuilt-up",
           "price": "8.52 Cr onwards"
         }
       ]
@@ -1237,7 +1216,7 @@ const propertyCardsData = [
       "Bungalow": [
         {
           "bhk": "G+2 Bungalow",
-          "sqft": "4950",
+          "sqft": "4950 Onwards",
           "sqftType": "SuperBuilt-up",
           "price": "8.12 - 8.95 Cr"
         }
@@ -1596,15 +1575,15 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2175 - 2495",
+          "sqft": "2132 - 2545",
           "sqftType": "SuperBuilt-up",
-          "price": "1.44 - 1.66 Cr"
+          "price": "1.68 - 1.96 Cr"
         },
         {
           "bhk": "4 BHK",
-          "sqft": "3710 - 3915",
+          "sqft": "3710 - 4525",
           "sqftType": "SuperBuilt-up",
-          "price": "2.46 - 2.60 Cr"
+          "price": "2.90 - 3.25 Cr"
         }
       ]
     }
@@ -1650,11 +1629,11 @@ const propertyCardsData = [
     "id": 49,
     "type": "Residential",
     "latest": "Shilaj",
-    "location": "Shilaj-03",
+    "location": "Shilaj",
     "price": 81,
     "soldOut": false,
     "images": [],
-    "propertyLocation": "",
+    "propertyLocation": "Shilaj",
     "schemeName": "",
     "features": [
       "Near to Possession Property*",
@@ -1700,7 +1679,15 @@ const propertyCardsData = [
           "sqftType": "SuperBuilt-up",
           "price": "1.24 Cr onwards"
         }
-      ]
+      ],
+        "Penthouse": [
+          {
+            "bhk": "3 BHK",
+            "sqft": "1984, 2211",
+            "sqftType": "SuperBuilt-up",
+            "price": "1.33, 1.50 Cr"
+          }
+        ]
     }
   },
   {
@@ -1733,37 +1720,7 @@ const propertyCardsData = [
       ]
     }
   },
-  {
-    "id": 52,
-    "type": "Residential",
-    "latest": "Naranpura",
-    "location": "Naranpura-07",
-    "price": 61,
-    "soldOut": false,
-    "images": [],
-    "propertyLocation": "NARANPURA",
-    "schemeName": "Vikram Luxuria Living",
-    "features": [
-      "25+ Amenities",
-      "1 Alloted Car Parking"
-    ],
-    "nestedCategories": {
-      "Apartments": [
-        {
-          "bhk": "2 BHK",
-          "sqft": "1233",
-          "sqftType": "SuperBuilt-up",
-          "price": "61 Lac"
-        },
-        {
-          "bhk": "3 BHK",
-          "sqft": "2133",
-          "sqftType": "SuperBuilt-up",
-          "price": "1.05 Cr"
-        }
-      ]
-    }
-  },
+
   {
     "id": 53,
     "type": "Residential",
@@ -2116,7 +2073,6 @@ const propertyCardsData = [
     "images": [
       "/images/Orion-01.jpeg",
       "/images/Orion-02.jpg",
-      "/images/Orion-03.jpeg"
     ],
     "propertyLocation": "Chharodi",
     "schemeName": "THE ORION",
@@ -2145,10 +2101,11 @@ const propertyCardsData = [
     "images": [
       "/images/Aryajeet-surya-01.jpeg",
       "/images/Aryajeet-surya-02.jpeg",
-      "/images/Aryajeet-surya-03.jpeg"
+      "/images/Aryajeet-surya-03.jpeg",
+      "/images/Aryajeet-surya-04.jpg"
     ],
     "propertyLocation": "Naranpura",
-    "schemeName": "Aryajeet Surya",
+    "schemeName": "Aryajeet Surya 3",
     "features": [
       "25+ Amenities",
       "1 Alloted Car Parking",
@@ -2157,10 +2114,18 @@ const propertyCardsData = [
     "nestedCategories": {
       "Apartments": [
         {
-          "bhk": "3 BHK",
-          "sqft": "2700",
+          "bhk": "2 BHK",
+          "sqft": "1250",
           "sqftType": "SuperBuilt-up",
-          "price": "1.13 Cr"
+          "price": "75 Lacs"
+        }
+      ],
+      "Apartments": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "2330",
+          "sqftType": "SuperBuilt-up",
+          "price": "1.39 Cr."
         }
       ]
     }
@@ -2339,21 +2304,21 @@ const propertyCardsData = [
           "bhk": "3 BHK",
           "sqft": "2367",
           "sqftType": "SuperBuilt-up",
-          "price": "1.10 Cr"
+          "price": "1.33 Cr"
         },
         {
           "bhk": "4 BHK",
           "sqft": "3240",
           "sqftType": "SuperBuilt-up",
-          "price": "1.54 Cr"
+          "price": "1.85 Cr"
         }
       ],
       "Commercial": [
         {
           "bhk": "Showrooms",
-          "sqft": "781 - 900",
+          "sqft": "800 - 1000",
           "sqftType": "SuperBuilt-up",
-          "price": "1.05 - 1.21 Cr"
+          "price": "1 - 1.50 Cr"
         }
       ]
     }
@@ -2366,12 +2331,12 @@ const propertyCardsData = [
     "price": 70,
     "soldOut": false,
     "images": [
-      "/images/Bluebell-01.jpg",
+     // "/images/Bluebell-01.jpg",
       "/images/Bluebell-02.jpg",
       "/images/Bluebell-03.jpg"
     ],
     "propertyLocation": "Jagatpur",
-    "schemeName": "Bluebell",
+    "schemeName": "Blue bell",
     "features": [
       "25+ Amenities",
       "1-2 Alloted car parking",
@@ -2462,9 +2427,9 @@ const propertyCardsData = [
     "price": 77,
     "soldOut": false,
     "images": [
-      "/images/Artius-01.jpg",
-      "/images/Artius-02.jpg",
-      "/images/Artius-03.jpg"
+      "/images/Atrius-01.jpg",
+      "/images/Atrius-02.jpg",
+      "/images/Atrius-03.jpg"
     ],
     "propertyLocation": "Jagatpur",
     "schemeName": "Adani Atrius",
@@ -2556,33 +2521,7 @@ const propertyCardsData = [
       ]
     }
   },
-  {
-    "id": 77,
-    "type": "Duplex",
-    "latest": "Jagatpur",
-    "location": "Jagatpur-10",
-    "price": 220,
-    "soldOut": true,
-    "images": [],
-    "propertyLocation": "",
-    "schemeName": "",
-    "features": [
-      "Sample House Ready",
-      "20+ Doctors Families already own the property*",
-      "2 Alloted Car Parking",
-      "Recently BU Available*"
-    ],
-    "nestedCategories": {
-      "Duplex": [
-        {
-          "bhk": "4 BHK",
-          "sqft": "3528",
-          "sqftType": "SuperBuilt-up",
-          "price": "2.20 Cr"
-        }
-      ]
-    }
-  },
+ 
   {
     "id": 78,
     "type": "Commercial",
@@ -2635,9 +2574,9 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "4 BHK",
-          "sqft": "1882 - 1968",
+          "sqft": "3450 - 3645",
           "sqftType": "SuperBuilt-up",
-          "price": "3.19 - 3.75 Cr"
+          "price": "3.50 - 3.75 Cr"
         }
       ]
     }
@@ -2892,7 +2831,7 @@ const propertyCardsData = [
       "/images/Shivanjali-01.jpg",
       "/images/Shivanjali-02.jpg",
       "/images/Shivanjali-03.jpg",
-      "/images/Shivanjali-04.jpg"
+      
     ],
     "propertyLocation": "Gandhinagar",
     "schemeName": "Shivanjali by Shashwat",
@@ -3098,7 +3037,7 @@ const propertyCardsData = [
           "bhk": "4 BHK",
           "sqft": "3200",
           "sqftType": "SuperBuilt-up",
-          "price": "2.30 Cr"
+          "price": "2.60 Cr"
         }
       ],
       "Penthouse": [
@@ -3106,7 +3045,7 @@ const propertyCardsData = [
           "bhk": "4 BHK",
           "sqft": "3791-4428 + 485-944(Terrace)",
           "sqftType": "SuperBuilt-up",
-          "price": "3.07 - 3.86 Cr"
+          "price": "3.35 - 3.86 Cr"
         }
       ]
     }
@@ -3116,7 +3055,7 @@ const propertyCardsData = [
     "type": "Residential",
     "latest": "Science-park",
     "location": "Science-park-03",
-    "price": 181,
+    "price": 215,
     "soldOut": false,
     "images": [
       "/images/Imperial-01.jpg",
@@ -3136,13 +3075,13 @@ const propertyCardsData = [
           "bhk": "3 BHK",
           "sqft": "2788",
           "sqftType": "SuperBuilt-up",
-          "price": "1.81 Cr"
+          "price": "2.15 Cr"
         },
         {
           "bhk": "4 BHK",
           "sqft": "3770",
           "sqftType": "SuperBuilt-up",
-          "price": "2.45 Cr"
+          "price": "3 Cr"
         }
       ]
     }
@@ -3164,15 +3103,16 @@ const propertyCardsData = [
     "features": [
       "25+ amenities",
       "3 Alloted Car Parking",
-      "Near to S.G Highway"
+      "Ready To Possesion",
+      "Vasstu Compliant"
     ],
     "nestedCategories": {
       "Apartments": [
         {
           "bhk": "4 BHK",
-          "sqft": "3967",
+          "sqft": "4000",
           "sqftType": "SuperBuilt-up",
-          "price": "3.57 Cr"
+          "price": "4.05 Cr"
         }
       ]
     }
@@ -3267,9 +3207,9 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "4 BHK",
-          "sqft": "3440 - 3700",
+          "sqft": "3440, 3700",
           "sqftType": "SuperBuilt-up",
-          "price": "3.26 Cr"
+          "price": "3.26, 3.50 Cr"
         }
       ]
     }
@@ -3488,11 +3428,11 @@ const propertyCardsData = [
     "id": 104,
     "type": "Residential",
     "latest": "Naroda",
-    "location": "Naroda-01",
+    "location": "Naroda",
     "price": 32,
     "soldOut": false,
-    "images": [],
-    "propertyLocation": "",
+    "images": ["/images/govind-galaxy-01.jpg"],
+    "propertyLocation": "Naroda",
     "schemeName": "Radhe Govind Galaxy",
     "features": [
       "Ready to Move",
@@ -3616,11 +3556,14 @@ const propertyCardsData = [
     "id": 108,
     "type": "Commercial",
     "latest": "Satellite",
-    "location": "satellite-01",
+    "location": "satellite",
     "price": 72,
     "soldOut": false,
-    "images": [],
-    "propertyLocation": "",
+    "images": ["/images/santorini-square-01.jpg",
+      "/images/santorini-square-02.jpg",
+      "/images/santorini-square-03.jpg"
+    ],
+    "propertyLocation": "Satellite",
     "schemeName": "Santorini Square",
     "features": [
       "Opp.Star Baazar",
@@ -3642,11 +3585,11 @@ const propertyCardsData = [
     "id": 109,
     "type": "Residential",
     "latest": "Bopal",
-    "location": "Bopal-03",
+    "location": "Bopal",
     "price": 210,
     "soldOut": false,
     "images": [],
-    "propertyLocation": "",
+    "propertyLocation": "Bopal",
     "schemeName": "Pearl Bungalow",
     "features": [
       "Nr. Pleasure Club"
@@ -3734,7 +3677,7 @@ const propertyCardsData = [
       "/images/Alora-03.jpg"
     ],
     "propertyLocation": "Science Park",
-    "schemeName": "Anantara Alora by A.Shridhar",
+    "schemeName": "Anantara Alora",
     "features": [
       "2 Road Corner Project Project",
       "1 Allotted Car Parking",
@@ -3747,15 +3690,15 @@ const propertyCardsData = [
           "bhk": "3 BHK",
           "sqft": "2594 - 2691",
           "sqftType": "Super Built-up",
-          "price": "1.85 Cr"
+          "price": "1.85 Cr Onwards*"
         }
       ],
-      "Duplex": [
+      "Duplex Penthouse": [
         {
           "bhk": "4 BHK",
           "sqft": "5116 - 5368",
           "sqftType": "Super Built-up",
-          "price": "3.84 Cr"
+          "price": "4 Cr Onwards*"
         }
       ]
     }
@@ -3768,8 +3711,8 @@ const propertyCardsData = [
     "price": 180,
     "soldOut": false,
     "images": [],
-    "propertyLocation": "",
-    "schemeName": "",
+    "propertyLocation": "Jagatpur",
+    "schemeName": "Silver Luxuria",
     "features": [
       "(including AEC Auda & Maintainance*)",
       "20+ Doctors Families already owned the property*",
@@ -3985,7 +3928,7 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2700",
+          "sqft": "2115",
           "sqftType": "SuperBuilt-up",
           "price": "1.15 Cr"
         }
@@ -4159,7 +4102,7 @@ const propertyCardsData = [
         {
           "bhk": "3 BHK",
           "sqft": "2266",
-          "sqftType": "Carpet",
+          "sqftType": "Super Built-up",
           "price": "1.08 Cr"
         }
       ]
@@ -4441,7 +4384,7 @@ const propertyCardsData = [
     "images": [
       "/images/Keshvam-Skyview-01.png",
       "/images/Keshvam-Skyview-02.png",
-      "/images/Keshvam-Skyview-03.png",
+      
       "/images/Keshvam-Skyview-04.png"
     ],
     "propertyLocation": "Gandhinagar",
@@ -4456,8 +4399,8 @@ const propertyCardsData = [
         {
           "bhk": "4 BHK",
           "sqft": "4545 - 4662",
-          "sqftType": "Carpet",
-          "price": "????"
+          "sqftType": "Super Built-up",
+          "price": "2.60 - 2.80 Cr"
         }
       ]
     }
@@ -4522,17 +4465,17 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "4 BHK",
-          "sqft": "2105",
-          "sqftType": "Carpet",
-          "price": "3.75 Cr"
+          "sqft": "4230",
+          "sqftType": "Super Built-up",
+          "price": "3.65 Cr"
         }
       ],
       "Duplex Penthouse": [
         {
           "bhk": "5 BHK",
-          "sqft": "4230",
-          "sqftType": "Carpet",
-          "price": "6.75 Cr"
+          "sqft": "6900 + 850(Terrace)",
+          "sqftType": "Super Built-up",
+          "price": "6.60 Cr"
         }
       ]
     }
@@ -5106,7 +5049,7 @@ const propertyCardsData = [
       "images/greenz-03.jpg"
     ],
     "propertyLocation": "Shela",
-    "schemeName": "Turquoise Greenz by Ratna",
+    "schemeName": "Turquoise Greenz",
     "features": [
       "Exclusive 11 ft bedroom grids",
       "All basic amenities",
@@ -5117,8 +5060,8 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2700",
-          "sqftType": "SuperBuilt-up",
+          "sqft": "968",
+          "sqftType": "Carpet",
           "price": "80 Lacs"
         }
       ]
@@ -5308,7 +5251,7 @@ const propertyCardsData = [
       "images/sankalp-480-03.jpg"
     ],
     "propertyLocation": "Karnavati Club Road",
-    "schemeName": "Sankalp 480",
+    "schemeName": "Sankalp Iconic Tower",
     "features": [
       "Adjoining 5-star Hotel",
       "Platinum Green Building",
@@ -5530,7 +5473,7 @@ const propertyCardsData = [
       "images/tree-top-04.jpeg"
     ],
     "propertyLocation": "Thaltej",
-    "schemeName": "Tree Top by Sheladia",
+    "schemeName": "TreeTop",
     "features": [
       "2 Side Road Corner Property",
       "10+ Modern Amenities",
@@ -5694,11 +5637,11 @@ const propertyCardsData = [
     "id": 173,
     "type": "Mixed",
     "latest": "ManekBaug",
-    "location": "ManekBaug-01",
+    "location": "ManekBaug",
     "price": 900,
     "soldOut": false,
     "images": [],
-    "propertyLocation": "",
+    "propertyLocation": "Manekbaug",
     "schemeName": "ManekBaug Society",
     "features": [
       "Idle For Professionals",
@@ -6676,13 +6619,13 @@ const propertyCardsData = [
         {
           "bhk": "2 BHK",
           "sqft": "1400",
-          "sqftType": "Carpet",
+          "sqftType": "Super Built-Up",
           "price": "65 - 70 Lacs"
         },
         {
           "bhk": "3 BHK",
           "sqft": "1815",
-          "sqftType": "Carpet",
+          "sqftType": "Super Built-Up",
           "price": "80 - 90 Lacs"
         }
       ]
@@ -6782,14 +6725,14 @@ const propertyCardsData = [
           "price": "2.37 - 2.53 Cr"
         }
       ],
-      "Commercial": [
-        {
-          "bhk": "Showrooms",
-          "sqft": "900 - 1100",
-          "sqftType": "SuperBuilt-up",
-          "price": "000"
-        }
-      ]
+      // "Commercial": [
+      //   {
+      //     "bhk": "Showrooms",
+      //     "sqft": "900 - 1100",
+      //     "sqftType": "SuperBuilt-up",
+      //     "price": "000"
+      //   }
+      // ]
     }
   },
   {
@@ -7659,7 +7602,10 @@ const propertyCardsData = [
     "location": "Science-city-06",
     "price": 204,
     "soldOut": false,
-    "images": [],
+    "images": [
+       "images/veridian-01.jpg",
+      "images/veridian-02.jpg",
+    ],
     "propertyLocation": "Science City",
     "schemeName": "Veridian",
     "features": [
@@ -7856,7 +7802,7 @@ const propertyCardsData = [
       "images/celebration-02.jpg",
       "images/celebration-03.jpg"
     ],
-    "propertyLocation": "Science City",
+    "propertyLocation": "Science City", 
     "schemeName": "Map Celebration",
     "features": [
       "2 Side Road Corner Project",
@@ -9100,7 +9046,7 @@ const propertyCardsData = [
       "images/solace-03.jpg"
     ],
     "propertyLocation": "South-Bopal",
-    "schemeName": "Solace",
+    "schemeName": "Saanvi Nirman Solace",
     "features": [
       "Both Side Garden Facing",
       "1 Allotted Car Parking",
@@ -9169,9 +9115,9 @@ const propertyCardsData = [
     "price": 150,
     "soldOut": false,
     "images": [
-      "images/spectra-01.jpg",
-      "images/spectra-02.jpg",
-      "images/spectra-03.jpg"
+      "images/spectra-01.png",
+      "images/spectra-02.png",
+      "images/spectra-03.png"
     ],
     "propertyLocation": "Bopal",
     "schemeName": "Spectra",
@@ -9529,9 +9475,9 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "4 BHK",
-          "sqft": "4750",
+          "sqft": "4700",
           "sqftType": "Super Built-up",
-          "price": "2.94 Cr."
+          "price": "3.68 Cr."
         }
       ]
     }
@@ -9562,7 +9508,7 @@ const propertyCardsData = [
           "bhk": "3 BHK",
           "sqft": "2160",
           "sqftType": "Super Built-up",
-          "price": "1.29 Cr."
+          "price": "1.52 Cr."
         }
       ]
     }
@@ -9593,13 +9539,13 @@ const propertyCardsData = [
           "bhk": "4 BHK",
           "sqft": "5190",
           "sqftType": "Super Built-up",
-          "price": "3.63 Cr."
+          "price": "4 Cr."
         },
         {
           "bhk": "5 BHK",
           "sqft": "6350",
           "sqftType": "Super Built-up",
-          "price": "4.44 Cr."
+          "price": "5 - 5.2 Cr."
         }
       ]
     }
@@ -10192,7 +10138,7 @@ const propertyCardsData = [
       "images/sky-line-03.jpg"
     ],
     "propertyLocation": "South-Bopal",
-    "schemeName": "Sky Line",
+    "schemeName": "SkyLine",
     "features": [
       "360 Open View",
       "2 Road Corner Project",
@@ -10236,7 +10182,7 @@ const propertyCardsData = [
       "images/divine-skypark-03.jpg"
     ],
     "propertyLocation": "South-Bopal",
-    "schemeName": "Skypark by Divine",
+    "schemeName": "Skypark",
     "features": [
       "Nr. VIP Road",
       "15+ Amenities",
@@ -11525,7 +11471,8 @@ const propertyCardsData = [
     "images": [
       "images/arcelia-01.jpg",
       "images/arcelia-02.jpg",
-      "images/arcelia-03.jpg"
+      "images/arcelia-03.jpg",
+      "images/arcelia-04.jpg"
     ],
     "propertyLocation": "Shilaj",
     "schemeName": "Arcelia",
@@ -11688,8 +11635,7 @@ const propertyCardsData = [
     "soldOut": false,
     "images": [
       "images/gamara-hills-01.jpg",
-      "images/gamara-hills-02.jpg",
-      "images/gamara-hills-03.jpg"
+    
     ],
     "propertyLocation": "Shela",
     "schemeName": "Gamara Hills",
@@ -13112,7 +13058,7 @@ const propertyCardsData = [
     "type": "Residential",
     "latest": "Chandkheda",
     "location": "Chandkheda-01",
-    "price":75,
+    "price":92,
     "soldOut": false,
     "images": [
       "images/shiv-vivanta-01.jpg",
@@ -13132,7 +13078,7 @@ const propertyCardsData = [
           "bhk": "3 BHK",
           "sqft": "2115",
           "sqftType": "Super Built-up",
-          "price": "75 Lacs"
+          "price": "92.50 Lacs"
         }
       ]
     }
@@ -13324,7 +13270,7 @@ const propertyCardsData = [
       "images/shikhar-kiaan-02.jpg",
       "images/shikhar-kiaan-03.jpg"
     ],
-    "propertyLocation": "Zundal",
+    "propertyLocation": "Tapovan",
     "schemeName": "Shikhar Kiaan",
     "features": [
       "VRV System",
@@ -14462,5 +14408,426 @@ const propertyCardsData = [
         }
       ]
     }
-  }  
+  },
+   {
+    "id": 417,
+    "type": "Residential",
+    "latest": "Shela",
+    "location": "Shela-40",
+    "price": 160,
+    "soldOut": false,
+    "images": [
+      "images/riviera-bliss-01.jpg",
+      "images/riviera-bliss-02.jpg",
+      "images/riviera-bliss-03.jpg"
+    ],
+    "propertyLocation": "Shela",
+    "schemeName": "Riviera Bliss",
+    "features": [
+      "2 Alloted Car Parking",
+      "20+ Modern Amenities",
+      "Open Views"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "2420",
+          "sqftType": "SuperBuilt-up",
+          "price": "1.60 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 418,
+    "type": "Residential",
+    "latest": "Thaltej",
+    "location": "Thaltej-16",
+    "price": 350,
+    "soldOut": false,
+    "images": [
+      "images/alpines-01.jpg",
+      "images/alpines-02.jpg",
+      "images/alpines-03.jpg"
+    ],
+    "propertyLocation": "Thaltej",
+    "schemeName": "Alpines ",
+    "features": [
+      "Ready To Move",
+      "Pure Residential",
+      "DGU Sound Proof",
+      "3 Alloted Car Parking"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "4 BHK",
+          "sqft": "3900 - 4300",
+          "sqftType": "SuperBuilt-up",
+          "price": "3.50 - 4 Cr"
+        }
+      ]
+    }
+  },{
+    "id": 419,
+    "type": "Residential",
+    "latest": "Thaltej",
+    "location": "Thaltej-17",
+    "price": 295,
+    "soldOut": false,
+    "images": [
+      "images/essence-51-01.jpg",
+      "images/essence-51-02.jpg",
+      "images/essence-51-03.jpg"
+    ],
+    "propertyLocation": "Thaltej",
+    "schemeName": "Essence 51",
+    "features": [
+      "Ready To Move",
+      "Pure Residential",
+      "1 Alloted Car Parking"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "4 BHK",
+          "sqft": "3475 - 4250",
+          "sqftType": "SuperBuilt-up",
+          "price": "2.95 - 3.60 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 420,
+    "type": "Plot",
+    "latest": "Kalyangadh",
+    "location": "Kalyangadh-01",
+    "price": 102,
+    "soldOut": false,
+    "images": [
+      "images/aqua-city-01.jpg",
+      "images/aqua-city-02.jpg",
+      "images/aqua-city-03.jpg"
+    ],
+    "propertyLocation": "Kalyangadh",
+    "schemeName": "Aqua City",
+    "features": [
+      "50+ Amenities"
+    ],
+    "nestedCategories": {
+      "Plot": [
+        {
+          "bhk": "Plot",
+          "sqft": "3600.00 - 9450.00",
+          "sqftType": "SuperBuilt-up",
+          "price": "41.65 Lacs - 1.02 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 421,
+    "type": "Commercial",
+    "latest": "Gift City",
+    "location": "Gift City-07",
+    "price": 100,
+    "soldOut": false,
+    "images": [
+      "images/regalia-2-01.jpg",
+      "images/regalia-2-02.jpg",
+      "images/regalia-2-03.jpg"
+    ],
+    "propertyLocation": "Gift City",
+    "schemeName": "Regalia 2",
+    "features": [
+      "2 Road Corner",
+      "1 Alloted Car Parking"
+    ],
+    "nestedCategories": {
+      "Commercial": [
+        {
+          "bhk": "Showrooms",
+          "sqft": "2000 - 5000",
+          "sqftType": "SuperBuilt-up",
+          "price": "7.5 Cr - 15 Cr"
+        },
+        {
+          "bhk": "Offices",
+          "sqft": "900 - 30,000",
+          "sqftType": "SuperBuilt-up",
+          "price": "1 Cr Onwards"
+        },
+
+      ]
+    }
+  },
+  {
+    "id": 422,
+    "type": "Residential",
+    "latest": "Bapunagar",
+    "location": "Bapunagar-02",
+    "price": 450,
+    "soldOut": false,
+    "images": [
+      "images/the-east-park-01.jpg",
+      "images/the-east-park-02.jpg",
+      "images/the-east-park-03.jpg"
+    ],
+    "propertyLocation": "Bapunagar",
+    "schemeName": "The East Park",
+    "features": [
+      "1 Alloted Car Parking"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "4 BHK",
+          "sqft": "3060 (Plot) + 4680 (Construction)",
+          "sqftType": "SuperBuilt-up",
+          "price": "4.50 - 7.50 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 423,
+    "type": "Commercial",
+    "latest": "Gift City",
+    "location": "Gift City-08",
+    "price": 1500,
+    "soldOut": false,
+    "images": [
+      "images/regalia-n-01.jpg",
+      "images/regalia-n-02.jpg",
+      "images/regalia-n-03.jpg"
+    ],
+    "propertyLocation": "Gift City",
+    "schemeName": "Regalia",
+    "features": [
+      "Ready To Move",
+      "2 Road Corner"
+    ],
+    "nestedCategories": {
+      "Commercial": [
+        {
+          "bhk": "Offices",
+          "sqft": "10000",
+          "sqftType": "SuperBuilt-up",
+          "price": "15 Cr"
+        },
+        {
+          "bhk": "Offices",
+          "sqft": "19000",
+          "sqftType": "SuperBuilt-up",
+          "price": "22 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 424,
+    "type": "Residential",
+    "latest": "Gift City",
+    "location": "Gift City-09",
+    "price": 252,
+    "soldOut": false,
+    "images": [
+      "images/accolade-01.jpg",
+      "images/accolade-02.jpg",
+      "images/accolade-03.jpg"
+    ],
+    "propertyLocation": "Gift City",
+    "schemeName": "Accolade",
+    "features": [
+      "2 Road Corner",
+      "No Vehicle Zone At Ground Floor",
+      "20+ Amenities",
+      "2 Alloted Car Parking"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "3 BHK",
+          "sqft": "1290",
+          "sqftType": "SuperBuilt-up",
+          "price": "2.53 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 425,
+    "type": "Residential",
+    "latest": "Gift City",
+    "location": "Gift City-10",
+    "price": 135,
+    "soldOut": false,
+    "images": [
+      "images/smart-life-01.jpg",
+      "images/smart-life-02.jpg",
+      "images/smart-life-03.jpg"
+    ],
+    "propertyLocation": "Gift City",
+    "schemeName": "Smart Life",
+    "features": [
+      "Ready To Move",
+      "2 Road Corner",
+      "No Vehicle Zone At Ground Floor",
+      "20+ Amenities"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "2 BHK",
+          "sqft": "786 - 846",
+          "sqftType": "SuperBuilt-up",
+          "price": "1.35 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 426,
+    "type": "Commercial",
+    "latest": "Gift City",
+    "location": "Gift City-11",
+    "price": 255,
+    "soldOut": false,
+    "images": [
+      "images/twin-tower-01.jpg",
+      "images/twin-tower-02.jpg",
+      "images/twin-tower-03.jpg"
+    ],
+    "propertyLocation": "Gift City",
+    "schemeName": "Twin Tower",
+    "features": [
+       "Prime Location",
+      "28 Floors Tower",
+      "3 Road Corner Project",
+      
+    ],
+    "nestedCategories": {
+      "Commercial": [
+        {
+          "bhk": "Offices",
+          "sqft": "2403 - 8069",
+          "sqftType": "SuperBuilt-up",
+          "price": "2.55 - 8.43 Cr"
+        }
+      ]
+    }
+  },
+  {
+    "id": 427,
+    "type": "Commercial",
+    "latest": "Gift City",
+    "location": "Gift City-12",
+    "price": 214,
+    "soldOut": false,
+    "images": [
+      "images/centrica-01.jpg",
+      "images/centrica-02.jpg",
+      "images/centrica-03.jpg"
+    ],
+    "propertyLocation": "Gift City",
+    "schemeName": "Centrica",
+    "features": [
+      "5+ Amenities",
+      "30 Storeys Tower",
+      "Prime Location"
+    ],
+    "nestedCategories": {
+      "Commercial": [
+        {
+          "bhk": "Showrooms",
+          "sqft": "3574 - 6221",
+          "sqftType": "SuperBuilt-up",
+          "price": "12.17 - 21.11 Cr"
+        },
+        {
+          "bhk": "Offices",
+          "sqft": "1855 - 33000",
+          "sqftType": "SuperBuilt-up",
+          "price": "2.14 - 13.39 Cr"
+        },
+
+      ]
+    }
+  },
+  {
+    "id": 428,
+    "type": "Residential",
+    "latest": "Gift City",
+    "location": "Gift City-13",
+    "price": 225,
+    "soldOut": false,
+    "images": [
+      "images/vida-01.jpg",
+      "images/vida-02.jpg",
+      "images/vida-03.jpg"
+    ],
+    "propertyLocation": "Gift City",
+    "schemeName": "Vida",
+    "features": [
+      "Pure Residential",
+      "3 Road Corner",
+      "No Vehicle Zone At Ground Floor",
+      "1 Alloted Car Parking"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "2 BHK",
+          "sqft": "871",
+          "sqftType": "SuperBuilt-up",
+          "price": "2.26 Cr"
+        },
+        {
+          "bhk": "3 BHK",
+          "sqft": "1180",
+          "sqftType": "SuperBuilt-up",
+          "price": "3.05 Cr"
+        }
+      ]
+    }
+  },
+
+  {
+    "id": 429,
+    "type": "Residential",
+    "latest": "Iscon Ambli",
+    "location": "Iscon Ambli-14",
+    "price": 840,
+    "soldOut": false,
+    "images": [
+      "images/lilamani-01.jpg",
+     
+    ],
+    "propertyLocation": "Iscon Ambli",
+    "schemeName": "La Marque",
+    "features": [
+      "Ready To Move",
+      "Italian Marble",
+      "Pure Residential",
+      "4 Alloted Car Parking"
+    ],
+    "nestedCategories": {
+      "Apartments": [
+        {
+          "bhk": "4 BHK",
+          "sqft": "5955",
+          "sqftType": "SuperBuilt-up",
+          "price": "8.40 Cr"
+        },
+        {
+          "bhk": "5 BHK",
+          "sqft": "6945",
+          "sqftType": "SuperBuilt-up",
+          "price": "9.80 Cr"
+        }
+      ]
+    }
+  }
 ];

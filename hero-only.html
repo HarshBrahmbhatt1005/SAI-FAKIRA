@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Fakira Real Estate - Hero Section</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+    <style>
+        /* ============================================
+           HERO SECTION ONLY - FROM INDEX-01.HTML
+           ============================================ */
+
+        /* New Minimalist Design System */
+        :root {
+            --primary-accent: #8b1a2e;
+            --bg-color: #faf8f5;
+            --text-main: #1a1a1a;
+            --text-muted: #888;
+            --text-light: #aaa;
+            --border-color: #e8e3dc;
+            --card-bg: #ffffff;
+            --font-serif: 'Georgia', serif;
+            --font-sans: 'Poppins', sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: var(--font-sans);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Minimal Hero - Two Column Layout */
+        .hero {
+            height: 100vh;
+            background: linear-gradient(135deg, #faf8f5 0%, rgba(139, 26, 46, 0.05) 100%);
+            padding: 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: stretch;
+            gap: 0;
+            text-align: left;
+            overflow: hidden;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+            padding: 40px 40px;
+            overflow-y: auto;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .logo-deal {
+          margin-bottom: 30px;
+          opacity: 0;
+          animation: up 0.8s 0.1s ease forwards;
+          width: fit-content;
+        }
+
+        .ef-logo {
+          width: 250px;
+          height: auto;
+        }
+
+        .logo-wrapper {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 30px;
+          perspective: 1000px;
+          /* height: 250px; */
+          opacity: 0;
+          animation: up 0.8s 0.1s ease forwards;
+        }
+
+        #logo {
+          height: auto;
+          max-width: 250px;
+          width: 100%;
+          transition: transform 1s linear;
+          transform-style: preserve-3d;
+          backface-visibility: hidden;
+          -webkit-backface-visibility: hidden;
+          will-change: transform;
+        }
+
+        #logo.rotate {
+          transform: rotateY(180deg);
+        }
+
+        .hero h1 {
+            font-family: var(--font-serif);
+            font-size: 50px;
+            font-weight: 400;
+            line-height: 1.2;
+            margin-bottom: 15px;
+            opacity: 0;
+            animation: up 0.8s 0.3s ease forwards;
+            color: var(--text-main);
+        }
+
+        .hero h1 em {
+            display: flex;
+            justify-content: center;
+            font-style: italic;
+            color: var(--primary-accent);
+        }
+
+        .tagline {
+            font-size: 16px;
+            color: var(--text-muted);
+            max-width: 500px;
+            line-height: 1.5;
+            margin-bottom: 25px;
+            opacity: 0;
+            animation: up 0.8s 0.4s ease forwards;
+        }
+
+        /* Hero Image Container */
+        .hero-image-container {
+            opacity: 0;
+            animation: up 0.8s 0.5s ease forwards;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+            /* padding: 40px; */
+            overflow: hidden;
+        }
+
+        .hero-image-container img {
+            width: 100%;
+            height: 100%;
+            /* border-radius: 16px; */
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+            object-fit: cover;
+            object-position: center;
+        }
+
+        /* Search Bar Redesign */
+        .search-wrap {
+            background: #fff;
+            border: 1px solid var(--border-color);
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            padding: 8px 8px 8px 20px;
+            width: 100%;
+            max-width: 500px;
+            opacity: 0;
+            animation: up 0.8s 0.5s ease forwards;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            transition: border-color 0.3s, box-shadow 0.3s;
+            position: relative;
+            z-index: 1;
+            overflow: visible !important;
+        }
+
+        .search-wrap:focus-within {
+            border-color: var(--primary-accent);
+            box-shadow: 0 10px 40px rgba(139, 26, 46, 0.1);
+        }
+
+        .search-wrap input {
+            flex: 1;
+            border: none;
+            outline: none;
+            font-size: 15px;
+            color: var(--text-main);
+        }
+
+        .search-divider {
+            width: 1px;
+            height: 24px;
+            background: var(--border-color);
+            margin: 0 15px;
+        }
+
+        .custom-select-hero {
+            position: relative;
+            cursor: pointer;
+        }
+
+        .select-selected {
+            border: none;
+            outline: none;
+            background: none;
+            font-size: 14px;
+            color: var(--text-muted);
+            cursor: pointer;
+            padding-right: 10px;
+        }
+
+        .select-items {
+            position: absolute;
+            background-color: white;
+            top: 100%;
+            left: 0;
+            right: 0;
+            z-index: 99;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .select-hide {
+            display: none;
+        }
+
+        .select-items div {
+            color: var(--text-main);
+            padding: 10px 16px;
+            border: none;
+            border-bottom: 1px solid var(--border-color);
+            cursor: pointer;
+        }
+
+        .select-items div:hover {
+            background-color: var(--bg-color);
+        }
+
+        .search-btn {
+            background: var(--primary-accent);
+            color: #fff;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 40px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, opacity 0.2s;
+        }
+
+        .search-btn:hover {
+            opacity: 0.9;
+            transform: scale(1.02);
+        }
+
+        /* Quick Pills */
+        .pills {
+            display: flex;
+            gap: 8px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            opacity: 0;
+            animation: up 0.8s 0.6s ease forwards;
+        }
+
+        .pill {
+            font-size: 12px;
+            color: var(--text-muted);
+            padding: 8px 20px;
+            border-radius: 999px;
+            border: 1px solid var(--border-color);
+            background: #fff;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .pill:hover,
+        .pill.active {
+            border-color: var(--primary-accent);
+            color: var(--primary-accent);
+            background: rgba(139, 26, 46, 0.05);
+        }
+
+        /* Stats */
+        .stats {
+            display: flex;
+            gap: 40px;
+            margin-top: 20px;
+            opacity: 0;
+            animation: up 0.8s 0.7s ease forwards;
+        }
+
+        .stat-n {
+            font-size: 36px;
+            font-family: var(--font-serif);
+            color: var(--text-main);
+            font-variant-numeric: tabular-nums;
+        }
+
+        .stat-l {
+            font-size: 12px;
+            color: var(--text-light);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 5px;
+        }
+
+        .stat-div {
+            width: 1px;
+            background: var(--border-color);
+            height: 40px;
+            align-self: center;
+        }
+
+        /* Animations */
+        @keyframes up {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* ============================================
+           RESPONSIVE DESIGN
+           ============================================ */
+
+        @media (max-width: 1024px) {
+            .hero {
+                grid-template-columns: 1fr;
+                height: auto;
+                min-height: 100vh;
+            }
+
+            .hero-content {
+                padding: 30px 20px;
+                text-align: center;
+                align-items: center;
+                
+            }
+
+            .hero h1 {
+                font-size: 40px;
+            }
+
+            .search-wrap {
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 100%;
+            }
+
+            .pills {
+                justify-content: center;
+            }
+
+            .hero-image-container {
+                min-height: 350px;
+                padding: 20px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                grid-template-columns: 1fr;
+                height: auto;
+                min-height: auto;
+            }
+
+            .hero-content {
+                padding: 25px 16px;
+            }
+
+            .hero h1 {
+                font-size: 32px;
+            }
+
+            .stats {
+                gap: 25px;
+            }
+
+            .search-wrap {
+                flex-direction: column;
+                border-radius: 20px;
+                padding: 12px;
+                max-width: 100%;
+            }
+
+            .search-divider {
+                display: none;
+            }
+
+            .custom-select-hero {
+                margin: 8px 0;
+                width: 100%;
+                border-bottom: 1px solid var(--border-color);
+                padding-bottom: 8px;
+            }
+
+            .search-btn {
+                width: 100%;
+                padding: 10px 20px;
+            }
+
+            .hero-image-container {
+                min-height: 280px;
+                padding: 16px;
+            }
+
+            #logo {
+                height: 250px;
+                transition: transform 1s linear;
+                transform-style: preserve-3d;
+                backface-visibility: hidden;
+                -webkit-backface-visibility: hidden;
+                will-change: transform;
+            }
+            .ef-logo{
+                width: 250px;
+            }
+            .rotate {
+                transform: rotateY(180deg);
+            }
+
+            .hidden-box {
+                display: flex;
+                align-items: center;
+                background-color: floralwhite;
+                width: 100%;
+                height: 100vh;
+                margin-top: 100px;
+                perspective: 1000px;
+                /* ✅ smooth 3D for mobile */
+            }
+
+            .hidden-box img {
+                width: 500px;
+                display: block;
+                margin: auto;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- HERO SECTION ONLY -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="logo-wrapper">
+                <img id="logo" src="ESEFF REAL ESTATE LOGO (3).png" alt="Logo">
+            </div>
+
+            <h1>Find a home that<br><em>makes you smile</em></h1>
+
+            <p class="tagline">Premium properties across Ahmedabad, Gift City & beyond — handpicked for families,
+                investors, and NRIs.</p>
+
+            <div class="search-wrap">
+                <input type="text" id="propSearch-hero" placeholder="Search by locality, project or builder…" />
+                <div class="search-divider"></div>
+                <div class="custom-select-hero" id="customSelectHero">
+                    <div class="select-selected" id="heroSelectedValue">All types</div>
+                    <div class="select-items select-hide" id="heroSelectItems">
+                        <div data-value="all">All types</div>
+                        <div data-value="Residential">Residential</div>
+                        <div data-value="Commercial">Commercial</div>
+                        <div data-value="Plot">Plot</div>
+                    </div>
+                </div>
+                <button class="search-btn">Search</button>
+            </div>
+
+            <div class="pills">
+                <div class="pill">Adani Shantigram</div>
+                <div class="pill">Gift City</div>
+                <div class="pill">Bodakdev</div>
+                <div class="pill">Ambli</div>
+                <div class="pill">Thaltej</div>
+            </div>
+
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-n" data-target="500">0+</div>
+                    <div class="stat-l">Properties</div>
+                </div>
+                <div class="stat-div"></div>
+                <div class="stat">
+                    <div class="stat-n" data-target="50">0+</div>
+                    <div class="stat-l">Top Builders</div>
+                </div>
+                <div class="stat-div"></div>
+                <div class="stat">
+                    <div class="stat-n" data-target="150">0+</div>
+                    <div class="stat-l">Family</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hero Image -->
+        <div class="hero-image-container">
+            <img src="Hero-img.png" alt="Real estate illustration" />
+        </div>
+    </section>
+
+    <script>
+        // ==================== LOGO ROTATION ====================
+        function initializeLogoRotation() {
+            const logo = document.getElementById("logo");
+            if (!logo) return;
+
+            const firstLogo = new Image();
+            const secondLogo = new Image();
+            firstLogo.src = "ESEFF REAL ESTATE LOGO (3).png";
+            secondLogo.src = "ESEFF REAL ESTATE LOGO (6).png";
+
+            Promise.all([
+                new Promise((res) => (firstLogo.onload = res)),
+                new Promise((res) => (secondLogo.onload = res)),
+            ]).then(() => {
+                setTimeout(() => {
+                    triggerLogoRotation();
+                }, 1500);
+            });
+        }
+
+        function triggerLogoRotation() {
+            const logo = document.getElementById("logo");
+            if (!logo) return;
+
+            logo.classList.add("rotate");
+
+            setTimeout(() => {
+                logo.src = "ESEFF REAL ESTATE LOGO (6).png";
+                logo.classList.remove("rotate");
+                logo.style.transform = "rotateY(360deg)";
+
+                setTimeout(() => {
+                    logo.style.transform = "rotateY(0deg)";
+                }, 750);
+            }, 750);
+        }
+
+        function resetLogo() {
+            const logo = document.getElementById("logo");
+            if (!logo) return;
+
+            logo.classList.remove("rotate");
+            logo.style.transform = "rotateY(0deg)";
+            logo.src = "ESEFF REAL ESTATE LOGO (3).png";
+        }
+
+        // Smooth Counter Animation
+        function animateCounter(element, target, duration = 2000) {
+            const start = 0;
+            const increment = target / (duration / 16); // 60fps
+            let current = start;
+
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= target) {
+                    current = target;
+                    clearInterval(timer);
+                }
+                element.textContent = Math.floor(current) + '+';
+            }, 16);
+        }
+
+        // Intersection Observer for triggering animation when stats come into view
+        const observerOptions = {
+            threshold: 0.5,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const counters = entry.target.querySelectorAll('.stat-n[data-target]');
+
+                    counters.forEach((counter, index) => {
+                        const target = parseInt(counter.getAttribute('data-target'));
+
+                        // Stagger the animations slightly
+                        setTimeout(() => {
+                            animateCounter(counter, target, 2000);
+                        }, index * 200);
+                    });
+
+                    // Stop observing after animation starts
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        // Start observing when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            const statsSection = document.querySelector('.stats');
+            if (statsSection) {
+                observer.observe(statsSection);
+            }
+
+            // Initialize logo rotation
+            initializeLogoRotation();
+        });
+
+        // Fallback: Start animation after page load if intersection observer doesn't trigger
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                const counters = document.querySelectorAll('.stat-n[data-target]');
+                counters.forEach((counter, index) => {
+                    if (counter.textContent === '0+') { // Only animate if not already animated
+                        const target = parseInt(counter.getAttribute('data-target'));
+                        setTimeout(() => {
+                            animateCounter(counter, target, 2000);
+                        }, index * 200);
+                    }
+                });
+            }, 1000); // Start after 1 second
+        });
+    </script>
+</body>
+
+</html>

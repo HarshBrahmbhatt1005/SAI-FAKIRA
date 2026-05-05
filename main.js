@@ -856,7 +856,7 @@ function initializeSlider() {
       if (!userInteracted) {
         startAutoScroll();
       }
-    }, 250);
+    }, 1000);
   });
 
   const observer = new MutationObserver(() => {

@@ -1,0 +1,252 @@
+
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  .page { font-family: 'Georgia', serif; background: #faf8f5; min-height: 100vh; display: flex; flex-direction: column; }
+
+  nav {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 28px 56px;
+    background: #faf8f5;
+  }
+  .nav-brand { display: flex; align-items: center; gap: 12px; }
+  .nav-emblem {
+    width: 36px; height: 36px; background: #8b1a2e; border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .nav-emblem svg { width: 18px; height: 18px; }
+  .nav-name { font-size: 15px; font-weight: 600; color: #1a1a1a; font-family: sans-serif; letter-spacing: -0.3px; }
+  .nav-sub { font-size: 11px; color: #999; font-family: sans-serif; letter-spacing: 1px; text-transform: uppercase; }
+  .nav-links { display: flex; gap: 36px; }
+  .nav-links a { font-size: 13.5px; color: #777; text-decoration: none; font-family: sans-serif; cursor: pointer; transition: color 0.2s; }
+  .nav-links a:hover { color: #1a1a1a; }
+  .nav-links a.active { color: #1a1a1a; font-weight: 500; }
+  .nav-btn {
+    font-size: 13px; font-family: sans-serif; font-weight: 500;
+    padding: 10px 24px; border-radius: 6px;
+    background: #8b1a2e; color: #fff; border: none; cursor: pointer;
+    letter-spacing: 0.2px; transition: opacity 0.2s;
+  }
+  .nav-btn:hover { opacity: 0.88; }
+
+  .hero {
+    flex: 1; display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    text-align: center;
+    padding: 80px 48px 60px;
+    position: relative;
+  }
+
+  .eyebrow {
+    font-size: 11.5px; font-family: sans-serif; letter-spacing: 3px;
+    text-transform: uppercase; color: #8b1a2e;
+    margin-bottom: 28px;
+    opacity: 0; animation: up 0.7s 0.1s ease forwards;
+  }
+
+  h1 {
+    font-size: 64px; font-weight: 400; line-height: 1.1;
+    color: #1a1a1a; letter-spacing: -1.5px;
+    max-width: 700px;
+    opacity: 0; animation: up 0.8s 0.25s ease forwards;
+  }
+  h1 em { font-style: italic; color: #8b1a2e; }
+
+  .tagline {
+    font-size: 17px; color: #888; font-family: sans-serif;
+    font-weight: 400; margin-top: 22px; line-height: 1.6;
+    max-width: 420px;
+    opacity: 0; animation: up 0.8s 0.4s ease forwards;
+  }
+
+  .search-wrap {
+    margin-top: 48px; width: 100%; max-width: 520px;
+    background: #fff; border: 1px solid #e8e3dc;
+    border-radius: 50px; display: flex; align-items: center;
+    padding: 6px 6px 6px 24px;
+    opacity: 0; animation: up 0.8s 0.55s ease forwards;
+    transition: border-color 0.2s;
+  }
+  .search-wrap:focus-within { border-color: #c9a87c; }
+  .search-wrap input {
+    flex: 1; border: none; outline: none; background: transparent;
+    font-size: 14px; font-family: sans-serif; color: #1a1a1a;
+  }
+  .search-wrap input::placeholder { color: #bbb; }
+  .search-divider { width: 1px; height: 20px; background: #e8e3dc; margin: 0 12px; flex-shrink: 0; }
+  .search-type {
+    font-size: 13px; font-family: sans-serif; color: #888;
+    background: none; border: none; outline: none; cursor: pointer;
+    padding: 0; appearance: none;
+  }
+  .search-type option { color: #1a1a1a; }
+  .search-btn {
+    background: #8b1a2e; color: #fff; border: none;
+    padding: 12px 26px; border-radius: 40px;
+    font-size: 13.5px; font-family: sans-serif; font-weight: 500;
+    cursor: pointer; transition: opacity 0.2s; margin-left: 8px;
+    flex-shrink: 0;
+  }
+  .search-btn:hover { opacity: 0.88; }
+
+  .pills {
+    display: flex; gap: 8px; margin-top: 20px; flex-wrap: wrap; justify-content: center;
+    opacity: 0; animation: up 0.8s 0.65s ease forwards;
+  }
+  .pill {
+    font-size: 12px; font-family: sans-serif; color: #888;
+    padding: 6px 16px; border-radius: 999px;
+    border: 1px solid #e5e0d8; background: #fff; cursor: pointer;
+    transition: border-color 0.2s, color 0.2s;
+  }
+  .pill:hover { border-color: #8b1a2e; color: #8b1a2e; }
+
+  .stats {
+    display: flex; gap: 56px; margin-top: 72px; align-items: flex-start;
+    opacity: 0; animation: up 0.8s 0.75s ease forwards;
+  }
+  .stat { text-align: center; }
+  .stat-n { font-size: 32px; color: #1a1a1a; letter-spacing: -1px; font-weight: 400; }
+  .stat-l { font-size: 12px; font-family: sans-serif; color: #aaa; letter-spacing: 0.5px; margin-top: 4px; }
+  .stat-div { width: 1px; background: #e8e3dc; align-self: stretch; margin-top: 6px; }
+
+  .property-strip {
+    display: flex; gap: 16px; margin-top: 56px; justify-content: center;
+    opacity: 0; animation: up 0.8s 0.85s ease forwards;
+    flex-wrap: wrap;
+  }
+  .p-card {
+    background: #fff; border: 1px solid #ece7df;
+    border-radius: 14px; padding: 18px 22px;
+    text-align: left; cursor: pointer; min-width: 160px;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+  .p-card:hover { border-color: #8b1a2e; transform: translateY(-3px); }
+  .p-loc { font-size: 11px; font-family: sans-serif; color: #aaa; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 6px; }
+  .p-name { font-size: 14px; font-family: sans-serif; font-weight: 500; color: #1a1a1a; }
+  .p-price { font-size: 13px; font-family: sans-serif; color: #8b1a2e; margin-top: 6px; }
+
+  .footer-bar {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 20px 56px; border-top: 1px solid #ece7df;
+    opacity: 0; animation: up 0.8s 1s ease forwards;
+  }
+  .f-note { font-size: 12px; font-family: sans-serif; color: #bbb; letter-spacing: 0.3px; }
+  .f-links { display: flex; gap: 24px; }
+  .f-link { font-size: 12px; font-family: sans-serif; color: #aaa; cursor: pointer; text-decoration: none; transition: color 0.2s; }
+  .f-link:hover { color: #8b1a2e; }
+  .f-refer {
+    font-size: 12.5px; font-family: sans-serif; color: #8b1a2e;
+    border: 1px solid #8b1a2e; border-radius: 999px;
+    padding: 7px 20px; cursor: pointer; background: none;
+    transition: background 0.2s, color 0.2s;
+  }
+  .f-refer:hover { background: #8b1a2e; color: #fff; }
+
+  @keyframes up {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+</style>
+
+<div class="page">
+  <nav>
+    <div class="nav-brand">
+      <div class="nav-emblem">
+        <svg viewBox="0 0 18 18" fill="none">
+          <rect x="2" y="10" width="4" height="6" fill="#fff" opacity="0.9"/>
+          <rect x="7" y="6" width="4" height="10" fill="#fff"/>
+          <rect x="12" y="2" width="4" height="14" fill="#fff" opacity="0.75"/>
+        </svg>
+      </div>
+      <div>
+        <div class="nav-name">Sai Fakira Real Estate</div>
+        <div class="nav-sub">Ess Eff · Parker's</div>
+      </div>
+    </div>
+    <div class="nav-links">
+      <a class="active">Home</a>
+      <a>Refer &amp; Earn</a>
+      <a>NRI</a>
+      <a>About</a>
+    </div>
+    <button class="nav-btn">Talk to us</button>
+  </nav>
+
+  <div class="hero">
+    <div class="eyebrow">Bharat ke har kone tak</div>
+
+    <h1>Find a home that<br><em>makes you smile</em></h1>
+
+    <p class="tagline">Premium properties across Ahmedabad, Gift City &amp; beyond — handpicked for families, investors, and NRIs.</p>
+
+    <div class="search-wrap">
+      <input placeholder="Search by locality, project or builder…" />
+      <div class="search-divider"></div>
+      <select class="search-type">
+        <option>All types</option>
+        <option>Residential</option>
+        <option>Commercial</option>
+        <option>Plot</option>
+      </select>
+      <button class="search-btn">Search</button>
+    </div>
+
+    <div class="pills">
+      <div class="pill">Adani Shantigram</div>
+      <div class="pill">Gift City</div>
+      <div class="pill">Bodakdev</div>
+      <div class="pill">Ambli</div>
+      <div class="pill">Thaltej</div>
+    </div>
+
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-n">500+</div>
+        <div class="stat-l">Properties</div>
+      </div>
+      <div class="stat-div"></div>
+      <div class="stat">
+        <div class="stat-n">12+</div>
+        <div class="stat-l">Top Builders</div>
+      </div>
+      <div class="stat-div"></div>
+      <div class="stat">
+        <div class="stat-n">150+</div>
+        <div class="stat-l">Happy Families</div>
+      </div>
+    </div>
+
+    <div class="property-strip">
+      <div class="p-card">
+        <div class="p-loc">Gift City</div>
+        <div class="p-name">Trogon Twin Tower</div>
+        <div class="p-price">₹2.5 Cr+</div>
+      </div>
+      <div class="p-card">
+        <div class="p-loc">Ambli</div>
+        <div class="p-name">Silver Luxuria</div>
+        <div class="p-price">₹1.2 Cr+</div>
+      </div>
+      <div class="p-card">
+        <div class="p-loc">Shantigram</div>
+        <div class="p-name">Adani Realty</div>
+        <div class="p-price">₹3 Cr+</div>
+      </div>
+      <div class="p-card">
+        <div class="p-loc">Bopal</div>
+        <div class="p-name">Akshat Paradise</div>
+        <div class="p-price">₹85 L+</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bar">
+    <span class="f-note">Sai Fakira Financial Services · Parker's</span>
+    <div class="f-links">
+      <a class="f-link">NRI Corner</a>
+      <a class="f-link">Profile</a>
+      <a class="f-link">About Us</a>
+    </div>
+    <button class="f-refer">Refer &amp; Earn →</button>
+  </div>
+</div>

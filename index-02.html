@@ -1,0 +1,748 @@
+
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+.page {
+  font-family: 'Georgia', serif;
+  background: #faf8f5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+
+nav {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 22px 52px;
+  position: relative; z-index: 10;
+}
+.nav-brand { display: flex; align-items: center; gap: 10px; }
+.nav-emblem {
+  width: 38px; height: 38px; background: #8b1a2e; border-radius: 8px;
+  display: flex; align-items: center; justify-content: center;
+}
+.nav-name { font-size: 15px; font-weight: 600; color: #1a1a1a; font-family: sans-serif; }
+.nav-sub { font-size: 10px; color: #aaa; font-family: sans-serif; letter-spacing: 1.5px; text-transform: uppercase; }
+.nav-links { display: flex; gap: 32px; }
+.nav-links a { font-size: 13px; color: #777; text-decoration: none; font-family: sans-serif; cursor: pointer; transition: color 0.2s; }
+.nav-links a:hover, .nav-links a.active { color: #1a1a1a; }
+.nav-btn {
+  font-size: 13px; font-family: sans-serif; font-weight: 500;
+  padding: 10px 22px; border-radius: 6px;
+  background: #8b1a2e; color: #fff; border: none; cursor: pointer; transition: opacity 0.2s;
+}
+.nav-btn:hover { opacity: 0.85; }
+
+.hero {
+  flex: 1; display: grid; grid-template-columns: 1fr 1fr;
+  align-items: center; gap: 0;
+  padding: 20px 52px 40px;
+  position: relative; z-index: 5;
+}
+
+.left { display: flex; flex-direction: column; gap: 20px; padding-right: 40px; }
+
+.eyebrow {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-size: 11px; font-family: sans-serif; letter-spacing: 2.5px;
+  text-transform: uppercase; color: #8b1a2e;
+  opacity: 0; animation: fadeUp 0.7s 0.1s forwards;
+}
+.eyebrow-line { width: 28px; height: 1px; background: #8b1a2e; }
+
+h1 {
+  font-size: 54px; font-weight: 400; line-height: 1.1;
+  color: #1a1a1a; letter-spacing: -1.5px;
+  opacity: 0; animation: fadeUp 0.8s 0.25s forwards;
+}
+h1 em { font-style: italic; color: #8b1a2e; }
+h1 .light { font-weight: 300; color: #555; }
+
+.sub {
+  font-size: 14.5px; color: #888; font-family: sans-serif;
+  line-height: 1.7; max-width: 380px;
+  opacity: 0; animation: fadeUp 0.8s 0.4s forwards;
+}
+
+.search-wrap {
+  background: #fff; border: 1px solid #e5e0d8;
+  border-radius: 12px; padding: 5px 5px 5px 18px;
+  display: flex; align-items: center; max-width: 440px;
+  opacity: 0; animation: fadeUp 0.8s 0.5s forwards;
+  transition: border-color 0.2s;
+}
+.search-wrap:focus-within { border-color: #8b1a2e; }
+.search-wrap input {
+  flex: 1; border: none; outline: none; background: none;
+  font-size: 13.5px; font-family: sans-serif; color: #1a1a1a;
+}
+.search-wrap input::placeholder { color: #ccc; }
+.search-btn {
+  background: #8b1a2e; color: #fff; border: none;
+  padding: 11px 20px; border-radius: 9px;
+  font-size: 13px; font-family: sans-serif; font-weight: 500;
+  cursor: pointer; transition: opacity 0.2s;
+}
+.search-btn:hover { opacity: 0.85; }
+
+.tags {
+  display: flex; gap: 8px; flex-wrap: wrap;
+  opacity: 0; animation: fadeUp 0.8s 0.6s forwards;
+}
+.tag {
+  font-size: 12px; font-family: sans-serif; color: #888;
+  padding: 5px 14px; border-radius: 999px;
+  border: 1px solid #e5e0d8; background: #fff; cursor: pointer;
+  transition: all 0.2s;
+}
+.tag:hover { border-color: #8b1a2e; color: #8b1a2e; }
+
+.stats-row {
+  display: flex; gap: 28px; align-items: center;
+  opacity: 0; animation: fadeUp 0.8s 0.7s forwards;
+}
+.stat { }
+.stat-n { font-size: 26px; color: #1a1a1a; letter-spacing: -0.5px; }
+.stat-l { font-size: 11px; font-family: sans-serif; color: #aaa; letter-spacing: 0.3px; margin-top: 2px; }
+.sdiv { width: 1px; height: 36px; background: #e5e0d8; }
+
+.right {
+  position: relative; display: flex;
+  align-items: center; justify-content: center;
+  height: 500px;
+}
+
+.cityscape {
+  position: absolute; bottom: 0; left: 0; right: 0;
+  opacity: 0; animation: fadeUp 1s 0.3s forwards;
+}
+
+.float-card {
+  position: absolute; background: #fff;
+  border: 1px solid #ece7df; border-radius: 14px;
+  padding: 14px 18px; font-family: sans-serif;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  cursor: pointer; transition: transform 0.2s;
+}
+.float-card:hover { transform: translateY(-4px); }
+
+.fc1 { top: 40px; right: 20px; animation: fadeLeft 0.8s 0.7s both, float1 4s 1.5s ease-in-out infinite; min-width: 160px; }
+.fc2 { top: 180px; left: -10px; animation: fadeRight 0.8s 0.9s both, float2 4.5s 2s ease-in-out infinite; min-width: 150px; }
+.fc3 { bottom: 100px; right: 10px; animation: fadeLeft 0.8s 1.1s both, float3 5s 2.5s ease-in-out infinite; min-width: 155px; }
+
+@keyframes float1 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
+@keyframes float2 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-6px)} }
+@keyframes float3 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-10px)} }
+
+.fc-label { font-size: 10px; color: #aaa; letter-spacing: 1.2px; text-transform: uppercase; margin-bottom: 4px; }
+.fc-name { font-size: 13.5px; font-weight: 600; color: #1a1a1a; }
+.fc-price { font-size: 12.5px; color: #8b1a2e; margin-top: 3px; }
+.fc-tag {
+  display: inline-block; font-size: 10px; padding: 2px 8px;
+  border-radius: 999px; margin-top: 6px; font-weight: 500;
+}
+.t-hot { background: #fff0f2; color: #8b1a2e; border: 1px solid #f5c2cc; }
+.t-new { background: #f0faf5; color: #1a7a4a; border: 1px solid #b8e8d0; }
+.t-nri { background: #f5f0ff; color: #5b21b6; border: 1px solid #d4c0f8; }
+
+.pulse-dot {
+  width: 8px; height: 8px; border-radius: 50%; background: #1a7a4a;
+  display: inline-block; margin-right: 5px;
+  animation: pulseDot 1.8s ease-in-out infinite;
+}
+@keyframes pulseDot { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:0.5;transform:scale(1.4)} }
+
+.refer-badge {
+  position: absolute; bottom: 130px; left: 10px;
+  background: #8b1a2e; color: #fff; border-radius: 12px;
+  padding: 12px 18px; font-family: sans-serif; min-width: 140px;
+  animation: fadeRight 0.8s 1.2s both, float2 5s 3s ease-in-out infinite;
+  cursor: pointer; transition: opacity 0.2s;
+}
+.refer-badge:hover { opacity: 0.9; }
+.rb-top { font-size: 10px; opacity: 0.7; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 4px; }
+.rb-main { font-size: 15px; font-weight: 600; }
+.rb-sub { font-size: 11px; opacity: 0.6; margin-top: 2px; }
+
+.marquee-wrap {
+  overflow: hidden; border-top: 1px solid #ece7df;
+  padding: 14px 0; background: #faf8f5;
+  opacity: 0; animation: fadeUp 0.8s 1.3s forwards;
+}
+.marquee-track {
+  display: flex; gap: 48px; white-space: nowrap;
+  animation: scrollLeft 24s linear infinite;
+}
+.marquee-item {
+  font-size: 12px; font-family: sans-serif; color: #bbb;
+  letter-spacing: 1.5px; text-transform: uppercase;
+  display: flex; align-items: center; gap: 10px; flex-shrink: 0;
+}
+.m-dot { width: 4px; height: 4px; border-radius: 50%; background: #8b1a2e; opacity: 0.5; }
+
+@keyframes scrollLeft { from{transform:translateX(0)} to{transform:translateX(-50%)} }
+@keyframes fadeUp { from{opacity:0;transform:translateY(18px)} to{opacity:1;transform:translateY(0)} }
+@keyframes fadeLeft { from{opacity:0;transform:translateX(20px)} to{opacity:1;transform:translateX(0)} }
+@keyframes fadeRight { from{opacity:0;transform:translateX(-20px)} to{opacity:1;transform:translateX(0)} }
+
+.bg-circle1 {
+  position: absolute; width: 320px; height: 320px; border-radius: 50%;
+  background: rgba(139,26,46,0.045); top: 60px; right: -60px;
+  animation: breathe 6s ease-in-out infinite;
+  pointer-events: none; z-index: 1;
+}
+.bg-circle2 {
+  position: absolute; width: 200px; height: 200px; border-radius: 50%;
+  background: rgba(139,26,46,0.03); bottom: 60px; left: 40px;
+  animation: breathe 8s 2s ease-in-out infinite;
+  pointer-events: none; z-index: 1;
+}
+@keyframes breathe { 0%,100%{transform:scale(1)} 50%{transform:scale(1.08)} }
+
+.line-accent {
+  position: absolute; top: 0; right: 48px; bottom: 0;
+  width: 1px; background: #ece7df; z-index: 1;
+}
+
+.window-blink rect { animation: winBlink 3s ease-in-out infinite; }
+
+/* Partners Section */
+.partners-section {
+  padding: 60px 52px;
+  background: #faf8f5;
+  border-top: 1px solid #ece7df;
+  overflow: hidden;
+}
+
+.partners-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 400;
+  color: #1a1a1a;
+  margin-bottom: 40px;
+  letter-spacing: -0.5px;
+}
+
+.partners-ticker {
+  overflow: hidden;
+  width: 100%;
+}
+
+.partners-track {
+  display: flex;
+  gap: 60px;
+  white-space: nowrap;
+  animation: scrollPartners 40s linear infinite;
+}
+
+.partner-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  min-width: 140px;
+  height: 70px;
+}
+
+.partner-logo img {
+  height: 60px;
+  width: auto;
+  max-width: 140px;
+  object-fit: contain;
+  filter: grayscale(1) opacity(0.7);
+  transition: all 0.3s ease;
+}
+
+.partner-logo:hover img {
+  filter: grayscale(0) opacity(1);
+  transform: scale(1.08);
+}
+
+@keyframes scrollPartners {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Footer */
+.footer {
+  background: #fff;
+  border-top: 1px solid #ece7df;
+  padding: 60px 52px 30px;
+  font-family: sans-serif;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto 40px;
+}
+
+.footer-col { }
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.footer-emblem {
+  width: 40px;
+  height: 40px;
+  background: #f5f0e8;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.footer-sub {
+  font-size: 11px;
+  color: #aaa;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.footer-desc {
+  font-size: 13px;
+  color: #888;
+  line-height: 1.6;
+  max-width: 280px;
+}
+
+.footer-heading {
+  font-size: 13px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+  letter-spacing: 0.5px;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-links a {
+  font-size: 13px;
+  color: #888;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: #8b1a2e;
+}
+
+.footer-contact {
+  font-size: 13px;
+  color: #888;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.footer-contact strong {
+  color: #8b1a2e;
+  font-weight: 600;
+}
+
+.footer-btn {
+  display: inline-block;
+  font-size: 12px;
+  color: #8b1a2e;
+  border: 1px solid #8b1a2e;
+  padding: 10px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.2s;
+  font-weight: 500;
+}
+
+.footer-btn:hover {
+  background: #8b1a2e;
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #ece7df;
+}
+
+.footer-bottom p {
+  font-size: 12px;
+  color: #aaa;
+}
+</style>
+
+<div class="page">
+
+  <div class="bg-circle1"></div>
+  <div class="bg-circle2"></div>
+  <div class="line-accent"></div>
+
+  <nav>
+    <div class="nav-brand">
+      <div class="nav-emblem">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+          <rect x="2" y="11" width="4" height="7" fill="#fff" opacity="0.9"/>
+          <rect x="7.5" y="6" width="5" height="12" fill="#fff"/>
+          <rect x="14" y="2" width="4" height="16" fill="#fff" opacity="0.7"/>
+        </svg>
+      </div>
+      <div>
+        <div class="nav-name">Sai Fakira Real Estate</div>
+        <div class="nav-sub">Ess Eff · Parker's</div>
+      </div>
+    </div>
+    <div class="nav-links">
+      <a class="active">Home</a>
+      <a>Refer &amp; Earn</a>
+      <a>NRI</a>
+      <a>About</a>
+    </div>
+    <button class="nav-btn">Talk to us</button>
+  </nav>
+
+  <div class="hero">
+    <div class="left">
+      <div class="eyebrow"><span class="eyebrow-line"></span>Bharat ke har kone tak</div>
+
+      <h1>Find a home<br>that makes<br>you <em>smile</em></h1>
+
+      <p class="sub">Premium properties across Ahmedabad, Gift City &amp; beyond — handpicked for families, investors, and NRIs.</p>
+
+      <div class="search-wrap">
+        <input placeholder="Locality, project or builder…" />
+        <button class="search-btn">Search</button>
+      </div>
+
+      <div class="tags">
+        <div class="tag">Gift City</div>
+        <div class="tag">Bodakdev</div>
+        <div class="tag">Ambli</div>
+        <div class="tag">Thaltej</div>
+        <div class="tag">NRI Deals</div>
+      </div>
+
+      <div class="stats-row">
+        <div class="stat">
+          <div class="stat-n">500+</div>
+          <div class="stat-l">Properties</div>
+        </div>
+        <div class="sdiv"></div>
+        <div class="stat">
+          <div class="stat-n">12+</div>
+          <div class="stat-l">Top Builders</div>
+        </div>
+        <div class="sdiv"></div>
+        <div class="stat">
+          <div class="stat-n">150+</div>
+          <div class="stat-l">Happy Families</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="right">
+      <svg class="cityscape" viewBox="0 0 500 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="30" y="200" width="60" height="140" rx="3" fill="#e8e2d9"/>
+        <rect x="33" y="210" width="8" height="10" rx="1" fill="#c9b99e" opacity="0.6"/>
+        <rect x="45" y="210" width="8" height="10" rx="1" fill="#c9b99e" opacity="0.6"/>
+        <rect x="57" y="210" width="8" height="10" rx="1" fill="#c9b99e" opacity="0.6"/>
+        <rect x="33" y="228" width="8" height="10" rx="1" fill="#c9b99e" opacity="0.6"/>
+        <rect x="45" y="228" width="8" height="10" rx="1" fill="#c9b99e" opacity="0.6"/>
+        <rect x="57" y="228" width="8" height="10" rx="1" fill="#c9b99e" opacity="0.6"/>
+        <rect x="33" y="246" width="8" height="10" rx="1" fill="#f5c842" opacity="0.7">
+          <animate attributeName="opacity" values="0.7;0.3;0.7" dur="2.8s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="45" y="246" width="8" height="10" rx="1" fill="#c9b99e" opacity="0.5"/>
+        <rect x="57" y="246" width="8" height="10" rx="1" fill="#f5c842" opacity="0.5">
+          <animate attributeName="opacity" values="0.5;0.9;0.5" dur="3.5s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="33" y="264" width="8" height="10" rx="1" fill="#c9b99e" opacity="0.6"/>
+        <rect x="45" y="264" width="8" height="10" rx="1" fill="#f5c842" opacity="0.8">
+          <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.1s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="57" y="264" width="8" height="10" rx="1" fill="#c9b99e" opacity="0.4"/>
+
+        <rect x="100" y="130" width="80" height="210" rx="3" fill="#d6cfc5"/>
+        <rect x="130" y="108" width="20" height="25" rx="2" fill="#c9b99e"/>
+        <rect x="137" y="96" width="6" height="14" rx="1" fill="#b8a898"/>
+        <rect x="105" y="145" width="10" height="12" rx="1" fill="#f5c842" opacity="0.6">
+          <animate attributeName="opacity" values="0.6;0.2;0.6" dur="3.2s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="120" y="145" width="10" height="12" rx="1" fill="#b8c5d6" opacity="0.7"/>
+        <rect x="135" y="145" width="10" height="12" rx="1" fill="#f5c842" opacity="0.4">
+          <animate attributeName="opacity" values="0.4;0.9;0.4" dur="4s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="150" y="145" width="10" height="12" rx="1" fill="#b8c5d6" opacity="0.5"/>
+        <rect x="105" y="165" width="10" height="12" rx="1" fill="#b8c5d6" opacity="0.6"/>
+        <rect x="120" y="165" width="10" height="12" rx="1" fill="#f5c842" opacity="0.7">
+          <animate attributeName="opacity" values="0.7;0.3;0.7" dur="2.5s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="135" y="165" width="10" height="12" rx="1" fill="#b8c5d6" opacity="0.4"/>
+        <rect x="150" y="165" width="10" height="12" rx="1" fill="#f5c842" opacity="0.8">
+          <animate attributeName="opacity" values="0.8;0.2;0.8" dur="3.8s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="105" y="185" width="10" height="12" rx="1" fill="#f5c842" opacity="0.5">
+          <animate attributeName="opacity" values="0.5;1;0.5" dur="2.9s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="120" y="185" width="10" height="12" rx="1" fill="#b8c5d6" opacity="0.6"/>
+        <rect x="135" y="185" width="10" height="12" rx="1" fill="#f5c842" opacity="0.3">
+          <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4.4s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="150" y="185" width="10" height="12" rx="1" fill="#b8c5d6" opacity="0.7"/>
+        <rect x="105" y="205" width="10" height="12" rx="1" fill="#b8c5d6" opacity="0.5"/>
+        <rect x="120" y="205" width="10" height="12" rx="1" fill="#f5c842" opacity="0.6">
+          <animate attributeName="opacity" values="0.6;0.1;0.6" dur="3.1s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="135" y="205" width="10" height="12" rx="1" fill="#b8c5d6" opacity="0.4"/>
+        <rect x="150" y="205" width="10" height="12" rx="1" fill="#b8c5d6" opacity="0.8"/>
+
+        <rect x="200" y="60" width="100" height="280" rx="4" fill="#c8bfb3"/>
+        <rect x="240" y="30" width="20" height="32" rx="2" fill="#b8b0a5"/>
+        <rect x="247" y="16" width="6" height="16" rx="1" fill="#a0998f"/>
+        <rect x="208" y="80" width="12" height="14" rx="1" fill="#f5c842" opacity="0.5">
+          <animate attributeName="opacity" values="0.5;1;0.5" dur="2.2s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="226" y="80" width="12" height="14" rx="1" fill="#b8c5d6" opacity="0.6"/>
+        <rect x="244" y="80" width="12" height="14" rx="1" fill="#f5c842" opacity="0.8">
+          <animate attributeName="opacity" values="0.8;0.3;0.8" dur="3.6s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="262" y="80" width="12" height="14" rx="1" fill="#b8c5d6" opacity="0.5"/>
+        <rect x="280" y="80" width="12" height="14" rx="1" fill="#f5c842" opacity="0.4">
+          <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2.7s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="208" y="102" width="12" height="14" rx="1" fill="#b8c5d6" opacity="0.6"/>
+        <rect x="226" y="102" width="12" height="14" rx="1" fill="#f5c842" opacity="0.7">
+          <animate attributeName="opacity" values="0.7;0.2;0.7" dur="4.1s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="244" y="102" width="12" height="14" rx="1" fill="#b8c5d6" opacity="0.4"/>
+        <rect x="262" y="102" width="12" height="14" rx="1" fill="#f5c842" opacity="0.6">
+          <animate attributeName="opacity" values="0.6;0.1;0.6" dur="3.3s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="280" y="102" width="12" height="14" rx="1" fill="#b8c5d6" opacity="0.7"/>
+        <rect x="208" y="124" width="12" height="14" rx="1" fill="#f5c842" opacity="0.9">
+          <animate attributeName="opacity" values="0.9;0.3;0.9" dur="2.4s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="226" y="124" width="12" height="14" rx="1" fill="#b8c5d6" opacity="0.5"/>
+        <rect x="244" y="124" width="12" height="14" rx="1" fill="#b8c5d6" opacity="0.6"/>
+        <rect x="262" y="124" width="12" height="14" rx="1" fill="#f5c842" opacity="0.5">
+          <animate attributeName="opacity" values="0.5;0.9;0.5" dur="3.9s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="280" y="124" width="12" height="14" rx="1" fill="#b8c5d6" opacity="0.4"/>
+        <rect x="208" y="146" width="84" height="14" rx="1" fill="#b8c5d6" opacity="0.15"/>
+        <rect x="208" y="168" width="84" height="14" rx="1" fill="#b8c5d6" opacity="0.15"/>
+        <rect x="208" y="190" width="84" height="14" rx="1" fill="#b8c5d6" opacity="0.15"/>
+        <rect x="208" y="212" width="84" height="14" rx="1" fill="#b8c5d6" opacity="0.15"/>
+        <rect x="225" y="290" width="50" height="50" rx="2" fill="#b8b0a5"/>
+
+        <rect x="318" y="110" width="70" height="230" rx="3" fill="#ddd6cc"/>
+        <rect x="340" y="88" width="26" height="24" rx="2" fill="#cec7bc"/>
+        <rect x="348" y="76" width="10" height="14" rx="1" fill="#bdb6ab"/>
+        <rect x="323" y="125" width="9" height="11" rx="1" fill="#f5c842" opacity="0.7">
+          <animate attributeName="opacity" values="0.7;0.2;0.7" dur="2.6s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="337" y="125" width="9" height="11" rx="1" fill="#b8c5d6" opacity="0.5"/>
+        <rect x="351" y="125" width="9" height="11" rx="1" fill="#f5c842" opacity="0.4">
+          <animate attributeName="opacity" values="0.4;0.9;0.4" dur="3.7s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="365" y="125" width="9" height="11" rx="1" fill="#b8c5d6" opacity="0.6"/>
+        <rect x="323" y="143" width="9" height="11" rx="1" fill="#b8c5d6" opacity="0.4"/>
+        <rect x="337" y="143" width="9" height="11" rx="1" fill="#f5c842" opacity="0.8">
+          <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2.9s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="351" y="143" width="9" height="11" rx="1" fill="#b8c5d6" opacity="0.5"/>
+        <rect x="365" y="143" width="9" height="11" rx="1" fill="#f5c842" opacity="0.6">
+          <animate attributeName="opacity" values="0.6;0.1;0.6" dur="4.2s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="323" y="161" width="51" height="11" rx="1" fill="#b8c5d6" opacity="0.12"/>
+        <rect x="323" y="179" width="51" height="11" rx="1" fill="#b8c5d6" opacity="0.12"/>
+        <rect x="323" y="197" width="51" height="11" rx="1" fill="#b8c5d6" opacity="0.12"/>
+
+        <rect x="400" y="170" width="55" height="170" rx="3" fill="#e0dbd2"/>
+        <rect x="405" y="182" width="7" height="9" rx="1" fill="#f5c842" opacity="0.6">
+          <animate attributeName="opacity" values="0.6;0.2;0.6" dur="3.4s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="416" y="182" width="7" height="9" rx="1" fill="#b8c5d6" opacity="0.5"/>
+        <rect x="427" y="182" width="7" height="9" rx="1" fill="#b8c5d6" opacity="0.6"/>
+        <rect x="438" y="182" width="7" height="9" rx="1" fill="#f5c842" opacity="0.4">
+          <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2.3s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="405" y="198" width="7" height="9" rx="1" fill="#b8c5d6" opacity="0.5"/>
+        <rect x="416" y="198" width="7" height="9" rx="1" fill="#f5c842" opacity="0.7">
+          <animate attributeName="opacity" values="0.7;0.2;0.7" dur="3.8s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="427" y="198" width="7" height="9" rx="1" fill="#b8c5d6" opacity="0.4"/>
+        <rect x="438" y="198" width="7" height="9" rx="1" fill="#b8c5d6" opacity="0.6"/>
+
+        <rect x="455" y="200" width="45" height="140" rx="3" fill="#e8e2d9"/>
+        <rect x="460" y="212" width="6" height="8" rx="1" fill="#f5c842" opacity="0.5">
+          <animate attributeName="opacity" values="0.5;1;0.5" dur="2.8s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="470" y="212" width="6" height="8" rx="1" fill="#b8c5d6" opacity="0.6"/>
+        <rect x="480" y="212" width="6" height="8" rx="1" fill="#b8c5d6" opacity="0.4"/>
+        <rect x="490" y="212" width="6" height="8" rx="1" fill="#f5c842" opacity="0.7">
+          <animate attributeName="opacity" values="0.7;0.3;0.7" dur="3.2s" repeatCount="indefinite"/>
+        </rect>
+
+        <rect x="0" y="336" width="500" height="4" fill="#e0dbd2"/>
+
+        <rect x="6" y="310" width="24" height="6" rx="2" fill="#c9b99e" opacity="0.4"/>
+        <circle cx="12" cy="320" r="5" fill="#c9b99e" opacity="0.35"/>
+        <circle cx="22" cy="320" r="5" fill="#c9b99e" opacity="0.35"/>
+
+        <rect x="200" y="316" width="100" height="4" rx="2" fill="#b8b0a5" opacity="0.3"/>
+        <circle cx="245" cy="330" r="6" fill="#b8b0a5" opacity="0.25"/>
+        <circle cx="255" cy="330" r="6" fill="#b8b0a5" opacity="0.25"/>
+
+        <circle cx="460" cy="155" r="18" fill="#f5c84220"/>
+        <circle cx="460" cy="155" r="10" fill="#f5c84240"/>
+        <circle cx="460" cy="155" r="4" fill="#f5c842"/>
+        <line x1="460" y1="137" x2="460" y2="110" stroke="#f5c842" stroke-width="1" opacity="0.4" stroke-dasharray="3 3"/>
+
+        <circle cx="70" cy="180" r="14" fill="#8b1a2e15"/>
+        <circle cx="70" cy="180" r="7" fill="#8b1a2e25"/>
+        <circle cx="70" cy="180" r="3" fill="#8b1a2e"/>
+
+        <path d="M80 320 Q120 290 160 310 Q200 330 240 315 Q280 300 320 318 Q360 336 400 320 Q430 308 460 318" stroke="#8b1a2e" stroke-width="1.5" fill="none" opacity="0.15"/>
+      </svg>
+
+      <div class="float-card fc1">
+        <div class="fc-label">Gift City</div>
+        <div class="fc-name">Trogon Twin Tower</div>
+        <div class="fc-price">₹2.5 Cr+</div>
+        <span class="fc-tag t-hot">● HOT</span>
+      </div>
+
+      <div class="float-card fc2">
+        <div class="fc-label">Ambli, Ahmedabad</div>
+        <div class="fc-name">Silver Luxuria</div>
+        <div class="fc-price">₹1.2 Cr+</div>
+        <span class="fc-tag t-new">● NEW</span>
+      </div>
+
+      <div class="float-card fc3">
+        <div class="fc-label">Shantigram</div>
+        <div class="fc-name">Adani Realty</div>
+        <div class="fc-price">₹3 Cr+</div>
+        <span class="fc-tag t-nri">● NRI</span>
+      </div>
+
+      <div class="refer-badge">
+        <div class="rb-top">Special offer</div>
+        <div class="rb-main">Refer &amp; Earn</div>
+        <div class="rb-sub">₹ rewards on every deal</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="marquee-wrap">
+    <div class="marquee-track">
+      <span class="marquee-item"><span class="m-dot"></span>Adani Realty</span>
+      <span class="marquee-item"><span class="m-dot"></span>Siddharth Group</span>
+      <span class="marquee-item"><span class="m-dot"></span>A. Shridhar</span>
+      <span class="marquee-item"><span class="m-dot"></span>Silver Group</span>
+      <span class="marquee-item"><span class="m-dot"></span>Akshat Paradise</span>
+      <span class="marquee-item"><span class="m-dot"></span>Solaris Business Hub</span>
+      <span class="marquee-item"><span class="m-dot"></span>Satyam Skyline</span>
+      <span class="marquee-item"><span class="m-dot"></span>Sereneous Life</span>
+      <span class="marquee-item"><span class="m-dot"></span>Adani Realty</span>
+      <span class="marquee-item"><span class="m-dot"></span>Siddharth Group</span>
+      <span class="marquee-item"><span class="m-dot"></span>A. Shridhar</span>
+      <span class="marquee-item"><span class="m-dot"></span>Silver Group</span>
+      <span class="marquee-item"><span class="m-dot"></span>Akshat Paradise</span>
+      <span class="marquee-item"><span class="m-dot"></span>Solaris Business Hub</span>
+      <span class="marquee-item"><span class="m-dot"></span>Satyam Skyline</span>
+      <span class="marquee-item"><span class="m-dot"></span>Sereneous Life</span>
+    </div>
+  </div>
+
+  <!-- Our Trusted Partners Section -->
+  <section class="partners-section">
+    <h2 class="partners-title">Our Trusted Partners</h2>
+    <div class="partners-ticker">
+      <div class="partners-track">
+        <div class="partner-logo"><img src="images/Logos/CHANDRANA.png.png" alt="Chandrana"></div>
+        <div class="partner-logo"><img src="images/Logos/DEEP BUILDERS.png.png" alt="Deep Builders"></div>
+        <div class="partner-logo"><img src="images/Logos/GALA.png.png" alt="Gala"></div>
+        <div class="partner-logo"><img src="images/Logos/GOYAL.png.png" alt="Goyal"></div>
+        <div class="partner-logo"><img src="images/Logos/HR GROUP.png" alt="HR Group"></div>
+        <div class="partner-logo"><img src="images/Logos/KAVISHA.png.png" alt="Kavisha"></div>
+        <div class="partner-logo"><img src="images/Logos/KAVYARATNA.png.png" alt="Kavyaratna"></div>
+        <div class="partner-logo"><img src="images/Logos/LILAMANI.png.png" alt="Lilamani"></div>
+        <div class="partner-logo"><img src="images/adani_realty.svg" alt="Adani"></div>
+        <div class="partner-logo"><img src="images/A-Shridhar.svg" alt="Shridhar"></div>
+        <div class="partner-logo"><img src="images/Emberlynn-logo.svg" alt="Emberlynn"></div>
+        <div class="partner-logo"><img src="images/Siddharth-Group-final-logo.png" alt="Siddharth"></div>
+
+        <!-- Repeat for seamless loop -->
+        <div class="partner-logo"><img src="images/Logos/CHANDRANA.png.png" alt="Chandrana"></div>
+        <div class="partner-logo"><img src="images/Logos/DEEP BUILDERS.png.png" alt="Deep Builders"></div>
+        <div class="partner-logo"><img src="images/Logos/GALA.png.png" alt="Gala"></div>
+        <div class="partner-logo"><img src="images/Logos/GOYAL.png.png" alt="Goyal"></div>
+        <div class="partner-logo"><img src="images/Logos/HR GROUP.png" alt="HR Group"></div>
+        <div class="partner-logo"><img src="images/Logos/KAVISHA.png.png" alt="Kavisha"></div>
+        <div class="partner-logo"><img src="images/Logos/KAVYARATNA.png.png" alt="Kavyaratna"></div>
+        <div class="partner-logo"><img src="images/Logos/LILAMANI.png.png" alt="Lilamani"></div>
+        <div class="partner-logo"><img src="images/adani_realty.svg" alt="Adani"></div>
+        <div class="partner-logo"><img src="images/A-Shridhar.svg" alt="Shridhar"></div>
+        <div class="partner-logo"><img src="images/Emberlynn-logo.svg" alt="Emberlynn"></div>
+        <div class="partner-logo"><img src="images/Siddharth-Group-final-logo.png" alt="Siddharth"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-col">
+        <div class="footer-brand">
+          <div class="footer-emblem">
+            <svg width="24" height="24" viewBox="0 0 20 20" fill="none">
+              <rect x="2" y="11" width="4" height="7" fill="#8b1a2e" opacity="0.9"/>
+              <rect x="7.5" y="6" width="5" height="12" fill="#8b1a2e"/>
+              <rect x="14" y="2" width="4" height="16" fill="#8b1a2e" opacity="0.7"/>
+            </svg>
+          </div>
+          <div>
+            <div class="footer-name">Sai Fakira Real Estate</div>
+            <div class="footer-sub">Ess Eff · Parker's</div>
+          </div>
+        </div>
+        <p class="footer-desc">Delivering excellence in real estate across Bharat.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#">NRI Corner</a></li>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Contact</h4>
+        <p class="footer-contact">Sponsored by:<br><strong>Sai Fakira Financial Services</strong></p>
+        <a href="#" class="footer-btn">Refer & Earn →</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Sai Fakira Real Estate. All rights reserved.</p>
+    </div>
+  </footer>
+
+</div>
