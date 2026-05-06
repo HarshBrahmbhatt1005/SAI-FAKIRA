@@ -9782,9 +9782,9 @@ const propertyCardsData = [
     "price": 70,
     "soldOut": false,
     "images": [
-      "images/the-identity-01.jpg",
-      "images/the-identity-02.jpg",
-      "images/the-identity-03.jpg"
+      "images/the-identity-01.jpeg",
+      "images/the-identity-02.jpeg",
+      "images/the-identity-03.jpeg"
     ],
     "propertyLocation": "Gift City",
     "schemeName": "The Identity",
