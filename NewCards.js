@@ -2575,8 +2575,8 @@ const propertyCardsData = [
   {
     id: 99,
     type: "Residential",
-    latest: "GiftCity",
-    location: "Gift-City-03",
+    latest: "Gift City",
+    location: "Gift City-03",
     price: 231,
     soldOut: false,
 
@@ -4207,8 +4207,8 @@ const propertyCardsData = [
   {
     id: 169,
     type: "Residential",
-    latest: "GiftCity",
-    location: "Gift-City-01",
+    latest: "Gift City",
+    location: "Gift City-01",
     price: 65,
     soldOut: false,
 
@@ -4235,8 +4235,8 @@ const propertyCardsData = [
   {
     id: 170,
     type: "Penthouse",
-    latest: "GiftCity",
-    location: "Gift-City-02",
+    latest: "Gift City",
+    location: "Gift City-02",
     price: 145,
     soldOut: false,
 
@@ -4347,8 +4347,8 @@ const propertyCardsData = [
   {
     id: 177,
     type: "Residential",
-    latest: "GiftCity",
-    location: "Gift-City-03",
+    latest: "Gift City",
+    location: "Gift City-03",
     price: 116,
     soldOut: false,
 
@@ -4374,8 +4374,8 @@ const propertyCardsData = [
   {
     id: 178,
     type: "Duplex",
-    latest: "GiftCity",
-    location: "Gift-City-04",
+    latest: "Gift City",
+    location: "Gift City-04",
     price: 200,
     soldOut: false,
 
@@ -4401,8 +4401,8 @@ const propertyCardsData = [
   {
     id: 179,
     type: "Commercial",
-    latest: "GiftCity",
-    location: "Gift-City-05",
+    latest: "Gift City",
+    location: "Gift City-05",
     price: 200,
     soldOut: false,
 
@@ -4429,8 +4429,8 @@ const propertyCardsData = [
   {
     id: 180,
     type: "Commercial",
-    latest: "GiftCity",
-    location: "Gift-City-06",
+    latest: "Gift City",
+    location: "Gift City-06",
     price: 200,
     soldOut: false,
 

@@ -1327,7 +1327,12 @@ function initializeFilters() {
   // ===== FILTER LOGIC =====
 
   function normalize(val = "") {
-    return val.toLowerCase().replace(/-/g, " ").trim();
+    return String(val)
+      .replace(/([a-z0-9])([A-Z])/g, "$1 $2")
+      .toLowerCase()
+      .replace(/[-_]+/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
   }
 
   function getPriceRange(step) {

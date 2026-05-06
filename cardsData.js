@@ -2488,8 +2488,8 @@ const propertyCardsData = [
   {
     "id": 76,
     "type": "Residential",
-    "latest": "GiftCity",
-    "location": "Gift-City-01",
+    "latest": "Gift City",
+    "location": "Gift City-01",
     "price": 231,
     "soldOut": false,
     "images": [
@@ -4140,8 +4140,8 @@ const propertyCardsData = [
   {
     "id": 128,
     "type": "Mixed",
-    "latest": "GiftCity",
-    "location": "Gift-City-02",
+    "latest": "Gift City",
+    "location": "Gift City-02",
     "price": 65,
     "soldOut": false,
     "images": [
@@ -4278,8 +4278,8 @@ const propertyCardsData = [
   {
     "id": 132,
     "type": "Mixed",
-    "latest": "GiftCity",
-    "location": "Gift-City-03",
+    "latest": "Gift City",
+    "location": "Gift City-03",
     "price": 116,
     "soldOut": false,
     "images": [
@@ -4316,8 +4316,8 @@ const propertyCardsData = [
   {
     "id": 133,
     "type": "Commercial",
-    "latest": "GiftCity",
-    "location": "Gift-City-04",
+    "latest": "Gift City",
+    "location": "Gift City-04",
     "price": 200,
     "soldOut": false,
     "images": [
@@ -4346,8 +4346,8 @@ const propertyCardsData = [
   {
     "id": 134,
     "type": "Commercial",
-    "latest": "GiftCity",
-    "location": "Gift-City-05",
+    "latest": "Gift City",
+    "location": "Gift City-05",
     "price": 200,
     "soldOut": false,
     "images": [
@@ -9777,8 +9777,8 @@ const propertyCardsData = [
   {
     "id": 287,
     "type": "Commercial",
-    "latest": "Gift-City",
-    "location": "Gift-City-06",
+    "latest": "Gift City",
+    "location": "Gift City-06",
     "price": 70,
     "soldOut": false,
     "images": [
@@ -9786,7 +9786,7 @@ const propertyCardsData = [
       "images/the-identity-02.jpg",
       "images/the-identity-03.jpg"
     ],
-    "propertyLocation": "Gift-City",
+    "propertyLocation": "Gift City",
     "schemeName": "The Identity",
     "features": [
       "29 Storey Tower",
