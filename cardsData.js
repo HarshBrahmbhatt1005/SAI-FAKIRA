@@ -616,7 +616,7 @@ const propertyCardsData = [
     "type": "Residential",
     "latest": "Shilaj",
     "location": "Shilaj-01",
-    "price": 81,
+    "price": 85,
     "soldOut": true,
     "images": [
        "/images/silver-brook-2-01.jpg",
@@ -636,7 +636,7 @@ const propertyCardsData = [
           "bhk": "3 BHK",
           "sqft": "1760",
           "sqftType": "Super Built-up",
-          "price": "81 Lacs"
+          "price": "85 Lacs"
         }
       ]
     }
@@ -1630,7 +1630,7 @@ const propertyCardsData = [
     "type": "Residential",
     "latest": "Shilaj",
     "location": "Shilaj",
-    "price": 81,
+    "price": 85,
     "soldOut": false,
     "images": [],
     "propertyLocation": "Shilaj",
@@ -1646,7 +1646,7 @@ const propertyCardsData = [
           "bhk": "3 BHK",
           "sqft": "2700",
           "sqftType": "SuperBuilt-up",
-          "price": "81 Lacs"
+          "price": "85 Lacs"
         }
       ]
     }
@@ -5752,7 +5752,9 @@ const propertyCardsData = [
     "images": [
       "images/mayfair-01.jpg",
       "images/mayfair-02.jpg",
-      "images/mayfair-03.jpg"
+      "images/mayfair-03.jpg",
+      "images/mayfair-04.jpg",
+
     ],
     "propertyLocation": "Wapa",
     "schemeName": "Sun Mayfair",
@@ -11426,7 +11428,7 @@ const propertyCardsData = [
   {
     "id": 333,
     "type": "Mixed",
-    "latest": "Sindhu-Bhavan",
+    "latest": "Sindhu Bhavan",
     "location": "Sindhu-Bhavan-03",
     "price": 405,
     "soldOut": false,
@@ -11435,7 +11437,7 @@ const propertyCardsData = [
       "images/the-indus-02.jpg",
       "images/the-indus-03.jpg"
     ],
-    "propertyLocation": "Sindhu-Bhavan Road",
+    "propertyLocation": "Sindhu Bhavan Road",
     "schemeName": "The Indus",
     "features": [
       "25+ Modern Amenities",
@@ -11820,7 +11822,7 @@ const propertyCardsData = [
    {
     "id": 344,
     "type": "Residential",
-    "latest": "Sindhu-Bhavan",
+    "latest": "Sindhu Bhavan",
     "location": "Sindhu-Bhavan-04",
     "price": 850,
     "soldOut": false,
@@ -11829,7 +11831,7 @@ const propertyCardsData = [
       "images/ikebana-02.jpg",
       "images/ikebana-03.jpg"
     ],
-    "propertyLocation": "Sindhu-Bhavan",
+    "propertyLocation": "Sindhu Bhavan Road",
     "schemeName": "Ikebana",
     "features": [
       "Pure Residential Project",
@@ -11924,9 +11926,9 @@ const propertyCardsData = [
     "price": 102,
     "soldOut": false,
     "images": [
-      "images/sky97-01.jpg",
-      "images/sky97-02.jpg",
-      "images/sky97-03.jpg"
+      "images/sky-97-01.jpg",
+      "images/sky-97-02.jpg",
+      "images/sky-97-03.jpg"
     ],
     "propertyLocation": "Shela",
     "schemeName": "Sky 97",
@@ -12183,12 +12185,12 @@ const propertyCardsData = [
     "price": 63,
     "soldOut": false,
     "images": [
-      "images/Shilp-Reventa-01.jpg",
-      "images/Shilp-Reventa-02.jpg",
-      "images/Shilp-Reventa-03.jpg"
+      "images/Shilp-Revanta-01.jpg",
+      "images/Shilp-Revanta-02.jpg",
+      "images/Shilp-Revanta-03.jpg"
     ],
     "propertyLocation": "Shela",
-    "schemeName": "Shilp Reventa",
+    "schemeName": "Shilp Revanta",
     "features": [
       "2 Road Corner Project",
       "60+ Modern Amenities",
@@ -12362,7 +12364,8 @@ const propertyCardsData = [
     "images": [
       "images/The-planet-01.jpg",
       "images/The-planet-02.jpg",
-      "images/The-planet-03.jpg"
+      "images/The-planet-03.jpg",
+      "images/The-planet-04.jpg"
     ],
     "propertyLocation": "Shela",
     "schemeName": "The Planet",
@@ -12673,9 +12676,9 @@ const propertyCardsData = [
     "price":51,
     "soldOut": false,
     "images": [
-      "images/Trinary-01.jpg",
-      "images/Trinary-02.jpg",
-      "images/Trinary-03.jpg"
+      "images/Sheladia-trinary -01.jpg",
+      "images/sheladia-trinary -02.jpg",
+      "images/sheladia-trinary -03.jpg"
     ],
     "propertyLocation": "Shela",
     "schemeName": "Sheladia Trinary",
@@ -12944,7 +12947,7 @@ const propertyCardsData = [
     "images": [
       "images/sheladia-eris-01.jpg",
       "images/sheladia-eris-02.jpg",
-      "images/sheladia-eris-03.jpg"
+      
     ],
     "propertyLocation": "Shela",
     "schemeName": "Sheladia Eris",

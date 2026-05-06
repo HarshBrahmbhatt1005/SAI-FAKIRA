@@ -1,5 +1,61 @@
 const phoneNumber = "919033784030";
 
+// Centralized location data - Add new areas here only once!
+const LOCATIONS_DATA = [
+  { value: "Adalaj", label: "Adalaj" },
+  { value: "Adani-Shantigram", label: "Adani Shantigram" },
+  { value: "Ashram-Road", label: "Ashram-Road" },
+  { value: "Ambli", label: "Ambli" },
+  { value: "Ambli-Bopal", label: "Ambli-Bopal Road" },
+  { value: "Bapunagar", label: "Bapunagar" },
+  { value: "Bhavanpur", label: "Bhavanpur" },
+  { value: "Bhuyangdev", label: "Bhuyangdev" },
+  { value: "Bodakdev", label: "Bodakdev" },
+  { value: "Bopal", label: "Bopal" },
+  { value: "C.G Road", label: "C.G Road" },
+  { value: "Chharodi", label: "Chharodi" },
+  { value: "Chandkheda", label: "Chandkheda" },
+  { value: "Chandrasan", label: "Chandrasan" },
+  { value: "Gandhinagar", label: "Gandhinagar" },
+  { value: "Gift City", label: "Gift City" },
+  { value: "Gota", label: "Gota" },
+  { value: "Govindpura", label: "Govindpura" },
+  { value: "Gurukul", label: "Gurukul" },
+  { value: "Hathijan", label: "Hathijan" },
+  { value: "Iscon", label: "Iscon" },
+  { value: "Iscon-Ambli", label: "Iscon-Ambli Road" },
+  { value: "Jagatpur", label: "Jagatpur" },
+  { value: "Jhaloda", label: "Jhaloda" },
+  { value: "Kalyangadh", label: "Kalyangadh" },
+  { value: "Karnavati Club", label: "Karnavati Club" },
+  { value: "Laxmanpura", label: "Laxmanpura" },
+  { value: "Link-in Road", label: "Link-in Road" },
+  { value: "ManekBaug", label: "ManekBaug" },
+  { value: "Memnagar", label: "Memnagar" },
+  { value: "Naranpura", label: "Naranpura" },
+  { value: "Nandoli", label: "Nandoli" },
+  { value: "Naroda", label: "Naroda" },
+  { value: "Navrangpura", label: "Navrangpura" },
+  { value: "Panjrapole", label: "Panjrapole" },
+  { value: "Paldi", label: "Paldi" },
+  { value: "Prahladnagar", label: "Prahladnagar" },
+  { value: "RajPath-Club", label: "RajPath-Club" },
+  { value: "Satellite", label: "Satellite" },
+  { value: "Science-city", label: "Science-city" },
+  { value: "Science-park", label: "Science-park" },
+  { value: "Shahibaug", label: "Shahibaug" },
+  { value: "Shela", label: "Shela" },
+  { value: "Shivranjani", label: "Shivranjani" },
+  { value: "Shilaj", label: "Shilaj" },
+  { value: "Sindhu Bhavan Road", label: "Sindhu Bhavan Road" },
+  { value: "Tapovan", label: "Tapovan" },
+  { value: "Thaltej", label: "Thaltej" },
+  { value: "Tragad", label: "Tragad" },
+  { value: "Vaishnodevi", label: "Vaishnodevi" },
+  { value: "Wapa", label: "Wapa" },
+  { value: "Zundal", label: "Zundal" }
+];
+
 const canonicalTypeMap = {
   residential: "Residential",
   apartments: "Apartments",
@@ -904,6 +960,16 @@ function initializeFilters() {
   const locationSearchInput = document.getElementById("locationSearchInput");
   const locationHiddenInput = document.getElementById("propLocation");
 
+  // Dynamically populate location options from centralized data
+  if (locationOptions) {
+    locationOptions.innerHTML = LOCATIONS_DATA.map(loc => `
+      <label class="multiselect-option">
+        <input type="checkbox" value="${loc.value}" data-label="${loc.label}">
+        <span>${loc.label}</span>
+      </label>
+    `).join('');
+  }
+
   // Multi-select type elements
   const typeDisplay = document.getElementById("typeDisplay");
   const typeDropdown = document.getElementById("typeDropdown");
@@ -1023,6 +1089,8 @@ function initializeFilters() {
     locationOptions.addEventListener("change", (e) => {
       if (e.target.type === "checkbox") {
         const value = e.target.value;
+        
+        // Immediate update of selected locations array
         if (e.target.checked) {
           if (!selectedLocations.includes(value)) {
             selectedLocations.push(value);
@@ -1030,8 +1098,12 @@ function initializeFilters() {
         } else {
           selectedLocations = selectedLocations.filter(loc => loc !== value);
         }
+        
+        // Update UI immediately for instant feedback
         updateLocationDisplay();
         updateActiveFilters();
+        
+        // Filter cards (now optimized with requestAnimationFrame)
         filterCards();
       }
     });
@@ -1359,81 +1431,90 @@ function initializeFilters() {
 
     priceText.innerText = priceRange.label;
 
+    // Pre-normalize selected locations for faster comparison
+    const normalizedSelectedLocations = selectedLocations.map(loc => normalize(loc));
+
     let visible = 0;
     const visibleCards = [];
 
-    cards.forEach((card) => {
-      const cardLocationBase = normalize(card.dataset.locationBase || card.dataset.latest || card.dataset.location || "");
-      const cardType = card.dataset.filterTypes || "";
-      const price = parseInt(card.dataset.price || 0);
-      const title = normalize(card.querySelector(".projectName")?.innerText || "");
+    // Use requestAnimationFrame for smoother UI updates
+    requestAnimationFrame(() => {
+      cards.forEach((card) => {
+        const cardLocationBase = normalize(card.dataset.locationBase || card.dataset.latest || card.dataset.location || "");
+        const cardType = card.dataset.filterTypes || "";
+        const price = parseInt(card.dataset.price || 0);
+        
+        // Cache the title to avoid repeated DOM queries
+        if (!card._cachedTitle) {
+          card._cachedTitle = normalize(card.querySelector(".projectName")?.innerText || "");
+        }
+        const title = card._cachedTitle;
 
-      let show = true;
+        let show = true;
 
-      // Text search filter
-      if (searchValue && !title.includes(searchValue)) {
-        show = false;
-      }
+        // Text search filter
+        if (searchValue && !title.includes(searchValue)) {
+          show = false;
+        }
 
-      // Multi-location filter
+        // Multi-location filter (optimized with pre-normalized values)
+        if (normalizedSelectedLocations.length > 0) {
+          const matchesLocation = normalizedSelectedLocations.includes(cardLocationBase);
+          if (!matchesLocation) show = false;
+        }
+
+        // Multi-type filter
+        if (selectedEffective.length > 0) {
+          const cardTypes = (cardType.includes("+")
+            ? cardType.split("+").map(t => normalizeTypeToken(t))
+            : [normalizeTypeToken(cardType)]).filter(Boolean);
+          const matchesType = selectedEffective.some(sel => cardTypes.includes(sel));
+          if (!matchesType) show = false;
+        }
+
+        if (show) {
+          card.style.setProperty("display", "flex", "important");
+          visible++;
+          visibleCards.push(card);
+        } else {
+          card.style.setProperty("display", "none", "important");
+        }
+      });
+
+      // When location filter is active, keep cards ordered by base location then sequence:
+      // e.g. gota-01, gota-02, gota-03...
       if (selectedLocations.length > 0) {
-        const matchesLocation = selectedLocations.some(loc =>
-          normalize(loc) === cardLocationBase
-        );
-        if (!matchesLocation) show = false;
+        const propertyContainer = document.querySelector(".property-container");
+        if (propertyContainer && visibleCards.length > 1) {
+          const selectedSet = new Set(normalizedSelectedLocations);
+
+          visibleCards.sort((a, b) => {
+            const aBase = normalize(a.dataset.locationBase || "");
+            const bBase = normalize(b.dataset.locationBase || "");
+
+            const aSelectedPriority = selectedSet.has(aBase) ? 0 : 1;
+            const bSelectedPriority = selectedSet.has(bBase) ? 0 : 1;
+            if (aSelectedPriority !== bSelectedPriority) return aSelectedPriority - bSelectedPriority;
+
+            if (aBase !== bBase) return aBase.localeCompare(bBase);
+
+            const aSeq = parseInt(a.dataset.locationSeq || "999999", 10);
+            const bSeq = parseInt(b.dataset.locationSeq || "999999", 10);
+            if (aSeq !== bSeq) return aSeq - bSeq;
+
+            const aId = parseInt(a.dataset.id || "0", 10);
+            const bId = parseInt(b.dataset.id || "0", 10);
+            return aId - bId;
+          });
+
+          visibleCards.forEach(card => propertyContainer.appendChild(card));
+        }
       }
 
-      // Multi-type filter
-      if (selectedEffective.length > 0) {
-        const cardTypes = (cardType.includes("+")
-          ? cardType.split("+").map(t => normalizeTypeToken(t))
-          : [normalizeTypeToken(cardType)]).filter(Boolean);
-        const matchesType = selectedEffective.some(sel => cardTypes.includes(sel));
-        if (!matchesType) show = false;
-      }
-
-      if (show) {
-        card.style.setProperty("display", "flex", "important");
-        visible++;
-        visibleCards.push(card);
-      } else {
-        card.style.setProperty("display", "none", "important");
+      if (noResult) {
+        noResult.style.display = visible === 0 ? "flex" : "none";
       }
     });
-
-    // When location filter is active, keep cards ordered by base location then sequence:
-    // e.g. gota-01, gota-02, gota-03...
-    if (selectedLocations.length > 0) {
-      const propertyContainer = document.querySelector(".property-container");
-      if (propertyContainer && visibleCards.length > 1) {
-        const selectedSet = new Set(selectedLocations.map(loc => normalize(loc)));
-
-        visibleCards.sort((a, b) => {
-          const aBase = normalize(a.dataset.locationBase || "");
-          const bBase = normalize(b.dataset.locationBase || "");
-
-          const aSelectedPriority = selectedSet.has(aBase) ? 0 : 1;
-          const bSelectedPriority = selectedSet.has(bBase) ? 0 : 1;
-          if (aSelectedPriority !== bSelectedPriority) return aSelectedPriority - bSelectedPriority;
-
-          if (aBase !== bBase) return aBase.localeCompare(bBase);
-
-          const aSeq = parseInt(a.dataset.locationSeq || "999999", 10);
-          const bSeq = parseInt(b.dataset.locationSeq || "999999", 10);
-          if (aSeq !== bSeq) return aSeq - bSeq;
-
-          const aId = parseInt(a.dataset.id || "0", 10);
-          const bId = parseInt(b.dataset.id || "0", 10);
-          return aId - bId;
-        });
-
-        visibleCards.forEach(card => propertyContainer.appendChild(card));
-      }
-    }
-
-    if (noResult) {
-      noResult.style.display = visible === 0 ? "flex" : "none";
-    }
   }
 
   // ===== POPULAR LOCALITY CHIPS =====
@@ -1944,6 +2025,16 @@ function initializeMobileFilters() {
   const mobileSelectAllTypesBtn = document.getElementById("mobileSelectAllTypes");
   const mobileDeselectAllTypesBtn = document.getElementById("mobileDeselectAllTypes");
   const mobileLocationSearch = document.getElementById("mobileLocationSearch");
+
+  // Dynamically populate mobile location options from centralized data
+  if (mobileLocationOptions) {
+    mobileLocationOptions.innerHTML = LOCATIONS_DATA.map(loc => `
+      <label class="mobile-multiselect-option">
+        <input type="checkbox" value="${loc.value}" data-label="${loc.label}">
+        <span>${loc.label}</span>
+      </label>
+    `).join('');
+  }
 
   // Collapsible triggers
   const mobileLocationTrigger = document.getElementById("mobileLocationTrigger");

@@ -3807,12 +3807,18 @@ footer a:hover {
   cursor: pointer;
   accent-color: #8c1843;
   border-radius: 4px;
+  transition: all 0.1s ease; /* Instant visual feedback */
+}
+
+.multiselect-option input[type="checkbox"]:active {
+  transform: scale(0.95); /* Immediate click feedback */
 }
 
 .multiselect-option span {
   font-size: 14px;
   color: #333;
   flex: 1;
+  transition: all 0.15s ease; /* Smooth text transition */
 }
 
 .multiselect-option input[type="checkbox"]:checked+span {
@@ -4622,12 +4628,18 @@ footer a:hover {
   margin-right: 12px;
   cursor: pointer;
   accent-color: #8c1843;
+  transition: all 0.1s ease; /* Instant visual feedback */
+}
+
+.mobile-multiselect-option input[type="checkbox"]:active {
+  transform: scale(0.95); /* Immediate click feedback */
 }
 
 .mobile-multiselect-option span {
   font-size: 14px;
   color: #333;
   flex: 1;
+  transition: all 0.15s ease; /* Smooth text transition */
 }
 
 .mobile-multiselect-option input[type="checkbox"]:checked+span {
