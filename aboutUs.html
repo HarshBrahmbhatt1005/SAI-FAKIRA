@@ -219,7 +219,7 @@
         <div class="flex justify-between items-center px-4 lg:px-8 py-4 md:py-6 w-full">
             <!-- Left Logo -->
             <div class="flex-shrink-0">
-                <img src="images/SAI FAKIRA LOGO WHITE .png" alt="Sai Fakira Logo"
+                <img src="SAI FAKIRA LOGO WHITE .png" alt="Sai Fakira Logo"
                     class="h-12 md:h-16 lg:h-20 w-auto object-contain" />
             </div>
 
@@ -272,7 +272,7 @@
                 class="absolute bottom-0 left-0 w-full h-full z-0 opacity-30 pointer-events-none select-none overflow-hidden">
                 <video autoplay muted loop playsinline class="w-full h-full object-cover mix-blend-multiply"
                     style="filter: contrast(1.1) saturate(0.8);">
-                    <source src="asset.mp4" type="video/mp4" />
+                    <source src="Animated_Clouds_and_Gentle_Breeze.mp4" type="video/mp4" />
                 </video>
             </div>
 
@@ -343,19 +343,19 @@
                                 class="absolute inset-0 flex transition-transform duration-[1800ms] ease-[cubic-bezier(0.25,0.1,0.25,1)]"
                                 style="width: 400%;">
                                 <div class="wre-slide relative flex-shrink-0" style="width:25%">
-                                    <img src="images/Hero-img.png" alt="Real Estate 1"
+                                    <img src="s1.jpg" alt="Real Estate 1"
                                         class="w-full h-full object-cover object-center" />
                                 </div>
                                 <div class="wre-slide relative flex-shrink-0" style="width:25%">
-                                    <img src="images/Finance.jpg" alt="Real Estate 2"
+                                    <img src="s2.jpg" alt="Real Estate 2"
                                         class="w-full h-full object-cover object-center" />
                                 </div>
                                 <div class="wre-slide relative flex-shrink-0" style="width:25%">
-                                    <img src="images/WestBank.jpg" alt="Real Estate 3"
+                                    <img src="s3.jpg" alt="Real Estate 3"
                                         class="w-full h-full object-cover object-center" />
                                 </div>
                                 <div class="wre-slide relative flex-shrink-0" style="width:25%">
-                                    <img src="images/Loan.jpeg" alt="Real Estate 4"
+                                    <img src="s4.jpg" alt="Real Estate 4"
                                         class="w-full h-full object-cover object-center" />
                                 </div>
                             </div>
@@ -869,14 +869,12 @@
         <script>
             (function () {
                 const bankLogos = [
-                    'ESEFF REAL ESTATE LOGO (3).png',
-                    'ESEFF REAL ESTATE LOGO (6).png',
-                    'SAI FAKIRA LOGO WHITE .png',
-                    'A-Shridhar.svg',
-                    'Hero-img.png',
-                    'Finance.jpg',
-                    'Loan.jpeg',
-                    'WestBank.jpg'
+                    'aadhar_housing_no_bg.png', 'aditya_birla_housing_no_bg.png', 'axis.png',
+                    'bajaj_finserv_no_bg.png', 'bandhan_no_bg.png', 'bob.png', 'boi.png', 'deutsche_bank_no_bg.png', 'hdfc.png', 'icici.png', 'idfc.png',
+                    'indus.png', 'kotak.png',
+                    'lt_finance_no_bg.png', 'pnb.png',
+                    'rbl.png', 'tata_capital_housing_no_bg.png', 'tata_capital_no_bg.png',
+                    'uco_bank_no_bg.png', 'yes.png'
                 ];
 
                 const builderLogos = [
@@ -923,10 +921,6 @@
                             img.className = 'max-w-full max-h-full object-contain';
                             img.style.maxHeight = isMobile ? '29.4px' : '105px';
                             img.loading = 'lazy';
-                            img.onerror = function () {
-                                this.onerror = null;
-                                this.src = 'images/ESEFF REAL ESTATE LOGO (3).png';
-                            };
 
                             container.appendChild(img);
                             wrapper.appendChild(container);
@@ -1006,8 +1000,8 @@
 
                 // Initialize both orbits safely after load to ensure innerWidth is accurate
                 window.addEventListener('DOMContentLoaded', () => {
-                    initOrbit('bank-orbit', bankLogos, 'images', true, 1);
-                    initOrbit('builder-orbit', builderLogos, 'images/Logos', false, -1);
+                    initOrbit('bank-orbit', bankLogos, 'bank logos', true, 1);
+                    initOrbit('builder-orbit', builderLogos, 'builders logo', false, -1);
                 });
             })();
         </script>
@@ -1111,7 +1105,7 @@
                     class="hidden lg:flex lg:w-[45%] xl:w-[45%] flex-col justify-center items-center p-8 lg:pr-16 z-10 relative">
                     <video autoplay loop muted playsinline
                         class="w-full max-w-lg xl:max-w-2xl h-auto object-contain object-center transition-transform duration-700 hover:scale-[1.02] mix-blend-multiply">
-                        <source src="asset.mp4" type="video/mp4" />
+                        <source src="contact us video.mp4" type="video/mp4" />
                     </video>
                 </div>
             </div>
