@@ -1,243 +1,1240 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Us</title>
-    <link rel="stylesheet" href="aboutUs.css" />
-    <link rel="stylesheet" href="style.css" />
+<!DOCTYPE html>
+
+<html class="light scroll-smooth" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
-  </head>
-
-  <body>
-    <!-- ================= DESKTOP NAV ================= -->
-    <nav class="desktop-nav">
-      <div class="desktop-nav-left">
-        <a href="index.html">
-          <img
-            src="images/SAI FAKIRA LOGO WHITE .png"
-            class="desk-logo"
-            alt="Logo"
-          />
-        </a>
-      </div>
-
-      <ul class="desktop-nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="refer.html">Refer & Earn</a></li>
-        <li><a href="nri.html">NRI</a></li>
-        <li><a href="SAI FAKIRA COMPANY PROFILE new.pdf">Profile</a></li>
-        <li><a href="aboutUs.html">About Us</a></li>
-      </ul>
-
-      <!-- DESKTOP ICON (unchanged) -->
-      <button class="menu-toggle">
-        <i class="fa-solid fa-bars"></i>
-      </button>
-    </nav>
-
-    <!-- ================= MOBILE MENU ICON (FIXED) ================= -->
-    <div class="menu-toggle" id="mobileMenuToggle">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-
-    <!-- ================= OVERLAY ================= -->
-    <div id="overlay"></div>
-
-    <!-- ================= SIDE MENU ================= -->
-    <div class="side-menu" id="mobileMenu">
-      <div class="menu-header">
-        <img src="images/ESEFF REAL ESTATE LOGO (3).png" alt="logo" />
-        <button id="closeMenu">×</button>
-      </div>
-
-      <ul class="menu-list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="refer.html">Refer & Earn</a></li>
-        <li><a href="nri.html">NRI</a></li>
-        <li><a href="SAI FAKIRA COMPANY PROFILE new.pdf">Profile</a></li>
-        <li><a href="aboutUs.html">About Us</a></li>
-      </ul>
-    </div>
-
-    <section class="why-choose-us">
-      <div class="container">
-        <h2 class="section-title">Why Choose Us</h2>
-        <div class="why-content">
-          <p class="why-content-p">
-            For the last <strong>14 years</strong>, you have been more than
-            clients – you have been our family. Every milestone we’ve reached is
-            because of your trust and support.
-          </p>
-          <p class="why-content-p">
-            Today, with the same spirit, we are excited to announce our new
-            journey in Real Estate.
-          </p>
-          <h3>Why Real Estate?</h3>
-          <p class="why-content-p">
-            Because in today’s fast-moving world, people don’t just need
-            property – they need guidance, trust, and the right partner who can
-            stand with them in their biggest decisions. Whether it’s business
-            growth or personal investment, we want to be the bridge that
-            connects your dreams to reality.
-          </p>
-          <p class="why-content-p">
-            With our presence in <strong>130+ cities</strong>, strong builder
-            relationships, and <strong>20 years of financial expertise</strong>,
-            Sai Fakira is uniquely positioned to bring you better deals,
-            transparent advice, and a family-like support system.
-          </p>
-          <p class="why-content-p">
-            This step is not just about business – it’s about preparing for the
-            future vision of Sai Fakira, where finance and real estate come
-            together under one trusted roof.
-          </p>
-          <p class="why-content-p">
-            Very soon, this service will be right in your palm so you can access
-            it anytime, anywhere, and refer your near dear connections.
-          </p>
-          <blockquote>
-            " We promise to continue being your deal maker – delivering value,
-            trust, and unbeatable offers in both finance and real estate."
-          </blockquote>
-          <p class="why-content-p">
-            Together, let’s begin this new chapter. Because every journey we
-            start, we start with you.
-          </p>
-          <section class="nri-core-services">
-            <div class="container">
-              <h2 class="section-title">Our Core Services</h2>
-
-              <div class="core-services-grid">
-                <div class="core-service-card">
-                  <div class="cs-icon">
-                    <i class="fa-solid fa-list-check"></i>
-                  </div>
-                  <div class="cs-text">
-                    <h4>Personalized Property Shortlisting</h4>
-                    <p>Based on your lifestyle, investment goals and budget.</p>
-                  </div>
-                </div>
-
-                <div class="core-service-card">
-                  <div class="cs-icon">
-                    <i class="fa-solid fa-shield-halved"></i>
-                  </div>
-                  <div class="cs-text">
-                    <h4>Verified & Pre-Screened Developers</h4>
-                    <p>
-                      Only RERA-approved projects with clean legal titles &
-                      transparent pricing.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="core-service-card">
-                  <div class="cs-icon"><i class="fa-solid fa-camera"></i></div>
-                  <div class="cs-text">
-                    <h4>Virtual & Physical Property Tours</h4>
-                    <p>Explore confidently from anywhere in the world.</p>
-                  </div>
-                </div>
-
-                <div class="core-service-card">
-                  <div class="cs-icon">
-                    <i class="fa-solid fa-hand-holding-dollar"></i>
-                  </div>
-                  <div class="cs-text">
-                    <h4>Loan & Financial Support</h4>
-                    <p>
-                      Eligibility check, documentation, bank coordination & NRI
-                      home loan assistance.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="core-service-card">
-                  <div class="cs-icon">
-                    <i class="fa-solid fa-file-signature"></i>
-                  </div>
-                  <div class="cs-text">
-                    <h4>Legal & Documentation Support</h4>
-                    <p>
-                      Agreement review, registration, KYC, NRE/NRO guidance &
-                      POA support.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="core-service-card">
-                  <div class="cs-icon">
-                    <i class="fa-solid fa-house-circle-check"></i>
-                  </div>
-                  <div class="cs-text">
-                    <h4>Post-Purchase Assistance</h4>
-                    <p>
-                      Possession, rental support (optional), and ongoing
-                      advisory.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <p class="highlight">
-            For more details, you can connect with us personally.
-            <br /><strong style="color: white"
-              >Sai Fakira – Growing with You, For You.</strong
-            >
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- DISCLAIMER (always open) -->
-    <section class="sf-disclaimerr">
-      <div class="sf-disclaimer__wrapp">
-        <div class="sf-disclaimer__header">
-          <h2 class="sf-disclaimer__titlee">⚠️ Disclaimer</h2>
-        </div>
-        <div class="sf-disclaimer__content">
-          <p>
-            All property details, prices, amenities, and specifications
-            displayed on this platform are solely provided by the respective
-            builders/developers. We act purely as a third-party channel partner
-            and have not independently represented or guaranteed any information
-            from our side. All details are subject to change at the builder's
-            discretion without prior notice. Visitors are advised to verify all
-            information directly with the builder before making any booking
-            decision. We shall not be held liable for any discrepancies or
-            changes in the information provided.
-          </p>
-        </div>
-      </div>
-    </section>
-    <!-- ================= MOBILE MENU SCRIPT (FIXED) ================= -->
-    <script>
-      const menuToggle = document.getElementById("mobileMenuToggle");
-      const mobileMenu = document.getElementById("mobileMenu");
-      const closeMenu = document.getElementById("closeMenu");
-      const overlay = document.getElementById("overlay");
-
-      // OPEN
-      menuToggle.addEventListener("click", () => {
-        mobileMenu.classList.add("active");
-        overlay.classList.add("show");
-      });
-
-      // CLOSE
-      function closeNow() {
-        mobileMenu.classList.remove("active");
-        overlay.classList.remove("show");
-      }
-
-      closeMenu.addEventListener("click", closeNow);
-      overlay.addEventListener("click", closeNow);
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "var(--color-primary)",
+                        accent: "var(--color-accent)",
+                        "bg-main": "var(--color-bg-main)",
+                        "bg-soft": "var(--color-bg-soft)",
+                        "text-primary": "var(--color-text-primary)",
+                        "text-inverse": "var(--color-text-inverse)",
+                        "border-subtle": "var(--color-border-subtle)"
+                    },
+                    borderRadius: {
+                        "sm": "var(--radius-sm)",
+                        "md": "var(--radius-md)",
+                        "lg": "var(--radius-lg)",
+                        "card": "var(--radius-sm)",
+                    },
+                    boxShadow: {
+                        "card": "var(--shadow-card)",
+                    },
+                    fontFamily: {
+                        "headline": ["Plus Jakarta Sans", "Inter", "sans-serif"],
+                        "body": ["Inter", "sans-serif"],
+                        "sans": ["Inter", "sans-serif"]
+                    }
+                },
+            },
+        }
     </script>
-  </body>
+    <style>
+        :root {
+            /* Brand Colors */
+            --color-primary: #8A2046;
+            --color-accent: #F59C90;
+
+            /* Backgrounds */
+            --color-bg-main: #FFFFFF;
+            --color-bg-soft: #F8F8F8;
+
+            /* Typography */
+            --color-text-primary: #333333;
+            --color-text-inverse: #FFFFFF;
+
+            /* UI Elements */
+            --color-border-subtle: rgba(0, 0, 0, 0.06);
+            --color-shadow-primary: rgba(138, 32, 70, 0.08);
+            --color-accent-glow: rgba(245, 156, 144, 0.05);
+
+            /* Shadows & Radius */
+            --shadow-card: 0 10px 40px rgba(138, 32, 70, 0.08);
+            --radius-sm: 6px;
+            --radius-md: 12px;
+            --radius-lg: 20px;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+        .editorial-gradient {
+            background: linear-gradient(135deg, var(--color-primary) 0%, #b82259 100%);
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        .animate-marquee {
+            animation: marquee 35s linear infinite;
+        }
+
+        .marquee-container:hover .animate-marquee {
+            animation-play-state: paused;
+        }
+
+        .menu-toggle {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .menu-toggle {
+                position: fixed;
+                top: 12px;
+                right: 12px;
+                width: 44px;
+                height: 44px;
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 5px;
+                cursor: pointer;
+                z-index: 3100;
+                border-radius: 999px;
+                background: rgba(140, 24, 67, 0.9);
+                backdrop-filter: blur(8px);
+                -webkit-backdrop-filter: blur(8px);
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.22);
+                border: 1px solid rgba(255, 255, 255, 0.22);
+            }
+
+            .menu-toggle span {
+                width: 100%;
+                height: 2px;
+                background: #fff;
+                border-radius: 10px;
+                transition: 0.3s ease;
+            }
+        }
+
+        .side-menu {
+            position: fixed;
+            top: 0;
+            right: -300px;
+            width: 270px;
+            height: 90vh;
+            background: #ffffff;
+            box-shadow: -4px 0px 20px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            z-index: 4000;
+            transition: right 0.35s ease;
+            border-radius: 20px 0 0 20px;
+        }
+
+        .side-menu.active {
+            right: 0;
+        }
+
+        #overlay {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.1) 60%, rgba(0, 0, 0, 0.0) 100%);
+            backdrop-filter: blur(3px);
+            top: 0;
+            left: 0;
+            z-index: 3500;
+            display: none;
+        }
+
+        #overlay.show {
+            display: block;
+        }
+
+        .menu-header {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .menu-header img {
+            width: 100px;
+        }
+
+        .menu-header button {
+            background: none;
+            border: none;
+            font-size: 32px;
+            cursor: pointer;
+            color: #8c1843;
+        }
+
+        .menu-list {
+            list-style: none;
+            padding: 0;
+            margin-top: 30px;
+        }
+
+        .menu-list li {
+            margin: 16px 0;
+        }
+
+        .menu-list li a {
+            text-decoration: none;
+            color: #8c1843;
+            font-size: 1.15rem;
+            font-weight: 500;
+            transition: 0.2s ease;
+        }
+
+        .menu-list li a:hover {
+            color: #ff6b00;
+        }
+
+    </style>
+</head>
+
+<body
+    class="bg-bg-main text-text-primary font-body selection:bg-secondary-container selection:text-on-secondary-container overflow-x-hidden">
+    <!-- TopNavBar -->
+    <nav class="w-full top-0 absolute z-50 bg-[#8c1843] shadow-[0_8px_32px_rgba(28,28,25,0.06)]">
+        <div class="flex justify-between items-center px-4 lg:px-8 py-4 md:py-6 w-full">
+            <!-- Left Logo -->
+            <div class="flex-shrink-0">
+                <img src="SAI FAKIRA LOGO WHITE .png" alt="Sai Fakira Logo"
+                    class="h-12 md:h-16 lg:h-20 w-auto object-contain" />
+            </div>
+
+            <!-- Navigation Links -->
+            <div class="hidden md:flex items-center space-x-8 lg:space-x-12 font-sans tracking-tight">
+                <a class="text-white hover:text-white/80 transition-colors font-medium text-sm lg:text-base"
+                    href="index.html">Home</a>
+                <a class="text-white hover:text-white/80 transition-colors font-medium text-sm lg:text-base"
+                    href="refer.html">Refer & Earn</a>
+                <a class="text-white hover:text-white/80 transition-colors font-medium text-sm lg:text-base"
+                    href="nri.html">NRI</a>
+                <a class="text-white hover:text-white/80 transition-colors font-medium text-sm lg:text-base"
+                    href="SAI FAKIRA COMPANY PROFILE new.pdf">Profile</a>
+                <a class="text-white font-semibold text-sm lg:text-base" href="aboutUs.html">About
+                    Us</a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden flex items-center">
+                <div class="menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    <div id="overlay"></div>
+    <div class="side-menu" id="mobileMenu">
+        <div class="menu-header">
+            <img src="images/ESEFF REAL ESTATE LOGO (3).png" alt="logo" />
+            <button id="closeMenu">&times;</button>
+        </div>
+        <ul class="menu-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="refer.html">Refer & Earn</a></li>
+            <li><a href="nri.html">NRI</a></li>
+            <li><a href="SAI FAKIRA COMPANY PROFILE new.pdf">Profile</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+        </ul>
+    </div>
+    <main>
+        <!-- Integrated Hero Section -->
+        <!-- Super Aesthetic High-End Hero Section -->
+        <section
+            class="relative bg-bg-soft min-h-[100svh] flex flex-col justify-center overflow-hidden border-b-0 md:border-b md:border-primary/10 snap-start">
+            <!-- Animated Clouds Video Overlay -->
+            <div
+                class="absolute bottom-0 left-0 w-full h-full z-0 opacity-30 pointer-events-none select-none overflow-hidden">
+                <video autoplay muted loop playsinline class="w-full h-full object-cover mix-blend-multiply"
+                    style="filter: contrast(1.1) saturate(0.8);">
+                    <source src="Animated_Clouds_and_Gentle_Breeze.mp4" type="video/mp4" />
+                </video>
+            </div>
+
+            <div
+                class="relative max-w-screen-2xl mx-auto px-6 md:px-8 z-10 w-full flex-1 flex flex-col justify-center pb-48 md:pb-32 pt-12 md:pt-20">
+                <!-- Text Content -->
+                <div class="max-w-5xl mx-auto text-center mb-8">
+                    <h1
+                        class="text-4xl md:text-6xl lg:text-[85px] font-headline font-black text-primary leading-[1.05] mb-6 md:mb-8 tracking-tighter drop-shadow-sm">
+                        Where <span
+                            class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Finance</span>
+                        Meets<br class="hidden md:block" /> Real Estate
+                    </h1>
+                    <p
+                        class="text-lg lg:text-xl text-text-primary max-w-4xl mx-auto leading-relaxed font-body font-medium">
+                        With over <strong class="text-primary font-bold">14 years</strong> of legacy in Loan
+                        Distribution, we bridge the gap between high-value real
+                        estate and sophisticated financial planning.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Immersive Stats Section Embedded in Hero -->
+            <div class="absolute bottom-6 md:bottom-16 left-0 right-0 z-20 w-full px-4 md:px-8">
+                <div class="max-w-5xl mx-auto">
+                    <div
+                        class="flex flex-col md:flex-row justify-center divide-y md:divide-y-0 md:divide-x divide-primary/20 bg-white/70 md:bg-white/10 backdrop-blur-xl md:backdrop-blur-md border border-white/60 md:border-white/20 shadow-[0_8px_32px_0_rgba(138,32,70,0.15)] md:shadow-card rounded-2xl md:rounded-3xl py-1.5 md:py-6 px-3 md:px-8 mx-2 md:mx-0">
+                        <div class="flex flex-col items-center justify-center flex-1 py-1 md:py-0">
+                            <span class="text-2xl md:text-6xl font-headline font-bold text-primary mb-0 md:mb-3"><span
+                                    class="hero-counter" data-target="14">0</span>+</span>
+                            <span
+                                class="text-[9px] md:text-sm text-primary/80 font-bold uppercase tracking-widest text-center leading-tight mt-0.5 md:mt-0">Years
+                                of
+                                trust</span>
+                        </div>
+                        <div class="flex flex-col items-center justify-center flex-1 py-1 md:py-0">
+                            <span class="text-2xl md:text-6xl font-headline font-bold text-primary mb-0 md:mb-3"><span
+                                    class="hero-counter" data-target="130">0</span>+</span>
+                            <span
+                                class="text-[9px] md:text-sm text-primary/80 font-bold uppercase tracking-widest text-center leading-tight mt-0.5 md:mt-0">Cities
+                                served</span>
+                        </div>
+                        <div class="flex flex-col items-center justify-center flex-1 py-1 md:py-0">
+                            <span class="text-2xl md:text-6xl font-headline font-bold text-primary mb-0 md:mb-3"><span
+                                    class="hero-counter" data-target="20">0</span>+ years</span>
+                            <span
+                                class="text-[9px] md:text-sm text-primary/80 font-bold uppercase tracking-widest text-center leading-tight mt-0.5 md:mt-0">Financial
+                                expertise</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Why Real Estate Section -->
+        <section id="why-real-estate"
+            class="bg-bg-soft min-h-[100svh] flex flex-col justify-center overflow-x-hidden pt-24 pb-16 lg:py-0 snap-start">
+            <div class="max-w-screen-2xl mx-auto px-6 md:px-8 w-full">
+                <div class="flex flex-col lg:flex-row gap-8 lg:gap-14 items-center">
+
+                    <!-- Left: Cinematic Image Carousel (Slide Only) -->
+                    <div class="lg:w-1/2 flex-shrink-0 w-full wre-reveal opacity-0 translate-y-8"
+                        style="transition-delay: 100ms;">
+                        <div
+                            class="relative w-full h-[300px] md:h-[400px] lg:h-[520px] rounded-3xl overflow-hidden shadow-xl lg:shadow-2xl border border-border-subtle">
+
+                            <!-- Carousel Track -->
+                            <div id="wre-carousel"
+                                class="absolute inset-0 flex transition-transform duration-[1800ms] ease-[cubic-bezier(0.25,0.1,0.25,1)]"
+                                style="width: 400%;">
+                                <div class="wre-slide relative flex-shrink-0" style="width:25%">
+                                    <img src="s1.jpg" alt="Real Estate 1"
+                                        class="w-full h-full object-cover object-center" />
+                                </div>
+                                <div class="wre-slide relative flex-shrink-0" style="width:25%">
+                                    <img src="s2.jpg" alt="Real Estate 2"
+                                        class="w-full h-full object-cover object-center" />
+                                </div>
+                                <div class="wre-slide relative flex-shrink-0" style="width:25%">
+                                    <img src="s3.jpg" alt="Real Estate 3"
+                                        class="w-full h-full object-cover object-center" />
+                                </div>
+                                <div class="wre-slide relative flex-shrink-0" style="width:25%">
+                                    <img src="s4.jpg" alt="Real Estate 4"
+                                        class="w-full h-full object-cover object-center" />
+                                </div>
+                            </div>
+
+                            <!-- Gradient overlays for premium feel -->
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-black/25 via-transparent to-transparent pointer-events-none z-10">
+                            </div>
+                            <div
+                                class="absolute inset-0 bg-gradient-to-r from-primary/8 via-transparent to-primary/8 pointer-events-none z-10">
+                            </div>
+
+                            <!-- Slide indicators -->
+                            <div class="absolute bottom-5 left-1/2 -translate-x-1/2 flex gap-2.5 z-20">
+                                <span
+                                    class="wre-dot w-7 h-[5px] rounded-full bg-white transition-all duration-700 ease-out"></span>
+                                <span
+                                    class="wre-dot w-[5px] h-[5px] rounded-full bg-white/40 transition-all duration-700 ease-out"></span>
+                                <span
+                                    class="wre-dot w-[5px] h-[5px] rounded-full bg-white/40 transition-all duration-700 ease-out"></span>
+                                <span
+                                    class="wre-dot w-[5px] h-[5px] rounded-full bg-white/40 transition-all duration-700 ease-out"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Staggered Scroll-Reveal Content -->
+                    <div class="lg:w-1/2 flex flex-col justify-center space-y-6 lg:pl-4">
+
+                        <!-- Badge -->
+                        <div class="wre-reveal opacity-0 translate-y-8" style="transition-delay: 0ms;">
+                            <span
+                                class="inline-block bg-primary text-white px-5 py-2 rounded-full text-[11px] font-bold tracking-[0.2em] uppercase">
+                                Our Philosophy
+                            </span>
+                        </div>
+
+                        <!-- Heading -->
+                        <div class="wre-reveal opacity-0 translate-y-8" style="transition-delay: 120ms;">
+                            <h2
+                                class="text-3xl md:text-4xl lg:text-5xl font-headline font-black text-primary leading-[1.1]">
+                                Why <span
+                                    class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Real
+                                    Estate?</span>
+                            </h2>
+                        </div>
+
+                        <!-- Body text -->
+                        <div class="wre-reveal opacity-0 translate-y-8 space-y-4 text-text-primary font-body font-medium leading-relaxed text-[15.5px]"
+                            style="transition-delay: 240ms;">
+                            <p>Because in today's fast-moving world, people don't just need property — they need <strong
+                                    class="text-primary">guidance, trust,</strong> and the right partner who can stand
+                                with them in their biggest decisions.</p>
+                            <p>Whether it's business growth or personal investment, we want to be the bridge that
+                                connects your dreams to reality.</p>
+                        </div>
+
+                        <!-- Bullet Points -->
+                        <div class="wre-reveal opacity-0 translate-y-8 space-y-3" style="transition-delay: 380ms;">
+                            <div class="flex items-center gap-3">
+                                <span
+                                    class="flex-shrink-0 w-5 h-5 rounded-full bg-primary/10 border border-primary/25 flex items-center justify-center">
+                                    <span class="material-symbols-outlined text-primary"
+                                        style="font-size:13px;">check</span>
+                                </span>
+                                <p class="text-text-primary text-[15px] font-medium">Presence in <strong
+                                        class="text-primary"><span class="counter" data-target="130">0</span>+
+                                        cities</strong> across India</p>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <span
+                                    class="flex-shrink-0 w-5 h-5 rounded-full bg-primary/10 border border-primary/25 flex items-center justify-center">
+                                    <span class="material-symbols-outlined text-primary"
+                                        style="font-size:13px;">check</span>
+                                </span>
+                                <p class="text-text-primary text-[15px] font-medium">Strong builder relationships &amp;
+                                    <strong class="text-primary">verified developers</strong>
+                                </p>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <span
+                                    class="flex-shrink-0 w-5 h-5 rounded-full bg-primary/10 border border-primary/25 flex items-center justify-center">
+                                    <span class="material-symbols-outlined text-primary"
+                                        style="font-size:13px;">check</span>
+                                </span>
+                                <p class="text-text-primary text-[15px] font-medium"><strong class="text-primary"><span
+                                            class="counter" data-target="20">0</span> years</strong> of financial
+                                    expertise</p>
+                            </div>
+                        </div>
+
+                        <!-- Quote Block -->
+                        <div class="wre-reveal opacity-0 translate-y-8" style="transition-delay: 520ms;">
+                            <div class="relative bg-primary text-white p-8 rounded-card shadow-xl overflow-hidden">
+                                <div
+                                    class="absolute top-2 left-4 text-white font-serif text-[70px] leading-none select-none pointer-events-none">
+                                    &ldquo;</div>
+                                <p
+                                    class="text-[16px] font-body font-bold relative z-10 leading-relaxed italic px-6 py-2">
+                                    We promise to continue being your deal maker — delivering value, trust, and
+                                    unbeatable offers in both finance and real estate.
+                                </p>
+                                <div
+                                    class="absolute bottom-2 right-4 text-white font-serif text-[70px] leading-none select-none pointer-events-none">
+                                    &rdquo;</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Real Estate: Styles & Scripts -->
+        <style>
+            .wre-reveal {
+                transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1),
+                    transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+            }
+
+            .wre-reveal.wre-visible {
+                opacity: 1 !important;
+                transform: translateY(0) !important;
+            }
+        </style>
+
+        <script>
+                /* ---- Smooth Slide-Only Carousel ---- */
+                (function () {
+                    const track = document.getElementById('wre-carousel');
+                    if (!track) return;
+
+                    const slides = track.querySelectorAll('.wre-slide');
+                    const dots = document.querySelectorAll('.wre-dot');
+                    let current = 0;
+                    const total = slides.length;
+
+                    function goTo(idx) {
+                        track.style.transform = 'translateX(-' + (idx * 25) + '%)';
+                        dots.forEach(function (d, i) {
+                            d.style.width = i === idx ? '28px' : '5px';
+                            d.style.opacity = i === idx ? '1' : '0.4';
+                        });
+                        current = idx;
+                    }
+
+                    goTo(0);
+                    setInterval(function () {
+                        goTo((current + 1) % total);
+                    }, 5000);
+                })();
+
+            /* ---- Staggered Scroll-Reveal ---- */
+            (function () {
+                var revealEls = document.querySelectorAll('.wre-reveal');
+                var observer = new IntersectionObserver(function (entries) {
+                    entries.forEach(function (entry) {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('wre-visible');
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, { threshold: 0.12 });
+                revealEls.forEach(function (el) { observer.observe(el); });
+            })();
+        </script>
+        <!-- Our Core Services Section -->
+        <section
+            class="min-h-[100svh] bg-surface relative overflow-hidden snap-start flex flex-col justify-center py-20 lg:py-12">
+            <!-- Decorative background elements -->
+            <div
+                class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[1px] bg-gradient-to-r from-transparent via-primary/20 to-transparent">
+            </div>
+            <div
+                class="absolute top-10 left-1/2 -translate-x-1/2 w-[90%] md:w-[800px] h-[200px] md:h-[300px] bg-primary/[0.04] blur-[80px] md:blur-[120px] rounded-full pointer-events-none">
+            </div>
+
+            <div class="max-w-screen-2xl mx-auto px-6 md:px-8 relative z-10">
+                <div class="text-center mb-12 md:mb-20 flex flex-col items-center">
+                    <span
+                        class="bg-primary text-white px-5 py-2 rounded-full text-[10px] md:text-xs font-bold tracking-[0.2em] uppercase mb-6 md:mb-8 shadow-md">
+                        What We Offer
+                    </span>
+                    <h2
+                        class="text-4xl md:text-6xl lg:text-7xl font-headline font-black mb-6 md:mb-8 tracking-tight relative">
+                        <span class="text-primary" style="padding-right: 0px;">Our Core</span>
+                        <span
+                            class="text-transparent bg-clip-text bg-gradient-to-br from-primary via-accent to-primary italic drop-shadow-sm"
+                            style="padding: 7px;">Services</span>
+                    </h2>
+                    <p class="text-text-primary/80 max-w-2xl mx-auto text-lg md:text-xl font-medium leading-relaxed">
+                        Comprehensive support tailored for the sophisticated investor, blending meticulous care with
+                        exceptional market insight.
+                    </p>
+                </div>
+            </div>
+            <div class="w-full overflow-hidden flex marquee-container py-10 relative">
+                <div
+                    class="absolute left-0 top-0 bottom-0 w-12 md:w-48 bg-gradient-to-r from-bg-soft to-transparent z-10 pointer-events-none">
+                </div>
+                <div
+                    class="absolute right-0 top-0 bottom-0 w-12 md:w-48 bg-gradient-to-l from-bg-soft to-transparent z-10 pointer-events-none">
+                </div>
+
+                <div class="flex animate-marquee shrink-0 gap-8 pr-8 min-w-max">
+                    <!-- Card 1 -->
+                    <div
+                        class="w-[280px] md:w-[360px] shrink-0 p-8 bg-bg-main hover:bg-[#ffffff] transition-all duration-500 rounded-card border-[5px] border-border-subtle shadow-sm hover:-translate-y-1 hover:shadow-primary-glow cursor-pointer relative overflow-hidden group">
+                        <div
+                            class="absolute top-0 left-0 w-full h-[2px] bg-primary transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left">
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-gradient-to-b from-transparent to-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
+                        </div>
+                        <div
+                            class="w-14 h-14 editorial-gradient text-white rounded-xl flex items-center justify-center mb-8 shadow-md transform group-hover:scale-110 transition-transform duration-500">
+                            <span class="material-symbols-outlined text-2xl" data-icon="list_alt">list_alt</span>
+                        </div>
+                        <h3 class="text-2xl font-headline font-bold mb-4 text-primary">Personalized Property
+                            Shortlisting</h3>
+                        <p class="text-base text-text-primary/80 leading-relaxed font-medium">Curated selections based
+                            on your
+                            financial goals, lifestyle preferences, and long-term investment horizon.</p>
+                    </div>
+                    <!-- Card 2 -->
+                    <div
+                        class="w-[280px] md:w-[360px] shrink-0 p-8 bg-bg-main hover:bg-[#ffffff] transition-all duration-500 rounded-card border-[5px] border-border-subtle shadow-sm hover:-translate-y-1 hover:shadow-primary-glow cursor-pointer relative overflow-hidden group">
+                        <div
+                            class="absolute top-0 left-0 w-full h-[2px] bg-primary transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left">
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-gradient-to-b from-transparent to-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
+                        </div>
+                        <div
+                            class="w-14 h-14 editorial-gradient text-white rounded-xl flex items-center justify-center mb-8 shadow-md transform group-hover:scale-110 transition-transform duration-500">
+                            <span class="material-symbols-outlined text-2xl" data-icon="verified">verified</span>
+                        </div>
+                        <h3 class="text-2xl font-headline font-bold mb-4 text-primary">Verified Developers</h3>
+                        <p class="text-base text-text-primary/80 leading-relaxed font-medium">We only partner with
+                            Tier-1
+                            developers who pass our rigorous 50-point due diligence checklist for timely delivery.</p>
+                    </div>
+                    <!-- Card 3 -->
+                    <div
+                        class="w-[280px] md:w-[360px] shrink-0 p-8 bg-bg-main hover:bg-[#ffffff] transition-all duration-500 rounded-card border-[5px] border-border-subtle shadow-sm hover:-translate-y-1 hover:shadow-primary-glow cursor-pointer relative overflow-hidden group">
+                        <div
+                            class="absolute top-0 left-0 w-full h-[2px] bg-primary transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left">
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-gradient-to-b from-transparent to-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
+                        </div>
+                        <div
+                            class="w-14 h-14 editorial-gradient text-white rounded-xl flex items-center justify-center mb-8 shadow-md transform group-hover:scale-110 transition-transform duration-500">
+                            <span class="material-symbols-outlined text-2xl" data-icon="map">map</span>
+                        </div>
+                        <h3 class="text-2xl font-headline font-bold mb-4 text-primary"> Curated Property Experiences
+                        </h3>
+                        <p class="text-base text-text-primary/80 leading-relaxed font-medium">Seamless viewing
+                            experiences
+                            from anywhere in the world, supplemented by local expert insights on the neighborhood.</p>
+                    </div>
+                    <!-- Card 4 -->
+                    <div
+                        class="w-[280px] md:w-[360px] shrink-0 p-8 bg-bg-main hover:bg-[#ffffff] transition-all duration-500 rounded-card border-[5px] border-border-subtle shadow-sm hover:-translate-y-1 hover:shadow-primary-glow cursor-pointer relative overflow-hidden group">
+                        <div
+                            class="absolute top-0 left-0 w-full h-[2px] bg-primary transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left">
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-gradient-to-b from-transparent to-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
+                        </div>
+                        <div
+                            class="w-14 h-14 editorial-gradient text-white rounded-xl flex items-center justify-center mb-8 shadow-md transform group-hover:scale-110 transition-transform duration-500">
+                            <span class="material-symbols-outlined text-2xl"
+                                data-icon="account_balance">account_balance</span>
+                        </div>
+                        <h3 class="text-2xl font-headline font-bold mb-4 text-primary">Loan &amp; Financial Support
+                        </h3>
+                        <p class="text-base text-text-primary/80 leading-relaxed font-medium">Leverage our banking
+                            networks
+                            for preferential interest rates and structured finance options for HNI and NRI clients.</p>
+                    </div>
+                    <!-- Card 5 -->
+                    <div
+                        class="w-[280px] md:w-[360px] shrink-0 p-8 bg-bg-main hover:bg-[#ffffff] transition-all duration-500 rounded-card border-[5px] border-border-subtle shadow-sm hover:-translate-y-1 hover:shadow-primary-glow cursor-pointer relative overflow-hidden group">
+                        <div
+                            class="absolute top-0 left-0 w-full h-[2px] bg-primary transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left">
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-gradient-to-b from-transparent to-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
+                        </div>
+                        <div
+                            class="w-14 h-14 editorial-gradient text-white rounded-xl flex items-center justify-center mb-8 shadow-md transform group-hover:scale-110 transition-transform duration-500">
+                            <span class="material-symbols-outlined text-2xl" data-icon="gavel">gavel</span>
+                        </div>
+                        <h3 class="text-2xl font-headline font-bold mb-4 text-primary">Legal &amp; Documentation
+                            Support</h3>
+                        <p class="text-base text-text-primary/80 leading-relaxed font-medium">We take care of all legal
+                            work like agreements, property checks, and required approvals to make the process smooth and
+                            worry-free.</p>
+                    </div>
+                    <!-- Card 6 -->
+                    <div
+                        class="w-[280px] md:w-[360px] shrink-0 p-8 bg-bg-main hover:bg-[#ffffff] transition-all duration-500 rounded-card border-[5px] border-border-subtle shadow-sm hover:-translate-y-1 hover:shadow-primary-glow cursor-pointer relative overflow-hidden group">
+                        <div
+                            class="absolute top-0 left-0 w-full h-[2px] bg-primary transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left">
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-gradient-to-b from-transparent to-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
+                        </div>
+                        <div
+                            class="w-14 h-14 editorial-gradient text-white rounded-xl flex items-center justify-center mb-8 shadow-md transform group-hover:scale-110 transition-transform duration-500">
+                            <span class="material-symbols-outlined text-2xl"
+                                data-icon="real_estate_agent">real_estate_agent</span>
+                        </div>
+                        <h3 class="text-2xl font-headline font-bold mb-4 text-primary">Post-Purchase Assistance</h3>
+                        <p class="text-base text-text-primary/80 leading-relaxed font-medium">Our commitment extends
+                            beyond the purchase, offering continuous assistance with loans and property-related needs
+                            for as long as you own your investment.</p>
+                    </div>
+                </div>
+
+                <div aria-hidden="true" class="flex animate-marquee shrink-0 gap-8 pr-8 min-w-max">
+                    <!-- Duplicate Card 1 -->
+                    <div
+                        class="w-[280px] md:w-[360px] shrink-0 p-8 bg-bg-main hover:bg-[#ffffff] transition-all duration-500 rounded-card border-[5px] border-border-subtle shadow-sm hover:-translate-y-1 hover:shadow-primary-glow cursor-pointer relative overflow-hidden group">
+                        <div
+                            class="absolute top-0 left-0 w-full h-[2px] bg-primary transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left">
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-gradient-to-b from-transparent to-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
+                        </div>
+                        <div
+                            class="w-14 h-14 editorial-gradient text-white rounded-xl flex items-center justify-center mb-8 shadow-md transform group-hover:scale-110 transition-transform duration-500">
+                            <span class="material-symbols-outlined text-2xl" data-icon="list_alt">list_alt</span>
+                        </div>
+                        <h3 class="text-2xl font-headline font-bold mb-4 text-primary">Personalized Property
+                            Shortlisting</h3>
+                        <p class="text-base text-text-primary/80 leading-relaxed font-medium">Curated selections based
+                            on your
+                            financial goals, lifestyle preferences, and long-term investment horizon.</p>
+                    </div>
+                    <!-- Duplicate Card 2 -->
+                    <div
+                        class="w-[280px] md:w-[360px] shrink-0 p-8 bg-bg-main hover:bg-[#ffffff] transition-all duration-500 rounded-card border-[5px] border-border-subtle shadow-sm hover:-translate-y-1 hover:shadow-primary-glow cursor-pointer relative overflow-hidden group">
+                        <div
+                            class="absolute top-0 left-0 w-full h-[2px] bg-primary transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left">
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-gradient-to-b from-transparent to-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
+                        </div>
+                        <div
+                            class="w-14 h-14 editorial-gradient text-white rounded-xl flex items-center justify-center mb-8 shadow-md transform group-hover:scale-110 transition-transform duration-500">
+                            <span class="material-symbols-outlined text-2xl" data-icon="verified">verified</span>
+                        </div>
+                        <h3 class="text-2xl font-headline font-bold mb-4 text-primary">Verified Developers</h3>
+                        <p class="text-base text-text-primary/80 leading-relaxed font-medium">We only partner with
+                            Tier-1
+                            developers who pass our rigorous 50-point due diligence checklist for timely delivery.</p>
+                    </div>
+                    <!-- Duplicate Card 3 -->
+                    <div
+                        class="w-[280px] md:w-[360px] shrink-0 p-8 bg-bg-main hover:bg-[#ffffff] transition-all duration-500 rounded-card border-[5px] border-border-subtle shadow-sm hover:-translate-y-1 hover:shadow-primary-glow cursor-pointer relative overflow-hidden group">
+                        <div
+                            class="absolute top-0 left-0 w-full h-[2px] bg-primary transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left">
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-gradient-to-b from-transparent to-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
+                        </div>
+                        <div
+                            class="w-14 h-14 editorial-gradient text-white rounded-xl flex items-center justify-center mb-8 shadow-md transform group-hover:scale-110 transition-transform duration-500">
+                            <span class="material-symbols-outlined text-2xl" data-icon="map">map</span>
+                        </div>
+                        <h3 class="text-2xl font-headline font-bold mb-4 text-primary">Curated Property Experiences
+                        </h3>
+                        <p class="text-base text-text-primary/80 leading-relaxed font-medium">Seamless viewing
+                            experiences
+                            from anywhere in the world, supplemented by local expert insights on the neighborhood.</p>
+                    </div>
+                    <!-- Duplicate Card 4 -->
+                    <div
+                        class="w-[280px] md:w-[360px] shrink-0 p-8 bg-bg-main hover:bg-[#ffffff] transition-all duration-500 rounded-card border-[5px] border-border-subtle shadow-sm hover:-translate-y-1 hover:shadow-primary-glow cursor-pointer relative overflow-hidden group">
+                        <div
+                            class="absolute top-0 left-0 w-full h-[2px] bg-primary transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left">
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-gradient-to-b from-transparent to-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
+                        </div>
+                        <div
+                            class="w-14 h-14 editorial-gradient text-white rounded-xl flex items-center justify-center mb-8 shadow-md transform group-hover:scale-110 transition-transform duration-500">
+                            <span class="material-symbols-outlined text-2xl"
+                                data-icon="account_balance">account_balance</span>
+                        </div>
+                        <h3 class="text-2xl font-headline font-bold mb-4 text-primary">Loan &amp; Financial Support
+                        </h3>
+                        <p class="text-base text-text-primary/80 leading-relaxed font-medium">Leverage our banking
+                            networks
+                            for preferential interest rates and structured finance options for HNI and NRI clients.</p>
+                    </div>
+                    <!-- Duplicate Card 5 -->
+                    <div
+                        class="w-[280px] md:w-[360px] shrink-0 p-8 bg-bg-main hover:bg-[#ffffff] transition-all duration-500 rounded-card border-[5px] border-border-subtle shadow-sm hover:-translate-y-1 hover:shadow-primary-glow cursor-pointer relative overflow-hidden group">
+                        <div
+                            class="absolute top-0 left-0 w-full h-[2px] bg-primary transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left">
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-gradient-to-b from-transparent to-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
+                        </div>
+                        <div
+                            class="w-14 h-14 editorial-gradient text-white rounded-xl flex items-center justify-center mb-8 shadow-md transform group-hover:scale-110 transition-transform duration-500">
+                            <span class="material-symbols-outlined text-2xl" data-icon="gavel">gavel</span>
+                        </div>
+                        <h3 class="text-2xl font-headline font-bold mb-4 text-primary">Legal &amp; Documentation
+                            Support</h3>
+                        <p class="text-base text-text-primary/80 leading-relaxed font-medium">We take care of all legal
+                            work like agreements, property checks, and required approvals to make the process smooth and
+                            worry-free.</p>
+                    </div>
+                    <!-- Duplicate Card 6 -->
+                    <div
+                        class="w-[280px] md:w-[360px] shrink-0 p-8 bg-bg-main hover:bg-[#ffffff] transition-all duration-500 rounded-card border-[5px] border-border-subtle shadow-sm hover:-translate-y-1 hover:shadow-primary-glow cursor-pointer relative overflow-hidden group">
+                        <div
+                            class="absolute top-0 left-0 w-full h-[2px] bg-primary transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left">
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-gradient-to-b from-transparent to-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
+                        </div>
+                        <div
+                            class="w-14 h-14 editorial-gradient text-white rounded-xl flex items-center justify-center mb-8 shadow-md transform group-hover:scale-110 transition-transform duration-500">
+                            <span class="material-symbols-outlined text-2xl"
+                                data-icon="real_estate_agent">real_estate_agent</span>
+                        </div>
+                        <h3 class="text-2xl font-headline font-bold mb-4 text-primary">Post-Purchase Assistance</h3>
+                        <p class="text-base text-text-primary/80 leading-relaxed font-medium">Our commitment extends
+                            beyond the purchase, offering continuous assistance with loans and property-related needs
+                            for as long as you own your investment.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Our Banking Partners Section -->
+        <section
+            class="py-20 md:py-24 min-h-[100svh] bg-bg-soft relative overflow-hidden flex flex-col justify-center items-center snap-center">
+            <!-- Background decorative elements (Lines removed as requested) -->
+            <div class="absolute inset-0 pointer-events-none select-none">
+                <!-- Decorative lines removed to fix "box lines in overlay" issue -->
+            </div>
+
+            <!-- Section Header -->
+            <div
+                class="relative z-10 text-center mb-12 md:mb-16 px-6 md:px-8 max-w-3xl mx-auto flex flex-col items-center">
+                <span
+                    class="bg-primary text-white px-5 py-2 rounded-full text-[10px] md:text-xs font-bold tracking-[0.2em] uppercase mb-6 md:mb-8 shadow-md">
+                    Trusted By The Best
+                </span>
+                <h2
+                    class="text-4xl md:text-5xl lg:text-6xl font-headline font-black mb-4 md:mb-6 tracking-tight relative">
+                    <span class="text-primary" style="padding-right: 8px;">Banking & Real Estate</span><br
+                        class="hidden md:block" />
+                    <span
+                        class="text-transparent bg-clip-text bg-gradient-to-br from-primary via-accent to-primary italic drop-shadow-sm"
+                        style="padding-right: 9px;">Partners</span>
+                </h2>
+                <p class="text-text-primary/70 font-body text-sm md:text-base leading-relaxed">
+                    We have forged exclusive alliances with India's premier banks, housing finance companies, and
+                    top-tier real estate developers. This ensures our clients receive priority processing, exclusive
+                    inventory, and seamless end-to-end approvals tailored to their elite portfolios.
+                </p>
+            </div>
+
+            <!-- Orbital Carousel Container -->
+            <div id="orbital-container"
+                class="relative w-full max-w-[1400px] mx-auto overflow-hidden h-[400px] md:h-[700px]"
+                style="perspective: 1000px;">
+                <!-- Edge fade gradients -->
+                <div
+                    class="absolute left-0 top-0 bottom-0 w-16 md:w-32 lg:w-48 bg-gradient-to-r from-bg-soft to-transparent z-20 pointer-events-none">
+                </div>
+                <div
+                    class="absolute right-0 top-0 bottom-0 w-16 md:w-32 lg:w-48 bg-gradient-to-l from-bg-soft to-transparent z-20 pointer-events-none">
+                </div>
+
+                <!-- Center spotlight glow -->
+                <div
+                    class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-48 md:w-80 h-48 md:h-80 bg-primary/[0.05] blur-[60px] md:blur-[80px] rounded-full z-0 pointer-events-none">
+                </div>
+
+                <!-- Upper Semicircular Track (Banks) -->
+                <div id="bank-orbit"
+                    class="absolute left-0 top-0 w-full h-[200px] md:h-[350px] flex items-end pb-[10px] md:pb-[21px]"
+                    style="will-change: transform; transform-style: preserve-3d;">
+                </div>
+
+                <!-- Lower Semicircular Track (Builders) -->
+                <div id="builder-orbit"
+                    class="absolute left-0 bottom-0 w-full h-[200px] md:h-[350px] flex items-start pt-[10px] md:pt-[21px]"
+                    style="will-change: transform; transform-style: preserve-3d;">
+                </div>
+            </div>
+        </section>
+
+        <!-- Partners: Styles & Scripts -->
+        <style>
+            .logo-item {
+                transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+                    opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+                    filter 0.4s ease;
+            }
+        </style>
+        <script>
+            (function () {
+                const bankLogos = [
+                    'aadhar_housing_no_bg.png', 'aditya_birla_housing_no_bg.png', 'axis.png',
+                    'bajaj_finserv_no_bg.png', 'bandhan_no_bg.png', 'bob.png', 'boi.png', 'deutsche_bank_no_bg.png', 'hdfc.png', 'icici.png', 'idfc.png',
+                    'indus.png', 'kotak.png',
+                    'lt_finance_no_bg.png', 'pnb.png',
+                    'rbl.png', 'tata_capital_housing_no_bg.png', 'tata_capital_no_bg.png',
+                    'uco_bank_no_bg.png', 'yes.png'
+                ];
+
+                const builderLogos = [
+                    '9 YARDS.png', 'A SHRIDHAR.png', 'AARYAN.png.png', 'ADANI.png', 'ARISTO.png',
+                    'ARVIND.png.png', 'AVIRAT.png', 'B SAFAL .png', 'BAKERI.png.png', 'BINORI.png.png',
+                    'CHANDRANA.png.png', 'CONSTERA.png.png', 'DEEP BUILDERS.png.png', 'DOBARIYA.png.png',
+                    'EMBERLYN.png.png', 'GALA.png.png', 'GANESH HOUSING.png.png', 'GODREJ .png.png',
+                    'GOYAL.png.png', 'HN SAFAL.png', 'HR GROUP.png', 'KAVISHA.png.png', 'KAVYARATNA.png.png',
+                    'LILAMANI.png.png', 'PACIFICA.png', 'PARMESHWAR.png', 'PARSHWANATAH.png.png',
+                    'RAJYASH.png', 'RASHMI.png', 'RATNA.png.png', 'RATNAAKAR.png', 'SAHASHYA.png.png',
+                    'SATYAMEV.png.png', 'SHAFALYA.png', 'SHEETAL.png.png', 'SHELADIA.png.png',
+                    'SHILP S.png.png', 'SHILP.png.png', 'SHIVALIK.png', 'SHIVANTA.png.png',
+                    'SHRINIVAS.png.png', 'SIBAN.png.png', 'SIDDHARTH.png', 'SJ SANGATH.png.png',
+                    'SOBHA R.png.png', 'SOBHA.png.png', 'SPARTAN.png', 'SWASTIK.png.png',
+                    'SWATI.png.png', 'TERMONT.png.png', 'TIME SQUARE.png.png', 'TRIVENI.png.png',
+                    'TROGON.png.png', 'UNITED YOGI.png', 'UNKNOWN.png.png', 'VENUS.png.png',
+                    'VIVAN.png.png', 'VYAPTI VANDEMATARAM.png.png', 'ZADE GROUP.png'
+                ];
+
+                function initOrbit(orbitId, logos, folder, isInverted, direction) {
+                    const orbit = document.getElementById(orbitId);
+                    if (!orbit) return;
+
+                    const isMobile = window.innerWidth <= 768;
+                    const ITEM_WIDTH = isMobile ? 63 : 220;
+                    const GAP = isMobile ? 14 : 40;
+                    const SET_WIDTH = logos.length * (ITEM_WIDTH + GAP);
+
+                    // Build two sets for seamless looping
+                    for (let set = 0; set < 2; set++) {
+                        logos.forEach(function (logo) {
+                            const wrapper = document.createElement('div');
+                            wrapper.className = 'logo-item flex-shrink-0 flex items-center justify-center';
+                            wrapper.style.width = ITEM_WIDTH + 'px';
+                            wrapper.style.height = isMobile ? '51px' : '180px';
+                            wrapper.style.marginRight = GAP + 'px';
+
+                            const container = document.createElement('div');
+                            container.className = 'bg-white rounded-[0.4rem] md:rounded-card shadow-sm md:shadow-md border border-primary/10 p-1.5 md:p-5 flex items-center justify-center w-full h-full hover:shadow-xl hover:border-primary/30 transition-all duration-500';
+
+                            const img = document.createElement('img');
+                            img.src = folder + '/' + logo;
+                            img.alt = logo.replace(/_/g, ' ').replace('.png', '');
+                            img.className = 'max-w-full max-h-full object-contain';
+                            img.style.maxHeight = isMobile ? '29.4px' : '105px';
+                            img.loading = 'lazy';
+
+                            container.appendChild(img);
+                            wrapper.appendChild(container);
+                            orbit.appendChild(wrapper);
+                        });
+                    }
+
+                    orbit.style.width = (SET_WIDTH * 2) + 'px';
+
+                    // Continuous smooth scroll
+                    let position = direction > 0 ? -SET_WIDTH : 0;
+                    const SPEED = isMobile ? 0.5 : 0.75;
+                    let lastTime = 0;
+
+                    function animate(timestamp) {
+                        if (!lastTime) lastTime = timestamp;
+                        const delta = timestamp - lastTime;
+                        lastTime = timestamp;
+
+                        position += (direction * SPEED) * (delta / 16.667);
+
+                        if (direction < 0 && position <= -SET_WIDTH) {
+                            position += SET_WIDTH;
+                        } else if (direction > 0 && position >= 0) {
+                            position -= SET_WIDTH;
+                        }
+
+                        orbit.style.transform = 'translateX(' + position + 'px)';
+
+                        const containerRect = orbit.parentElement.getBoundingClientRect();
+                        const centerX = containerRect.left + containerRect.width / 2;
+
+                        const items = orbit.querySelectorAll('.logo-item');
+                        items.forEach(function (item) {
+                            const container = item.firstElementChild;
+                            const itemRect = item.getBoundingClientRect();
+                            const itemCenterX = itemRect.left + itemRect.width / 2;
+                            const distFromCenter = Math.abs(itemCenterX - centerX);
+                            const maxDist = containerRect.width / 2;
+                            const normalizedDist = Math.min(distFromCenter / maxDist, 1);
+
+                            // Semicircular arc: Identical curve for both arcs to ensure perfect symmetry
+                            const maxArc = isMobile ? 105 : 160;
+                            const arcY = Math.pow(normalizedDist, 1.65) * (isInverted ? -maxArc : maxArc);
+
+                            // Only use Z-axis rotation to keep shapes from becoming "thin" (no Y/X tilt)
+                            const isLeft = itemCenterX < centerX;
+                            const tiltZ = (isLeft ? -1 : 1) * (normalizedDist * 14) * (isInverted ? -1 : 1);
+
+                            const scale = isMobile
+                                ? (1.12 - (normalizedDist * 0.32))
+                                : (1 - (normalizedDist * 0.15));
+
+                            item.style.zIndex = Math.round(20 - (normalizedDist * 20)); // Properly layer items
+
+                            item.style.opacity = isMobile
+                                ? (1 - (normalizedDist * 0.35)).toFixed(3)
+                                : (1 - (normalizedDist * 0.8)).toFixed(3);
+                            if (isMobile && normalizedDist < 0.28) {
+                                item.style.filter = 'none';
+                            } else if (isMobile) {
+                                const edgeFactor = (normalizedDist - 0.28) / 0.72;
+                                item.style.filter = `grayscale(${(edgeFactor * 0.65).toFixed(2)}) blur(${(edgeFactor * 0.7).toFixed(2)}px)`;
+                            } else {
+                                item.style.filter = `grayscale(${(normalizedDist * 1).toFixed(2)}) blur(${(normalizedDist * 2).toFixed(1)}px)`;
+                            }
+
+                            // Apply transforming keeping regular card shape intact
+                            item.style.transform = `translateY(${arcY.toFixed(2)}px) scale(${scale.toFixed(3)}) rotateZ(${tiltZ.toFixed(2)}deg)`;
+                        });
+
+                        requestAnimationFrame(animate);
+                    }
+
+                    requestAnimationFrame(animate);
+                }
+
+                // Initialize both orbits safely after load to ensure innerWidth is accurate
+                window.addEventListener('DOMContentLoaded', () => {
+                    initOrbit('bank-orbit', bankLogos, 'bank logos', true, 1);
+                    initOrbit('builder-orbit', builderLogos, 'builders logo', false, -1);
+                });
+            })();
+        </script>
+
+        <!-- Connect With Us Section -->
+        <section id="contact-us-section"
+            class="relative bg-white flex flex-col overflow-hidden min-h-[100svh] snap-start">
+            <div class="flex flex-col lg:flex-row flex-1 z-10 w-full relative">
+                <!-- Parallax Scrolling Text -->
+                <div id="contact-parallax-text"
+                    class="absolute top-4 lg:top-12 left-4 lg:left-16 text-[45px] sm:text-[60px] md:text-[80px] lg:text-[130px] font-sans font-black text-primary whitespace-nowrap z-0 pointer-events-none drop-shadow-xl select-none mix-blend-multiply opacity-90 leading-none pt-4 lg:pt-0"
+                    style="transform: translateX(-100%);">
+                    CONTACT US
+                </div>
+
+                <!-- Left Content: Contact Information -->
+                <div
+                    class="flex-1 flex flex-col justify-center px-6 md:px-16 lg:pl-24 lg:pr-4 pt-28 pb-10 md:py-10 lg:pt-40 lg:pb-0 z-10">
+                    <div class="w-full max-w-2xl lg:max-w-3xl lg:mt-6">
+                        <h2 class="text-3xl md:text-5xl font-headline font-black text-text-primary mb-4 leading-tight">
+                            Let's build your<br /> <span
+                                class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent italic">financial
+                                legacy.</span>
+                        </h2>
+                        <p class="text-base text-text-primary/70 font-body mb-8 leading-relaxed font-medium">
+                            Whether you're looking to diversify your real estate portfolio, secure preferential
+                            financing, or seek bespoke wealth advisory, our experts are ready to assist you.
+                        </p>
+
+                        <form onsubmit="submitToWhatsApp(event)"
+                            class="space-y-5 md:space-y-6 bg-white border-2 border-primary/10 hover:border-primary/30 hover:shadow-xl hover:shadow-primary/5 transition-all duration-500 shadow-lg shadow-black/[0.03] rounded-[2.25rem] p-7 md:p-10">
+                            <!-- Name & Number Grids -->
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-8">
+                                <div>
+                                    <label
+                                        class="block text-[11px] md:text-xs uppercase tracking-[0.1em] text-text-primary font-black mb-2 ml-1 drop-shadow-sm">Full
+                                        Name *</label>
+                                    <input type="text" required
+                                        class="w-full bg-surface/50 border border-border-subtle hover:border-primary hover:shadow-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none focus:outline-none rounded-xl px-4 py-3 text-sm text-text-primary transition-all duration-300 placeholder:text-text-primary/30"
+                                        placeholder="John Doe">
+                                </div>
+                                <div>
+                                    <label
+                                        class="block text-[11px] md:text-xs uppercase tracking-[0.1em] text-text-primary font-black mb-2 ml-1 drop-shadow-sm">Phone
+                                        Number *</label>
+                                    <input type="tel" required
+                                        class="w-full bg-surface/50 border border-border-subtle hover:border-primary hover:shadow-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none focus:outline-none rounded-xl px-4 py-3 text-sm text-text-primary transition-all duration-300 placeholder:text-text-primary/30"
+                                        placeholder="+91 98765 43210">
+                                </div>
+                            </div>
+
+                            <!-- Email -->
+                            <div>
+                                <label
+                                    class="block text-[11px] md:text-xs uppercase tracking-[0.1em] text-text-primary font-black mb-2 ml-1 drop-shadow-sm">Email
+                                    Address *</label>
+                                <input type="email" required
+                                    class="w-full bg-surface/50 border border-border-subtle hover:border-primary hover:shadow-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none focus:outline-none rounded-xl px-4 py-3 text-sm text-text-primary transition-all duration-300 placeholder:text-text-primary/30"
+                                    placeholder="advisory@thewealthcurator.com">
+                            </div>
+
+                            <!-- Description -->
+                            <div>
+                                <label
+                                    class="block text-[11px] md:text-xs uppercase tracking-[0.1em] text-text-primary font-black mb-2 ml-1 drop-shadow-sm">Requirements
+                                    / Description</label>
+                                <textarea rows="3"
+                                    class="w-full bg-surface/50 border border-border-subtle hover:border-primary hover:shadow-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none focus:outline-none rounded-xl px-4 py-3 text-sm text-text-primary resize-none transition-all duration-300 placeholder:text-text-primary/30"
+                                    placeholder="Tell us how we can help you build your legacy..."></textarea>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <button type="submit"
+                                class="w-full group editorial-gradient text-white font-headline font-bold text-[13px] md:text-sm tracking-wide rounded-xl py-3 mt-2 shadow-md shadow-primary/20 hover:shadow-xl hover:shadow-primary/40 transform hover:-translate-y-0.5 hover:scale-[1.01] active:scale-[0.98] transition-all duration-300 flex items-center justify-center gap-2">
+                                <span>Request Consultation</span>
+                                <span
+                                    class="material-symbols-outlined text-[18px] md:text-lg transform group-hover:translate-x-1 transition-transform duration-300">arrow_forward</span>
+                            </button>
+                        </form>
+                        <script>
+                            function submitToWhatsApp(event) {
+                                event.preventDefault();
+                                const form = event.target;
+                                const name = form.querySelector('input[type="text"]').value || '';
+                                const phone = form.querySelector('input[type="tel"]').value || '';
+                                const email = form.querySelector('input[type="email"]').value || '';
+                                const desc = form.querySelector('textarea').value || '';
+
+                                let message = `*New Consultation Request*\n\n*Name:* ${name}\n*Phone:* ${phone}\n*Email:* ${email}\n*Requirements:*\n${desc}`;
+                                let encodedMessage = encodeURIComponent(message);
+                                let url = `https://api.whatsapp.com/send/?phone=919033784030&text=${encodedMessage}&type=phone_number&app_absent=0`;
+
+                                window.location.href = url;
+                            }
+                        </script>
+                    </div>
+                </div>
+
+                <!-- Right Content: Contact Us Video Block -->
+                <div
+                    class="hidden lg:flex lg:w-[45%] xl:w-[45%] flex-col justify-center items-center p-8 lg:pr-16 z-10 relative">
+                    <video autoplay loop muted playsinline
+                        class="w-full max-w-lg xl:max-w-2xl h-auto object-contain object-center transition-transform duration-700 hover:scale-[1.02] mix-blend-multiply">
+                        <source src="contact us video.mp4" type="video/mp4" />
+                    </video>
+                </div>
+            </div>
+            <!-- Disclaimer Section Inside Contact Section -->
+            <div class="py-8 bg-surface w-full shrink-0 z-20 relative">
+                <div class="w-full px-6 lg:px-12 mx-auto">
+                    <div
+                        class="border border-white/20 p-5 md:p-8 lg:p-10 rounded-2xl md:rounded-[2rem] bg-primary shadow-xl flex flex-col md:flex-row gap-4 md:gap-12 w-full items-start md:items-center">
+                        <!-- Title and Icon -->
+                        <div class="flex items-center gap-3 md:gap-4 md:w-[280px] shrink-0">
+                            <div
+                                class="w-10 h-10 md:w-12 md:h-12 rounded-full bg-white/10 border border-white/20 flex items-center justify-center shrink-0">
+                                <span class="material-symbols-outlined text-white text-xl md:text-2xl">info</span>
+                            </div>
+                            <h4
+                                class="text-lg md:text-xl font-headline font-bold text-white uppercase tracking-[0.15em] md:tracking-[0.2em] drop-shadow-md">
+                                Disclaimer
+                            </h4>
+                        </div>
+                        <!-- Disclaimer Text -->
+                        <div class="flex-1 md:border-l border-white/20 md:pt-0 md:pl-12">
+                            <p
+                                class="text-[12px] md:text-[15px] leading-relaxed text-white/95 font-body text-justify font-medium">
+                                The Wealth Curator provides property consultation and financial planning insights for
+                                informational purposes only. Real estate investments carry inherent risks including
+                                market fluctuations and regulatory changes. Past performance of a developer or market
+                                region
+                                does not guarantee future capital appreciation or rental yields. We strongly advise all
+                                clients to
+                                consult with independent legal and tax professionals before committing to any
+                                transaction. The Wealth Curator is an aggregator and facilitator, not a developer, and
+                                is not responsible for
+                                construction delays or project alterations by the developer partners.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const counters = document.querySelectorAll('.counter');
+            const heroCounters = document.querySelectorAll('.hero-counter');
+
+            // Ensure counters finish identically regardless of magnitude
+            const duration = 2000; // Total animation time (ms)
+            const frameRate = 1000 / 60; // 60fps
+            const totalFrames = Math.round(duration / frameRate);
+
+            const animateCounters = (entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const counter = entry.target;
+                        const target = +counter.getAttribute('data-target');
+                        let frame = 0;
+
+                        const updateCount = () => {
+                            frame++;
+                            // Ease-out expo formula for natural deceleration
+                            const progress = 1 - Math.pow(2, -10 * (frame / totalFrames));
+
+                            if (frame < totalFrames) {
+                                counter.innerText = Math.ceil(target * progress);
+                                setTimeout(updateCount, frameRate);
+                            } else {
+                                counter.innerText = target;
+                            }
+                        };
+                        updateCount();
+                        observer.unobserve(counter); // Only animate once
+                    }
+                });
+            };
+
+            const observer = new IntersectionObserver(animateCounters, {
+                threshold: 0.5
+            });
+
+            // Observe both standard counters and the new synced hero counters
+            counters.forEach(counter => observer.observe(counter));
+            heroCounters.forEach(counter => observer.observe(counter));
+
+            // Parallax Effect for Contact Us Section
+            const contactSection = document.getElementById('contact-us-section');
+            const parallaxText = document.getElementById('contact-parallax-text');
+
+            if (contactSection && parallaxText) {
+                window.addEventListener('scroll', () => {
+                    const rect = contactSection.getBoundingClientRect();
+                    const windowHeight = window.innerHeight;
+
+                    // Trigger scroll animation dynamically dependent on vertical overlap
+                    if (rect.top < windowHeight && rect.bottom > 0) {
+                        // Progress goes from 0 (just entering bottom of screen) to 1 (section top hits top of screen)
+                        const progress = Math.max(0, Math.min(1, (windowHeight - rect.top) / windowHeight));
+
+                        // Slide from -100% (hidden left) to 0% (fully visible in white section)
+                        const translateX = -100 + (progress * 100);
+                        parallaxText.style.transform = `translateX(${translateX}%)`;
+                    }
+                });
+            }
+
+            // Mobile Menu Toggle (same behavior as Refer/NRI)
+            const menuToggle = document.getElementById("mobileMenuToggle");
+            const mobileMenu = document.getElementById("mobileMenu");
+            const closeMenu = document.getElementById("closeMenu");
+            const overlay = document.getElementById("overlay");
+
+            if (menuToggle && mobileMenu && closeMenu && overlay) {
+                menuToggle.addEventListener("click", () => {
+                    mobileMenu.classList.add("active");
+                    overlay.classList.add("show");
+                });
+
+                const closeNow = () => {
+                    mobileMenu.classList.remove("active");
+                    overlay.classList.remove("show");
+                };
+
+                closeMenu.addEventListener("click", closeNow);
+                overlay.addEventListener("click", closeNow);
+                mobileMenu.querySelectorAll("a").forEach((link) => {
+                    link.addEventListener("click", closeNow);
+                });
+            }
+        });
+    </script>
+</body>
+
 </html>
