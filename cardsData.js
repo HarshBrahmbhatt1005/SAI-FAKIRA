@@ -812,9 +812,9 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "4 BHK",
-          "sqft": "2432",
+          "sqft": "2398 , 2432",
           "sqftType": "Super Built-up",
-          "price": "2.72 Cr"
+          "price": "3.08 - 3.25 Cr"
         }
       ]
     }
@@ -1349,7 +1349,7 @@ const propertyCardsData = [
     "type": "Commercial",
     "latest": "Jagatpur",
     "location": "Jagatpur-04",
-    "price": 0,
+    "price": 272,
     "soldOut": false,
     "images": [
       "/images/Shilp-Business-Gateway-01.jpeg",
@@ -1383,7 +1383,7 @@ const propertyCardsData = [
     "type": "Residential",
     "latest": "Vaishnodevi",
     "location": "Vaishnodevi-03",
-    "price": 135,
+    "price": 69,
     "soldOut": false,
     "images": [
       "/images/Celestial-01.jpeg",
@@ -1940,7 +1940,7 @@ const propertyCardsData = [
     "propertyLocation": "Zundal",
     "schemeName": "Vivaan Solitaire",
     "features": [
-      "15+ Amenities",
+      "Ready to Move",
       "Stand Alone Single Tower",
       "No Vehicle Zone",
       "Nr.Hillock Hotel"
@@ -1949,9 +1949,9 @@ const propertyCardsData = [
       "Apartments": [
         {
           "bhk": "3 BHK",
-          "sqft": "2700",
+          "sqft": "1827",
           "sqftType": "SuperBuilt-up",
-          "price": "64 Lacs"
+          "price": "73.80 Lacs"
         }
       ]
     }
@@ -1961,7 +1961,7 @@ const propertyCardsData = [
     "type": "Mixed",
     "latest": "Zundal",
     "location": "Zundal-04",
-    "price": 50,
+    "price": 60,
     "soldOut": false,
     "images": [
       "/images/Vivaan-Aura-01.jpeg",
@@ -1982,23 +1982,16 @@ const propertyCardsData = [
           "bhk": "2 BHK",
           "sqft": "1950",
           "sqftType": "SuperBuilt-up",
-          "price": "50 Lacs"
+          "price": "60 Lacs"
         },
         {
           "bhk": "3 BHK",
           "sqft": "2700",
           "sqftType": "SuperBuilt-up",
-          "price": "50 Lacs"
+          "price": "73.70 Lacs"
         }
       ],
-      "Commercial": [
-        {
-          "bhk": "Shops",
-          "sqft": "1000",
-          "sqftType": "SuperBuilt-up",
-          "price": "18 Lacs"
-        }
-      ]
+
     }
   },
   {
@@ -2022,6 +2015,15 @@ const propertyCardsData = [
       "No Vehicle Zone"
     ],
     "nestedCategories": {
+      "Apartments": [
+
+        {
+          "bhk": "3 BHK",
+          "sqft": "1836",
+          "sqftType": "SuperBuilt-up",
+          "price": "74.11 Lacs"
+        }
+      ],
       "Commercial": [
         {
           "bhk": "Commercial",
@@ -2637,13 +2639,13 @@ const propertyCardsData = [
           "bhk": "3 BHK",
           "sqft": "2350",
           "sqftType": "SuperBuilt-up",
-          "price": "1.41 Cr"
+          "price": "1.76 Cr"
         },
         {
           "bhk": "4 BHK",
           "sqft": "3250",
           "sqftType": "SuperBuilt-up",
-          "price": "1.92 Cr"
+          "price": "2.43 Cr"
         }
       ]
     }
@@ -2690,7 +2692,7 @@ const propertyCardsData = [
     "type": "Residential",
     "latest": "Vaishnodevi",
     "location": "Vaishnodevi-08",
-    "price": 99,
+    "price": 116,
     "soldOut": false,
     "images": [
       "/images/Artham-97.jpeg",
@@ -3095,8 +3097,7 @@ const propertyCardsData = [
     "soldOut": false,
     "images": [
       "/images/indus-01.jpg",
-      "/images/indus-02.jpeg",
-      "/images/indus-03.jpeg"
+
     ],
     "propertyLocation": "Bodakdev",
     "schemeName": "The Indus by Sheetal",
@@ -3296,7 +3297,7 @@ const propertyCardsData = [
     "propertyLocation": "Shela",
     "schemeName": "Turquoise Rosedale",
     "features": [
-      "2 Road Corner Project Project",
+      "2 Road Corner Project",
       "21+ Amenities",
       "1 Alloted Car Parking"
     ],
@@ -3337,7 +3338,7 @@ const propertyCardsData = [
       "Pure Residential Project",
       "21+ Amenities",
       "3 Alloted Car Parking",
-      "2 Road Corner Project Project"
+      "2 Road Corner Project"
     ],
     "nestedCategories": {
       "Apartments": [
@@ -3368,7 +3369,7 @@ const propertyCardsData = [
       "2 Master Bedroom + 2 Balcony",
       "21+ Amenities",
       "1-2 Alloted Car Parking",
-      "2 Road Corner Project Project"
+      "2 Road Corner Project"
     ],
     "nestedCategories": {
       "Apartments": [
@@ -3465,7 +3466,7 @@ const propertyCardsData = [
     "schemeName": "Swati 18",
     "features": [
       "Next to Palladium Mall",
-      "2 Road Corner Project Project",
+      "2 Road Corner Project",
       "at S.G Highway"
     ],
     "nestedCategories": {
@@ -3679,7 +3680,7 @@ const propertyCardsData = [
     "propertyLocation": "Science Park",
     "schemeName": "Anantara Alora",
     "features": [
-      "2 Road Corner Project Project",
+      "2 Road Corner Project",
       "1 Allotted Car Parking",
       "22 Storeys Tower",
       "Located next to a Peaceful R3 Zone"
@@ -3963,12 +3964,20 @@ const propertyCardsData = [
           "price": "3.48 Cr"
         }
       ],
-      "Duplex Penthouse": [
+      "Duplex": [
+        {
+          "bhk": "4 BHK",
+          "sqft": "7645",
+          "sqftType": "SuperBuilt-up",
+          "price": "7.58 Cr"
+        }
+      ],
+        " Penthouse": [
         {
           "bhk": "4 BHK",
           "sqft": "7700",
           "sqftType": "SuperBuilt-up",
-          "price": "7.58 Cr"
+          "price": "7.75 Cr"
         }
       ]
     }
@@ -3998,13 +4007,13 @@ const propertyCardsData = [
           "bhk": "Showrooms",
           "sqft": "2000 - 13000",
           "sqftType": "SuperBuilt-up",
-          "price": "1.70 Cr onwards"
+          "price": "2.15 Cr onwards"
         },
         {
           "bhk": "Offices",
           "sqft": "928 - 17000",
           "sqftType": "SuperBuilt-up",
-          "price": "69 Lacs onwards"
+          "price": "90 Lacs onwards"
         }
       ]
     }
@@ -4026,7 +4035,7 @@ const propertyCardsData = [
     "features": [
       "Ready To Move Property",
       "30+ Amenities",
-      "2 Road Corner Project Project"
+      "2 Road Corner Project"
     ],
     "nestedCategories": {
       "Apartments": [
@@ -4130,9 +4139,9 @@ const propertyCardsData = [
       "Commercial": [
         {
           "bhk": "Offices",
-          "sqft": "700 - 2500",
-          "sqftType": "Carpet",
-          "price": "42 Lacs - 1.50 Cr"
+          "sqft": "900 - 10000",
+          "sqftType": "SuperBuilt-up",
+          "price": "65 Lacs - 7.70 Cr"
         }
       ]
     }
@@ -4200,15 +4209,15 @@ const propertyCardsData = [
       "Ready to Move",
       "30+ Amenities",
       "2 Alloted Car Parking",
-      "2 Road Corner Project Project"
+      "2 Road Corner Project"
     ],
     "nestedCategories": {
       "Apartments": [
         {
           "bhk": "4 BHK",
-          "sqft": "1600 - 2200",
+          "sqft": "1600, 2200",
           "sqftType": "Carpet",
-          "price": "1.55 Cr"
+          "price": "1.55, 2.15 Cr"
         }
       ]
     }
@@ -4231,7 +4240,7 @@ const propertyCardsData = [
       "Ready to Move",
       "30+ Amenities",
       "2 Alloted Car Parking",
-      "2 Road Corner Project Project"
+      "2 Road Corner Project"
     ],
     "nestedCategories": {
       "Commercial": [
@@ -4262,7 +4271,7 @@ const propertyCardsData = [
       "Nr. Sindhu Bhavan Road",
       "All basic Amenities",
       "2 Alloted Car Parking",
-      "2 Road Corner Project Project"
+      "2 Road Corner Project"
     ],
     "nestedCategories": {
       "Apartments": [
@@ -4384,7 +4393,7 @@ const propertyCardsData = [
     "images": [
       "/images/Keshvam-Skyview-01.png",
       "/images/Keshvam-Skyview-02.png",
-      
+
       "/images/Keshvam-Skyview-04.png"
     ],
     "propertyLocation": "Gandhinagar",
@@ -4504,13 +4513,15 @@ const propertyCardsData = [
           "bhk": "3 BHK",
           "sqft": "1760",
           "sqftType": "Super Built-up",
-          "price": "1.69 Cr"
-        },
+          "price": "1.04 Cr"
+        }
+      ],
+      "Duplex Penthouse": [
         {
           "bhk": "4 BHK",
           "sqft": "3475",
           "sqftType": "Super Built-up",
-          "price": "3.33 Cr"
+          "price": "2.10 Cr"
         }
       ]
     }
@@ -5217,7 +5228,7 @@ const propertyCardsData = [
     "propertyLocation": "Vaishnodevi",
     "schemeName": "Sankalp 59",
     "features": [
-      "2 Road Corner Project Project",
+      "2 Road Corner Project",
       "Nr. Vaishnodevi Circle",
       "Destination controlled lift by Fujitech - 1st time in Gujarat"
     ],
@@ -5372,9 +5383,8 @@ const propertyCardsData = [
     "price": 465,
     "soldOut": false,
     "images": [
-      "images/Trinity-01.jpg",
-      "images/Trinity-02.jpg",
-      "images/Trinity-03.jpg"
+      "images/times-trinity-01.jpg",
+      "images/times-trinity-02.jpg",
     ],
     "propertyLocation": "Thaltej",
     "schemeName": "Times Trinity",
@@ -5554,13 +5564,13 @@ const propertyCardsData = [
         {
           "bhk": "4 BHK",
           "sqft": "6014",
-          "sqftType": "Carpet",
+          "sqftType": "Super Built-Up",
           "price": "5.57 Cr"
         },
         {
           "bhk": "5 BHK",
           "sqft": "10201",
-          "sqftType": "Carpet",
+          "sqftType": "Super Built-Up",
           "price": "10.80 Cr"
         }
       ]
@@ -5590,7 +5600,7 @@ const propertyCardsData = [
         {
           "bhk": "4 BHK",
           "sqft": "3800 - 4470",
-          "sqftType": "Carpet",
+          "sqftType": "Super Built-Up",
           "price": "3.25 - 3.9 Cr"
         }
       ]
@@ -6851,7 +6861,7 @@ const propertyCardsData = [
     "features": [
       "Nr. Zydus School",
       "DGU Sound Proof",
-      "2 Road Corner Project Project"
+      "2 Road Corner Project"
     ],
     "nestedCategories": {
       "Apartments": [
@@ -6976,7 +6986,7 @@ const propertyCardsData = [
     "propertyLocation": "Chharodi",
     "schemeName": "Akshar Evoq",
     "features": [
-      "3 Road corner",
+      "3 Road corner project",
       "Pure Residential",
       "DGU Sound Proof"
     ],
@@ -7244,7 +7254,7 @@ const propertyCardsData = [
     "schemeName": "Nityam Harmony",
     "features": [
       "Pure Residential",
-      "2 Road Corner Project Project",
+      "2 Road Corner Project",
       "14+ Amenities",
       "3 Alloted Car Parking"
     ],
@@ -7502,7 +7512,7 @@ const propertyCardsData = [
     "propertyLocation": "Chharodi",
     "schemeName": "Yash Imperia",
     "features": [
-      "2 Road Corner Project Project",
+      "2 Road Corner Project",
       "20+ Modern Amenities",
       "2 Alloted Car Parking",
       "No Vehicle Zone at Ground Floor"
@@ -10808,13 +10818,13 @@ const propertyCardsData = [
           "bhk": "2 BHK",
           "sqft": "1440",
           "sqftType": "Super Built-up",
-          "price": "59 Lacs."
+          "price": "61 Lacs."
         },
         {
           "bhk": "3 BHK",
           "sqft": "1890",
           "sqftType": "Super Built-up",
-          "price": "77 Lacs."
+          "price": "80 Lacs."
         }
       ]
     }
@@ -11468,7 +11478,7 @@ const propertyCardsData = [
     "type": "Commercial",
     "latest": "Shilaj",
     "location": "Shilaj-11",
-    "price": 0,
+    "price": 103,
     "soldOut": false,
     "images": [
       "images/arcelia-01.jpg",
@@ -11489,7 +11499,7 @@ const propertyCardsData = [
           "bhk": "3 BHK",
           "sqft": "1760",
           "sqftType": "Super Built-up",
-          "price": "0"
+          "price": "1.03 Cr"
         }
       ]
     }
@@ -12105,9 +12115,7 @@ const propertyCardsData = [
     "price": 75,
     "soldOut": false,
     "images": [
-      "images/sapphire-01.jpg",
-      "images/sapphire-02.jpg",
-      "images/sapphire-03.jpg"
+
     ],
     "propertyLocation": "Shela",
     "schemeName": "Sapphire",
@@ -12182,7 +12190,7 @@ const propertyCardsData = [
     "type": "Mixed",
     "latest": "Shela",
     "location": "Shela-23",
-    "price": 63,
+    "price": 68,
     "soldOut": false,
     "images": [
       "images/Shilp-Revanta-01.jpg",
@@ -12202,7 +12210,7 @@ const propertyCardsData = [
           "bhk": "3 BHK",
           "sqft": "816",
           "sqftType": "Carpet",
-          "price": "63.50 Lacs"
+          "price": "68.00 Lacs"
         } 
       ]
     }
@@ -12430,7 +12438,15 @@ const propertyCardsData = [
             "sqftType": "Super Built-up",
             "price": "6 - 10 Cr"
           }
-        ]
+        ],
+        "Penthouse": [
+        {
+          "bhk": "4 BHK",
+          "sqft": "4020",
+          "sqftType": "Super Built-up",
+          "price": "2.50 Cr"
+        }
+      ],
 
     }
   }, 
@@ -12449,7 +12465,7 @@ const propertyCardsData = [
     "propertyLocation": "Shela",
     "schemeName": "Sheladia Luxuria",
     "features": [
-      "2 Road corner ",
+      "2 Road corner project",
       "Ready to Move Property",
       "No Vehicle Zone at Ground Floor"
     ],
@@ -12533,7 +12549,7 @@ const propertyCardsData = [
     "propertyLocation": "South Bopal",
     "schemeName": "Solo Bliss",
     "features": [
-      "2 Road corner ",
+      "2 Road corner project",
       "Ready to Move Property",
       "40+ Modern Amenities"
     ],
@@ -12572,7 +12588,7 @@ const propertyCardsData = [
     "propertyLocation": "Shela",
     "schemeName": "Happy Uptown",
     "features": [
-      "2 Road corner ",
+      "2 Road corner project",
       "Ready to Move Property",
       "no vehicle zone at ground floor"
     ],
@@ -12602,7 +12618,7 @@ const propertyCardsData = [
     "propertyLocation": "Shela",
     "schemeName": "Parkview 2",
     "features": [
-      "2 Road corner ",
+      "2 Road corner project ",
       "Ready to Move Property",
       "55+ Modern Amenities"
     ],
@@ -13136,7 +13152,7 @@ const propertyCardsData = [
     "nestedCategories": {
       "Apartments": [
         {
-          "bhk": "2 BHK",
+          "bhk": "2.5 BHK",
           "sqft": "1602 - 1773",
           "sqftType": "Super Built-up",
           "price": "69 - 76 Lacs"
@@ -13345,7 +13361,7 @@ const propertyCardsData = [
     "propertyLocation": "Zundal",
     "schemeName": "Radiant Rays",
     "features": [
-      "2 road corner",
+      "2 road corner project",
       "No vehicle zone at ground floor",
       "45+ Amenities"
     ],
@@ -13407,7 +13423,7 @@ const propertyCardsData = [
     "propertyLocation": "Bhat ",
     "schemeName": "Harved avan",
     "features": [
-      "2 road corner",
+      "2 road corner project",
       "25+ Amenities",
       "3 Alloted Car Parking"
     ],
@@ -13565,7 +13581,7 @@ const propertyCardsData = [
       "images/rythm-sky-03.jpg"
     ],
     "propertyLocation": "Zundal",
-    "schemeName": "Rythm Sky",
+    "schemeName": "Rhythm Sky",
     "features": [
       "Ready to Move",
       "Fully Vastu Compliant",
@@ -13598,7 +13614,7 @@ const propertyCardsData = [
     "propertyLocation": "Zundal",
     "schemeName": " The Satyagrah landmark",
     "features": [
-      "2 road corner",
+      "2 road corner project",
       "Fully Vastu Compliant",
       "20+ Amenities",
       "3 Basement Parking"
@@ -13609,13 +13625,13 @@ const propertyCardsData = [
           "bhk": "2 BHK",
           "sqft": "1530, 1710",
           "sqftType": "SuperBuilt-up",
-          "price": "60.61 , 66.81 lacs"
+          "price": "60 , 66 lacs"
         },
         {
           "bhk": "3 BHK",
           "sqft": "1890, 1935",
           "sqftType": "SuperBuilt-up",
-          "price": "74.59 ,76 lacs"
+          "price": "74 ,76 Lacs"
         }
       ]
     }
@@ -13683,13 +13699,13 @@ const propertyCardsData = [
           "bhk": "2 BHK",
           "sqft": "1350 - 1575",
           "sqftType": "SuperBuilt-up",
-          "price": "56.51 - 68 Lacs"
+          "price": "56 - 68 Lacs"
         },
         {
           "bhk": "3 BHK",
           "sqft": "2115",
           "sqftType": "SuperBuilt-up",
-          "price": "89.93 - 92.28 Lacs"
+          "price": "89 - 92 Lacs"
         }
       ]
     }
@@ -13726,7 +13742,7 @@ const propertyCardsData = [
       "Duplex": [
         {
           "bhk": "5 BHK",
-          "sqft": "8665-9115 + 530-325 (Terrace)",
+          "sqft": "8665-9115 + 325-530 (Terrace)",
           "sqftType": "SuperBuilt-up",
           "price": "8.5 - 9 Cr"
         }
@@ -14034,7 +14050,7 @@ const propertyCardsData = [
     "propertyLocation": "Nava Vadaj",
     "schemeName": "Shri Vishnudhara Aashiyana ",
     "features": [
-      "2 road corner",
+      "2 road Corner Project",
       "Vastu Compliant",
       "Premium Commercial Amenities"
     ],
@@ -14076,7 +14092,7 @@ const propertyCardsData = [
     "propertyLocation": "South Bopal",
     "schemeName": "Happy Skyside",
     "features": [
-      "2 road corner",
+      "2 road Corner Project",
       "15+ Amenities",
       "1 Alloted Car Parking"
     ],
@@ -14545,7 +14561,7 @@ const propertyCardsData = [
     "propertyLocation": "Gift City",
     "schemeName": "Regalia 2",
     "features": [
-      "2 Road Corner",
+      "2 Road Corner Project",
       "1 Alloted Car Parking"
     ],
     "nestedCategories": {
@@ -14610,7 +14626,7 @@ const propertyCardsData = [
     "schemeName": "Regalia",
     "features": [
       "Ready To Move",
-      "2 Road Corner"
+      "2 Road Corner project"
     ],
     "nestedCategories": {
       "Commercial": [
@@ -14644,7 +14660,7 @@ const propertyCardsData = [
     "propertyLocation": "Gift City",
     "schemeName": "Accolade",
     "features": [
-      "2 Road Corner",
+      "2 Road Corner Project",
       "No Vehicle Zone At Ground Floor",
       "20+ Amenities",
       "2 Alloted Car Parking"
@@ -14676,7 +14692,7 @@ const propertyCardsData = [
     "schemeName": "Smart Life",
     "features": [
       "Ready To Move",
-      "2 Road Corner",
+      "2 Road Corner Project",
       "No Vehicle Zone At Ground Floor",
       "20+ Amenities"
     ],
@@ -14775,7 +14791,7 @@ const propertyCardsData = [
     "schemeName": "Vida",
     "features": [
       "Pure Residential",
-      "3 Road Corner",
+      "3 Road Corner Project",
       "No Vehicle Zone At Ground Floor",
       "1 Alloted Car Parking"
     ],

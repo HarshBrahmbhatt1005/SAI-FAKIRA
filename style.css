@@ -1552,7 +1552,7 @@ footer a:hover {
   gap: 10px;
 }
 
-#priceRangeSlider {
+#propPriceSlider {
   -webkit-appearance: none;
   width: 100%;
   height: 6px;
@@ -1563,7 +1563,7 @@ footer a:hover {
 }
 
 /* Thumb */
-#priceRangeSlider::-webkit-slider-thumb {
+#propPriceSlider::-webkit-slider-thumb {
   -webkit-appearance: none;
   height: 22px;
   width: 22px;
@@ -1573,7 +1573,7 @@ footer a:hover {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-#priceRangeSlider::-moz-range-thumb {
+#propPriceSlider::-moz-range-thumb {
   height: 22px;
   width: 22px;
   border-radius: 50%;
@@ -1582,12 +1582,14 @@ footer a:hover {
 }
 
 /* Step labels */
-.price-steps {
+.prop-price-steps {
   display: flex;
-  justify-content: center;
-  gap: 30px;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 4px;
   font-size: 12px;
   color: #ffd6e5;
+  margin-top: 8px;
 }
 
 
@@ -4729,6 +4731,32 @@ footer a:hover {
   padding: 12px;
   background: white;
 }
+
+/* Mobile Budget Slider and Labels */
+.mobile-budget-slider {
+  width: 100%;
+  accent-color: #8c1843;
+  margin: 10px 0;
+}
+
+.mobile-budget-labels {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 5px;
+  margin-top: 5px;
+}
+
+.mobile-budget-labels span {
+  font-size: 11px;
+  color: #666;
+  font-weight: 500;
+  text-align: center;
+  flex: 1;
+}
+
+.mobile-budget-labels span:first-child { text-align: left; }
+.mobile-budget-labels span:last-child { text-align: right; }
 
 /* Mobile Active Filters (Outside Modal) */
 .mobile-active-filters {

@@ -240,7 +240,7 @@ function createPropertyCard(data) {
   if (data.id) card.setAttribute("data-id", data.id);
   if (data.type) card.setAttribute("data-type", data.type);
   if (data.latest) card.setAttribute("data-latest", data.latest);
-  if (data.price) card.setAttribute("data-price", data.price);
+  if (data.price !== undefined) card.setAttribute("data-price", data.price);
   if (data.images) card.setAttribute("data-images", JSON.stringify(data.images));
 
   const locationMeta = parseLocationMeta(data.propertyLocation || data.locationTag || data.location || data.latest || "");
@@ -1325,7 +1325,7 @@ function initializeFilters() {
 
     // Add price filter
     if (priceSlider && priceSlider.value !== "0") {
-      const labels = ["All", "<1Cr", "1Cr–2Cr", "2Cr–3Cr", "3Cr+"];
+      const labels = ["All", "<1Cr", "1Cr-2Cr", "2Cr-3Cr", "3Cr+"];
       allFilters.push({
         type: "price",
         label: labels[priceSlider.value],
@@ -1412,9 +1412,9 @@ function initializeFilters() {
       case "1":
         return { min: 0, max: 100, label: "<1Cr" };
       case "2":
-        return { min: 100, max: 200, label: "1Cr–2Cr" };
+        return { min: 100, max: 200, label: "1Cr-2Cr" };
       case "3":
-        return { min: 200, max: 300, label: "2Cr–3Cr" };
+        return { min: 200, max: 300, label: "2Cr-3Cr" };
       case "4":
         return { min: 300, max: Infinity, label: "3Cr+" };
       default:
@@ -1470,6 +1470,12 @@ function initializeFilters() {
             : [normalizeTypeToken(cardType)]).filter(Boolean);
           const matchesType = selectedEffective.some(sel => cardTypes.includes(sel));
           if (!matchesType) show = false;
+        }
+
+        // Price range filter
+        if (priceStep !== "0") {
+          const matchesPrice = price >= priceRange.min && price < priceRange.max;
+          if (!matchesPrice) show = false;
         }
 
         if (show) {
@@ -2061,8 +2067,14 @@ function initializeMobileFilters() {
   // Budget slider update
   if (mobileBudgetSlider && mobileBudgetText) {
     mobileBudgetSlider.addEventListener("input", () => {
-      const labels = ["All", "<1Cr", "1Cr–2Cr", "2Cr–3Cr", "3Cr+"];
+      const labels = ["All", "<1Cr", "1Cr-2Cr", "2Cr-3Cr", "3Cr+"];
       mobileBudgetText.textContent = labels[mobileBudgetSlider.value];
+      
+      // Update desktop slider and trigger real-time filtering
+      if (desktopPrice) {
+        desktopPrice.value = mobileBudgetSlider.value;
+        desktopPrice.dispatchEvent(new Event("input", { bubbles: true }));
+      }
     });
   }
 
@@ -2320,7 +2332,7 @@ function initializeMobileFilters() {
     // Sync price
     if (mobileBudgetSlider && desktopPrice) {
       mobileBudgetSlider.value = desktopPrice.value;
-      const labels = ["All", "<1Cr", "1Cr–2Cr", "2Cr–3Cr", "3Cr+"];
+      const labels = ["All", "<1Cr", "1Cr-2Cr", "2Cr-3Cr", "3Cr+"];
       mobileBudgetText.textContent = labels[mobileBudgetSlider.value];
     }
 
