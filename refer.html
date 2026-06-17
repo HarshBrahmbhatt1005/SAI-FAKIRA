@@ -642,31 +642,41 @@
                   placeholder="10-digit mobile number" type="tel" id="friendNumberInput" maxlength="10" pattern="[0-9]{10}" oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10)" required />
               </div>
               <!-- Appears only for Property Referral -->
-              <div class="space-y-1 hidden animate-[fadeIn_0.3s_ease-out]" id="propertyTypeContainer">
-                <label class="text-[9px] md:text-[10px] font-body font-bold text-[#3c5478] uppercase">Property Type</label>
-                <div class="custom-select" id="propertyTypeCustom">
-                  <button type="button" class="custom-select-trigger" id="propertyTypeTrigger">
-                    <span class="custom-select-value">Select property type</span>
-                    <span class="custom-select-arrow">▼</span>
-                  </button>
-                  <div class="custom-select-dropdown" id="propertyTypeDropdown">
-                    <div class="custom-select-option" data-value="Residential">Residential</div>
-                    <div class="custom-select-option" data-value="Commercial">Commercial</div>
-                    <div class="custom-select-option" data-value="Plot">Plot</div>
-                  </div>
-                  <select id="propertyTypeInput" style="display: none;">
-                    <option value="" disabled selected>Select property type</option>
-                    <option value="Residential">Residential</option>
-                    <option value="Commercial">Commercial</option>
-                    <option value="Plot">Plot</option>
-                  </select>
-                </div>
-              </div>
-              <div class="space-y-1 hidden animate-[fadeIn_0.3s_ease-out]" id="propertyNameContainer">
+              <div class="space-y-1 md:col-span-2 hidden animate-[fadeIn_0.3s_ease-out]" id="propertyNameContainer">
                 <label class="text-[9px] md:text-[10px] font-body font-bold text-[#3c5478] uppercase">Property Name</label>
                 <input
                   class="w-full bg-surface-container-low border-none rounded-md px-3 py-2 md:py-2.5 text-base md:text-sm font-outfit font-medium focus:ring-1 focus:ring-primary-container min-h-[44px]"
                   placeholder="e.g. Sapphire Estates" type="text" id="propertyNameInput" />
+              </div>
+              <div class="space-y-1 hidden animate-[fadeIn_0.3s_ease-out]" id="propertyBudgetContainer">
+                <label class="text-[9px] md:text-[10px] font-body font-bold text-[#3c5478] uppercase">Budget</label>
+                <div class="custom-select" id="propertyBudgetCustom">
+                  <button type="button" class="custom-select-trigger" id="propertyBudgetTrigger">
+                    <span class="custom-select-value">Select budget range</span>
+                    <span class="custom-select-arrow">▼</span>
+                  </button>
+                  <div class="custom-select-dropdown" id="propertyBudgetDropdown">
+                    <div class="custom-select-option" data-value="Under 50 lacs">Under 50 lacs</div>
+                    <div class="custom-select-option" data-value="50 lacs - 1 cr">50 lacs - 1 cr</div>
+                    <div class="custom-select-option" data-value="1 cr - 2 cr">1 cr - 2 cr</div>
+                    <div class="custom-select-option" data-value="2 cr - 5 cr">2 cr - 5 cr</div>
+                    <div class="custom-select-option" data-value="Above 5 cr">Above 5 cr</div>
+                  </div>
+                  <select id="propertyBudgetInput" style="display: none;">
+                    <option value="" disabled selected>Select budget range</option>
+                    <option value="Under 50 lacs">Under 50 lacs</option>
+                    <option value="50 lacs - 1 cr">50 lacs - 1 cr</option>
+                    <option value="1 cr - 2 cr">1 cr - 2 cr</option>
+                    <option value="2 cr - 5 cr">2 cr - 5 cr</option>
+                    <option value="Above 5 cr">Above 5 cr</option>
+                  </select>
+                </div>
+              </div>
+              <div class="space-y-1 hidden animate-[fadeIn_0.3s_ease-out]" id="propertyAreaContainer">
+                <label class="text-[9px] md:text-[10px] font-body font-bold text-[#3c5478] uppercase">Property Area</label>
+                <input
+                  class="w-full bg-surface-container-low border-none rounded-md px-3 py-2 md:py-2.5 text-base md:text-sm font-outfit font-medium focus:ring-1 focus:ring-primary-container min-h-[44px]"
+                  placeholder="e.g. 1500 sq ft / Whitefield" type="text" id="propertyAreaInput" />
               </div>
               <!-- Appears only for Loan Referral -->
               <div class="space-y-1 hidden animate-[fadeIn_0.3s_ease-out]" id="loanTypeContainer">
@@ -792,33 +802,39 @@
 
       // Toggle Property & Loan field visibility
       if (type === 'Property') {
-        document.getElementById('propertyTypeContainer').classList.remove('hidden');
         document.getElementById('propertyNameContainer').classList.remove('hidden');
+        document.getElementById('propertyBudgetContainer').classList.remove('hidden');
+        document.getElementById('propertyAreaContainer').classList.remove('hidden');
         document.getElementById('loanRangeContainer').classList.add('hidden');
         document.getElementById('loanTypeContainer').classList.add('hidden');
         document.getElementById('loanTypeOtherContainer').classList.add('hidden');
         document.getElementById('propertyNameInput').required = false;
-        document.getElementById('propertyTypeInput').value = document.getElementById('propertyTypeInput').value || '';
+        document.getElementById('propertyBudgetInput').value = '';
+        document.getElementById('propertyAreaInput').value = '';
         document.getElementById('loanRangeInput').value = '';
         document.getElementById('loanTypeInput').value = '';
         document.getElementById('loanTypeOtherInput').value = '';
       } else if (type === 'Loan') {
         document.getElementById('loanRangeContainer').classList.remove('hidden');
         document.getElementById('loanTypeContainer').classList.remove('hidden');
-        document.getElementById('propertyTypeContainer').classList.add('hidden');
         document.getElementById('propertyNameContainer').classList.add('hidden');
+        document.getElementById('propertyBudgetContainer').classList.add('hidden');
+        document.getElementById('propertyAreaContainer').classList.add('hidden');
         document.getElementById('propertyNameInput').required = false;
         document.getElementById('propertyNameInput').value = '';
-        document.getElementById('propertyTypeInput').value = '';
+        document.getElementById('propertyBudgetInput').value = '';
+        document.getElementById('propertyAreaInput').value = '';
       } else {
-        document.getElementById('propertyTypeContainer').classList.add('hidden');
         document.getElementById('propertyNameContainer').classList.add('hidden');
+        document.getElementById('propertyBudgetContainer').classList.add('hidden');
+        document.getElementById('propertyAreaContainer').classList.add('hidden');
         document.getElementById('loanRangeContainer').classList.add('hidden');
         document.getElementById('loanTypeContainer').classList.add('hidden');
         document.getElementById('loanTypeOtherContainer').classList.add('hidden');
         document.getElementById('propertyNameInput').required = false;
         document.getElementById('propertyNameInput').value = '';
-        document.getElementById('propertyTypeInput').value = '';
+        document.getElementById('propertyBudgetInput').value = '';
+        document.getElementById('propertyAreaInput').value = '';
         document.getElementById('loanRangeInput').value = '';
         document.getElementById('loanTypeInput').value = '';
         document.getElementById('loanTypeOtherInput').value = '';
@@ -947,7 +963,7 @@
     // Initialize all custom selects
     initializeCustomSelect('loanTypeCustom');
     initializeCustomSelect('loanRangeCustom');
-    initializeCustomSelect('propertyTypeCustom');
+    initializeCustomSelect('propertyBudgetCustom');
 
     // Handle "Other" loan type visibility
     const loanTypeSelect = document.getElementById('loanTypeInput');
@@ -967,30 +983,33 @@
 
     // Toggle Property Type container visibility when Property is selected
     const referralTypeSelect = document.getElementById('referralType');
-    const propertyTypeContainer = document.getElementById('propertyTypeContainer');
     const propertyNameContainer = document.getElementById('propertyNameContainer');
+    const propertyBudgetContainer = document.getElementById('propertyBudgetContainer');
+    const propertyAreaContainer = document.getElementById('propertyAreaContainer');
     const loanTypeContainer = document.getElementById('loanTypeContainer');
     const loanRangeContainer = document.getElementById('loanRangeContainer');
 
     if (referralTypeSelect) {
       referralTypeSelect.addEventListener('change', function() {
         if (this.value === 'Property') {
-          propertyTypeContainer?.classList.remove('hidden');
           propertyNameContainer?.classList.remove('hidden');
+          propertyBudgetContainer?.classList.remove('hidden');
+          propertyAreaContainer?.classList.remove('hidden');
           loanTypeContainer?.classList.add('hidden');
           loanRangeContainer?.classList.add('hidden');
           loanTypeOtherContainer?.classList.add('hidden');
         } else if (this.value === 'Loan') {
           loanTypeContainer?.classList.remove('hidden');
           loanRangeContainer?.classList.remove('hidden');
-          propertyTypeContainer?.classList.add('hidden');
           propertyNameContainer?.classList.add('hidden');
+          propertyBudgetContainer?.classList.add('hidden');
+          propertyAreaContainer?.classList.add('hidden');
           loanTypeOtherContainer?.classList.add('hidden');
         }
       });
     }
 
-    const REFERRAL_SUBMIT_ENDPOINT = 'https://script.google.com/macros/s/AKfycbxgECfSSq3Tk2_7otk33UonNUcy0dwNIcXDkeV195-xOgIM5B2FmH56po0H_0aA9iC8/exec';
+    const REFERRAL_SUBMIT_ENDPOINT = 'https://script.google.com/macros/s/AKfycbxjSPF2pVZuL-I3VSLW0mLBXl5PRc5R8W-O_Mmg94wyXM85xv0X-YVbNFzJJmozhP_K/exec';
 
     // Form submit handling
     function resetCustomSelect(customSelectId, placeholder) {
@@ -1073,13 +1092,34 @@
         yourNumber: document.getElementById('yourNumberInput').value.trim(),
         friendName: document.getElementById('friendNameInput').value.trim(),
         friendNumber: document.getElementById('friendNumberInput').value.trim(),
-        propertyName: document.getElementById('propertyNameInput').value.trim(),
-        propertyType: document.getElementById('propertyTypeInput').value,
-        loanType: document.getElementById('loanTypeInput').value,
-        loanTypeOther: document.getElementById('loanTypeOtherInput').value.trim(),
-        loanRange: document.getElementById('loanRangeInput').value,
         submittedAt: new Date().toISOString()
       };
+
+      if (selectedType === 'Property') {
+        payload.propertyName = document.getElementById('propertyNameInput').value.trim();
+        payload.propertyBudget = document.getElementById('propertyBudgetInput').value;
+        payload.propertyArea = document.getElementById('propertyAreaInput').value.trim();
+
+        if (!payload.propertyName || !payload.propertyBudget || !payload.propertyArea) {
+          formErrorMessage.innerText = "⚠️ Please fill in all property referral fields.";
+          formErrorMessage.classList.remove('hidden');
+          submitButton.disabled = false;
+          submitButton.innerText = originalButtonText;
+          return;
+        }
+      } else if (selectedType === 'Loan') {
+        payload.loanType = document.getElementById('loanTypeInput').value;
+        payload.loanRange = document.getElementById('loanRangeInput').value;
+        payload.loanTypeOther = document.getElementById('loanTypeOtherInput').value.trim();
+
+        if (!payload.loanType || !payload.loanRange) {
+          formErrorMessage.innerText = "⚠️ Please fill in all loan referral fields.";
+          formErrorMessage.classList.remove('hidden');
+          submitButton.disabled = false;
+          submitButton.innerText = originalButtonText;
+          return;
+        }
+      }
 
       try {
         await submitReferralData(payload);
@@ -1091,7 +1131,7 @@
         showStep1();
         resetCustomSelect('loanTypeCustom', 'Select loan type');
         resetCustomSelect('loanRangeCustom', 'Select expected range');
-        resetCustomSelect('propertyTypeCustom', 'Select property type');
+        resetCustomSelect('propertyBudgetCustom', 'Select budget range');
         document.getElementById('loanTypeOtherInput').value = '';
         loanTypeOtherContainer?.classList.add('hidden');
       } catch (error) {
