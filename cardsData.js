@@ -180,7 +180,7 @@ const propertyCardsData = [
           "bhk": "4 BHK",
           "sqft": "3528",
           "sqftType": "SuperBuilt-up",
-          "price": "2 Cr"
+          "price": "2.60 Cr"
         }
       ],
       "Penthouse": [
@@ -1484,7 +1484,7 @@ const propertyCardsData = [
   },
   {
     "id": 45,
-    "type": "Mixed",
+    "type": "Residential",
     "latest": "Gandhinagar",
     "location": "Gandhinagar-04",
     "price": 100,
@@ -4151,7 +4151,7 @@ const propertyCardsData = [
     "type": "Mixed",
     "latest": "Gift City",
     "location": "Gift City-02",
-    "price": 65,
+    "price": 70,
     "soldOut": false,
     "images": [
       "/images/Siban-01.jpg",
@@ -4169,24 +4169,30 @@ const propertyCardsData = [
     "nestedCategories": {
       "Apartments": [
         {
-          "bhk": "2.5 BHK",
-          "sqft": "2200",
-          "sqftType": "Carpet",
-          "price": "65 Lacs"
+          "bhk": "1 RK - 2.5 BHK",
+          "sqft": "630 - 1400",
+          "sqftType": "SuperBuilt-up",
+          "price": "70 Lacs - 1.65 Cr "
         }
       ],
       "Penthouse": [
         {
           "bhk": "1 BHK",
-          "sqft": "2500",
-          "sqftType": "Carpet",
-          "price": "1.45 Cr"
+          "sqft": "1290",
+          "sqftType": "SuperBuilt-up",
+          "price": "1.70 Cr"
+        },
+                {
+          "bhk": "3 BHK",
+          "sqft": "1910",
+          "sqftType": "SuperBuilt-up",
+          "price": "3.75 Cr"
         },
         {
           "bhk": "4 BHK",
-          "sqft": "3528",
-          "sqftType": "Carpet",
-          "price": "1.45 Cr"
+          "sqft": "2915",
+          "sqftType": "SuperBuilt-up",
+          "price": "4.50 - 5.50 Cr"
         }
       ]
     }

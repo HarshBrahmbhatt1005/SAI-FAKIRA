@@ -1904,7 +1904,7 @@ function initializeLogoRotation() {
 
   const firstLogo = new Image();
   const secondLogo = new Image();
-  firstLogo.src = "images/ESEFF REAL ESTATE LOGO (3).png";
+  firstLogo.src = "images/ESEFF Logo.png";
   secondLogo.src = "images/ESEFF REAL ESTATE LOGO (6).png";
 
   Promise.all([
@@ -2826,3 +2826,5 @@ function initializeLightbox() {
     startY = 0;
   });
 }
+
+
